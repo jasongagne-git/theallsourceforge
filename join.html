@@ -307,10 +307,18 @@
 
 <script>
 let currentStep = 1;
+let selectedPersona = '';
+
+const PERSONA_MAP = {
+  'institutional': { persona: 'institutional_innovator', sector: 'defense_warfighting' },
+  'industry':      { persona: 'industry_partner',       sector: 'defense_modernization' },
+  'researcher':    { persona: 'market_entrant',          sector: 'dual_use' }
+};
 
 function selectPersona(el, type) {
   document.querySelectorAll('.persona-option').forEach(p => p.classList.remove('selected'));
   el.classList.add('selected');
+  selectedPersona = type;
 }
 
 function clearErrors() {
@@ -371,26 +379,85 @@ function getSelectedProducts() {
   return products;
 }
 
+function getSelectedDomains() {
+  var domains = [];
+  document.querySelectorAll('.profiler-step[data-step="2"] .checkbox-grid input:checked').forEach(function(cb) {
+    domains.push(cb.value);
+  });
+  return domains;
+}
+
+function buildPayload(opts) {
+  var mapped = PERSONA_MAP[opts.persona] || PERSONA_MAP['institutional'];
+  return {
+    email: opts.email,
+    name: opts.name,
+    persona: mapped.persona,
+    sector: mapped.sector,
+    technology_domains: opts.domains || [],
+    consent_newsletter: true,
+    consent_notifications: true
+  };
+}
+
+function submitToAPI(payload, onSuccess, onError) {
+  fetch('https://api.preneurial.works/api/profile', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(function(r) {
+    if (!r.ok) return r.json().then(function(d) { throw new Error(d.error || 'Submission failed'); });
+    return r.json();
+  })
+  .then(onSuccess)
+  .catch(onError);
+}
+
 function submitExpress() {
   if (!validateStep1()) return;
 
-  const products = getSelectedProducts();
-  document.getElementById('confirm-products').innerHTML =
-    '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-    (products.length ? products.join(', ') : 'Weekly Signal Brief');
+  var products = getSelectedProducts();
+  var payload = buildPayload({
+    email: document.getElementById('join-email').value.trim(),
+    name: document.getElementById('join-name').value.trim(),
+    persona: 'institutional',
+    domains: []
+  });
 
-  // In production: POST to API with name, email, product selections
-  nextStep(3);
+  submitToAPI(payload, function() {
+    document.getElementById('confirm-products').innerHTML =
+      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+    nextStep(3);
+  }, function(err) {
+    document.getElementById('confirm-products').innerHTML =
+      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+    nextStep(3);
+  });
 }
 
 function submitProfiler() {
-  const products = getSelectedProducts();
-  document.getElementById('confirm-products').innerHTML =
-    '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-    (products.length ? products.join(', ') : 'Weekly Signal Brief');
+  var products = getSelectedProducts();
+  var payload = buildPayload({
+    email: document.getElementById('join-email').value.trim(),
+    name: document.getElementById('join-name').value.trim(),
+    persona: selectedPersona || 'institutional',
+    domains: getSelectedDomains()
+  });
 
-  // In production: POST to API with full profile data
-  nextStep(3);
+  submitToAPI(payload, function() {
+    document.getElementById('confirm-products').innerHTML =
+      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+    nextStep(3);
+  }, function(err) {
+    document.getElementById('confirm-products').innerHTML =
+      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+    nextStep(3);
+  });
 }
 
 // Clear individual field errors on input
