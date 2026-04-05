@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe — The All Source Forge</title>
+  <meta name="description" content="Subscribe to The All Source Forge. Weekly signal briefs, deep dive analysis, and early access to defense AI governance research.">
+  <meta property="og:title" content="Subscribe — The All Source Forge">
+  <meta property="og:description" content="Weekly signal briefs, deepdive analysis, and early access to defense AI governance research.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://theallsourceforge.com/join.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <style>
+    /* Join-specific styles — light theme */
+    .profiler-step { display: none; }
+    .profiler-step.active { display: block; }
+
+    .step-indicators {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    .step-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--border);
+      transition: background 0.3s;
+    }
+    .step-dot.active { background: var(--blue); }
+    .step-dot.complete { background: var(--green); }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+    }
+    .form-group .hint {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+      margin-top: 0.25rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px var(--blue-dim);
+    }
+
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+    .persona-option {
+      background: #ffffff;
+      border: 2px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    .persona-option:hover { border-color: var(--border-subtle); }
+    .persona-option.selected { border-color: var(--blue); background: var(--blue-dim); }
+    .persona-option h4 { margin-bottom: 0.5rem; font-size: 1rem; }
+    .persona-option p { font-size: 0.8rem; color: var(--text-secondary); }
+
+    .checkbox-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+    }
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .checkbox-item input[type="checkbox"] {
+      width: auto;
+      accent-color: var(--blue);
+    }
+
+    .form-error {
+      color: var(--red);
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+      display: none;
+    }
+    .form-group.has-error input {
+      border-color: var(--red);
+    }
+    .form-group.has-error .form-error {
+      display: block;
+    }
+    /* Honeypot — invisible to humans */
+    .hp-field {
+      position: absolute;
+      left: -9999px;
+      opacity: 0;
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      tab-index: -1;
+    }
+
+    @media (max-width: 768px) {
+      .persona-grid { grid-template-columns: 1fr; }
+      .checkbox-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">the allsource<span>[forge]</span></a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="research.html">Governance Gap</a></li>
+      <li><a href="research/sentinel.html">SENTINEL</a></li>
+      <li><a href="signals.html">Signals</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero hero-compact" id="main-content">
+  <div class="container">
+    <div class="overline overline-hero">Subscribe</div>
+    <h1>Get weekly signal briefs, deepdive analysis, and research updates.</h1>
+    <p class="subtitle">Innovation intelligence for defense AI, delivered to your inbox.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container-narrow">
+    <div id="profiler">
+      <!-- Step Indicators -->
+      <div class="step-indicators">
+        <div class="step-dot active" data-step="1"></div>
+        <div class="step-dot" data-step="2"></div>
+      </div>
+
+      <!-- Step 1: Essential info -->
+      <div class="profiler-step active" data-step="1">
+        <h2 style="margin-bottom: 0.5rem;">Subscribe to the brief</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">Name and email &mdash; that's all that's needed to get started.</p>
+
+        <div class="form-group" id="name-group">
+          <label>Name</label>
+          <input type="text" id="join-name" placeholder="Your name">
+          <div class="form-error" id="name-error">Please enter your name.</div>
+        </div>
+        <div class="form-group" id="email-group">
+          <label>Email</label>
+          <input type="email" id="join-email" placeholder="your@email.com">
+          <div class="form-error" id="email-error">Please enter a valid email address.</div>
+        </div>
+        <!-- Honeypot field — do not remove -->
+        <div class="hp-field" aria-hidden="true">
+          <label>Leave this blank</label>
+          <input type="text" id="join-website" name="website" autocomplete="off" tabindex="-1">
+        </div>
+
+        <div class="form-group">
+          <label>What do you want to receive?</label>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
+            <label class="checkbox-item"><input type="checkbox" value="weekly_brief" checked> <strong style="color: var(--text-primary);">Weekly Signal Brief</strong> &mdash; curated defense AI signals, entity-resolved, with opportunity analysis</label>
+            <label class="checkbox-item"><input type="checkbox" value="deepdive" checked> <strong style="color: var(--text-primary);">Deepdive Analysis</strong> &mdash; long-form briefs on emerging patterns and governance shifts</label>
+            <label class="checkbox-item"><input type="checkbox" value="research"> <strong style="color: var(--text-primary);">Research Updates</strong> &mdash; SENTINEL experiment results and governance gap analysis findings</label>
+            <label class="checkbox-item"><input type="checkbox" value="sentinel"> <strong style="color: var(--text-primary);">SENTINEL Participation</strong> &mdash; run experiments on your own hardware</label>
+          </div>
+        </div>
+
+        <p style="font-size: 0.8rem; color: var(--text-tertiary); margin-top: 0.5rem;">Your information is never shared, sold, or disclosed. Government and .mil/.gov email addresses are handled with operational security standards appropriate for defense and IC professionals.</p>
+
+        <div class="btn-group" style="justify-content: space-between; align-items: center;">
+          <span></span>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <button class="btn btn-outline" onclick="submitExpress()" style="font-size: 0.85rem;">Just subscribe</button>
+            <button class="btn btn-primary" onclick="nextStep(2)">Continue &mdash; tell us more &rarr;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: Optional profiling -->
+      <div class="profiler-step" data-step="2">
+        <h2 style="margin-bottom: 0.5rem;">Help me tailor your brief <span style="font-size: 0.85rem; font-weight: 400; color: var(--text-tertiary);">(optional)</span></h2>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">This helps me match signals to your mission. Skip anything you'd rather not answer.</p>
+
+        <div class="form-group">
+          <label>Your role</label>
+          <div class="persona-grid">
+            <div class="persona-option" onclick="selectPersona(this, 'institutional')">
+              <h4>Government / IC</h4>
+              <p>DOD, Intelligence Community, FFRDC, or federal civilian</p>
+            </div>
+            <div class="persona-option" onclick="selectPersona(this, 'industry')">
+              <h4>Industry Partner</h4>
+              <p>Defense contractor or tech vendor</p>
+            </div>
+            <div class="persona-option" onclick="selectPersona(this, 'researcher')">
+              <h4>Researcher / Analyst</h4>
+              <p>Academic, think tank, or independent</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Signal domains you care about</label>
+          <div class="checkbox-grid" style="margin-top: 0.5rem;">
+            <label class="checkbox-item"><input type="checkbox" value="defense_warfighting"> Defense &amp; Warfighting</label>
+            <label class="checkbox-item"><input type="checkbox" value="ai_governance"> AI Governance &amp; Policy</label>
+            <label class="checkbox-item"><input type="checkbox" value="software_modernization"> Software Modernization</label>
+            <label class="checkbox-item"><input type="checkbox" value="electronic_warfare"> Electronic Warfare</label>
+            <label class="checkbox-item"><input type="checkbox" value="national_security"> National Security</label>
+            <label class="checkbox-item"><input type="checkbox" value="dual_use"> Dual-Use Technology</label>
+            <label class="checkbox-item"><input type="checkbox" value="autonomous_systems"> Autonomous Systems</label>
+            <label class="checkbox-item"><input type="checkbox" value="ai_safety"> AI Safety &amp; Alignment</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Organization (optional)</label>
+          <input type="text" placeholder="Where you work">
+          <div class="hint">Helps me tailor signal relevance. Never shared.</div>
+        </div>
+
+        <div class="form-group">
+          <label>Anything else? (optional)</label>
+          <textarea rows="3" placeholder="Topics you're tracking, questions about the research, or context about your work."></textarea>
+          <div class="hint">Your questions feed directly into the research pipeline.</div>
+        </div>
+
+        <div class="btn-group" style="justify-content: space-between;">
+          <button class="btn btn-outline" onclick="nextStep(1)">&larr; Back</button>
+          <button class="btn btn-primary" onclick="submitProfiler()">Subscribe</button>
+        </div>
+      </div>
+
+      <!-- Confirmation -->
+      <div class="profiler-step" data-step="3">
+        <div style="text-align: center; padding: 3rem 0;">
+          <h2>You're in.</h2>
+          <p style="color: var(--text-secondary); margin-top: 1rem; font-size: 1.05rem;">Your first signal brief will arrive within the week.</p>
+
+          <div id="confirmation-summary" style="text-align: left; margin-top: 2rem; padding: 1.5rem 2rem; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border);">
+            <h4 style="margin-bottom: 0.75rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--blue);">What you'll receive</h4>
+            <div id="confirm-products" style="font-size: 0.9rem;"></div>
+          </div>
+
+          <div class="btn-group" style="justify-content: center; margin-top: 2rem;">
+            <a href="signals.html" class="btn btn-primary">See the Latest Signals</a>
+            <a href="research.html" class="btn btn-outline">Explore the Research</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-about">
+      <div class="footer-logo"><span class="nav-logo">the allsource<span>[forge]</span></span></div>
+      <p class="footer-bio" style="font-size: 0.8rem; color: var(--text-tertiary);">Powered by <a href="https://preneurial.works" style="color: var(--text-secondary);">PreneurialWorks</a> research</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/jagagne/">LinkedIn</a>
+        <a href="mailto:jason@preneurial.works">jason@preneurial.works</a>
+        <a href="https://github.com/preneurial-works/sentinel">GitHub</a>
+      </div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="research.html">Governance Gap</a></li>
+      <li><a href="research/sentinel.html">SENTINEL</a></li>
+      <li><a href="signals.html">Signals</a></li>
+    </ul>
+    <p>&copy; 2026 The All Source Forge. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+let currentStep = 1;
+
+function selectPersona(el, type) {
+  document.querySelectorAll('.persona-option').forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+function clearErrors() {
+  document.querySelectorAll('.form-group.has-error').forEach(g => g.classList.remove('has-error'));
+}
+
+function validateStep1() {
+  clearErrors();
+  let valid = true;
+  const name = document.getElementById('join-name').value.trim();
+  const email = document.getElementById('join-email').value.trim();
+  const honeypot = document.getElementById('join-website').value;
+
+  // Honeypot check — silently reject bots
+  if (honeypot) {
+    nextStep(3);
+    document.getElementById('confirm-products').innerHTML =
+      '<strong style="color: var(--text-primary);">Subscribed to:</strong> Weekly Signal Brief';
+    return false;
+  }
+
+  if (!name) {
+    document.getElementById('name-group').classList.add('has-error');
+    valid = false;
+  }
+  if (!email || !email.includes('@') || !email.includes('.')) {
+    document.getElementById('email-group').classList.add('has-error');
+    valid = false;
+  }
+  return valid;
+}
+
+function nextStep(step) {
+  if (currentStep === 1 && step === 2) {
+    if (!validateStep1()) return;
+  }
+
+  document.querySelectorAll('.profiler-step').forEach(s => s.classList.remove('active'));
+  document.querySelector(`.profiler-step[data-step="${step}"]`).classList.add('active');
+
+  document.querySelectorAll('.step-dot').forEach(d => {
+    const dotStep = parseInt(d.dataset.step);
+    d.classList.remove('active', 'complete');
+    if (dotStep === step) d.classList.add('active');
+    if (dotStep < step) d.classList.add('complete');
+  });
+
+  currentStep = step;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function getSelectedProducts() {
+  const products = [];
+  document.querySelectorAll('.profiler-step[data-step="1"] .checkbox-item input:checked').forEach(cb => {
+    const label = cb.parentElement.querySelector('strong');
+    if (label) products.push(label.textContent);
+  });
+  return products;
+}
+
+function submitExpress() {
+  if (!validateStep1()) return;
+
+  const products = getSelectedProducts();
+  document.getElementById('confirm-products').innerHTML =
+    '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+    (products.length ? products.join(', ') : 'Weekly Signal Brief');
+
+  // In production: POST to API with name, email, product selections
+  nextStep(3);
+}
+
+function submitProfiler() {
+  const products = getSelectedProducts();
+  document.getElementById('confirm-products').innerHTML =
+    '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
+    (products.length ? products.join(', ') : 'Weekly Signal Brief');
+
+  // In production: POST to API with full profile data
+  nextStep(3);
+}
+
+// Clear individual field errors on input
+document.getElementById('join-name').addEventListener('input', function() {
+  document.getElementById('name-group').classList.remove('has-error');
+});
+document.getElementById('join-email').addEventListener('input', function() {
+  document.getElementById('email-group').classList.remove('has-error');
+});
+</script>
+
+</body>
+</html>

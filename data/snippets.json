@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-03-01",
+    "vertical": "defense_warfighting",
+    "domains": [
+      "electronic_warfare"
+    ],
+    "headline": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac.",
+    "snippet": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac...",
+    "url": "briefings/2026-03-01.html"
+  },
+  {
+    "date": "2026-02-23",
+    "vertical": "defense_warfighting",
+    "domains": [
+      "software_modernization",
+      "autonomous_systems",
+      "electronic_warfare",
+      "space_systems"
+    ],
+    "headline": "The Defense Department just released four major acquisition reform initiatives in January — including memorandums on defense innovation and AI, an executive.",
+    "snippet": "The Defense Department just released four major acquisition reform initiatives in January — including memorandums on defense innovation and AI, an executive ...",
+    "url": "briefings/2026-02-23.html"
+  },
+  {
+    "date": "2026-02-22",
+    "vertical": "defense_warfighting",
+    "domains": [
+      "software_modernization",
+      "autonomous_systems",
+      "electronic_warfare"
+    ],
+    "headline": "The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs dire.",
+    "snippet": "The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs dire...",
+    "url": "briefings/2026-02-22.html"
+  }
+]

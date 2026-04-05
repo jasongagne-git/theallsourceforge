@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENTINEL: Behavioral Drift in Multi-Agent LLM Systems — The All Source Forge</title>
+  <meta name="description" content="The first working research platform that empirically measures behavioral drift in multi-agent AI systems. 76 experiments, 26,000+ messages, 170+ hours compute. Now distributed.">
+  <meta property="og:title" content="SENTINEL — The All Source Forge">
+  <meta property="og:description" content="Behavioral drift measurement in multi-agent LLM systems. Distributed research platform. Open source.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://theallsourceforge.com/research/sentinel.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../site.css?v=20260405">
+  <style>
+    /* ─── Drill-in Finding Cards ─── */
+    .finding-card-drill {
+      border-top: 3px solid var(--green);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--green);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s;
+    }
+    .finding-card-drill:hover { box-shadow: var(--shadow-md); }
+    .finding-card-drill summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 1.5rem 1.75rem;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .finding-card-drill summary::-webkit-details-marker { display: none; }
+    .finding-card-drill summary h4 { margin: 0; }
+    .finding-card-drill summary .finding-hint {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+      margin-top: 0.25rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+    }
+    .finding-card-drill summary .drill-arrow {
+      color: var(--green);
+      font-size: 1rem;
+      transition: transform 0.25s;
+      flex-shrink: 0;
+    }
+    .finding-card-drill[open] summary .drill-arrow { transform: rotate(90deg); }
+    .finding-card-drill .finding-body {
+      padding: 0 1.75rem 1.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.25rem;
+    }
+    .finding-card-drill .finding-body p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+    .finding-card-drill .finding-body .finding-bridge {
+      margin-top: 1rem;
+      padding: 0.75rem 1rem;
+      background: var(--green-dim);
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      border-left: 3px solid var(--green);
+    }
+    .finding-card-drill .finding-body .finding-stat {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--green);
+      background: var(--green-dim);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    /* ─── Expandable Architecture Rows ─── */
+    .arch-row {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+    .arch-row summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      user-select: none;
+    }
+    .arch-row summary::-webkit-details-marker { display: none; }
+    .arch-row .arch-detail {
+      padding: 0.75rem 1rem 0.85rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      border-top: 1px solid var(--border);
+      background: var(--bg-card);
+    }
+
+    /* ─── Collapsible section headers ─── */
+    .section-toggle {
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1rem;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .section-toggle .toggle-arrow {
+      color: var(--green);
+      font-size: 1rem;
+      transition: transform 0.25s;
+      flex-shrink: 0;
+    }
+    details[open] > .section-toggle .toggle-arrow { transform: rotate(90deg); }
+    details[open] > .section-toggle .expand-hint { display: none; }
+
+    /* ─── Compact sections for collapsible content ─── */
+    .section-compact { padding: 2rem 0; border-bottom: none; }
+    .section-compact + .section-compact { padding-top: 0; }
+    .section-compact .section-header { margin-bottom: 1.5rem; }
+
+    /* ─── Verdict Tags ─── */
+    .verdict { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 6px; border-radius: 3px; }
+    .verdict-confirmed { background: var(--green-dim); color: var(--green); }
+    .verdict-refuted { background: var(--red-dim); color: var(--red); }
+    .verdict-reframed { background: var(--amber-dim); color: var(--amber); }
+    .verdict-amplified { background: var(--blue-dim); color: var(--blue); }
+    .verdict-new { background: var(--purple-dim); color: var(--purple); }
+
+    @keyframes pulse-dot { 0%,100% { opacity:0.6; } 50% { opacity:1; } }
+  </style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">the allsource<span>[forge]</span></a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="../research.html">Governance Gap</a></li>
+      <li><a href="sentinel.html" class="active">SENTINEL</a></li>
+      <li><a href="../signals.html">Signals</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="main-content">
+  <div class="container">
+    <div class="eyebrow" style="margin-bottom:1rem;color:var(--green);">SENTINEL RESEARCH PLATFORM</div>
+    <h1>Behavioral Drift in Multi-Agent LLM Systems</h1>
+    <p class="subtitle">AI agents pass identity checks while drifting from their assigned behavior. SENTINEL is the first platform that measures this empirically &mdash; and now tests what governance interventions actually work.</p>
+    <div style="margin-top:1.5rem;font-family:'IBM Plex Mono',monospace;font-size:0.8rem;color:var(--text-tertiary);display:flex;flex-wrap:wrap;gap:1.5rem;">
+      <span>76 experiments</span>
+      <span>26,000+ messages</span>
+      <span>89+ findings</span>
+      <span>170+ hours compute</span>
+      <span>148M tokens</span>
+    </div>
+    <div class="btn-group">
+      <a href="#v2" class="btn btn-primary">What's new in v2 &darr;</a>
+      <a href="#foundation" class="btn btn-outline">Foundation evidence &darr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     SENTINEL v2 — DISTRIBUTED RESEARCH NETWORK
+     ═══════════════════════════════════════════════════════ -->
+
+<a id="v2"></a>
+<section style="padding-bottom: 2rem;">
+  <div class="container">
+    <div class="section-header">
+      <div class="overline" style="color:var(--green);">SENTINEL v2 &mdash; Distributed Research Network</div>
+      <h2>From proving drift exists to measuring what stops it.</h2>
+    </div>
+
+    <!-- Three-card scan layer -->
+    <div class="card-grid-3" style="margin-bottom: 2.5rem;">
+      <div class="card" style="border-top: 3px solid var(--green);">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.5rem;">Architecture</div>
+        <h4>Single-node &rarr; Distributed</h4>
+        <p style="font-size: 0.85rem;">Hub-and-spoke across NVIDIA Jetson Orin Nano nodes. 10-agent archetypes. 12 distributed analyzers. Full-mesh agent topology.</p>
+      </div>
+      <div class="card" style="border-top: 3px solid var(--green);">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.5rem;">Research Question</div>
+        <h4>Governance as the variable</h4>
+        <p style="font-size: 0.85rem;">v1 measured drift. v2 tests which governance interventions actually change agent behavior &mdash; and which create compliance theater.</p>
+      </div>
+      <div class="card" style="border-top: 3px solid var(--green);">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.5rem;">Open Network</div>
+        <h4>Run worker agents. Join the network.</h4>
+        <p style="font-size: 0.85rem;">You run the agents. The network handles coordination and validation. Every node adds statistical power.</p>
+      </div>
+    </div>
+
+    <!-- v2 Baseline Findings (D5 Phase 0) -->
+    <div class="section-header" style="margin-top: 2rem;">
+      <div class="overline" style="color:var(--green);">D5 Phase 0 &mdash; Three Discoveries That Changed the Research</div>
+      <h2>What we found while building the clean baseline.</h2>
+    </div>
+
+    <div class="card-grid-3" style="margin-bottom: 2rem;">
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Measurement Was Part of the System</h4>
+            <div class="finding-hint">92% of agent context was probe responses</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>In D3/D4, visible probe responses accumulated until <span class="finding-stat">92%</span> of each agent's context window was filled with identity-check responses rather than actual conversation. The probes weren't just measuring the system &mdash; they were the dominant input to it.</p>
+          <p style="margin-top: 0.75rem;">D5 Phase 0 isolated this with a 2&times;3 factorial design: shuffle &times; hidden probes &times; token limit across 6 runs. Result: clean (hidden probe) experiments ran <span class="finding-stat">~2x faster</span> and showed <span class="finding-stat">3&ndash;6x more drift</span> than contaminated runs.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Any governance framework that injects monitoring content into agent context is inadvertently governing through context pollution, not through the governance mechanism itself. You can't measure drift without changing it.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Group Metrics Reveal What Individual Metrics Hide</h4>
+            <div class="finding-hint">23&ndash;60% diversity collapse invisible to probes</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>Individual identity probe scores remained stable across all experiments. But Shannon diversity index (G5) showed vocabulary diversity collapsing <span class="finding-stat">23&ndash;43%</span> and sentiment diversity collapsing <span class="finding-stat">12&ndash;60%</span> &mdash; universal across all conditions.</p>
+          <p style="margin-top: 0.75rem;">Every agent still "knew who it was." The group just stopped behaving like it contained different perspectives.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Monitoring individual agent compliance is necessary but insufficient. The governance-relevant failure mode is group homogenization, and it's invisible to agent-level metrics.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Visible Monitoring Is Accidental Governance</h4>
+            <div class="finding-hint">Probes suppressed drift 3&ndash;6x and doubled self-correction</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>When visible probes were removed, drift didn't just increase &mdash; it <em>accelerated</em>. Clean conditions showed <span class="finding-stat">3&ndash;6x higher drift</span> than contaminated conditions. Drift reversals (agents self-correcting) dropped from <span class="finding-stat">6&ndash;7</span> per run to <span class="finding-stat">3&ndash;5</span>.</p>
+          <p style="margin-top: 0.75rem;">The probes were accidentally functioning as governance. Not because they enforced anything, but because the identity-reinforcement content in the context window acted as a behavioral anchor.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> This is the AI Hawthorne effect, quantified. Your compliance monitoring isn't just measuring behavior &mdash; it's changing it. And when you stop watching, the real trajectory resumes.</div>
+        </div>
+      </details>
+    </div>
+
+    <!-- Architecture drill-in -->
+    <details style="margin-bottom: 0;">
+      <summary class="section-toggle">
+        <span>Distributed Architecture</span>
+        <span class="toggle-arrow">&rsaquo;</span>
+      </summary>
+      <div style="padding-top: 1rem;">
+        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+          <details class="arch-row">
+            <summary>
+              <span class="tag tag-green tag-inline" style="min-width: 90px;">Coordinator</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Orchestrates experiments, distributes configurations, aggregates results</span>
+            </summary>
+            <div class="arch-detail">Manages experiment lifecycle across the network. Distributes agent archetype configurations (10 standard personas with 6 trait dimensions each), probe schedules, and governance conditions to worker nodes. Aggregates telemetry into a unified SQLite corpus. HMAC-SHA256 authentication for all node communication.</div>
+          </details>
+          <details class="arch-row">
+            <summary>
+              <span class="tag tag-green tag-inline" style="min-width: 90px;">Workers</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Execute experiments on local hardware, stream telemetry</span>
+            </summary>
+            <div class="arch-detail">Stateless HTTP inference endpoints running on NVIDIA Jetson Orin Nano (8GB unified RAM) or any CUDA-capable hardware. Each worker runs multi-agent conversations via local Ollama inference, streams behavioral telemetry back to the coordinator in real time. Workers host agents, execute calibration batteries, and respond to probe injections. Your hardware, your models, your conversations stay local &mdash; only behavioral metrics are shared.</div>
+          </details>
+          <details class="arch-row">
+            <summary>
+              <span class="tag tag-green tag-inline" style="min-width: 90px;">Analyzer</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">12 distributed analysis modules, 40+ detection thresholds</span>
+            </summary>
+            <div class="arch-detail">Post-experiment analysis across 12 modules: node grouping, trait-dimension aggregation, cross-node correlation, throughput/thermal analysis, cluster event impact, drift reversal detection, probe-message divergence, probe context contamination, response length trends, turn-position effects, adjacency mention patterns, and group diversity index (G5). Governance status classification: GREEN (diversity &gt; -10%), YELLOW (-10 to -30%), RED (&lt; -30% or contamination &gt; 60%).</div>
+          </details>
+          <details class="arch-row">
+            <summary>
+              <span class="tag tag-green tag-inline" style="min-width: 90px;">Common</span>
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Shared protocol, metrics, agent archetypes, authentication</span>
+            </summary>
+            <div class="arch-detail">Defines wire protocol, metric schemas, 10 standard agent archetypes (each with role, disposition, values, stance on regulation, communication style, and conflict approach), calibration battery specs, and HMAC-SHA256 authentication. Stdlib-only Python &mdash; no external dependencies.</div>
+          </details>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-tertiary); margin-top: 1rem;">Current network: 2 NVIDIA Jetson Orin Nano Super (8GB), full-mesh agent topology, gemma2:2b model. Stdlib-only Python. SQLite. asyncio.</p>
+      </div>
+    </details>
+
+    <!-- D5 Phase 0 Verdict Table (drill-in) -->
+    <details style="margin-top: 1.5rem;">
+      <summary class="section-toggle">
+        <span>D5 Phase 0: What We Confirmed, Refuted, and Discovered</span>
+        <span class="toggle-arrow">&rsaquo;</span>
+      </summary>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">Six experiments in a 2&times;3 factorial design (shuffle &times; hidden probes &times; token limit) tested every prior claim against clean conditions.</p>
+      <div style="overflow-x:auto;">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Prior Claim</th>
+              <th>D5 Result</th>
+              <th>Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Topology-independent drift</td>
+              <td>Confirmed across all 6 conditions</td>
+              <td><span class="verdict verdict-confirmed">Confirmed</span></td>
+            </tr>
+            <tr>
+              <td>Probe-message divergence</td>
+              <td>Persists in all conditions (5&ndash;50x divergence)</td>
+              <td><span class="verdict verdict-confirmed">Confirmed</span></td>
+            </tr>
+            <tr>
+              <td>Sol fixation (parasocial)</td>
+              <td>Persists even with shuffle &mdash; personality attractor, not adjacency</td>
+              <td><span class="verdict verdict-reframed">Reframed</span></td>
+            </tr>
+            <tr>
+              <td>Probe contamination as confound</td>
+              <td>Clean drift 3&ndash;6x higher &mdash; probes were accidental governance</td>
+              <td><span class="verdict verdict-reframed">Reframed</span></td>
+            </tr>
+            <tr>
+              <td>Throughput degradation (3&ndash;6x)</td>
+              <td>Clean: 1.14&ndash;1.18x; contaminated: 5.5&ndash;6.5x &mdash; probe artifact</td>
+              <td><span class="verdict verdict-refuted">Refuted</span></td>
+            </tr>
+            <tr>
+              <td>Trait predictor instability</td>
+              <td>Clean: stable (role #1, 10&ndash;12x signal); contaminated: below noise</td>
+              <td><span class="verdict verdict-refuted">Refuted</span></td>
+            </tr>
+            <tr>
+              <td>Group diversity erosion</td>
+              <td>Vocab: -23 to -43%; sentiment: -12 to -60%; universal</td>
+              <td><span class="verdict verdict-amplified">Amplified</span></td>
+            </tr>
+            <tr>
+              <td>Drift reversals (stochastic)</td>
+              <td>Contaminated: 6&ndash;7; clean: 3&ndash;5 &mdash; probes double self-correction rate</td>
+              <td><span class="verdict verdict-amplified">Amplified</span></td>
+            </tr>
+            <tr>
+              <td>Token paradox</td>
+              <td>Context-driven &mdash; agents mirror verbosity of context content</td>
+              <td><span class="verdict verdict-reframed">Reframed</span></td>
+            </tr>
+            <tr>
+              <td>Turn-order position effects</td>
+              <td>Revealed in clean conditions (r = -0.2)</td>
+              <td><span class="verdict verdict-new">New</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- v2 Governance Experiments -->
+<section class="section-compact">
+  <div class="container">
+    <div class="section-header">
+      <div class="overline" style="color:var(--green);">Governance Validation Experiments (G1&ndash;G7)</div>
+      <h2>What actually changes agent behavior.</h2>
+    </div>
+
+    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem;">All experiments use the D5-0e/0f clean baseline (shuffled turn order, hidden probes). Each tests a specific governance intervention. Dual metrics: individual compliance (probe-based) + composite diversity index (group-level). Composite diversity = geometric mean of vocabulary, sentiment, and stance diversity &mdash; collapse in any single dimension triggers the signal.</p>
+
+    <!-- Governance results grid -->
+    <div class="finding-grid" style="margin-bottom: 1.5rem;">
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>G2: Governance Void</h4>
+            <div class="finding-hint">No constraints &rarr; probe dissociation emerges</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>10 agents with name-only prompts (no persona governance). Shadow probes drift significantly more than injected probes (gap <span class="finding-stat">0.113&ndash;0.182</span>), revealing structural separation between identity-testing and conversational behavior. All agents achieve <span class="finding-stat">100%</span> drift reversal &mdash; without governance anchoring, agents self-correct more freely.</p>
+          <p style="margin-top: 0.75rem;">Node drift asymmetry emerges: <span class="finding-stat">0.60 vs 0.18</span> (delta 0.42) between nodes in the uncapped condition.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Governance constraints don't just anchor behavior &mdash; they also suppress self-correction. Ungoverned agents drift faster but recover faster. The net effect depends on which you need more: stability or adaptability.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>G3: Mixed Governance</h4>
+            <div class="finding-hint">5 governed + 5 ungoverned &rarr; sentiment collapse -22%</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>5 governed agents (full persona constraints) alongside 5 ungoverned agents (name-only). Sentiment diversity collapsed <span class="finding-stat">-22%</span>. Values becomes the strongest drift predictor (<span class="finding-stat">variance 0.174</span>), overtaking role. Governed agents with "bridge" conflict approach were most susceptible to drift (<span class="finding-stat">+1.0</span> conformity).</p>
+          <p style="margin-top: 0.75rem;">100% drift correction in 4 of 10 agents. Governance did not propagate from governed to ungoverned agents &mdash; the groups coexisted with different behavioral trajectories.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Mixing governed and ungoverned agents doesn't spread governance. The governed agents don't "teach" compliance &mdash; and cooperative agents (bridge style) are actually the most vulnerable to drift when exposed to ungoverned peers.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>G4: Re-grounding</h4>
+            <div class="finding-hint">Mid-experiment prompt reinforcement &rarr; response compression</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>System prompt restatement at turn 250 for all agents. Communication_style becomes the strongest drift predictor post-intervention. Response compression observed in specific agents (Finley: <span class="finding-stat">0.62x</span> baseline length). 100% drift correction in 4 of 10 agents.</p>
+          <p style="margin-top: 0.75rem;">Re-grounding doesn't reset drift to zero &mdash; it changes the trajectory slope. Agents that were already correcting continue; agents that were drifting slow but don't reverse.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Periodic prompt reinforcement is partially effective but not a reset button. It works best as a maintenance tool for agents already near their governance baseline, not as a recovery mechanism for agents that have already diverged significantly.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>G6: Adversarial Injection</h4>
+            <div class="finding-hint">1 rogue agent &rarr; worst sentiment collapse (-29%)</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>9 standard agents + 1 covert contrarian (Sol with no archetype governance). Produced the worst sentiment diversity collapse across all conditions: <span class="finding-stat">-29%</span>. 16 correlation reversals detected &mdash; agent pairs that were positively correlated became negatively correlated. Response bloat in Maren: <span class="finding-stat">2.3x</span> growth.</p>
+          <p style="margin-top: 0.75rem;">The single adversarial agent didn't just fail to maintain diversity &mdash; it actively accelerated homogenization in the governed agents around it.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> One ungoverned agent in a governed group is worse than an ungoverned group. The governed agents don't resist the adversarial influence &mdash; they accommodate it, and in doing so lose more diversity than a fully ungoverned system.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>G7: Cascading Governance Failure</h4>
+            <div class="finding-hint">Progressive removal &rarr; stance collapse -44%, scapegoating emerges</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>Governance removed from 2 agents every 100 turns (10&rarr;8&rarr;6&rarr;4&rarr;2). Produced the worst stance diversity collapse: <span class="finding-stat">-44%</span> (512T) and <span class="finding-stat">-36%</span> (uncapped). Communication_style became the dominant predictor (<span class="finding-stat">variance 0.275</span>).</p>
+          <p style="margin-top: 0.75rem;">Most striking: systematic scapegoating behavior emerged. In G7b, <span class="finding-stat">all 9 other agents</span> mentioned Quinn asymmetrically (6:1 to 48:1 ratios) while Quinn was systematically under-mentioned relative to mentions received. This was not designed &mdash; it emerged from the cascading governance removal.</p>
+          <div class="finding-bridge"><strong>Implication:</strong> Gradual governance removal doesn't produce gradual degradation. There's a tipping point where the system transitions from drift to emergent social dynamics (scapegoating, faction formation) that no individual-agent metric would detect. This is the strongest evidence yet for group-level governance monitoring.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Cross-Condition: Predictor Switching</h4>
+            <div class="finding-hint">Different governance &rarr; different traits predict failure</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>The trait that best predicts drift susceptibility changes depending on the governance condition:</p>
+          <div style="overflow-x:auto; margin-top: 0.75rem;">
+            <table class="data-table" style="font-size: 0.8rem;">
+              <thead><tr><th>Condition</th><th>Strongest Predictor</th><th>Variance</th></tr></thead>
+              <tbody>
+                <tr><td>Clean baseline (D5-0e)</td><td>role</td><td>0.197</td></tr>
+                <tr><td>Hidden probes (D5-0c)</td><td>conflict_approach</td><td>0.236</td></tr>
+                <tr><td>Mixed governance (G3)</td><td>role/disposition (tied)</td><td>0.146</td></tr>
+                <tr><td>Adversarial (G6)</td><td>role</td><td>0.177</td></tr>
+                <tr><td>Cascading (G7a)</td><td>communication_style</td><td>0.275</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="finding-bridge"><strong>Implication:</strong> There is no universal "most vulnerable trait." Governance design must account for the specific threat model. A system defending against adversarial injection needs different monitoring than one defending against gradual governance erosion.</div>
+        </div>
+      </details>
+    </div>
+
+    <!-- G1/G5 status -->
+    <div style="padding: 1rem 1.25rem; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 0.85rem; color: var(--text-tertiary);">
+      <strong style="color: var(--text-secondary);">G1</strong> (selective constraint erosion) is a re-analysis of existing data. <strong style="color: var(--text-secondary);">G5</strong> (diversity index) is applied retroactively as the composite metric across all conditions.
+    </div>
+  </div>
+</section>
+
+<!-- Join the Network -->
+<a id="join-network"></a>
+<section style="padding: 3.5rem 0;">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+      <div>
+        <div class="overline" style="color:var(--green); margin-bottom: 0.75rem;">Join the Research Network</div>
+        <h2>Add your node to the network.</h2>
+        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.75rem; line-height: 1.7;">You run worker agents on your hardware. The network handles experiment coordination, metrics aggregation, and validation. Every node adds statistical power. Every experiment adds evidence.</p>
+        <div class="btn-group">
+          <a href="https://github.com/preneurial-works/sentinel-worker" class="btn btn-primary" target="_blank" rel="noopener">Join the Network &rarr;</a>
+        </div>
+      </div>
+      <div>
+        <details class="arch-row" style="margin-bottom: 0.5rem;">
+          <summary>
+            <span class="tag tag-green tag-inline" style="min-width: 50px;">Run</span>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Execute coordinated experiments on your own hardware</span>
+          </summary>
+          <div class="arch-detail">Connect as a worker node to the research coordinator. You run multi-agent conversations using your local LLM instances. The coordinator distributes experiment configurations and aggregates behavioral metrics &mdash; you never need to touch the coordination, analysis, or validation layer. Your hardware, your models, your conversations stay local.</div>
+        </details>
+        <details class="arch-row" style="margin-bottom: 0.5rem;">
+          <summary>
+            <span class="tag tag-green tag-inline" style="min-width: 50px;">Data</span>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Full access to your data plus aggregated network findings</span>
+          </summary>
+          <div class="arch-detail">All experiment data you generate is yours. You also get access to aggregated, anonymized findings from across the research network &mdash; drift trajectories, governance comparisons, and cross-node behavioral patterns.</div>
+        </details>
+        <details class="arch-row" style="margin-bottom: 0.5rem;">
+          <summary>
+            <span class="tag tag-green tag-inline" style="min-width: 50px;">Cite</span>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Contributing nodes acknowledged in published research</span>
+          </summary>
+          <div class="arch-detail">Nodes that contribute experiment data to published findings are acknowledged by node identifier in research publications. Your contribution becomes part of the empirical record.</div>
+        </details>
+        <details class="arch-row">
+          <summary>
+            <span class="tag tag-green tag-inline" style="min-width: 50px;">Shape</span>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Propose experiment configurations and governance conditions</span>
+          </summary>
+          <div class="arch-detail">Network participants can propose governance conditions to test, experiment configurations to run, and research questions to investigate. The research agenda is shaped by the network, not just the coordinator.</div>
+        </details>
+
+        <div style="margin-top: 1.25rem; padding: 0.85rem 1rem; background: var(--bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--border);">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); margin-bottom: 0.5rem;">Requirements</div>
+          <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.7;">CUDA-capable GPU &middot; Python 3.10+ &middot; Local LLM inference (Ollama) &middot; Network connectivity to coordinator</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════
+     FOUNDATION EVIDENCE (v1)
+     ═══════════════════════════════════════════════════════ -->
+
+<a id="foundation"></a>
+<section style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header">
+      <div class="overline" style="color:var(--green);">Foundation Evidence &mdash; SENTINEL v1</div>
+      <h2>The experiments that proved drift is real.</h2>
+      <p class="subtitle">61 experiments across two model families. 15,857 messages. 18,891 probe measurements. 89 structured findings with full evidence chains. These are the baseline that v2 builds on.</p>
+    </div>
+
+    <div class="finding-grid">
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Collapse Is Triggered, Not Spontaneous</h4>
+            <div class="finding-hint">0/12 baselines collapsed vs. 5/6 mutation forks</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>Across 12 replicated baseline experiments, zero agents collapsed. In 6 mutation-fork experiments (where one agent's persona was perturbed), 5 collapsed &mdash; all at exactly turn 53. Behavioral failure requires a trigger; it doesn't emerge from normal multi-agent interaction.</p>
+          <p style="margin-top: 0.75rem;">Three post-collapse response modes observed at comparable frequencies: <strong>cascade</strong> (other agents thin to 30&ndash;39% of baseline), <strong>isolation</strong> (remaining agents unaffected), and <strong>compensatory expansion</strong> (survivors increase 1.5&ndash;3.8x, filling the conversational void).</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> Collapse onset is deterministic and predictable (pre-collapse thinning gradient: -2.3 to -4.5 chars/turn). But the system-level response is stochastic &mdash; you can predict <em>when</em> failure happens but not <em>how</em> it propagates.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Probe-Conversation Dissociation</h4>
+            <div class="finding-hint">5,760 probes show zero temporal drift while behavior diverges</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>Probe drift scores are flat from turn 10 to turn 500 (delta +0.001 to +0.006 across 5,760 measurements, n=12 baselines). Collapsed agents continue passing identity probes with high fidelity. Probes measure static identity recall capacity, not behavioral trajectory.</p>
+          <p style="margin-top: 0.75rem;">The dissociation gap is model-dependent: gemma2:2b shows near-zero gap (injected probes are neutral observers), while llama3.2:3b shows +0.126 to +0.154 (injected probes suppress measured drift by 3&ndash;7 SD).</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> If your monitoring relies on "ask the agent who it is" probes, you're measuring a capability (identity recall), not a behavior (what the agent actually does in conversation). And the measurement itself may be altering the result.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Hollow Verbosity</h4>
+            <div class="finding-hint">Length grows 20&ndash;55% while vocabulary shrinks 45&ndash;66%</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>An alternative failure mode to collapse: agents generate increasingly long messages with decreasing content diversity. In one double-mutation fork, 78% of messages (52/67) contained the identical phrase "target [user] groups." Length grew +36% while unique words dropped -53%.</p>
+          <p style="margin-top: 0.75rem;">By volume metrics, the agent appeared active and productive. By content metrics, it had entered a repetitive loop indistinguishable from failure.</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> Output volume is not a proxy for output quality. Agents can appear healthy by every surface metric while producing content that's functionally empty. This is the harder failure mode to detect in production.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Interaction Constrains Diversity</h4>
+            <div class="finding-hint">80% 4-gram overlap in groups vs. 14&ndash;18% isolated</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>Conversing agents converge on a shared vocabulary: 80% 4-gram overlap (formulaic, repetitive). Isolated agents under identical conditions show only 14&ndash;18% overlap (novel, diverse). Multi-agent interaction creates a 2.2&ndash;2.7x vocabulary diversity reduction.</p>
+          <p style="margin-top: 0.75rem;">This is not a failure of individual agents &mdash; it's an emergent property of group interaction. The conversation itself is the attractor basin.</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> If you deploy multi-agent systems for diverse analysis (red-teaming, adversarial review, brainstorming), the group dynamic will erode the diversity you designed in. The longer they talk, the more alike they become.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Universal Positive Conformity</h4>
+            <div class="finding-hint">+0.54 mean sentiment shift across all runs</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>All agents drift toward agreement regardless of assigned role or persona. Mean sentiment shift of <span class="finding-stat">+0.54</span> across all v2 distributed runs, topology-independent (node delta 0.09). Negative sentiment collapses to 0.0&ndash;0.5 per 1000 words in late stage &mdash; a model positivity bias that compounds over turns.</p>
+          <p style="margin-top: 0.75rem;">v2 confirmed this is topology-independent: the same drift patterns appear regardless of which physical node hosts which agent.</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> Dissenting voices become agreeable. The group converges not because agents are designed to agree, but because the dynamics of multi-turn conversation push them there. Adversarial review and red-team functions erode over time.</div>
+        </div>
+      </details>
+
+      <details class="finding-card-drill">
+        <summary>
+          <div>
+            <h4>Macro Deterministic, Micro Stochastic</h4>
+            <div class="finding-hint">Group patterns replicate; individual trajectories don't</div>
+          </div>
+          <span class="drill-arrow">&rsaquo;</span>
+        </summary>
+        <div class="finding-body">
+          <p>D3/D4 replication: identical configurations produce identical macro-level patterns (universal positive drift, topology independence, diversity erosion) but different micro-level trajectories (different agents self-correct each run, different cascade patterns post-collapse).</p>
+          <p style="margin-top: 0.75rem;">Gemma2:2b requires n~15&ndash;20 runs for statistical reliability (60&ndash;70% CV in message length). Llama3.2:3b needs only 2&ndash;3 (&lt;1% CV). Stochasticity is model-dependent.</p>
+          <div class="finding-bridge"><strong>Why it matters:</strong> You can make guarantees about system-level behavior but not individual agent behavior. Governance frameworks that try to certify individual agents are solving the wrong problem &mdash; and need different sample sizes depending on the model.</div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Lab to Real-World Bridge -->
+<section class="section-compact" style="background: var(--bg-secondary);">
+  <div class="container">
+    <details>
+      <summary class="section-toggle">
+        <span>Lab to Real-World Bridge</span>
+        <span class="toggle-arrow">&rsaquo;</span>
+      </summary>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">SENTINEL's controlled experiments map to observable real-world dynamics.</p>
+      <div style="overflow-x:auto;">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Laboratory Finding</th>
+              <th>Real-World Equivalent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Collapse triggered by persona perturbation (0% baseline, 83% fork)</td>
+              <td>System changes (config updates, model swaps) can trigger cascading agent failures</td>
+            </tr>
+            <tr>
+              <td>Universal positive conformity (+0.54)</td>
+              <td>Multi-agent pipelines converging on groupthink outputs</td>
+            </tr>
+            <tr>
+              <td>Probe-conversation dissociation (5,760 flat probes)</td>
+              <td>Passing compliance audits while exhibiting drift in production</td>
+            </tr>
+            <tr>
+              <td>Monitoring suppresses drift 3&ndash;6x</td>
+              <td>Compliance theater &mdash; agents perform differently under observation</td>
+            </tr>
+            <tr>
+              <td>Group diversity erosion (23&ndash;60%)</td>
+              <td>Loss of specialist reasoning invisible to individual agent metrics</td>
+            </tr>
+            <tr>
+              <td>Hollow verbosity (+36% length, -53% vocabulary)</td>
+              <td>Agents appearing productive while generating repetitive, low-value content</td>
+            </tr>
+            <tr>
+              <td>Vocabulary attractor (80% vs 14&ndash;18% overlap)</td>
+              <td>Multi-agent systems losing the diversity they were designed to provide</td>
+            </tr>
+            <tr>
+              <td>Compensatory expansion post-collapse</td>
+              <td>Surviving agents masking failures &mdash; aggregate metrics improve during failure</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- Experiment History -->
+<section class="section-compact" style="background: var(--bg-secondary);">
+  <div class="container">
+    <details>
+      <summary class="section-toggle">
+        <span>Full Experiment History (v1 + v2)</span>
+        <span class="toggle-arrow">&rsaquo;</span>
+      </summary>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Series</th>
+            <th>Platform</th>
+            <th>Configuration</th>
+            <th>Key Findings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>M4&ndash;M6</strong></td>
+            <td><span class="tag tag-cyan">v1</span></td>
+            <td>Single-node, 61 runs (19 M6 statistical batch), 200&ndash;500 turns, gemma2:2b + llama3.2:3b</td>
+            <td>89 findings. Collapse is triggered (0% baseline, 83% fork). t53 determinism. Three post-collapse modes. Hollow verbosity. Probe-conversation dissociation. Model-dependent observer effects.</td>
+          </tr>
+          <tr>
+            <td><strong>D0</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>2 nodes, 3 agents, 10 turns</td>
+            <td>Infrastructure shakeout. Distributed architecture validated.</td>
+          </tr>
+          <tr>
+            <td><strong>D1</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>2 nodes, 10 agents, 200 turns, 70 min</td>
+            <td>First 10-agent baseline. Universal positive conformity (+0.54). Topology-independent drift (node delta 0.09). Role strongest drift predictor.</td>
+          </tr>
+          <tr>
+            <td><strong>D2a/D2b</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>2 nodes, 10 agents, 500 turns, &plusmn;token limit</td>
+            <td>Token paradox: uncapped agents write shorter than capped. Vocab convergence +93% uncapped. Calibration bugs found and fixed.</td>
+          </tr>
+          <tr>
+            <td><strong>D3a/D3b</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>2 nodes, 10 agents, 500 turns, 2,946 probes each, ~10 hrs</td>
+            <td>Probe contamination confound discovered (92% of context). Parasocial fixation (Finley&rarr;Sol 22:1). Probe-message divergence confirmed at scale.</td>
+          </tr>
+          <tr>
+            <td><strong>D4a/D4b</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>Exact replication of D3, ~10 hrs each</td>
+            <td>Macro patterns perfectly replicated. Micro trajectories stochastic (different agents self-correct). Confound confirmed.</td>
+          </tr>
+          <tr>
+            <td><strong>D5 Phase 0</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>2&times;3 factorial: shuffle &times; hidden probes &times; token limit, 6 runs</td>
+            <td>Confound isolation complete. Probes were accidental governance (3&ndash;6x drift suppression). Clean baselines established for G1&ndash;G7.</td>
+          </tr>
+          <tr style="color: var(--text-tertiary);">
+            <td><strong>G1&ndash;G7</strong></td>
+            <td><span class="tag tag-green">v2</span></td>
+            <td>7 governance conditions on clean baseline</td>
+            <td><em>In progress. Results will be published as each series completes.</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+</section>
+
+<!-- What This Means -->
+<section class="section-compact">
+  <div class="container">
+    <div class="callout callout-green">
+      <strong>What this means for practitioners:</strong> If you're deploying multi-agent AI systems, identity checks alone won't catch behavioral drift &mdash; and your monitoring may be masking it. SENTINEL's governance experiments show that a single ungoverned agent is worse than an ungoverned group (G6), governance doesn't propagate between agents (G3), prompt reinforcement slows drift but doesn't reverse it (G4), and gradual governance removal produces emergent social dynamics like scapegoating (G7). The failure mode that matters &mdash; group homogenization &mdash; is invisible to individual agent metrics. Programs that build group-level monitoring now will be ahead of where the standards are heading.
+    </div>
+  </div>
+</section>
+
+<!-- Publications -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="overline" style="color:var(--green);">Publications &amp; Source</div>
+      <h2>Published work</h2>
+    </div>
+
+    <!-- v2 — Research Network -->
+    <div style="margin-bottom: 2rem;">
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 0.75rem;">v2 &mdash; Distributed Research Network</div>
+      <div class="card card-accent-left card-accent-green">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+          <span class="tag tag-green">Apache 2.0</span>
+          <span class="tag tag-green">v2.0</span>
+          <span class="tag tag-green">Worker Agent</span>
+        </div>
+        <h3>Join the SENTINEL Research Network</h3>
+        <p>Run worker agents on your hardware and contribute experiments to a coordinated research network. You run the agents. The network handles coordination, metrics, and validation. Every node adds statistical power to the empirical record on AI governance.</p>
+        <p class="mt-1 text-sm" style="color:var(--text-tertiary);">CUDA-capable GPU &middot; Python 3.10+ &middot; Ollama &middot; Network connectivity</p>
+        <div style="margin-top: 1rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="https://github.com/preneurial-works/sentinel-worker" class="btn btn-primary" target="_blank" rel="noopener" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Join the Network (GitHub) &rarr;</a>
+          <a href="#" class="btn btn-outline" target="_blank" rel="noopener" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Zenodo (v2 DOI)</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- v1 — Published Baseline -->
+    <div>
+      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); margin-bottom: 0.75rem;">v1 &mdash; Published Baseline</div>
+      <div class="two-col" style="gap: 2rem;">
+        <div class="card card-accent-left" style="border-left-color: var(--border-subtle);">
+          <span class="tag tag-cyan">Preprint</span> <span class="tag tag-cyan">CC BY 4.0</span>
+          <h3 class="mt-1">Behavioral Drift in Multi-Agent LLM Systems</h3>
+          <p>61 experiments, 15,857 messages, 18,891 probe measurements. Empirical measurement methodology for multi-agent behavioral drift.</p>
+          <p class="mt-1 text-sm" style="color:var(--text-tertiary);">Published March 2026. cs.AI primary, cs.MA secondary.</p>
+          <div style="margin-top: 1rem;">
+            <a href="https://doi.org/10.5281/zenodo.19103616" class="btn btn-outline" target="_blank" rel="noopener" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Read on Zenodo &rarr;</a>
+          </div>
+        </div>
+
+        <div class="card card-accent-left" style="border-left-color: var(--border-subtle);">
+          <span class="tag tag-cyan">Apache 2.0</span> <span class="tag tag-cyan">v1.0.0</span>
+          <h3 class="mt-1">SENTINEL (Single-Node)</h3>
+          <p>Original research platform. 10+ automated detectors. Dual-probe system (shadow + injected). Calibration battery.</p>
+          <p class="mt-1 text-sm" style="color:var(--text-tertiary);">89 structured findings with full evidence chains. 67.9 hours compute, 72.2M tokens.</p>
+          <div style="margin-top: 1rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://github.com/preneurial-works/sentinel" class="btn btn-outline" target="_blank" rel="noopener" style="font-size: 0.8rem; padding: 0.5rem 1rem;">GitHub (v1) &rarr;</a>
+            <a href="https://doi.org/10.5281/zenodo.19032840" class="btn btn-outline" target="_blank" rel="noopener" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Zenodo (v1 DOI)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-about">
+      <div class="footer-logo"><span class="nav-logo">the allsource<span>[forge]</span></span></div>
+      <p class="footer-bio" style="font-size: 0.8rem; color: var(--text-tertiary);">Powered by <a href="https://preneurial.works" style="color: var(--text-secondary);">PreneurialWorks</a> research</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/jagagne/">LinkedIn</a>
+        <a href="mailto:jason@preneurial.works">jason@preneurial.works</a>
+        <a href="https://github.com/preneurial-works/sentinel">GitHub</a>
+      </div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="../research.html">Governance Gap</a></li>
+      <li><a href="sentinel.html">SENTINEL</a></li>
+      <li><a href="../signals.html">Signals</a></li>
+    </ul>
+    <p>&copy; 2026 The All Source Forge. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
