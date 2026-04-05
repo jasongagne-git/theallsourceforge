@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-03-08",
+    "vertical": "defense_warfighting",
+    "domains": [
+      "autonomous_systems",
+      "logistics_supply_chain",
+      "artificial_intelligence",
+      "electronic_warfare",
+      "cybersecurity",
+      "health_biotech",
+      "space_systems",
+      "data_analytics",
+      "software_modernization"
+    ],
+    "headline": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa.",
+    "snippet": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa...",
+    "url": "briefings/2026-03-08.html"
+  },
+  {
+    "date": "2026-03-05",
+    "vertical": "defense_warfighting",
+    "domains": [
+      "autonomous_systems",
+      "electronic_warfare"
+    ],
+    "headline": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech.",
+    "snippet": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech...",
+    "url": "briefings/2026-03-05.html"
+  },
+  {
     "date": "2026-03-01",
     "vertical": "defense_warfighting",
     "domains": [
@@ -8,30 +37,5 @@
     "headline": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac.",
     "snippet": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac...",
     "url": "briefings/2026-03-01.html"
-  },
-  {
-    "date": "2026-02-23",
-    "vertical": "defense_warfighting",
-    "domains": [
-      "software_modernization",
-      "autonomous_systems",
-      "electronic_warfare",
-      "space_systems"
-    ],
-    "headline": "The Defense Department just released four major acquisition reform initiatives in January — including memorandums on defense innovation and AI, an executive.",
-    "snippet": "The Defense Department just released four major acquisition reform initiatives in January — including memorandums on defense innovation and AI, an executive ...",
-    "url": "briefings/2026-02-23.html"
-  },
-  {
-    "date": "2026-02-22",
-    "vertical": "defense_warfighting",
-    "domains": [
-      "software_modernization",
-      "autonomous_systems",
-      "electronic_warfare"
-    ],
-    "headline": "The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs dire.",
-    "snippet": "The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs dire...",
-    "url": "briefings/2026-02-22.html"
   }
 ]
