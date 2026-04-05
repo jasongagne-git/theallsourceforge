@@ -6,7 +6,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 252
+      "mentions": 255
     },
     {
       "name": "Department of Veterans Affairs",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 146
+      "mentions": 156
     },
     {
       "name": "United States Agency for International Development",
@@ -26,27 +26,31 @@
     },
     {
       "name": "Hill",
-      "mentions": 91
+      "mentions": 105
     },
     {
       "name": "Department of Agriculture",
       "mentions": 88
     },
     {
+      "name": "Nextgov/FCW",
+      "mentions": 81
+    },
+    {
       "name": "Department of Energy",
       "mentions": 80
     },
     {
-      "name": "Department of Labor",
-      "mentions": 69
+      "name": "War on the Rocks",
+      "mentions": 73
     },
     {
       "name": "Anthropic",
-      "mentions": 67
+      "mentions": 70
     },
     {
-      "name": "Nextgov/FCW",
-      "mentions": 66
+      "name": "Department of Labor",
+      "mentions": 69
     },
     {
       "name": "Department of Commerce",
@@ -61,43 +65,38 @@
       "mentions": 53
     },
     {
+      "name": "CNAS",
+      "mentions": 52
+    },
+    {
       "name": "Department of State",
       "mentions": 52
     },
     {
-      "name": "War on the Rocks",
-      "mentions": 50
+      "name": "Defense One",
+      "mentions": 51
     },
     {
       "name": "Board of Governors of the Federal Reserve System",
       "mentions": 48
-    },
-    {
-      "name": "Defense One",
-      "mentions": 48
-    },
-    {
-      "name": "CNAS",
-      "mentions": 46
     }
   ],
   "active_threads": [
     {
-      "id": "1d2f838891c8b46c",
-      "title": "International Crisis Group / Middle East Institute",
+      "id": "0d8bd748c6a3613d",
+      "title": "Lumbra AI / Latent AI",
       "keywords": [
-        "arrived",
-        "iranian",
-        "moment",
-        "happens",
-        "next"
+        "agentic",
+        "pentagon",
+        "integration",
+        "challenge"
       ],
-      "importance": 1.0,
-      "description": "How We Arrived at this Iranian Moment and What Happens Next"
+      "importance": 0.85,
+      "description": "Agentic AI and the Pentagon\u2019s Integration Challenge"
     },
     {
       "id": "eea3046e3dc99a77",
-      "title": "Epirus / Hidden Level",
+      "title": "Hidden Level / Epirus",
       "keywords": [
         "countering",
         "drones",
@@ -105,43 +104,44 @@
         "modern",
         "war"
       ],
-      "importance": 0.72,
+      "importance": 0.65,
       "description": "Countering Drones and the Pace of Modern War"
     },
     {
-      "id": "7bdca069e1bceb61",
-      "title": "New START / New Strategic Arms Reduction Treaty",
+      "id": "10755387ee46dc15",
+      "title": "NGA / MUSV",
       "keywords": [
-        "running",
-        "stand",
-        "still",
-        "russian",
-        "nuclear",
-        "modernization",
-        "start"
+        "defense",
+        "business",
+        "brief",
+        "navy",
+        "musv",
+        "pivot",
+        "nga",
+        "taps"
       ],
-      "importance": 0.61,
-      "description": "Running to Stand Still: Russian Nuclear Modernization after New START"
+      "importance": 0.63,
+      "description": "Defense Business Brief: The Navy\u2019s MUSV pivot; NGA taps Vantor for $2.3M spy sat"
     },
     {
-      "id": "6c4e2f26e8ff2f75",
-      "title": "War on the Rocks / Potomac Institute for Policy Studies",
+      "id": "6c709e5686784a57",
+      "title": "Australia / Genesis Mission",
       "keywords": [
-        "economic",
-        "war",
-        "sun",
-        "tzu",
-        "supply",
-        "chain",
-        "face",
-        "china"
+        "washington",
+        "built",
+        "infrastructure",
+        "aukus",
+        "needs",
+        "then",
+        "locked",
+        "allies"
       ],
-      "importance": 0.54,
-      "description": "Sun Tzu in the Supply Chain: The New Face of Economic War With China; Fighting an Economic War Without Fused Intelligence; Economic Statecraft and the Federal Institutional Architecture"
+      "importance": 0.57,
+      "description": "Washington Built the AI Infrastructure AUKUS Needs \u2014 Then Locked Allies Out"
     },
     {
-      "id": "31d279118997fe5c",
-      "title": "Lockheed Martin / Saildrone",
+      "id": "2ec08bb764159da1",
+      "title": "Lockheed Martin / Precision Strike Missile",
       "keywords": [
         "lockheed",
         "missile",
@@ -152,59 +152,76 @@
         "naval",
         "drones"
       ],
-      "importance": 0.38,
+      "importance": 0.35,
       "description": "Saildrone, Lockheed to place missile launchers on naval drones; Lockheed tests upgraded Precision Strike Missile designed to strike ships"
     },
     {
-      "id": "611ec02429ded6bd",
-      "title": "Guam / North Korea",
-      "keywords": [
-        "deluge",
-        "paper",
-        "cup",
-        "washington",
-        "lack",
-        "urgency",
-        "guam"
-      ],
-      "importance": 0.36,
-      "description": "The Deluge, the Paper Cup, and Washington\u2019s Lack of Urgency on Guam"
-    },
-    {
-      "id": "b7858004dcea8804",
-      "title": "Vulcan / ULA",
-      "keywords": [
-        "once",
-        "again",
-        "ula",
-        "can't",
-        "deliver",
-        "military",
-        "needs",
-        "satellite"
-      ],
-      "importance": 0.29,
-      "description": "Once again, ULA can't deliver when the US military needs a satellite in orbit; Rocket Report: Russia reopens gateway to ISS; Cape Canaveral hosts missile test"
-    },
-    {
-      "id": "c7da854acc848800",
-      "title": "facial recognition / Fargo Police Department",
+      "id": "f70d2a8d4fc24106",
+      "title": "Baidu / Apollo Go",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "fargo",
-        "facial",
-        "police",
-        "chief"
+        "robotaxi",
+        "outage",
+        "caused",
+        "'system"
       ],
       "importance": 0.29,
-      "description": "Both involved in BSP incident: Fargo Police Chief admits errors in AI arrest case, issues new facial recognitio; Both involved in BSP incident: Fargo PD under scrutiny after woman flagged by AI facial"
+      "description": "Both involved in BSP incident: Robotaxi outage caused by 'system failure'; Both involved in BSP incident: More than 100 Baidu robotaxis froze mid-traffic in Wuhan. The age of the mass fl"
+    },
+    {
+      "id": "6ecda34df2414f66",
+      "title": "Transportation Security Administration / TSA",
+      "keywords": [
+        "senate",
+        "passes",
+        "measure",
+        "prohibiting",
+        "preferential",
+        "airport",
+        "screening",
+        "lawmakers"
+      ],
+      "importance": 0.28,
+      "description": "Senate passes measure prohibiting preferential airport screening for lawmakers; Trump budget would cut TSA funding, require privatization at small airports"
+    },
+    {
+      "id": "181daf460855bbce",
+      "title": "Gecko Robotics / U.S. Pacific Fleet",
+      "keywords": [
+        "navy",
+        "taps",
+        "gecko",
+        "robotics",
+        "help",
+        "remedy",
+        "maintenance",
+        "headaches"
+      ],
+      "importance": 0.27,
+      "description": "US Navy taps Gecko Robotics to help remedy maintenance headaches"
+    },
+    {
+      "id": "818e1b391b4b99ee",
+      "title": "Baykar / K2",
+      "keywords": [
+        "turkey",
+        "baykar",
+        "tests",
+        "swarm",
+        "behavior",
+        "one-way",
+        "attack",
+        "drone"
+      ],
+      "importance": 0.27,
+      "description": "Turkey\u2019s Baykar tests swarm behavior of its K2 one-way attack drone"
     },
     {
       "id": "8b710eca6786fbd5",
-      "title": "STTR / SBIR",
+      "title": "SBIR / STTR",
       "keywords": [
         "sbir",
         "sttr",
@@ -215,28 +232,12 @@
         "innovation",
         "csis"
       ],
-      "importance": 0.29,
+      "importance": 0.27,
       "description": "SBIR and STTR Reauthorization and the Future of Small Business Innovation - CSIS"
-    },
-    {
-      "id": "ff18bb752281b93a",
-      "title": "United Arab Emirates / Kuwait",
-      "keywords": [
-        "sales",
-        "middle",
-        "east",
-        "moves",
-        "approve",
-        "billion",
-        "air",
-        "defense"
-      ],
-      "importance": 0.28,
-      "description": "US moves to approve more than $16 billion in air defense sales to Middle East; US greenlights over $16B in \u2019emergency\u2019 radar and missile sales to Middle East"
     }
   ],
   "signal_funnel": {
-    "detected": 1064,
+    "detected": 1072,
     "elevated": 0,
     "brief_generated": 7,
     "materialized": 0

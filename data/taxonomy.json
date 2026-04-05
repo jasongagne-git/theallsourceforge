@@ -411,7 +411,7 @@
   "active_programs": [
     {
       "name": "Operation Epic Fury",
-      "mentions": 5
+      "mentions": 7
     },
     {
       "name": "F-35",
@@ -434,19 +434,19 @@
       "mentions": 3
     },
     {
+      "name": "GCAP",
+      "mentions": 3
+    },
+    {
+      "name": "Precision Strike Missile",
+      "mentions": 3
+    },
+    {
+      "name": "Project Maven",
+      "mentions": 3
+    },
+    {
       "name": "Direct File",
-      "mentions": 2
-    },
-    {
-      "name": "Free File",
-      "mentions": 2
-    },
-    {
-      "name": "B-21",
-      "mentions": 2
-    },
-    {
-      "name": "Patriot",
       "mentions": 2
     }
   ],
@@ -457,7 +457,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 252
+      "mentions": 255
     },
     {
       "name": "Department of Veterans Affairs",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 150
+      "mentions": 161
     },
     {
       "name": "Department of Energy",
@@ -477,7 +477,7 @@
     },
     {
       "name": "Central Intelligence Agency",
-      "mentions": 47
+      "mentions": 49
     },
     {
       "name": "Government Accountability Office",
@@ -485,11 +485,11 @@
     },
     {
       "name": "U.S. Army",
-      "mentions": 30
+      "mentions": 31
     },
     {
       "name": "General Services Administration",
-      "mentions": 28
+      "mentions": 29
     }
   ],
   "emerging_technologies": [

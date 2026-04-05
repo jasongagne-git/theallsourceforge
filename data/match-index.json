@@ -1,6 +1,62 @@
 {
   "signals": [
     {
+      "signal_id": "3a1eca9e3f5f119d",
+      "title": "AI Governance Measures Success by Acquisition Activity, Not Deployment Outcomes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.170448"
+    },
+    {
+      "signal_id": "d4aee9e422c922ef",
+      "title": "Army Launches $50 Billion MAPS Enterprise Contracting Vehicle with 350 Awards",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.169992"
+    },
+    {
+      "signal_id": "e100313a1352995a",
+      "title": "CIA Analysis Predicts AI Trust Erosion Will Revive Human Intelligence Tradecraft",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.169331"
+    },
+    {
+      "signal_id": "cf072c3e0cc75a1c",
+      "title": "GSA's Draft AI Procurement Guidance Grants 'Any Lawful Use' Rights",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.168887"
+    },
+    {
+      "signal_id": "bbf33a0533370083",
+      "title": "82% Agentic AI Adoption Rates Mask Human Capital Deployment Barriers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.168425"
+    },
+    {
+      "signal_id": "d275f17bc5556822",
+      "title": "2027 Budget Cuts Pentagon R&D by One-Third While Banking on Commercial Tech",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.167942"
+    },
+    {
+      "signal_id": "e62d1ad5dfa8dad6",
+      "title": "Pentagon Requests Civilian Agency Budget Flexibilities for Acquisition Reform",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-05T07:02:13.167307"
+    },
+    {
+      "signal_id": "61092c9d5382cf16a8d3c13af21cc36a4b46358cc49025186ef9555ad684fc8a",
+      "title": "Waymo blocks ambulance after mass shooting, raising safety concerns",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-03T07:01:00.911144"
+    },
+    {
       "signal_id": "371be41f95a4954c",
       "title": "Judicial Rulings Force Agencies to Honor Circumvented Processes",
       "status": "detected",
@@ -645,62 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.622054"
     },
     {
-      "signal_id": "d55f11b15d85eccee465138b72c7bdf704e78bd929f8d78cacca7f91275d09d4",
-      "title": "[Department of Homeland Security] Vessel Detection",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.621771"
-    },
-    {
-      "signal_id": "ac003d8fbb2cc04c66c26f374fa8d4ef3783ba56c4fb40cc3b97612d8cb376b3",
-      "title": "[Department of Homeland Security] RAPTOR (Rapid Tactical Operations Reconnaissance)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.621471"
-    },
-    {
-      "signal_id": "6b3ca244f752748c5a46f156a7d8ace0d6710c34fb746ff616e74d2b8283fb20",
-      "title": "[Department of Homeland Security] Integrated Defense and Security Solutions (IDSS)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.621193"
-    },
-    {
-      "signal_id": "0a57331177ad7ccec2aa5044f9b801917900915141bafdfdfa69a864574a65b7",
-      "title": "[Department of Homeland Security] Multi-media Insight Tool",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.620846"
-    },
-    {
-      "signal_id": "d5935d49a523b7b7b3c11a73e0045e549d22d31795392dd9d8efbf8f0d0cdd17",
-      "title": "Anthropic Said DeepSeek, Moonshot, and MiniMax Used Fraudulent Accounts and Proxies to Illicitly Distill Claude Capabilities at Scale",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.620529"
-    },
-    {
-      "signal_id": "d04d0a6af5340a7a0f31a80f927cf2ef97a297f2b5ac381e702097fe5ae2a10d",
-      "title": "Azerbaijani Media Agency Reportedly Warned Purported Deepfake Videos Attributed to Defense and Foreign Ministers Claimed Belarusian Plane Was Downed in Russian Airspace",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.620254"
-    },
-    {
-      "signal_id": "e49edb183333d67b6b4ddd33cb04bdc08d0410726320bea5fdd4d2cb73d5bcde",
-      "title": "DJI Romo Cloud Authorization Bug Reportedly Exposed Camera, Microphone, and Home-Mapping Data From Nearly 7,000 Robot Vacuums",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.619882"
-    },
-    {
-      "signal_id": "42fbcabdaf5ae35fce3f97667a333fcde8a7361e76d9c7673b46ad4f5bfd3fcc",
-      "title": "Purported Deepfake Impersonating Sudha Murty Reportedly Promoted Quantum AI India Investment Scam via Spoofed News Link",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.619558"
-    },
-    {
       "signal_id": "91b60c042f97f304",
       "title": "First Operational Use of USVs in Iran Conflict",
       "status": "brief_generated",
@@ -752,20 +752,19 @@
   ],
   "topic_threads": [
     {
-      "id": "1d2f838891c8b46c",
-      "title": "International Crisis Group / Middle East Institute",
+      "id": "0d8bd748c6a3613d",
+      "title": "Lumbra AI / Latent AI",
       "keywords": [
-        "arrived",
-        "iranian",
-        "moment",
-        "happens",
-        "next"
+        "agentic",
+        "pentagon",
+        "integration",
+        "challenge"
       ],
-      "importance": 1.0
+      "importance": 0.85
     },
     {
       "id": "eea3046e3dc99a77",
-      "title": "Epirus / Hidden Level",
+      "title": "Hidden Level / Epirus",
       "keywords": [
         "countering",
         "drones",
@@ -773,40 +772,41 @@
         "modern",
         "war"
       ],
-      "importance": 0.72
+      "importance": 0.65
     },
     {
-      "id": "7bdca069e1bceb61",
-      "title": "New START / New Strategic Arms Reduction Treaty",
+      "id": "10755387ee46dc15",
+      "title": "NGA / MUSV",
       "keywords": [
-        "running",
-        "stand",
-        "still",
-        "russian",
-        "nuclear",
-        "modernization",
-        "start"
+        "defense",
+        "business",
+        "brief",
+        "navy",
+        "musv",
+        "pivot",
+        "nga",
+        "taps"
       ],
-      "importance": 0.61
+      "importance": 0.63
     },
     {
-      "id": "6c4e2f26e8ff2f75",
-      "title": "War on the Rocks / Potomac Institute for Policy Studies",
+      "id": "6c709e5686784a57",
+      "title": "Australia / Genesis Mission",
       "keywords": [
-        "economic",
-        "war",
-        "sun",
-        "tzu",
-        "supply",
-        "chain",
-        "face",
-        "china"
+        "washington",
+        "built",
+        "infrastructure",
+        "aukus",
+        "needs",
+        "then",
+        "locked",
+        "allies"
       ],
-      "importance": 0.54
+      "importance": 0.57
     },
     {
-      "id": "31d279118997fe5c",
-      "title": "Lockheed Martin / Saildrone",
+      "id": "2ec08bb764159da1",
+      "title": "Lockheed Martin / Precision Strike Missile",
       "keywords": [
         "lockheed",
         "missile",
@@ -817,55 +817,71 @@
         "naval",
         "drones"
       ],
-      "importance": 0.38
+      "importance": 0.35
     },
     {
-      "id": "611ec02429ded6bd",
-      "title": "Guam / North Korea",
-      "keywords": [
-        "deluge",
-        "paper",
-        "cup",
-        "washington",
-        "lack",
-        "urgency",
-        "guam"
-      ],
-      "importance": 0.36
-    },
-    {
-      "id": "b7858004dcea8804",
-      "title": "Vulcan / ULA",
-      "keywords": [
-        "once",
-        "again",
-        "ula",
-        "can't",
-        "deliver",
-        "military",
-        "needs",
-        "satellite"
-      ],
-      "importance": 0.29
-    },
-    {
-      "id": "c7da854acc848800",
-      "title": "facial recognition / Fargo Police Department",
+      "id": "f70d2a8d4fc24106",
+      "title": "Baidu / Apollo Go",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "fargo",
-        "facial",
-        "police",
-        "chief"
+        "robotaxi",
+        "outage",
+        "caused",
+        "'system"
       ],
       "importance": 0.29
     },
     {
+      "id": "6ecda34df2414f66",
+      "title": "Transportation Security Administration / TSA",
+      "keywords": [
+        "senate",
+        "passes",
+        "measure",
+        "prohibiting",
+        "preferential",
+        "airport",
+        "screening",
+        "lawmakers"
+      ],
+      "importance": 0.28
+    },
+    {
+      "id": "181daf460855bbce",
+      "title": "Gecko Robotics / U.S. Pacific Fleet",
+      "keywords": [
+        "navy",
+        "taps",
+        "gecko",
+        "robotics",
+        "help",
+        "remedy",
+        "maintenance",
+        "headaches"
+      ],
+      "importance": 0.27
+    },
+    {
+      "id": "818e1b391b4b99ee",
+      "title": "Baykar / K2",
+      "keywords": [
+        "turkey",
+        "baykar",
+        "tests",
+        "swarm",
+        "behavior",
+        "one-way",
+        "attack",
+        "drone"
+      ],
+      "importance": 0.27
+    },
+    {
       "id": "8b710eca6786fbd5",
-      "title": "STTR / SBIR",
+      "title": "SBIR / STTR",
       "keywords": [
         "sbir",
         "sttr",
@@ -876,22 +892,7 @@
         "innovation",
         "csis"
       ],
-      "importance": 0.29
-    },
-    {
-      "id": "ff18bb752281b93a",
-      "title": "United Arab Emirates / Kuwait",
-      "keywords": [
-        "sales",
-        "middle",
-        "east",
-        "moves",
-        "approve",
-        "billion",
-        "air",
-        "defense"
-      ],
-      "importance": 0.28
+      "importance": 0.27
     },
     {
       "id": "5705856d3aa931c7",
@@ -906,21 +907,7 @@
         "using",
         "meta's"
       ],
-      "importance": 0.28
-    },
-    {
-      "id": "79c2a79103654905",
-      "title": "Center for a New American Security / Project Maven",
-      "keywords": [
-        "project",
-        "maven",
-        "artificial",
-        "intelligence",
-        "warfare",
-        "center",
-        "american"
-      ],
-      "importance": 0.27
+      "importance": 0.26
     }
   ],
   "entities_by_type": {
@@ -961,13 +948,13 @@
         "description": ""
       },
       {
-        "name": "unknown",
-        "mentions": 95,
+        "name": "Hill",
+        "mentions": 105,
         "description": ""
       },
       {
-        "name": "Hill",
-        "mentions": 91,
+        "name": "unknown",
+        "mentions": 95,
         "description": ""
       },
       {
@@ -976,18 +963,23 @@
         "description": ""
       },
       {
+        "name": "Nextgov/FCW",
+        "mentions": 81,
+        "description": ""
+      },
+      {
         "name": "google",
         "mentions": 77,
         "description": ""
       },
       {
-        "name": "Anthropic",
-        "mentions": 67,
+        "name": "War on the Rocks",
+        "mentions": 74,
         "description": ""
       },
       {
-        "name": "Nextgov/FCW",
-        "mentions": 66,
+        "name": "Anthropic",
+        "mentions": 70,
         "description": ""
       },
       {
@@ -1006,6 +998,11 @@
         "description": ""
       },
       {
+        "name": "CNAS",
+        "mentions": 54,
+        "description": ""
+      },
+      {
         "name": "Department of the Treasury",
         "mentions": 53,
         "description": ""
@@ -1013,16 +1010,6 @@
       {
         "name": "Department of State",
         "mentions": 52,
-        "description": ""
-      },
-      {
-        "name": "War on the Rocks",
-        "mentions": 50,
-        "description": ""
-      },
-      {
-        "name": "tesla",
-        "mentions": 48,
         "description": ""
       }
     ],
@@ -1034,7 +1021,7 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 252,
+        "mentions": 255,
         "description": ""
       },
       {
@@ -1044,7 +1031,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 150,
+        "mentions": 161,
         "description": ""
       },
       {
@@ -1059,7 +1046,7 @@
       },
       {
         "name": "Central Intelligence Agency",
-        "mentions": 47,
+        "mentions": 49,
         "description": ""
       },
       {
@@ -1069,22 +1056,27 @@
       },
       {
         "name": "U.S. Army",
-        "mentions": 30,
+        "mentions": 31,
         "description": ""
       },
       {
         "name": "General Services Administration",
-        "mentions": 28,
+        "mentions": 29,
         "description": ""
       },
       {
         "name": "Social Security Administration",
-        "mentions": 25,
+        "mentions": 27,
         "description": ""
       },
       {
         "name": "U.S. Air Force",
-        "mentions": 21,
+        "mentions": 24,
+        "description": ""
+      },
+      {
+        "name": "U.S. Navy",
+        "mentions": 23,
         "description": ""
       },
       {
@@ -1093,8 +1085,8 @@
         "description": ""
       },
       {
-        "name": "U.S. Navy",
-        "mentions": 17,
+        "name": "U.S. Space Force",
+        "mentions": 14,
         "description": ""
       },
       {
@@ -1108,30 +1100,25 @@
         "description": ""
       },
       {
-        "name": "U.S. Space Force",
+        "name": "Transportation Security Administration",
         "mentions": 12,
         "description": ""
       },
       {
         "name": "Pete Hegseth",
-        "mentions": 11,
+        "mentions": 12,
         "description": ""
       },
       {
-        "name": "Trump administration",
-        "mentions": 11,
-        "description": ""
-      },
-      {
-        "name": "Transportation Security Administration",
-        "mentions": 11,
+        "name": "NATO",
+        "mentions": 12,
         "description": ""
       }
     ],
     "program": [
       {
         "name": "Operation Epic Fury",
-        "mentions": 5,
+        "mentions": 7,
         "description": ""
       },
       {
@@ -1156,6 +1143,21 @@
       },
       {
         "name": "Vulcan",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "GCAP",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Precision Strike Missile",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Project Maven",
         "mentions": 3,
         "description": ""
       },
@@ -1213,21 +1215,6 @@
         "name": "Blue UAS Select",
         "mentions": 2,
         "description": ""
-      },
-      {
-        "name": "GCAP",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Precision Strike Missile",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Project Maven",
-        "mentions": 2,
-        "description": ""
       }
     ],
     "budget_line": [],
@@ -1258,17 +1245,17 @@
         "description": ""
       },
       {
+        "name": "Sanae Takaichi",
+        "mentions": 3,
+        "description": ""
+      },
+      {
         "name": "Defense Protection Act",
         "mentions": 2,
         "description": ""
       },
       {
         "name": "Hakeem Jeffries",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Sanae Takaichi",
         "mentions": 2,
         "description": ""
       },
@@ -1284,6 +1271,11 @@
       },
       {
         "name": "Federal Acquisition Regulation",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "AUKUS",
         "mentions": 2,
         "description": ""
       }
