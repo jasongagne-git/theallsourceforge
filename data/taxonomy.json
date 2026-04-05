@@ -1,0 +1,507 @@
+{
+  "personas": [
+    {
+      "id": "institutional_innovator",
+      "label": "Institutional Innovator",
+      "description": "Leaders inside large organizations driving innovation and modernization from within."
+    },
+    {
+      "id": "industry_partner",
+      "label": "Industry Partner",
+      "description": "Established contractors, integrators, and service providers partnering on complex programs."
+    },
+    {
+      "id": "market_entrant",
+      "label": "Market Entrant",
+      "description": "Technology companies and startups bringing new capabilities to emerging markets."
+    }
+  ],
+  "market_focus": [
+    {
+      "id": "defense_warfighting",
+      "label": "Defense & Warfighting"
+    },
+    {
+      "id": "defense_modernization",
+      "label": "Defense Modernization & Acquisition"
+    },
+    {
+      "id": "federal_it",
+      "label": "Federal IT & Digital Services"
+    },
+    {
+      "id": "national_security",
+      "label": "Intelligence & National Security"
+    },
+    {
+      "id": "dual_use",
+      "label": "Dual-Use & Commercial Crossover"
+    }
+  ],
+  "newsletter_name": "Defense Signal Brief",
+  "active_market_focus": [
+    "defense_modernization",
+    "defense_warfighting",
+    "federal_it",
+    "national_security"
+  ],
+  "technology_domains": [
+    {
+      "id": "artificial_intelligence",
+      "label": "Artificial Intelligence & ML",
+      "keywords": [
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "neural network",
+        "natural language processing",
+        "computer vision",
+        "generative AI",
+        "large language model",
+        "predictive analytics",
+        "reinforcement learning",
+        "transformer",
+        "MLOps",
+        "AI governance"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity & Zero Trust",
+      "keywords": [
+        "cybersecurity",
+        "zero trust",
+        "threat detection",
+        "endpoint security",
+        "intrusion detection",
+        "SIEM",
+        "vulnerability management",
+        "penetration testing",
+        "security operations",
+        "cyber defense",
+        "ransomware",
+        "incident response",
+        "CMMC"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "cloud_infrastructure",
+      "label": "Cloud & IT Infrastructure",
+      "keywords": [
+        "cloud computing",
+        "cloud migration",
+        "hybrid cloud",
+        "multi-cloud",
+        "infrastructure as code",
+        "containerization",
+        "kubernetes",
+        "docker",
+        "serverless",
+        "edge computing",
+        "data center",
+        "cloud native"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "data_analytics",
+      "label": "Data Analytics & Business Intelligence",
+      "keywords": [
+        "data analytics",
+        "business intelligence",
+        "data visualization",
+        "data warehouse",
+        "data lake",
+        "ETL",
+        "real-time analytics",
+        "dashboards",
+        "reporting",
+        "data governance",
+        "big data",
+        "data engineering",
+        "decision intelligence"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "software_modernization",
+      "label": "Software Modernization & DevSecOps",
+      "keywords": [
+        "software modernization",
+        "legacy modernization",
+        "DevSecOps",
+        "continuous integration",
+        "continuous delivery",
+        "agile development",
+        "microservices",
+        "API management",
+        "platform engineering",
+        "software factory",
+        "low code",
+        "digital transformation",
+        "acquisition reform",
+        "defense acquisition",
+        "defense innovation",
+        "dual-use",
+        "acquisition"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "networking_comms",
+      "label": "Networking & Communications",
+      "keywords": [
+        "networking",
+        "5G",
+        "software defined networking",
+        "SD-WAN",
+        "unified communications",
+        "satellite communications",
+        "mesh network",
+        "tactical communications",
+        "broadband",
+        "network modernization",
+        "telecommunications",
+        "wireless"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "identity_access",
+      "label": "Identity & Access Management",
+      "keywords": [
+        "identity management",
+        "access management",
+        "multi-factor authentication",
+        "single sign-on",
+        "identity governance",
+        "privileged access",
+        "biometrics",
+        "digital identity",
+        "credentialing",
+        "PKI",
+        "identity verification",
+        "ICAM"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "robotic_process",
+      "label": "Automation & Robotic Process",
+      "keywords": [
+        "robotic process automation",
+        "RPA",
+        "intelligent automation",
+        "workflow automation",
+        "process mining",
+        "hyperautomation",
+        "business process management",
+        "digital workers",
+        "task automation",
+        "automation platform",
+        "orchestration"
+      ],
+      "market_focus": [
+        "*"
+      ]
+    },
+    {
+      "id": "autonomous_systems",
+      "label": "Autonomous Systems & Robotics",
+      "keywords": [
+        "autonomous systems",
+        "robotics",
+        "unmanned aerial",
+        "unmanned ground",
+        "drone",
+        "UAS",
+        "UAV",
+        "counter-UAS",
+        "autonomous vehicle",
+        "swarm",
+        "human-machine teaming",
+        "remote operation"
+      ],
+      "market_focus": [
+        "defense_warfighting",
+        "national_security"
+      ]
+    },
+    {
+      "id": "space_systems",
+      "label": "Space & Satellite Systems",
+      "keywords": [
+        "space systems",
+        "satellite",
+        "space domain awareness",
+        "launch vehicle",
+        "orbital",
+        "SATCOM",
+        "GPS",
+        "space force",
+        "remote sensing",
+        "geospatial intelligence",
+        "LEO",
+        "space resilience"
+      ],
+      "market_focus": [
+        "defense_warfighting",
+        "national_security"
+      ]
+    },
+    {
+      "id": "electronic_warfare",
+      "label": "Electronic Warfare & Sensing",
+      "keywords": [
+        "electronic warfare",
+        "EW",
+        "radar",
+        "SIGINT",
+        "signals intelligence",
+        "electromagnetic spectrum",
+        "sensor fusion",
+        "ISTAR",
+        "electronic countermeasures",
+        "spectrum management",
+        "ELINT",
+        "EWOS"
+      ],
+      "market_focus": [
+        "defense_warfighting",
+        "national_security"
+      ]
+    },
+    {
+      "id": "logistics_supply_chain",
+      "label": "Logistics & Supply Chain",
+      "keywords": [
+        "logistics",
+        "supply chain",
+        "inventory management",
+        "fleet management",
+        "predictive maintenance",
+        "asset tracking",
+        "warehouse management",
+        "distribution",
+        "procurement",
+        "sustainment",
+        "RFID",
+        "supply chain resilience"
+      ],
+      "market_focus": [
+        "defense_modernization",
+        "federal_it"
+      ]
+    },
+    {
+      "id": "health_biotech",
+      "label": "Health IT & Biotechnology",
+      "keywords": [
+        "health IT",
+        "electronic health records",
+        "EHR",
+        "telehealth",
+        "biotechnology",
+        "genomics",
+        "clinical decision support",
+        "health informatics",
+        "medical devices",
+        "FDA",
+        "HIPAA",
+        "precision medicine",
+        "biodefense"
+      ],
+      "market_focus": [
+        "federal_it"
+      ]
+    },
+    {
+      "id": "civic_digital",
+      "label": "Digital Services & Citizen Experience",
+      "keywords": [
+        "digital services",
+        "citizen experience",
+        "e-government",
+        "civic technology",
+        "open data",
+        "public engagement",
+        "digital equity",
+        "accessibility",
+        "service delivery",
+        "government portal",
+        "constituent services",
+        "GovTech"
+      ],
+      "market_focus": [
+        "federal_it"
+      ]
+    }
+  ],
+  "enriched_keywords_by_domain": {
+    "autonomous_systems": [
+      "skyshot 1600"
+    ]
+  },
+  "contracting_postures": [
+    {
+      "id": "prime",
+      "label": "Prime contractor"
+    },
+    {
+      "id": "sub",
+      "label": "Subcontractor"
+    },
+    {
+      "id": "seeking_first",
+      "label": "Seeking first contract"
+    },
+    {
+      "id": "no_contracts",
+      "label": "Not currently contracting"
+    }
+  ],
+  "organization_scales": [
+    {
+      "id": "large",
+      "label": "Large (1000+ employees)"
+    },
+    {
+      "id": "mid",
+      "label": "Mid-market (100-999)"
+    },
+    {
+      "id": "small",
+      "label": "Small (10-99)"
+    },
+    {
+      "id": "startup",
+      "label": "Startup (<10)"
+    }
+  ],
+  "innovation_stages": [
+    {
+      "id": "exploring",
+      "label": "Exploring opportunities"
+    },
+    {
+      "id": "piloting",
+      "label": "Piloting solutions"
+    },
+    {
+      "id": "scaling",
+      "label": "Scaling proven models"
+    }
+  ],
+  "active_programs": [
+    {
+      "name": "Operation Epic Fury",
+      "mentions": 5
+    },
+    {
+      "name": "F-35",
+      "mentions": 4
+    },
+    {
+      "name": "TSA PreCheck",
+      "mentions": 3
+    },
+    {
+      "name": "CCA",
+      "mentions": 3
+    },
+    {
+      "name": "Golden Dome",
+      "mentions": 3
+    },
+    {
+      "name": "Vulcan",
+      "mentions": 3
+    },
+    {
+      "name": "Direct File",
+      "mentions": 2
+    },
+    {
+      "name": "Free File",
+      "mentions": 2
+    },
+    {
+      "name": "B-21",
+      "mentions": 2
+    },
+    {
+      "name": "Patriot",
+      "mentions": 2
+    }
+  ],
+  "active_agencies": [
+    {
+      "name": "Department of Health and Human Services",
+      "mentions": 270
+    },
+    {
+      "name": "Department of Homeland Security",
+      "mentions": 252
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "mentions": 234
+    },
+    {
+      "name": "Department of Defense",
+      "mentions": 150
+    },
+    {
+      "name": "Department of Energy",
+      "mentions": 80
+    },
+    {
+      "name": "Department of Labor",
+      "mentions": 69
+    },
+    {
+      "name": "Central Intelligence Agency",
+      "mentions": 47
+    },
+    {
+      "name": "Government Accountability Office",
+      "mentions": 31
+    },
+    {
+      "name": "U.S. Army",
+      "mentions": 30
+    },
+    {
+      "name": "General Services Administration",
+      "mentions": 28
+    }
+  ],
+  "emerging_technologies": [
+    {
+      "name": "Claude",
+      "mentions": 7,
+      "description": ""
+    },
+    {
+      "name": "AI",
+      "mentions": 3,
+      "description": ""
+    }
+  ]
+}

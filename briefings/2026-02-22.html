@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ground Truth Weekly — February 22, 2026 | Ground Truth</title>
+<link rel="canonical" href="https://preneurial.works/briefings/2026-02-22.html">
+<meta name="description" content="The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs directl">
+<meta property="og:title" content="Ground Truth Weekly — February 22, 2026">
+<meta property="og:description" content="The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs directly to program chiefs. [Defense One](https">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://preneurial.works/briefings/2026-02-22.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ground Truth Weekly — February 22, 2026">
+<meta name="twitter:description" content="The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs directly to program chiefs. [Defense One](https">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.briefing-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.briefing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-accent-secondary);
+}
+.briefing-header .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-header .tagline {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.briefing-header .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+/* Signal legend */
+.signal-legend {
+    background: var(--bg-secondary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.signal-legend .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dimmer);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+/* Briefing content */
+.briefing-h1 {
+    color: var(--text-bright);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.briefing-h2 {
+    color: var(--text-bright);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
+}
+.briefing-ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+    list-style: none;
+}
+.briefing-li {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--color-accent-secondary);
+    border-radius: 4px;
+}
+.briefing-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background: var(--bg-tertiary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+.briefing-link:hover { color: var(--text-bright); border-color: var(--text-dimmer); }
+.briefing-strong { color: var(--text-bright); font-weight: 600; }
+.signal-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    margin-right: 4px;
+}
+
+.briefing-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.briefing-meta .tag {
+    background: var(--bg-secondary);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.briefing-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.briefing-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.briefing-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.briefing-cta a.btn:hover { background: #3b7cf5; }
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">Ground<i>Truth</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="../research.html">Governance</a>
+            <a href="../research/sentinel.html">SENTINEL</a>
+            <a href="../signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="briefing-container">
+    <div class="briefing-header">
+        <div class="brand">Ground Truth Weekly</div>
+        <div class="tagline">Evidence-based intelligence for people who build, govern, or deploy AI in defense</div>
+        <div class="date">February 22, 2026</div>
+    </div>
+
+    <div class="signal-legend">
+        <span class="label">Signal Types</span>
+        <span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span>
+        <span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span>
+        <span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span>
+        <span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span>
+        <span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span>
+        <span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span>
+        <span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span>
+        <span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span>
+    </div>
+
+    <div class="briefing-content">
+        <h2 class="briefing-h2">Opportunity of the Week</h2>
+<p class="briefing-p">The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs directly to program chiefs. <a href="https://www.defenseone.com/technology/2026/02/new-army-office-aims-quickly-develop-and-scale-soldier-ideas/411587/" class="briefing-link" target="_blank" rel="noopener">Defense One</a> This creates a clear bureaucratic pathway for intrapreneurs to shepherd promising concepts from field experimentation through acquisition — bypassing traditional bottlenecks by design. The timing aligns with Army-wide drone integration efforts, meaning the office needs successful pilot programs now to prove the model works.</p>
+<h2 class="briefing-h2">Key Signals</h2>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span></strong> DIU launched GHOST-R to field commercially-developed satellites for on-orbit surveillance within 24 months, plus a counter-drone sensor solicitation for spring 2026 demonstration due to "urgency of the threat." <a href="https://breakingdefense.com/2026/02/diu-wants-commercially-developed-imagery-satellites-for-on-orbit-spying/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a> | <a href="https://www.c4isrnet.com/news/pentagon-congress/2026/02/13/pentagon-wants-counter-drone-sensors-to-protect-us-infrastructure-and-fast/" class="briefing-link" target="_blank" rel="noopener">C4ISRNET</a> These are live funding pathways with explicit timelines for technology transition.</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span></strong> GSA's Federal CIO Greg Barbaccia now dual-hatted as acting TTS director, centralizing technology transformation authority during OMB's ongoing contract review process. <a href="https://www.govexec.com/management/2026/02/federal-cio-tapped-dual-hatted-role-gsa/411543/" class="briefing-link" target="_blank" rel="noopener">GovExec</a> | <a href="https://www.govexec.com/management/2026/02/contract-reviews-continue-omb-official-says/411574/" class="briefing-link" target="_blank" rel="noopener">GovExec</a> This consolidation creates a single decision point for IT modernization proposals across government.</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span></strong> Pentagon CTO calls Anthropic's military-use restrictions on Claude AI "not democratic," asserting the Pentagon won't let companies "dictate policy above Congress." <a href="https://breakingdefense.com/2026/02/pentagon-cto-says-its-not-democratic-for-anthropic-to-limit-military-use-of-claude-ai/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a> The impasse signals DOD will pressure AI providers toward military engagement — opening opportunities for defense-focused AI alternatives.</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span></strong> Air traffic controller pay raises stalled by DHS shutdown as appropriations remain frozen, while Navy considers creating a robotic autonomous systems commander without clear funding pathway. <a href="https://www.govexec.com/pay-benefits/2026/02/air-traffic-controller-pay-raise-stalled-dhs-shutdown/411472/" class="briefing-link" target="_blank" rel="noopener">GovExec</a> | <a href="https://breakingdefense.com/2026/02/navy-weighs-creating-robotic-autonomous-systems-commander-amid-unmanned-push/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a> Budget uncertainty is forcing programs to self-fund through creative reprogramming.</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span></strong> Army launched first-ever Best Drone Warfighter Competition and announced inaugural drone contests at Huntsville to identify top operators and inform training pipelines. <a href="https://www.defensenews.com/news/your-military/2026/02/19/us-army-lets-soldiers-flaunt-their-drone-skills-in-first-ever-competition/" class="briefing-link" target="_blank" rel="noopener">Defense News</a> | <a href="https://www.defenseone.com/technology/2026/02/move-over-best-ranger-armys-looking-best-drone-pilots/411539/" class="briefing-link" target="_blank" rel="noopener">Defense One</a> These competitions are generating bottom-up demand for better training infrastructure and equipment.</p>
+<h2 class="briefing-h2">Pattern Watch</h2>
+<p class="briefing-p">A convergence is forming around <strong class="briefing-strong">commercial space and autonomous systems integration</strong>: SpaceX/Blue Origin pivoting to lunar development concurrent with DOD's Golden Dome missile shield push, DIU soliciting commercial satellites for military missions, and the Pentagon seeking counter-drone infrastructure at speed. The pattern suggests acquisition pathways are opening for dual-use space/autonomy solutions that can demonstrate capability before bureaucracy catches up.</p>
+<h2 class="briefing-h2">Actionable Intel</h2>
+<p class="briefing-p"><strong class="briefing-strong">This week:</strong> Contact the Army's new Pathway for Innovation and Technology office through Army Futures Command channels to position ongoing drone/autonomous systems experiments for the scale-up pipeline. The office needs early wins — proposals that connect soldier-identified needs to existing rapid-acquisition authorities (OTA, Middle Tier, etc.) will get prioritized attention.</p>
+<p class="briefing-p"><strong class="briefing-strong">Also:</strong> Respond to DIU's GHOST-R and counter-drone sensor solicitations if you have relevant commercial tech. Both have explicit demo timelines (24 months and spring 2026 respectively) and "urgency of threat" language that signals streamlined evaluation. <a href="https://breakingdefense.com/2026/02/diu-wants-commercially-developed-imagery-satellites-for-on-orbit-spying/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a> | <a href="https://www.c4isrnet.com/news/pentagon-congress/2026/02/13/pentagon-wants-counter-drone-sensors-to-protect-us-infrastructure-and-fast/" class="briefing-link" target="_blank" rel="noopener">C4ISRNET</a></p>
+    </div>
+
+    <div class="briefing-meta">
+        <span class="tag">60 sources cited</span>
+        <span class="tag">claude-sonnet-4-5-20250929</span>
+    </div>
+
+    <div class="briefing-cta">
+        <p>Get the Ground Truth Weekly delivered to your inbox every Sunday.</p>
+        <a href="https://preneurial.works/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a href="../archive.html" class="back-link">&larr; Back to Archive</a>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://preneurialworks.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ground Truth Weekly — March 08, 2026 | Ground Truth</title>
+<link rel="canonical" href="https://preneurial.works/briefings/2026-03-08.html">
+<meta name="description" content="The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capability g">
+<meta property="og:title" content="Ground Truth Weekly — March 08, 2026">
+<meta property="og:description" content="The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capability gaps against Iranian drones that are punc">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://preneurial.works/briefings/2026-03-08.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ground Truth Weekly — March 08, 2026">
+<meta name="twitter:description" content="The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capability gaps against Iranian drones that are punc">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.briefing-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.briefing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-accent-secondary);
+}
+.briefing-header .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-header .tagline {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.briefing-header .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+/* Signal legend */
+.signal-legend {
+    background: var(--bg-secondary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.signal-legend .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dimmer);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+/* Briefing content */
+.briefing-h1 {
+    color: var(--text-bright);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.briefing-h2 {
+    color: var(--text-bright);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
+}
+.briefing-ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+    list-style: none;
+}
+.briefing-li {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--color-accent-secondary);
+    border-radius: 4px;
+}
+.briefing-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background: var(--bg-tertiary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+.briefing-link:hover { color: var(--text-bright); border-color: var(--text-dimmer); }
+.briefing-strong { color: var(--text-bright); font-weight: 600; }
+.signal-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    margin-right: 4px;
+}
+
+.briefing-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.briefing-meta .tag {
+    background: var(--bg-secondary);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.briefing-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.briefing-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.briefing-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.briefing-cta a.btn:hover { background: #3b7cf5; }
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">Ground<i>Truth</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="../research.html">Governance</a>
+            <a href="../research/sentinel.html">SENTINEL</a>
+            <a href="../signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="briefing-container">
+    <div class="briefing-header">
+        <div class="brand">Ground Truth Weekly</div>
+        <div class="tagline">Evidence-based intelligence for people who build, govern, or deploy AI in defense</div>
+        <div class="date">March 08, 2026</div>
+    </div>
+
+    <div class="signal-legend">
+        <span class="label">Signal Types</span>
+        <span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span>
+        <span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span>
+        <span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span>
+        <span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span>
+        <span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span>
+        <span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span>
+        <span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span>
+        <span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span>
+    </div>
+
+    <div class="briefing-content">
+        <h2 class="briefing-h2">Opportunity of the Week</h2>
+<p class="briefing-p">The Pentagon's counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capability gaps against Iranian drones that are punching through current defenses (<a href="https://www.defensenews.com/industry/techwatch/2026/03/06/pentagon-task-force-to-conduct-laser-test-against-drones/" class="briefing-link" target="_blank" rel="noopener">Defense News</a>). This creates an urgent window for intrapreneurs to accelerate non-traditional counter-UAS solutions through rapid prototyping authorities — the acknowledged vulnerability gives innovation cells like AFWERX and DIU immediate justification to fast-track experiments that would normally face bureaucratic resistance.</p>
+<h2 class="briefing-h2">Key Signals</h2>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span></strong> The Anthropic supply chain designation is fracturing DOD's AI acquisition strategy — tech giants are now explicitly bifurcating defense and commercial AI tool access, creating immediate demand for workarounds and policy clarity on how the Pentagon actually procures foundation models (<a href="https://thehill.com/policy/technology/5771962-tech-companies-anthropic-ai-tools/" class="briefing-link" target="_blank" rel="noopener">The Hill</a>, <a href="https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-says-it-is-labeling-anthropic-a-supply-chain-risk-effective-immediately/" class="briefing-link" target="_blank" rel="noopener">Defense News</a>).</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span></strong> Trump announced defense contractors will "quadruple production of exquisite weaponry," but it's unclear if this exceeds previously-announced agreements or represents actual new capacity investment — the gap between political announcements and industrial base reality creates space for PMs to push for transparency in production metrics and authorities to actually fund expansion (<a href="https://breakingdefense.com/2026/03/defense-companies-to-quadruple-production-of-exquisite-weapons-trump/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a>).</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span></strong> Pentagon's new Chief Data Officer is explicitly tasked to "push AI capabilities to warfighters" while agencies turn to AI to "buy time against hackers" in cyber defense — this dual mandate creates an opening for joint CDO-CDAO initiatives that bridge data infrastructure and operational AI deployment (<a href="https://breakingdefense.com/2026/03/pentagons-new-chief-data-officer-to-push-ai-capabilities-to-warfighters/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a>, <a href="https://federalnewsnetwork.com/federal-insights/2026/03/agencies-turn-to-ai-to-buy-time-against-hackers/" class="briefing-link" target="_blank" rel="noopener">Federal News Network</a>).</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span></strong> Bipartisan senators are demanding DOL, BLS, and Census update national surveys to capture AI's workforce impacts, while state legislators introduced 1,000+ AI-focused bills in 2025 — this creates federal-state coordination pathways for intrapreneurs working on responsible AI adoption and workforce transition (<a href="https://www.nextgov.com/artificial-intelligence/2026/03/senators-call-agencies-capture-ais-workforce-impact/411958/" class="briefing-link" target="_blank" rel="noopener">Nextgov</a>, <a href="https://federalnewsnetwork.com/ask-the-cio/2026/03/state-cios-have-a-new-top-priority-in-2026/" class="briefing-link" target="_blank" rel="noopener">Federal News Network</a>).</p>
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span></strong> State CIOs now rank AI as their top priority while lawmakers introduced bills for AI workforce development and quantum computing research networks — the convergence signals opportunity for defense innovation orgs to partner with state governments on dual-use AI initiatives that demonstrate public safety and economic impact (<a href="https://federalnewsnetwork.com/ask-the-cio/2026/03/state-cios-have-a-new-top-priority-in-2026/" class="briefing-link" target="_blank" rel="noopener">Federal News Network</a>, <a href="https://www.nextgov.com/policy/2026/03/tech-bills-week-quantum-computing-research-ai-workforce-development-and-more/411955/" class="briefing-link" target="_blank" rel="noopener">Nextgov</a>).</p>
+<h2 class="briefing-h2">Pattern Watch</h2>
+<p class="briefing-p">A fracture is emerging between political pressure for rapid defense production/AI adoption and the institutional infrastructure to actually deliver it — from munitions quadrupling claims without funding detail to AI procurement stalled by supply chain restrictions. Intrapreneurs who can demonstrate measurable capability delivery against stated gaps (counter-UAS, cyber defense, data infrastructure) have leverage to cut through the noise.</p>
+<h2 class="briefing-h2">Actionable Intel</h2>
+<p class="briefing-p"><strong class="briefing-strong">Engage the counter-drone task force NOW.</strong> The White Sands laser test and acknowledged Iranian drone gaps create a 30-day window to pitch rapid prototyping solutions through DIU or AFWERX. Reference the <a href="https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-acknowledges-tough-quest-to-counter-iranian-drones/" class="briefing-link" target="_blank" rel="noopener">admitted capability shortfall</a> in your proposal — documented operational need is your acquisition leverage.</p>
+<p class="briefing-p"><strong class="briefing-strong">Map to the new CDO's AI-to-warfighter mandate.</strong> If you have data infrastructure or operational AI projects, request a meeting with the Pentagon's Chief Data Officer team within two weeks of their start date. The explicit "<a href="https://breakingdefense.com/2026/03/pentagons-new-chief-data-officer-to-push-ai-capabilities-to-warfighters/" class="briefing-link" target="_blank" rel="noopener">push AI capabilities to warfighters</a>" mission statement gives you top-cover to accelerate deployment timelines and bypass traditional IT procurement.</p>
+    </div>
+
+    <div class="briefing-meta">
+        <span class="tag">51 sources cited</span>
+        <span class="tag">claude-sonnet-4-5-20250929</span>
+    </div>
+
+    <div class="briefing-cta">
+        <p>Get the Ground Truth Weekly delivered to your inbox every Sunday.</p>
+        <a href="https://preneurial.works/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a href="../archive.html" class="back-link">&larr; Back to Archive</a>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://preneurialworks.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

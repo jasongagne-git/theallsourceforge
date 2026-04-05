@@ -1,0 +1,244 @@
+{
+  "top_entities": [
+    {
+      "name": "Department of Health and Human Services",
+      "mentions": 270
+    },
+    {
+      "name": "Department of Homeland Security",
+      "mentions": 252
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "mentions": 234
+    },
+    {
+      "name": "Department of the Interior",
+      "mentions": 169
+    },
+    {
+      "name": "Department of Defense",
+      "mentions": 146
+    },
+    {
+      "name": "United States Agency for International Development",
+      "mentions": 136
+    },
+    {
+      "name": "Hill",
+      "mentions": 91
+    },
+    {
+      "name": "Department of Agriculture",
+      "mentions": 88
+    },
+    {
+      "name": "Department of Energy",
+      "mentions": 80
+    },
+    {
+      "name": "Department of Labor",
+      "mentions": 69
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 67
+    },
+    {
+      "name": "Nextgov/FCW",
+      "mentions": 66
+    },
+    {
+      "name": "Department of Commerce",
+      "mentions": 56
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "mentions": 54
+    },
+    {
+      "name": "Department of the Treasury",
+      "mentions": 53
+    },
+    {
+      "name": "Department of State",
+      "mentions": 52
+    },
+    {
+      "name": "War on the Rocks",
+      "mentions": 50
+    },
+    {
+      "name": "Board of Governors of the Federal Reserve System",
+      "mentions": 48
+    },
+    {
+      "name": "Defense One",
+      "mentions": 48
+    },
+    {
+      "name": "CNAS",
+      "mentions": 46
+    }
+  ],
+  "active_threads": [
+    {
+      "id": "1d2f838891c8b46c",
+      "title": "International Crisis Group / Middle East Institute",
+      "keywords": [
+        "arrived",
+        "iranian",
+        "moment",
+        "happens",
+        "next"
+      ],
+      "importance": 1.0,
+      "description": "How We Arrived at this Iranian Moment and What Happens Next"
+    },
+    {
+      "id": "eea3046e3dc99a77",
+      "title": "Epirus / Hidden Level",
+      "keywords": [
+        "countering",
+        "drones",
+        "pace",
+        "modern",
+        "war"
+      ],
+      "importance": 0.72,
+      "description": "Countering Drones and the Pace of Modern War"
+    },
+    {
+      "id": "7bdca069e1bceb61",
+      "title": "New START / New Strategic Arms Reduction Treaty",
+      "keywords": [
+        "running",
+        "stand",
+        "still",
+        "russian",
+        "nuclear",
+        "modernization",
+        "start"
+      ],
+      "importance": 0.61,
+      "description": "Running to Stand Still: Russian Nuclear Modernization after New START"
+    },
+    {
+      "id": "6c4e2f26e8ff2f75",
+      "title": "War on the Rocks / Potomac Institute for Policy Studies",
+      "keywords": [
+        "economic",
+        "war",
+        "sun",
+        "tzu",
+        "supply",
+        "chain",
+        "face",
+        "china"
+      ],
+      "importance": 0.54,
+      "description": "Sun Tzu in the Supply Chain: The New Face of Economic War With China; Fighting an Economic War Without Fused Intelligence; Economic Statecraft and the Federal Institutional Architecture"
+    },
+    {
+      "id": "31d279118997fe5c",
+      "title": "Lockheed Martin / Saildrone",
+      "keywords": [
+        "lockheed",
+        "missile",
+        "strike",
+        "saildrone",
+        "place",
+        "launchers",
+        "naval",
+        "drones"
+      ],
+      "importance": 0.38,
+      "description": "Saildrone, Lockheed to place missile launchers on naval drones; Lockheed tests upgraded Precision Strike Missile designed to strike ships"
+    },
+    {
+      "id": "611ec02429ded6bd",
+      "title": "Guam / North Korea",
+      "keywords": [
+        "deluge",
+        "paper",
+        "cup",
+        "washington",
+        "lack",
+        "urgency",
+        "guam"
+      ],
+      "importance": 0.36,
+      "description": "The Deluge, the Paper Cup, and Washington\u2019s Lack of Urgency on Guam"
+    },
+    {
+      "id": "b7858004dcea8804",
+      "title": "Vulcan / ULA",
+      "keywords": [
+        "once",
+        "again",
+        "ula",
+        "can't",
+        "deliver",
+        "military",
+        "needs",
+        "satellite"
+      ],
+      "importance": 0.29,
+      "description": "Once again, ULA can't deliver when the US military needs a satellite in orbit; Rocket Report: Russia reopens gateway to ISS; Cape Canaveral hosts missile test"
+    },
+    {
+      "id": "c7da854acc848800",
+      "title": "facial recognition / Fargo Police Department",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "fargo",
+        "facial",
+        "police",
+        "chief"
+      ],
+      "importance": 0.29,
+      "description": "Both involved in BSP incident: Fargo Police Chief admits errors in AI arrest case, issues new facial recognitio; Both involved in BSP incident: Fargo PD under scrutiny after woman flagged by AI facial"
+    },
+    {
+      "id": "8b710eca6786fbd5",
+      "title": "STTR / SBIR",
+      "keywords": [
+        "sbir",
+        "sttr",
+        "reauthorization",
+        "future",
+        "small",
+        "business",
+        "innovation",
+        "csis"
+      ],
+      "importance": 0.29,
+      "description": "SBIR and STTR Reauthorization and the Future of Small Business Innovation - CSIS"
+    },
+    {
+      "id": "ff18bb752281b93a",
+      "title": "United Arab Emirates / Kuwait",
+      "keywords": [
+        "sales",
+        "middle",
+        "east",
+        "moves",
+        "approve",
+        "billion",
+        "air",
+        "defense"
+      ],
+      "importance": 0.28,
+      "description": "US moves to approve more than $16 billion in air defense sales to Middle East; US greenlights over $16B in \u2019emergency\u2019 radar and missile sales to Middle East"
+    }
+  ],
+  "signal_funnel": {
+    "detected": 1064,
+    "elevated": 0,
+    "brief_generated": 7,
+    "materialized": 0
+  }
+}

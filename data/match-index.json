@@ -1,0 +1,1314 @@
+{
+  "signals": [
+    {
+      "signal_id": "371be41f95a4954c",
+      "title": "Judicial Rulings Force Agencies to Honor Circumvented Processes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.775499"
+    },
+    {
+      "signal_id": "1be28c4d2b03b102",
+      "title": "IRS Loses 40% of IT Workforce, Creating AI Skills Gap",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.774395"
+    },
+    {
+      "signal_id": "8d0a8078032d5f8a",
+      "title": "Bradley Replacement Shielded from Budget Chaos via Transformation Mandate",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.773110"
+    },
+    {
+      "signal_id": "f6e4c68b5a137012",
+      "title": "Federal Judge Blocks Pentagon's Anthropic AI Vendor Ban",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.771965"
+    },
+    {
+      "signal_id": "9638780dbf73043e",
+      "title": "Army Leadership Calls for Program Manager Training Reform",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.771246"
+    },
+    {
+      "signal_id": "3cfb545da6a565b4",
+      "title": "Army Deploys CSOs to Reshape Major Acquisition Programs",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-01T07:00:01.768579"
+    },
+    {
+      "signal_id": "6c173ccc36f8ab963992eaf429d726908e6221dbbc6316a2bce6c1447e420d58",
+      "title": "Fargo PD under scrutiny after woman flagged by AI facial recognition is jailed for months",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.649749"
+    },
+    {
+      "signal_id": "e66c6bda02ec649022f98e92f4ae0ab2f8a99286f072c9cc0e61f8cf10b641d3",
+      "title": "Fargo Police Chief admits errors in AI arrest case, issues new facial recognition policy",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.649432"
+    },
+    {
+      "signal_id": "83e2aaf3472b763acd3f9cdfe220e0f1d61f63a234dc6ad7361cbe3ed5b2c25c",
+      "title": "AI, algorithms, and bias: How technology is creating new frontiers for discrimination law",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.649062"
+    },
+    {
+      "signal_id": "a84560b9d250cc4738558ae61600f1f20a8ba1f30c0665a1fe08d0bcc4dd4dfb",
+      "title": "Stunning AI Security Report: Healthcare Experiencing a 90% AI Agent Security Failure Rate",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.648757"
+    },
+    {
+      "signal_id": "ab9b6a3955769c42672fbf7f932099641b64c9a226d16d970baf031bc653abf1",
+      "title": "Anthropic-Pentagon clash raises key question: who is to blame if AI kills?",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.648439"
+    },
+    {
+      "signal_id": "23e431829694b95cb1de3ffce6245b6b0ecef694ece1a9fc44f71e51163c4c26",
+      "title": "What Should Hospitals Do With AI-Created Clinic Transcripts?",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.648084"
+    },
+    {
+      "signal_id": "5de8265350c1bf4776f43545cae994dd783420e545ce42a0f598209221f4037d",
+      "title": "The Military's AI Fever Is Leading Into Disaster, Critics Say",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.647791"
+    },
+    {
+      "signal_id": "14d1646626d1ca9672fd57923f1c2cb76d84a3324f6988ef0fc7b1a1a4c55b34",
+      "title": "AI Bias May Worsen Gender Inequality in Jobs: ILO Report",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.647448"
+    },
+    {
+      "signal_id": "95b9deb3790ffb24e81f34f6721f9658facad6043d3614b34bb3e79ae8dab726",
+      "title": "Purported Gemini-Generated AI Images Reportedly Claimed U.S. Delta Force Soldiers Were Captured by the IRGC",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.647179"
+    },
+    {
+      "signal_id": "35269575de5bc2fbdbdb4952a3b6b764dc1003b32a3804a8553fdb57175d6208",
+      "title": "Purported AI-Generated War Footage Reportedly Circulated Widely Online During the Opening Phase of the War in Iran",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.646919"
+    },
+    {
+      "signal_id": "709a2cc9d453544850f0b9d1a0243a909ab6831067795b083b9e0045108ac885",
+      "title": "Washington State DOL's AI Phone System Reportedly Failed to Provide Spanish-Language Service to Callers Requesting Spanish",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.646592"
+    },
+    {
+      "signal_id": "c53ad39a9a79c15e0d8bb4353e9f4fcf1abc13e1f3bebc4b1c1bacdc0ccdafc7",
+      "title": "South Korean Woman Allegedly Used ChatGPT to Assess Lethality of Drug-and-Alcohol Mixtures Before Two Fatal Motel Poisonings",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.646262"
+    },
+    {
+      "signal_id": "e93085af172632cf0278d7094b4438771fffebf24cc28ffcf9dc4dac17d496d5",
+      "title": "\u2018Age Verification\u2019 could force trans people to out themselves to use the internet",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.645961"
+    },
+    {
+      "signal_id": "43a4f8e5e9042ce3689326a098703a01f9a36dfdcfde81748187d1f00c45b8c9",
+      "title": "GAO calls for stricter IRS oversight of tax preparers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.645659"
+    },
+    {
+      "signal_id": "16d35156e3d9176b95529c4e915e567b7bc14133bbbe2f4ec0a7a37c1a0f1123",
+      "title": "OPM's public tally of senior government staff is incomplete, watchdog says",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.645297"
+    },
+    {
+      "signal_id": "f6508cce1f8a7513a0e3f486c8d52b4a2c948972881b19fff2dff754ccaef8e6",
+      "title": "AI mirage: medical algorithms and the vanishing autopsy",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.644971"
+    },
+    {
+      "signal_id": "cd2571d066553d39ac0c0c0db1de67f17d8af1307ea7666df67d0cc7fc3c2df0",
+      "title": "Milwaukee officer accused of misusing Flock surveillance cameras",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.644712"
+    },
+    {
+      "signal_id": "21ce7b86999d67cc3d11cdbeb720e9b26d522b9a40fc8e4d73bab39429787cc7",
+      "title": "UK live facial recognition trial on again at Holyhead for immigration enforcement",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.644388"
+    },
+    {
+      "signal_id": "115dab4fe598b5cf761a6bbcd9d1dde3bdb6c2b7376511e86a8f7d1ae8cc88d0",
+      "title": "AI as tradecraft: How threat actors operationalize AI",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.644068"
+    },
+    {
+      "signal_id": "c2f70f4c1c25170153cb74ff662cfe180639d0ea59963446f9570f08794ad585",
+      "title": "[Tennessee Valley Authority] Load Forecasting",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.643759"
+    },
+    {
+      "signal_id": "8548e2d57d30b4b9853769f352c5cee2cd732e22b226b94ac58d82f0e7a5178b",
+      "title": "[Department of Veterans Affairs] Silverberry Surgery Planning AI",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.643415"
+    },
+    {
+      "signal_id": "e171bea3061df9f769b3a94f3fc3cc57b80860b0b4ce8f5ce387d35a5d691251",
+      "title": "[Department of Veterans Affairs] GE Xeleris",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.643124"
+    },
+    {
+      "signal_id": "2dd9d436329ed010d806988b33c45e5b8735334762e5745dc22bf106e640018e",
+      "title": "[Department of Veterans Affairs] CareCentra Next Level Personalized AI Health Coach",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.642805"
+    },
+    {
+      "signal_id": "8a52233c6747d110a8d3a05c2826f3eff5babdff3d1e4dd938988057d7653ec8",
+      "title": "[Board of Governors of the Federal Reserve System] Risk Rating Model",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.642475"
+    },
+    {
+      "signal_id": "7d502278beb7384592319cc73b1b7e325b89edbcd3347089a624bc0be9e14a31",
+      "title": "[Board of Governors of the Federal Reserve System] Risk Rating Model- Community Banks",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.642154"
+    },
+    {
+      "signal_id": "edaf0816917af13aec514009f64b732fb32484f76a81c1de74a9d350dd272f5e",
+      "title": "[Board of Governors of the Federal Reserve System] Bank Performance Monitoring",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.641782"
+    },
+    {
+      "signal_id": "bee4eb42eae2d17de99c1d9a03c9c0b74e95b1c18d7e913cd9044a66d9ff2afc",
+      "title": "[Board of Governors of the Federal Reserve System] Bank Exam Quality Control",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.641406"
+    },
+    {
+      "signal_id": "2cbd4e23f68a80961a962b4a6340b4805c642fe7d1646cd1e4b5a0a0b346c0eb",
+      "title": "[Board of Governors of the Federal Reserve System] Novel Activities Call Report Classification",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.641053"
+    },
+    {
+      "signal_id": "db64d8ac562f391cd06b8a1babd9b06b693132b5bb9c96d2eb4160d6711c9ba6",
+      "title": "[Federal Deposit Insurance Corporation] Structured Interview (SI) tool",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.640764"
+    },
+    {
+      "signal_id": "0f94ce721ebb663aa5c3233788f57d179245fb4b42bc9190f3b4b1869a43e0e5",
+      "title": "[Federal Deposit Insurance Corporation] Automatically-Scored Writing Assessment (AWA)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.640478"
+    },
+    {
+      "signal_id": "6854e0568717098b8a1f793cb4fbddf10a8cb6b641da18a311d5518e43fe8c01",
+      "title": "[Department of Agriculture] Dam Inspection Report Document Processing",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.640204"
+    },
+    {
+      "signal_id": "adcd4d7c00f0eebd720f898200c54a5c08684f26f68f2dd3a7acfea5518a0258",
+      "title": "[Department of Agriculture] Multilingual Translation of Recalls and Public Health Alerts",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.639893"
+    },
+    {
+      "signal_id": "98070fe8e546ee98012c0454224ea46ee5708e696d2f29f6ead64dc885c2eb65",
+      "title": "[Department of Agriculture] Nutrition Education & Local Access Dashboard",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.639414"
+    },
+    {
+      "signal_id": "ad274f0b9e8ae0439a9576f36633fbef9134ca94ed850fd7aa1a9d07586bf0b3",
+      "title": "[Department of Agriculture] Video Surveillance System",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.639086"
+    },
+    {
+      "signal_id": "a4551ba2bc85f690423bb8f2ff178e2bbdb880d0d2c0552780ef3f271088c8b1",
+      "title": "[Department of Agriculture] List Frame Deadwood Identification",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.638704"
+    },
+    {
+      "signal_id": "159a55e4385d7b9fe6832b9bc53600c2770e8a2df9717390a2cf0cbe1063e0fb",
+      "title": "[United States Agency for International Development] \"Bu Mira\" financial inclusion chatbot",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.638397"
+    },
+    {
+      "signal_id": "831d838f3d408b92d754336027f53e101b5719f3b3b5ec40edd99f2715267c95",
+      "title": "[United States Agency for International Development] AI analysis of Moldova's media content and social media landscape",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.638061"
+    },
+    {
+      "signal_id": "45bd9e8f538a88c864ae9a3459ba49a585f85a670909ae792b14b946d57d25e3",
+      "title": "[United States Agency for International Development] Anti-Money Laundering and Shareholders Transparency IT System",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.637736"
+    },
+    {
+      "signal_id": "c0b51104a4ec5dce4bc41a37cfa059fe05240885bedf8b029f941835b9091e5a",
+      "title": "[United States Agency for International Development] Predictive analytics model to predict HIV Treatment Interruption Risk",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.637457"
+    },
+    {
+      "signal_id": "a85f19cc2d5b7877c87f56d7ac46507d887147c3e76c37b488fb1b94f0214324",
+      "title": "[United States Agency for International Development] Chatbot to respond to teachers' questions about how to prevent student dropout",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.637124"
+    },
+    {
+      "signal_id": "88fffa2b04daf0d0b96d8b38e366e9bd6b2ac350a55278b0874eb94d834e2378",
+      "title": "[United States Agency for International Development] Mobile application for reading rapid cryptococcosis tests",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.636747"
+    },
+    {
+      "signal_id": "fcb98a60fd31f4d99c926c7828fbe72e281f2e96705d941ac4fd0625b7180441",
+      "title": "[United States Agency for International Development] Mibanco: Equitable Finance Activity in Colombia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.636446"
+    },
+    {
+      "signal_id": "985495ede3b435e8e46f6271a05b11799787f51af06c3adb6fccecd419f1cb9f",
+      "title": "[United States Agency for International Development] Twitter trend analysis in Colombia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.636149"
+    },
+    {
+      "signal_id": "b0a68e542785362c64e8355c594c489cc892ac102e13060b74ea456f5a99e76d",
+      "title": "[United States Agency for International Development] LIDA: Instant Messaging System in the Family Commissioner's Office of Monter\u00eda - C\u00f3rdoba, Colombia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.635853"
+    },
+    {
+      "signal_id": "d081c40494cdad7828edb35011e11c6b4f53293af478e63f2272fb0719c1d5f0",
+      "title": "[United States Agency for International Development] Knowledge management and situational awareness for civil society in Colombia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.635589"
+    },
+    {
+      "signal_id": "effaf575d6ff58e1d1f5c440253c925aeb3ffb512a20c7964a0ef08f25627ee0",
+      "title": "[United States Agency for International Development] Amazon\u00eda Mia - AI for environmental law enforcement in Colombia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.635320"
+    },
+    {
+      "signal_id": "00dc8c19080e11a8f362ea0cfd425da5b8e6f471a142184e2b0b6a5b3a312ef9",
+      "title": "[United States Agency for International Development] SERVIR Air Quality and Health: Processing modeled air quality forecasts and assimilating large volumes of data from satellite instruments. SERVIR is downscaling satellite- and model-derived air quality predictions with neural networks, down to 5km spatial resolution.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.635020"
+    },
+    {
+      "signal_id": "6b956eb59b500331a967addc6d8b703d7603b03d9064b22a18723e9e08c69a3f",
+      "title": "[United States Agency for International Development] SERVIR Weather & Climate Resilience: Short-term and seasonal weather prediction and hazard mapping. SERVIR is mapping floods and landslides with machine learning classification techniques, on the order of 10m to 10km. SERVIR is exploring the performance of weather foundational models versus numerical weather predictions on the 4-10km scale.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.634709"
+    },
+    {
+      "signal_id": "d7474681a64cba0df47db181a85458c79b74fcbd3e2b1fbb2445c390320c2fd6",
+      "title": "[United States Agency for International Development] SERVIR Ecosystem and Carbon Management: Automation of land cover and change mapping, including forest disturbance due to roads and mining. SERVIR is applying machine learning and deep learning techniques on satellite data to automate the classification and identification of land surface activities at the scale of 10s of meters.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.634380"
+    },
+    {
+      "signal_id": "b02dc44351292cabc87d20b3d181fbe211a8a8b9bf438b459926abe40b01e109",
+      "title": "[United States Agency for International Development] SERVIR Water Security: SERVIR is applying deep learning on in situ and global/regional hydrologic forecasts to fill gaps in historic and recent streamflow and river elevation estimates, and improve streamflow forecasts, to a vertical precision of meters to centimeters, potentially for thousands to millions or river reaches worldwide.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.633979"
+    },
+    {
+      "signal_id": "122fd8f45f4166971c0d70b3dc4735b7460354e976767157df61ed5b5037c2b6",
+      "title": "[United States Agency for International Development] Identifying harmful social media content in Sinhala and Tamil",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.633664"
+    },
+    {
+      "signal_id": "db6da9ddd8ddcfa191928e439711aa9b4d7bb2c63df9f5ba71fc621cb6c2de77",
+      "title": "[United States Agency for International Development] AI tools for grant application application review",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.633323"
+    },
+    {
+      "signal_id": "5957afc9e3ce4f84ee7d935b39300bd14c0e03b34f6b3762b0baa45ff1686bd5",
+      "title": "[United States Agency for International Development] Using ML for predicting treatment interruption among PLHIV in Nigeria",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.633024"
+    },
+    {
+      "signal_id": "2f432d906f7620dc31bfa2fa9d2c7a8ca4514175cfa4cc847c8e8de248831c54",
+      "title": "[United States Agency for International Development] Gender differentiated credit scoring",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.632583"
+    },
+    {
+      "signal_id": "d353f22e86d194adf0257a973d44326cd0d5fd7c2afaef407dd50c26eb03f18a",
+      "title": "[Department of the Treasury] EFTPS Fraud Monitoring",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.632246"
+    },
+    {
+      "signal_id": "a90b18f7146a393c7e1dad8bf5c4e2548c8df8214a2adb37e63b5e2bbde93fb4",
+      "title": "[Department of the Treasury] Customer Experience Analytics",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.631884"
+    },
+    {
+      "signal_id": "32c1e34d4758ee8d8d2b3feb5dac511ebc69bc3b608ce43aee81d093da248ac4",
+      "title": "[Department of the Treasury] Automated Collection System (ACS) Voicebot",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.631557"
+    },
+    {
+      "signal_id": "ed5caf689a4d0733eae04cc1accc35acf51e99b074904857d12ac2d5184f22cb",
+      "title": "[Department of the Treasury] Transcription -- Evidence.com",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.631230"
+    },
+    {
+      "signal_id": "26db462774ed5c981f3d98a995475431175c3048a0ec6160ead6df253d670fdf",
+      "title": "[Department of State] TIP Report Research Translation",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.630932"
+    },
+    {
+      "signal_id": "e6f4d79caa0fbf52dae10715cd258498f006a7a330548691cfbaf2951ac6164c",
+      "title": "[Social Security Administration] Proactive Triage and Analysis of Hearings (PATH)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.630641"
+    },
+    {
+      "signal_id": "59e9020d82a812a1263a180a2264db400068f16330ec0f6d165f64f628e55ac6",
+      "title": "[Social Security Administration] Representative Payee Misuse Model",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.630241"
+    },
+    {
+      "signal_id": "8b36c73858abec7097bcabff86a9d426c9afab01061f7437c858b7446e41531c",
+      "title": "[Social Security Administration] Insight",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.629860"
+    },
+    {
+      "signal_id": "63c07f37e0d254398e840a9902a3d41e04b413426b9e11277d5317b610d60c9a",
+      "title": "[Department of Health and Human Services] Detecting Overlapping Science (DOS)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.629497"
+    },
+    {
+      "signal_id": "22ddfe6b6fd650925a97e02fb82197208bd70c3da2024a5dbace80c93f016f5a",
+      "title": "[Department of Health and Human Services] DAIT AIDS-Related Research Solution",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.629219"
+    },
+    {
+      "signal_id": "45bec104c28f76df3096e40edbb6a12e6d41187e1b10db8fb42148996b7816e4",
+      "title": "[Department of Health and Human Services] AI Use Policy Tool",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.628854"
+    },
+    {
+      "signal_id": "55d539ab685029b123e57f4a6aa363004dba29a137ec916ec3e5bbe34e1091bc",
+      "title": "[Department of Health and Human Services] AI to Improve Public Access to the Administrative Appeals Process",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.628596"
+    },
+    {
+      "signal_id": "1cf764842ab1e0e99b34036c1c88fc3d4fab194642de0839a6cf6325bb996323",
+      "title": "[Department of Health and Human Services] Plan Certification Recommendation Model",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.628308"
+    },
+    {
+      "signal_id": "9121f5262ca96418ee1c658ee0dd0687fdc8da16cbc26802121d8e22f05d19da",
+      "title": "[Department of Health and Human Services] Independent Dispute Resolution (IDR) Eligibility Rules Engine",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.627999"
+    },
+    {
+      "signal_id": "7ad148ba40fd42ec0194cb4d9750a919e0c5560bda6a3881808d0e99c744d5fd",
+      "title": "[Department of Health and Human Services] Citation Analysis and Survey Assistant (CASA - Nursing Home Survey CMS 2567)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.627677"
+    },
+    {
+      "signal_id": "6d1ac419c593ce6d7ea15f64c8b1183a582a614aa96555e0965ef3074a4cc1b2",
+      "title": "[Department of Health and Human Services] Quality and Safety Review System AI-enabled automated abstraction",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.627279"
+    },
+    {
+      "signal_id": "005d4ae3c7f3dcd919134fde8bf68aa3fc30987182221cd56caf516aba5c9668",
+      "title": "[Department of Health and Human Services] NLQuery- As Data or Pulse",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.626967"
+    },
+    {
+      "signal_id": "13d53ecd30e26d5cd38978f8ab81c6ab156ee18391ea8474fa7d96ffd1aaa911",
+      "title": "[Department of Health and Human Services] Enhancing Diversity in Peer Review - Pilot",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.626644"
+    },
+    {
+      "signal_id": "be1c2c50fc2abf7531db21888bee8e27e24a624b95fe198987aa491e0b2fe339",
+      "title": "[Department of Health and Human Services] Unaccompanied Children Process Model Digital Twins",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.626286"
+    },
+    {
+      "signal_id": "d28e3667403cb2187bfec2d812572c0cc8c4bce0431418e7c4e286eaec5df614",
+      "title": "[Department of Health and Human Services] Unaccompanied Children Program Policy & Procedure Research Tool",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.625933"
+    },
+    {
+      "signal_id": "43fd15363e64225a743d60655be6537214929dcdcac58a19ab6bc9aba8a6da35",
+      "title": "[Department of Health and Human Services] Grant Spend Health Analysis",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.625634"
+    },
+    {
+      "signal_id": "2a8c5008a5de3bead246a10d672692c6c3bd5c2c7b192f2e322010b1dbfa818a",
+      "title": "[Department of Health and Human Services] Design Your Facility",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.625338"
+    },
+    {
+      "signal_id": "4a17afe913679b27af9c6711232f7f6700460992263b2de15b8d4b880e1fa358",
+      "title": "[General Services Administration] Login.gov",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.624966"
+    },
+    {
+      "signal_id": "35826e9b80f401167a7d0353a95245462399a02315c08244b0f1709acf11842d",
+      "title": "[Department of Energy] Argo",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.624661"
+    },
+    {
+      "signal_id": "c864c05d70dfa77a9c0b28f88224008d2ad26d0ca08dd39152e266308132ee4e",
+      "title": "[Department of Energy] Interactive platform to help review and create \"Promoting Inclusive and Equitable Research\" Plans",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.624270"
+    },
+    {
+      "signal_id": "d1852a3a0142ac9250283a34f2f8afba51c8b506b930bd61a9f9c7ffb76e3173",
+      "title": "[Department of Commerce] Linkage and Matching Program (LaMP)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.623965"
+    },
+    {
+      "signal_id": "6ece0dd9706189ad66f9cad06f643edaeb27e231b2eb296e9c400e09ec4b1b81",
+      "title": "[Department of Commerce] Census Bureau Demographic Frame Person-Place Model",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.623613"
+    },
+    {
+      "signal_id": "27000c7ecc5507932f75d0c1227c9892b2e38f7f73dcd85ab9192992d93ebde0",
+      "title": "[Department of Commerce] School staff information extraction from web page text",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.623339"
+    },
+    {
+      "signal_id": "09a1c40dc4766a880b39fabba199f2dc7b93c7c16b7a78827396269709ac884c",
+      "title": "[Department of Homeland Security] Voice Analytics for Investigative Data",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.623063"
+    },
+    {
+      "signal_id": "c694d8b2161613a3ea4386774a8ebe5e2d0d1495f5eefcb30af25580e355246b",
+      "title": "[Department of Homeland Security] Incident Management Workforce Deployment Model (depmod)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.622692"
+    },
+    {
+      "signal_id": "18bbfc5f7c03d8a579ffea1082c4e45da41ed8d99ab777e7b326408b7ad41c9d",
+      "title": "[Department of Homeland Security] RVSS Legacy Overhauled System Project",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.622381"
+    },
+    {
+      "signal_id": "6133cdfc2bf7e9c317167ce023e03eae181be07fd79c404442eddab090d860c0",
+      "title": "[Department of Homeland Security] AI for Autonomous Situational Awareness",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.622054"
+    },
+    {
+      "signal_id": "d55f11b15d85eccee465138b72c7bdf704e78bd929f8d78cacca7f91275d09d4",
+      "title": "[Department of Homeland Security] Vessel Detection",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.621771"
+    },
+    {
+      "signal_id": "ac003d8fbb2cc04c66c26f374fa8d4ef3783ba56c4fb40cc3b97612d8cb376b3",
+      "title": "[Department of Homeland Security] RAPTOR (Rapid Tactical Operations Reconnaissance)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.621471"
+    },
+    {
+      "signal_id": "6b3ca244f752748c5a46f156a7d8ace0d6710c34fb746ff616e74d2b8283fb20",
+      "title": "[Department of Homeland Security] Integrated Defense and Security Solutions (IDSS)",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.621193"
+    },
+    {
+      "signal_id": "0a57331177ad7ccec2aa5044f9b801917900915141bafdfdfa69a864574a65b7",
+      "title": "[Department of Homeland Security] Multi-media Insight Tool",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.620846"
+    },
+    {
+      "signal_id": "d5935d49a523b7b7b3c11a73e0045e549d22d31795392dd9d8efbf8f0d0cdd17",
+      "title": "Anthropic Said DeepSeek, Moonshot, and MiniMax Used Fraudulent Accounts and Proxies to Illicitly Distill Claude Capabilities at Scale",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.620529"
+    },
+    {
+      "signal_id": "d04d0a6af5340a7a0f31a80f927cf2ef97a297f2b5ac381e702097fe5ae2a10d",
+      "title": "Azerbaijani Media Agency Reportedly Warned Purported Deepfake Videos Attributed to Defense and Foreign Ministers Claimed Belarusian Plane Was Downed in Russian Airspace",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.620254"
+    },
+    {
+      "signal_id": "e49edb183333d67b6b4ddd33cb04bdc08d0410726320bea5fdd4d2cb73d5bcde",
+      "title": "DJI Romo Cloud Authorization Bug Reportedly Exposed Camera, Microphone, and Home-Mapping Data From Nearly 7,000 Robot Vacuums",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.619882"
+    },
+    {
+      "signal_id": "42fbcabdaf5ae35fce3f97667a333fcde8a7361e76d9c7673b46ad4f5bfd3fcc",
+      "title": "Purported Deepfake Impersonating Sudha Murty Reportedly Promoted Quantum AI India Investment Scam via Spoofed News Link",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-03-30T17:38:23.619558"
+    },
+    {
+      "signal_id": "91b60c042f97f304",
+      "title": "First Operational Use of USVs in Iran Conflict",
+      "status": "brief_generated",
+      "brief_id": "2e6051a2a2397aba",
+      "last_updated": "2026-04-01T07:10:36.502352"
+    },
+    {
+      "signal_id": "33900b2d5a8645bb",
+      "title": "Pentagon Seeks $200B for Iran Operations While DHS Remains Unfunded",
+      "status": "brief_generated",
+      "brief_id": "f474d368f49ac11e",
+      "last_updated": "2026-03-25T07:10:39.556980"
+    },
+    {
+      "signal_id": "f6bd09265d28db22",
+      "title": "Ukraine Opens Combat AI and Drone Data to Western Defense Partners",
+      "status": "brief_generated",
+      "brief_id": "e5c3584ab3fce00c",
+      "last_updated": "2026-03-18T07:11:08.864669"
+    },
+    {
+      "signal_id": "e870f9adab156afc",
+      "title": "Anthropic Supply Chain Designation Fractures DOD AI Acquisition Strategy",
+      "status": "brief_generated",
+      "brief_id": "6d4a8ddb8d68c94f",
+      "last_updated": "2026-03-11T07:10:26.542474"
+    },
+    {
+      "signal_id": "37cb70fc5a79c448",
+      "title": "AFRL Expands Dual-Use Technology Pilot into National Innovation Framework",
+      "status": "brief_generated",
+      "brief_id": "8a09f916f192f19a",
+      "last_updated": "2026-03-04T18:19:41.577521"
+    },
+    {
+      "signal_id": "bbc5c07a49769f46",
+      "title": "2026 NDAA Includes Major Acquisition Reforms with Pahlka Advising",
+      "status": "brief_generated",
+      "brief_id": "b522f35e93ebeae9",
+      "last_updated": "2026-02-25T18:04:38.945776"
+    },
+    {
+      "signal_id": "a6439733d9b8bd06",
+      "title": "SkyFoundry Act Creates Government-Run Drone Production Facility",
+      "status": "brief_generated",
+      "brief_id": "9f2d7529bd58bd98",
+      "last_updated": "2026-02-25T18:01:44.586801"
+    }
+  ],
+  "topic_threads": [
+    {
+      "id": "1d2f838891c8b46c",
+      "title": "International Crisis Group / Middle East Institute",
+      "keywords": [
+        "arrived",
+        "iranian",
+        "moment",
+        "happens",
+        "next"
+      ],
+      "importance": 1.0
+    },
+    {
+      "id": "eea3046e3dc99a77",
+      "title": "Epirus / Hidden Level",
+      "keywords": [
+        "countering",
+        "drones",
+        "pace",
+        "modern",
+        "war"
+      ],
+      "importance": 0.72
+    },
+    {
+      "id": "7bdca069e1bceb61",
+      "title": "New START / New Strategic Arms Reduction Treaty",
+      "keywords": [
+        "running",
+        "stand",
+        "still",
+        "russian",
+        "nuclear",
+        "modernization",
+        "start"
+      ],
+      "importance": 0.61
+    },
+    {
+      "id": "6c4e2f26e8ff2f75",
+      "title": "War on the Rocks / Potomac Institute for Policy Studies",
+      "keywords": [
+        "economic",
+        "war",
+        "sun",
+        "tzu",
+        "supply",
+        "chain",
+        "face",
+        "china"
+      ],
+      "importance": 0.54
+    },
+    {
+      "id": "31d279118997fe5c",
+      "title": "Lockheed Martin / Saildrone",
+      "keywords": [
+        "lockheed",
+        "missile",
+        "strike",
+        "saildrone",
+        "place",
+        "launchers",
+        "naval",
+        "drones"
+      ],
+      "importance": 0.38
+    },
+    {
+      "id": "611ec02429ded6bd",
+      "title": "Guam / North Korea",
+      "keywords": [
+        "deluge",
+        "paper",
+        "cup",
+        "washington",
+        "lack",
+        "urgency",
+        "guam"
+      ],
+      "importance": 0.36
+    },
+    {
+      "id": "b7858004dcea8804",
+      "title": "Vulcan / ULA",
+      "keywords": [
+        "once",
+        "again",
+        "ula",
+        "can't",
+        "deliver",
+        "military",
+        "needs",
+        "satellite"
+      ],
+      "importance": 0.29
+    },
+    {
+      "id": "c7da854acc848800",
+      "title": "facial recognition / Fargo Police Department",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "fargo",
+        "facial",
+        "police",
+        "chief"
+      ],
+      "importance": 0.29
+    },
+    {
+      "id": "8b710eca6786fbd5",
+      "title": "STTR / SBIR",
+      "keywords": [
+        "sbir",
+        "sttr",
+        "reauthorization",
+        "future",
+        "small",
+        "business",
+        "innovation",
+        "csis"
+      ],
+      "importance": 0.29
+    },
+    {
+      "id": "ff18bb752281b93a",
+      "title": "United Arab Emirates / Kuwait",
+      "keywords": [
+        "sales",
+        "middle",
+        "east",
+        "moves",
+        "approve",
+        "billion",
+        "air",
+        "defense"
+      ],
+      "importance": 0.28
+    },
+    {
+      "id": "5705856d3aa931c7",
+      "title": "ICE / Border Patrol",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "immigration",
+        "agents",
+        "using",
+        "meta's"
+      ],
+      "importance": 0.28
+    },
+    {
+      "id": "79c2a79103654905",
+      "title": "Center for a New American Security / Project Maven",
+      "keywords": [
+        "project",
+        "maven",
+        "artificial",
+        "intelligence",
+        "warfare",
+        "center",
+        "american"
+      ],
+      "importance": 0.27
+    }
+  ],
+  "entities_by_type": {
+    "company": [
+      {
+        "name": "unknown-deepfake-technology-developers",
+        "mentions": 295,
+        "description": ""
+      },
+      {
+        "name": "Department of the Interior",
+        "mentions": 169,
+        "description": ""
+      },
+      {
+        "name": "OECD",
+        "mentions": 167,
+        "description": ""
+      },
+      {
+        "name": "unknown-scammers",
+        "mentions": 166,
+        "description": ""
+      },
+      {
+        "name": "unknown-voice-cloning-technology-developers",
+        "mentions": 149,
+        "description": ""
+      },
+      {
+        "name": "United States Agency for International Development",
+        "mentions": 136,
+        "description": ""
+      },
+      {
+        "name": "openai",
+        "mentions": 131,
+        "description": ""
+      },
+      {
+        "name": "unknown",
+        "mentions": 95,
+        "description": ""
+      },
+      {
+        "name": "Hill",
+        "mentions": 91,
+        "description": ""
+      },
+      {
+        "name": "Department of Agriculture",
+        "mentions": 88,
+        "description": ""
+      },
+      {
+        "name": "google",
+        "mentions": 77,
+        "description": ""
+      },
+      {
+        "name": "Anthropic",
+        "mentions": 67,
+        "description": ""
+      },
+      {
+        "name": "Nextgov/FCW",
+        "mentions": 66,
+        "description": ""
+      },
+      {
+        "name": "Department of Commerce",
+        "mentions": 56,
+        "description": ""
+      },
+      {
+        "name": "facebook",
+        "mentions": 54,
+        "description": ""
+      },
+      {
+        "name": "Federal Deposit Insurance Corporation",
+        "mentions": 54,
+        "description": ""
+      },
+      {
+        "name": "Department of the Treasury",
+        "mentions": 53,
+        "description": ""
+      },
+      {
+        "name": "Department of State",
+        "mentions": 52,
+        "description": ""
+      },
+      {
+        "name": "War on the Rocks",
+        "mentions": 50,
+        "description": ""
+      },
+      {
+        "name": "tesla",
+        "mentions": 48,
+        "description": ""
+      }
+    ],
+    "agency": [
+      {
+        "name": "Department of Health and Human Services",
+        "mentions": 270,
+        "description": ""
+      },
+      {
+        "name": "Department of Homeland Security",
+        "mentions": 252,
+        "description": ""
+      },
+      {
+        "name": "Department of Veterans Affairs",
+        "mentions": 234,
+        "description": ""
+      },
+      {
+        "name": "Department of Defense",
+        "mentions": 150,
+        "description": ""
+      },
+      {
+        "name": "Department of Energy",
+        "mentions": 80,
+        "description": ""
+      },
+      {
+        "name": "Department of Labor",
+        "mentions": 69,
+        "description": ""
+      },
+      {
+        "name": "Central Intelligence Agency",
+        "mentions": 47,
+        "description": ""
+      },
+      {
+        "name": "Government Accountability Office",
+        "mentions": 31,
+        "description": ""
+      },
+      {
+        "name": "U.S. Army",
+        "mentions": 30,
+        "description": ""
+      },
+      {
+        "name": "General Services Administration",
+        "mentions": 28,
+        "description": ""
+      },
+      {
+        "name": "Social Security Administration",
+        "mentions": 25,
+        "description": ""
+      },
+      {
+        "name": "U.S. Air Force",
+        "mentions": 21,
+        "description": ""
+      },
+      {
+        "name": "Environmental Protection Agency",
+        "mentions": 18,
+        "description": ""
+      },
+      {
+        "name": "U.S. Navy",
+        "mentions": 17,
+        "description": ""
+      },
+      {
+        "name": "Office of Management and Budget",
+        "mentions": 13,
+        "description": ""
+      },
+      {
+        "name": "CSIS",
+        "mentions": 12,
+        "description": ""
+      },
+      {
+        "name": "U.S. Space Force",
+        "mentions": 12,
+        "description": ""
+      },
+      {
+        "name": "Pete Hegseth",
+        "mentions": 11,
+        "description": ""
+      },
+      {
+        "name": "Trump administration",
+        "mentions": 11,
+        "description": ""
+      },
+      {
+        "name": "Transportation Security Administration",
+        "mentions": 11,
+        "description": ""
+      }
+    ],
+    "program": [
+      {
+        "name": "Operation Epic Fury",
+        "mentions": 5,
+        "description": ""
+      },
+      {
+        "name": "F-35",
+        "mentions": 4,
+        "description": ""
+      },
+      {
+        "name": "TSA PreCheck",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "CCA",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Golden Dome",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Vulcan",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Direct File",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Free File",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "B-21",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Patriot",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Spark Tank",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "LUCAS",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Shahed-136",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Switchblade",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Collaborate Combat Aircraft",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Best Drone Warfighter Competition",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Blue UAS Select",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "GCAP",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Precision Strike Missile",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Project Maven",
+        "mentions": 2,
+        "description": ""
+      }
+    ],
+    "budget_line": [],
+    "policy": [
+      {
+        "name": "Trump",
+        "mentions": 14,
+        "description": ""
+      },
+      {
+        "name": "Kristi Noem",
+        "mentions": 10,
+        "description": ""
+      },
+      {
+        "name": "National Defense Strategy",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "NDAA",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Munich Security Conference",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Defense Protection Act",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Hakeem Jeffries",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Sanae Takaichi",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Donald Trump",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "National Defense Authorization Act",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Federal Acquisition Regulation",
+        "mentions": 2,
+        "description": ""
+      }
+    ],
+    "technology": [
+      {
+        "name": "Claude",
+        "mentions": 7,
+        "description": ""
+      },
+      {
+        "name": "AI",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "drone swarms",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "SkyShot 1600",
+        "mentions": 2,
+        "description": ""
+      }
+    ]
+  }
+}

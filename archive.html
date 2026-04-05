@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Briefing Archive | Ground Truth</title>
+<link rel="canonical" href="https://preneurial.works/archive.html">
+<meta name="description" content="Briefing archive from Ground Truth — AI-powered signals surfacing policy shifts, market gaps, and emerging opportunities for intrapreneurs and innovators.">
+<meta property="og:title" content="Briefing Archive — Ground Truth">
+<meta property="og:description" content="Actionable signals synthesized from hundreds of sources — policy shifts, market gaps, and emerging opportunities.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://preneurial.works/archive.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Briefing Archive — Ground Truth">
+<meta name="twitter:description" content="Actionable signals synthesized from hundreds of sources — policy shifts, market gaps, and emerging opportunities.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="site.css">
+<style>
+.archive-container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.archive-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.archive-header h1 {
+    font-size: 1.8rem;
+    color: var(--text-bright);
+    font-weight: 700;
+    margin-top: 0;
+    letter-spacing: -0.02em;
+}
+.archive-header p {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+.vertical-section {
+    margin-bottom: 2.5rem;
+}
+.vertical-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+.vertical-heading h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    white-space: nowrap;
+}
+.vertical-heading .heading-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border-subtle);
+}
+.vertical-heading .heading-tag {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-dimmer);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.archive-card {
+    display: block;
+    text-decoration: none;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s, transform 0.2s;
+}
+.archive-card:hover {
+    border-color: var(--color-accent-secondary);
+    transform: translateY(-1px);
+}
+.card-date {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+}
+.card-summary {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    color: var(--text-dimmer);
+}
+.card-meta .read-more {
+    color: var(--color-accent-secondary);
+    font-weight: 600;
+}
+
+.archive-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.archive-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.archive-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.archive-cta a.btn:hover { background: #3b7cf5; }
+
+@media (max-width: 768px) {
+    .archive-container { padding: 1rem; }
+    .archive-header h1 { font-size: 1.4rem; }
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand">Ground<i>Truth</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="research.html">Governance</a>
+            <a href="research/sentinel.html">SENTINEL</a>
+            <a href="signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="archive-container">
+    <div class="archive-header">
+        <h1>Briefing Archive</h1>
+        <p>Our pipelines synthesize hundreds of sources into actionable signals — surfacing the friction points, funding shifts, and emerging opportunities that matter before they become common knowledge.</p>
+    </div>
+
+    <!-- Subscribe CTA — top of page -->
+    <div class="archive-cta" style="margin-bottom: 2.5rem; border-left: 3px solid var(--color-accent-secondary);">
+        <p style="font-weight: 600; color: var(--text-bright); margin-bottom: 0.25rem;">Get signals the day they drop</p>
+        <p>Briefings post to the archive after a 4-week delay. Subscribers receive each edition immediately.</p>
+        <a href="https://preneurial.works/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <!-- Ground Truth Weekly -->
+    <div class="vertical-section" id="defense">
+        <div class="vertical-heading">
+            <h2>Ground Truth Weekly</h2>
+            <div class="heading-line"></div>
+            <span class="heading-tag">Weekly</span>
+        </div>
+
+        <div class="archive-list">
+
+            <a href="briefings/2026-03-08.html" class="archive-card">
+                <div class="card-date">March 08, 2026</div>
+                <div class="card-summary">The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capability gaps against ...</div>
+                <div class="card-meta">
+                    <span>51 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-03-05.html" class="archive-card">
+                <div class="card-date">March 05, 2026</div>
+                <div class="card-summary">The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech firms to get system...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-03-01.html" class="archive-card">
+                <div class="card-date">March 01, 2026</div>
+                <div class="card-summary">The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines acceptable use policie...</div>
+                <div class="card-meta">
+                    <span>43 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-23.html" class="archive-card">
+                <div class="card-date">February 23, 2026</div>
+                <div class="card-summary">The Defense Department just released four major acquisition reform initiatives in January — including memorandums on defense innovation and AI, an executive order on industry st...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-22.html" class="archive-card">
+                <div class="card-date">February 22, 2026</div>
+                <div class="card-summary">The Army is standing up a new Pathway for Innovation and Technology office to rapidly develop and scale soldier ideas, connecting rapid-acquisition hubs directly to program chie...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-15.html" class="archive-card">
+                <div class="card-date">February 15, 2026</div>
+                <div class="card-summary">The Defense Innovation Unit&#x27;s spring 2026 counter-drone sensor demonstration represents an immediate contracting pathway for rapid technology adoption. DIU&#x27;s accelerat...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-14.html" class="archive-card">
+                <div class="card-date">February 14, 2026</div>
+                <div class="card-summary">The Defense Innovation Unit is running a spring 2026 counter-drone sensor demonstration with explicit urgency language — &quot;the urgency of the threat&quot; — creating a compr...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-13.html" class="archive-card">
+                <div class="card-date">February 13, 2026</div>
+                <div class="card-summary">The CIA just announced a new acquisition framework led by DARPA alum Efstathia Fragogiannis to accelerate technology adoption. This creates a replicable model for intrapreneurs ...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-12.html" class="archive-card">
+                <div class="card-date">February 12, 2026</div>
+                <div class="card-summary">The CIA&#x27;s new acquisition framework with streamlined IT authorization and vendor-vetting creates a proven template that defense intrapreneurs can adapt RIGHT NOW. Program m...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-11.html" class="archive-card">
+                <div class="card-date">February 11, 2026</div>
+                <div class="card-summary">The Navy and DIU are creating a fast-track pathway for strike-capable drones that can launch from non-carrier warships. DIU&#x27;s new solicitation asks for systems carrying 1,0...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+            <a href="briefings/2026-02-07.html" class="archive-card">
+                <div class="card-date">February 07, 2026</div>
+                <div class="card-summary">House Armed Services Committee Chair Mike Rogers is charting a path to a $1.5 trillion defense budget, with analysts at AEI advocating for a $600 billion increase through budget...</div>
+                <div class="card-meta">
+                    <span>60 sources cited</span>
+                    <span class="read-more">Read briefing &rarr;</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://preneurialworks.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

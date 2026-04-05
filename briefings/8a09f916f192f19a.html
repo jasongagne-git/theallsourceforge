@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AFRL&#x27;s National Dual-Use Framework Opens $750M Annual Innovation Gateway | PreneurialWorks</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Air Force Research Lab is transforming its dual-use technology pilot—which cut transition times by 30-40%—into a national innovation framework expected to comma">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+:root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #141925;
+    --bg-tertiary: #1a1d2e;
+    --color-accent: #00bcd4;
+    --color-accent-secondary: #2563eb;
+    --color-amber: #f59e0b;
+    --color-green: #10b981;
+    --color-red: #ef4444;
+    --text-bright: #f8fafc;
+    --text-medium: #cbd5e1;
+    --text-dim: #94a3b8;
+    --text-dimmer: #64748b;
+    --border-dark: #1e293b;
+    --border-subtle: #2d3148;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-medium); line-height: 1.6; font-size: 14px; }
+
+/* Nav */
+.site-nav { background: var(--bg-primary); border-bottom: 1px solid var(--border-subtle); padding: 0.9rem 2rem; position: sticky; top: 0; z-index: 100; }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.nav-brand { font-size: 1.3rem; font-weight: 700; color: var(--text-bright); text-decoration: none; }
+.nav-brand i { color: var(--color-accent); }
+.nav-links { display: flex; gap: 1.8rem; align-items: center; }
+.nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+.nav-links a:hover { color: var(--color-accent); }
+.nav-toggle { display: none; background: none; border: none; color: var(--text-bright); font-size: 1.4rem; cursor: pointer; }
+
+/* Brief header */
+.brief-header { max-width: 780px; margin: 0 auto; padding: 2.5rem 1.5rem 1.5rem; }
+.brief-label { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-amber); margin-bottom: 1rem; }
+.brief-header h1 { font-size: 1.8rem; font-weight: 700; color: var(--text-bright); line-height: 1.25; margin-bottom: 0.5rem; }
+.brief-header .subtitle { font-size: 1rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 1rem; }
+.brief-meta-row { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-dimmer); padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); }
+.brief-meta-row span { display: flex; align-items: center; gap: 0.3rem; }
+.brief-meta-row strong { color: var(--text-dim); }
+
+/* Content */
+.brief-content { max-width: 780px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+.brief-section { margin-bottom: 2rem; }
+.section-heading { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+.section-heading h2 { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-bright); white-space: nowrap; }
+.section-heading .heading-line { flex: 1; height: 1px; background: var(--border-subtle); }
+.brief-section p { color: var(--text-medium); font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.75rem; }
+
+/* Market size callout */
+.market-size-callout { font-size: 2rem; font-weight: 700; color: var(--color-accent); margin-bottom: 0.75rem; }
+
+/* Competitor table */
+.competitor-table-wrap { overflow-x: auto; margin: 1rem 0; }
+.competitor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.competitor-table th { text-align: left; padding: 0.6rem 0.75rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dimmer); border-bottom: 1px solid var(--border-subtle); }
+.competitor-table td { padding: 0.6rem 0.75rem; border-bottom: 1px solid rgba(45,49,72,0.5); color: var(--text-dim); }
+.competitor-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+/* Audience cards */
+.audience-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; }
+.audience-card { background: var(--bg-secondary); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.25rem; }
+.audience-card .audience-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem; }
+.audience-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-bright); margin-bottom: 0.4rem; }
+.audience-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 0; }
+
+/* Risk list */
+.risk-list { list-style: none; padding: 0; }
+.risk-list li { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; background: var(--bg-secondary); border-left: 3px solid var(--color-red); border-radius: 4px; }
+
+/* Action list */
+.action-list { list-style: none; padding: 0; counter-reset: action-counter; }
+.action-list li { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; padding: 0.5rem 0.75rem 0.5rem 2.5rem; margin-bottom: 0.5rem; background: var(--bg-secondary); border-left: 3px solid var(--color-green); border-radius: 4px; position: relative; counter-increment: action-counter; }
+.action-list li::before { content: counter(action-counter); position: absolute; left: 0.75rem; top: 0.5rem; font-size: 0.8rem; font-weight: 700; color: var(--color-green); }
+
+/* Timeline */
+.timeline { position: relative; padding-left: 1.5rem; margin-top: 1rem; }
+.timeline::before { content: ''; position: absolute; left: 0; top: 0.3rem; bottom: 0.3rem; width: 2px; background: var(--border-subtle); }
+.timeline-item { position: relative; margin-bottom: 1rem; padding-left: 0.75rem; }
+.timeline-item::before { content: ''; position: absolute; left: -1.5rem; top: 0.45rem; width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent-secondary); border: 2px solid var(--bg-primary); }
+.timeline-item.active::before { background: var(--color-amber); box-shadow: 0 0 6px rgba(245,158,11,0.4); }
+.timeline-item.deadline::before { background: var(--color-red); box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.timeline-item .tl-date { font-size: 0.7rem; font-weight: 600; color: var(--text-dimmer); text-transform: uppercase; letter-spacing: 0.05em; }
+.timeline-item .tl-event { font-size: 0.85rem; color: var(--text-medium); }
+
+/* Pillar badges */
+.pillar-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+.pillar-badge { font-size: 0.7rem; font-weight: 600; padding: 3px 10px; border-radius: 12px; background: rgba(37,99,235,0.15); color: #93b4f5; letter-spacing: 0.03em; }
+
+/* Source footer */
+.source-footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
+.source-footer p { font-size: 0.75rem; color: var(--text-dimmer); font-style: italic; }
+
+/* CTA */
+.brief-cta { background: var(--bg-secondary); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; text-align: center; margin-top: 2rem; }
+.brief-cta p { font-size: 0.9rem; color: var(--text-dim); margin-bottom: 0.75rem; }
+.brief-cta .btn { display: inline-block; text-decoration: none; background: var(--color-accent-secondary); color: #fff; border-radius: 999px; padding: 0.5rem 1.5rem; font-weight: 600; font-size: 0.85rem; transition: background 0.2s; }
+.brief-cta .btn:hover { background: #3b7cf5; }
+
+/* Footer */
+.footer { background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); color: var(--text-dim); padding: 2rem 0; text-align: center; }
+.footer p { font-size: 0.85rem; }
+.footer a { color: var(--color-accent); text-decoration: none; }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; gap: 1rem; }
+    .nav-toggle { display: block; }
+    .site-nav { position: relative; }
+    .brief-header h1 { font-size: 1.4rem; }
+    .competitor-table { font-size: 0.75rem; }
+}
+.back-link { display: inline-block; margin: 1.5rem auto 0; color: var(--color-accent); text-decoration: none; font-size: 0.9rem; max-width: 780px; padding: 0 1.5rem; }
+.back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">Preneurial<i>works</i></a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="nav-links">
+      <a href="../framework.html">Framework</a>
+      <a href="../innovation-tool.html">Opportunities</a>
+      <a href="../projects.html">Case Studies</a>
+      <a href="../research.html">Research</a>
+      <a href="../archive.html">Briefings</a>
+    </div>
+  </div>
+</nav>
+<a href="../innovation-tool.html" class="back-link">&larr; Back to Opportunities</a>
+
+<div class="brief-header">
+    <div class="brief-label"><i class="fas fa-crosshairs"></i> Defense Signal Brief — DSB Weekly Deep Dive</div>
+    <h1>AFRL&#x27;s National Dual-Use Framework Opens $750M Annual Innovation Gateway</h1>
+    <p class="subtitle">Air Force scales proven pilot into cross-service pathway — seeking partners now.</p>
+    <div class="brief-meta-row">
+        <span><i class="fas fa-calendar-alt"></i> <strong>March 04, 2026</strong> <span style="color:#64748b;font-weight:400;">· Signal from Feb 28, 2026 briefing</span></span>
+        <span><i class="fas fa-signal"></i> Signal: <strong>Institutional Friction</strong></span>
+        <span><i class="fas fa-database"></i> <strong>65 sources scanned, 4 cited</strong></span>
+    </div>
+</div>
+
+<div class="brief-content">
+    <!-- 1. Executive Summary -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Executive Summary</h2><div class="heading-line"></div></div>
+        <p>Air Force Research Lab is transforming its dual-use technology pilot—which cut transition times by 30-40%—into a national innovation framework expected to command $450-750M annually. This expansion creates standardized pathways to accelerate commercial tech adoption across DoD and convert prototypes into programs of record. AFRL is actively recruiting partners to shape implementation, with RFI releases expected Q2 2026.</p>
+    </div>
+
+    <!-- 2. Problem Statement -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Problem Statement</h2><div class="heading-line"></div></div>
+        <p>The &quot;valley of death&quot; between prototype and program of record typically spans 2-5 years, killing 60-70% of promising dual-use technologies. Traditional FAR contracts require 18-36 months from requirement to award, while commercial tech cycles move in 90-180 days. AFRL&#x27;s pilot proved faster pathways work—but lacked scale and cross-service coordination. This national framework addresses the institutional friction that has trapped $2-3B in stranded innovation investments across DoD.</p>
+    </div>
+
+    <!-- 3. Market Context -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Market Context</h2><div class="heading-line"></div></div>
+        <div class="market-size-callout">$450-750M annual AFRL dual-use allocation, expanding to potential $1.5-2B cross-service framework</div>
+        <p>AFRL&#x27;s $2.7-3.0B annual budget dedicates 15-25% to dual-use technology, deploying through OTA ($300-500M annually), SBIR/STTR ($500-700M), and CSO vehicles (~200 awards/year). The national framework consolidates fragmented innovation units—DIU ($150-200M), Army Applications Lab ($50-100M), NavalX ($100-200M)—into coordinated pathways. Traditional primes (Booz Allen $9.9B revenue, SAIC $7.5B, Leidos $15.7B) control 70% of defense R&amp;D spend, while non-traditional vendors via OTA/SBIR capture growing but still minority share (~15-20% of innovation budgets).</p>
+        
+    <div class="competitor-table-wrap">
+        <table class="competitor-table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Market Cap</th>
+                    <th>Vehicles</th>
+                    <th>Relevance</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Science Applications International Corp (SAIC)</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$6.3B</td>
+            <td style="font-size:0.8rem;">GSA OASIS, SEWP, Air Force IT modernization IDIQs</td>
+            <td style="font-size:0.8rem;">Traditional integrator positioned to capture transition-to-program-of-record work as prototypes scale.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">In-Q-Tel</td>
+            <td><span style="color: #ef4444;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">affected party</span></td>
+            <td style="font-size:0.8rem;">Private non-profit, ~$3-4B cumulative investments</td>
+            <td style="font-size:0.8rem;">Strategic investment partnerships, IC-funded tech acceleration</td>
+            <td style="font-size:0.8rem;">Incumbent dual-use intermediary faces new competition as AFRL builds parallel national pathway.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Palantir Technologies</td>
+            <td><span style="color: #f59e0b;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">challenger</span></td>
+            <td style="font-size:0.8rem;">$180B</td>
+            <td style="font-size:0.8rem;">Army TITAN, Air Force ABMS, multiple OTA awards</td>
+            <td style="font-size:0.8rem;">Non-traditional leader capturing awards across all innovation units; stands to benefit from standardized pathways.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Anduril Industries</td>
+            <td><span style="color: #f59e0b;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">challenger</span></td>
+            <td style="font-size:0.8rem;">Private, $14B+ valuation</td>
+            <td style="font-size:0.8rem;">OTA consortia, Middle Tier Acquisition programs</td>
+            <td style="font-size:0.8rem;">Autonomy/AI vendor winning across fragmented units; national framework reduces redundant qualification costs.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Booz Allen Hamilton</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$13B</td>
+            <td style="font-size:0.8rem;">GSA Alliant 2, OASIS, CIO-SP3</td>
+            <td style="font-size:0.8rem;">Innovation advisory incumbent; positioned to shape framework design and capture systems integration roles.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Defense Innovation Unit (DIU)</td>
+            <td><span style="color: #ef4444;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">affected party</span></td>
+            <td style="font-size:0.8rem;">DoD program office, ~$150-200M annual budget</td>
+            <td style="font-size:0.8rem;">OTA, Commercial Solutions Opening</td>
+            <td style="font-size:0.8rem;">Cross-service innovation unit; national framework consolidates overlapping mission with AFRL, NavalX, Army.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">AFWERX</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">Air Force program office, ~$1.5B+ deployed through 2024</td>
+            <td style="font-size:0.8rem;">SBIR Open Topics, CSO, Prime Ventures</td>
+            <td style="font-size:0.8rem;">AFRL sister unit; national framework likely integrates AFWERX as execution arm for early-stage tech.</td>
+        </tr></tbody>
+        </table>
+    </div>
+    </div>
+
+    <!-- 4. Opportunity Analysis -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Opportunity Analysis</h2><div class="heading-line"></div></div>
+        <div class="audience-grid">
+        <div class="audience-card">
+            <div class="audience-label" style="color:#00bcd4;"><i class="fas fa-building"></i> Federal Program Managers &amp; CTOs</div>
+            <h3>Shape the framework now — AFRL seeks partner agencies to co-design pathways.</h3>
+            <p>AFRL is recruiting cross-service partners before formal RFI release (estimated Q2 2026). Program managers at NAVWAR (NavalX parent), Army Futures Command, SOCOM (SOFWERX), and Space Force innovation units should engage AFRL/XR (Research Directorate) directly to co-author requirements and secure interagency funding agreements. The framework offers standardized OTA consortia memberships, shared SBIR topics, and joint Phase III transition authorities—reducing redundant vendor qualification costs. Officials should leverage existing AFRL OTA vehicles (NSTXL, ATI consortia) to pilot cross-service projects before framework launch. Risk: Missing early input means inheriting pathways designed for Air Force-centric requirements.</p>
+        </div>
+        <div class="audience-card">
+            <div class="audience-label" style="color:#f59e0b;"><i class="fas fa-briefcase"></i> Defense &amp; Gov-Tech Contractors</div>
+            <h3>Consolidate fragmented innovation pipelines — one qualification, multiple services.</h3>
+            <p>Traditional primes (SAIC, Leidos, Booz Allen) should position for systems integration roles as prototypes scale to programs of record. The framework reduces &quot;death by 1,000 pilots&quot;—enabling one OTA award to unlock Air Force, Army, Navy opportunities via shared transition pathways. Contractors should join AFRL OTA consortia (NSTXL, ATI) now and pursue Middle Tier Acquisition rapid prototyping vehicles ($10-100M range). Watch for AFRL&#x27;s anticipated BAA release 60-90 days after RFI, targeting framework design partners. Non-traditional vendors (Palantir, Anduril) benefit most—standardized pathways eliminate redundant demonstrations across DIU, AFWERX, NavalX. Risk: Congressional continuing resolutions could delay 40% of new starts; hedge by pursuing FY2025-funded pilot integration.</p>
+        </div>
+        <div class="audience-card">
+            <div class="audience-label" style="color:#10b981;"><i class="fas fa-rocket"></i> GovTech Startups &amp; Market Entrants</div>
+            <h3>Bypass the valley of death — pilot-to-program pathway cuts 2-5 year transition gap.</h3>
+            <p>Startups should target AFWERX SBIR Open Topics and CSO pathways now ($50K-$1.5M awards) as national framework feeder mechanisms. The framework&#x27;s promise: successful SBIR Phase II becomes automatic qualification for Air Force, Army, Navy Phase III transitions (typical $3-8M awards). Entrepreneurs must achieve TRL 7-8 and initiate mil-spec qualification ($2-10M cost, 12-24 months)—framework partners will likely receive transition funding support. Geographic advantage: Austin (Army Applications Lab), Dayton (AFRL HQ), San Diego (NavalX) hubs. Critical: Secure CMMC Level 2 compliance ($100K-$5M investment) and expect Secret clearance requirements (3-6 months). Risk: Top 10 non-traditional vendors (Palantir, Anduril, Shield Capital portfolio) already capture 50-60% of OTA dollars—startups must differentiate with niche capabilities or partner with primes.</p>
+        </div>
+</div>
+    </div>
+
+    <!-- 5. Risk Factors -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Risk Factors</h2><div class="heading-line"></div></div>
+        <ul class="risk-list"><li>Budget Uncertainty — Potential 3-5% defense topline cuts and continuing resolutions threaten 40% of new program starts; national framework could face delayed FY2027 full implementation or reduced $450-750M allocation.</li><li>Incumbent Resistance — Traditional primes file 60% of major protests; consolidating innovation pathways into AFRL framework invites GAO challenges from In-Q-Tel, DIU stakeholders, and contractors losing redundant award opportunities.</li><li>Technology Maturity Gap — Commercial tech (TRL 7-9) requires $2-10M and 12-24 months for mil-spec qualification; framework success depends on transition funding mechanisms not yet detailed in public announcements.</li></ul>
+    </div>
+
+    <!-- 6. Decision Timeline -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Decision Timeline</h2><div class="heading-line"></div></div>
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="tl-date">2017-2023</div>
+            <div class="tl-event">AFRL dual-use pilot demonstrates 30-40% faster transition times; AFWERX deploys $1.5B+ through SBIR/CSO pathways</div>
+        </div>
+        <div class="timeline-item">
+            <div class="tl-date">Feb 2026</div>
+            <div class="tl-event">AFRL announces national framework expansion; begins recruiting cross-service partners</div>
+        </div>
+        <div class="timeline-item active">
+            <div class="tl-date">Now — Q2 2026</div>
+            <div class="tl-event">Partner engagement window — agencies and contractors shape framework design; RFI release expected April-June 2026</div>
+        </div>
+        <div class="timeline-item deadline">
+            <div class="tl-date">Q3 2026</div>
+            <div class="tl-event">BAA release for framework design partners (60-90 days post-RFI); proposal deadline 30-60 days later</div>
+        </div>
+        <div class="timeline-item">
+            <div class="tl-date">Q4 2026 — Q1 2027</div>
+            <div class="tl-event">Framework pilot integration across AFRL, DIU, Army, Navy innovation units; initial awards 90-120 days post-deadline</div>
+        </div>
+        <div class="timeline-item deadline">
+            <div class="tl-date">FY2027 (Oct 2026)</div>
+            <div class="tl-event">Full national framework operational; standardized OTA consortia, shared SBIR topics, joint Phase III authorities activated</div>
+        </div>
+</div>
+    </div>
+
+    <!-- 7. Recommended Actions -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Recommended Actions</h2><div class="heading-line"></div></div>
+        <ol class="action-list"><li>Federal Officials: Contact AFRL/XR Research Directorate immediately to secure co-design role; leverage existing interagency agreements with NAVWAR, Army Futures Command, SOCOM to fast-track framework participation. Propose joint OTA topics and shared Phase III transition authorities in Q2 2026 partner meetings.</li><li>Contractors: Join AFRL OTA consortia (NSTXL, ATI) by April 2026; pursue AFWERX SBIR Open Topics and CSO awards as framework feeder pathways. Traditional primes should position for systems integration roles via GSA OASIS/Alliant 2 vehicles; non-traditional vendors should target Middle Tier Acquisition rapid prototyping ($10-100M range) before BAA release Q3 2026.</li><li>Startups: Achieve TRL 7-8 and initiate CMMC Level 2 compliance ($100K-$5M) by Q3 2026 to qualify for framework pilot awards. Target AFWERX SBIR Phase II ($750K-$1.5M) now; position for automatic Phase III transition ($3-8M) when national framework activates FY2027. Consider geographic relocation to Dayton, Austin, or San Diego innovation hubs.</li></ol>
+    </div>
+
+    <!-- 8. Framework Lens -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Framework Lens</h2><div class="heading-line"></div></div>
+        <div class="pillar-badges"><span class="pillar-badge">Institutional Friction</span> <span class="pillar-badge">Innovation Pathways</span> <span class="pillar-badge">Responsible Adoption</span></div>
+        <p>This signal embodies Institutional Friction reduction at scale—AFRL&#x27;s framework directly attacks the 2-5 year &quot;valley of death&quot; that kills 60-70% of dual-use prototypes by consolidating fragmented innovation units into standardized pathways. Innovation Pathways are formalized through shared OTA consortia, joint SBIR topics, and cross-service Phase III authorities, cutting redundant vendor qualification costs by an estimated 40-60%. Responsible Adoption surfaces in mil-spec qualification requirements and CMMC compliance mandates—ensuring commercial tech meets operational security thresholds. The framework&#x27;s measurable impact target: reduce prototype-to-program timeline from 18-36 months (traditional FAR) to 6-12 months (OTA pathway), unlocking $1.5-2B stranded innovation investments across DoD. Success hinges on Congressional budget stability and overcoming incumbent resistance from traditional primes and parallel innovation units (In-Q-Tel, DIU) protecting existing revenue streams.</p>
+    </div>
+
+    <!-- Sources (compact) -->
+    <div class="source-footer">
+        <p>This brief synthesized 4 sources including Nextgov, SAM.gov — IN-Q-TEL INC, SEC/EDGAR — ONTO INNOVATION INC., and 1 more after scanning 65 databases, news feeds, and APIs.</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="brief-cta">
+        <p>Defense Signal Brief Weekly Deep Dives are published midweek for subscribers, building on signals from the Sunday Defense Signal Brief.</p>
+        <a href="https://preneurial.works/subscribe.html" class="btn">Subscribe to get both</a>
+    </div>
+</div>
+</body>
+</html>

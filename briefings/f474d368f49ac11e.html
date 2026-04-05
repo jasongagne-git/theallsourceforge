@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DHS Shutdown Exposes $8B TSA Privatization Chokepoint as Pentagon Claims $200B Priority | PreneurialWorks</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="The Pentagon&#x27;s reported $200B Iran operations request has created appropriations gridlock, leaving DHS unfunded and 60,000+ TSA screeners unpaid as of March 202">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+:root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #141925;
+    --bg-tertiary: #1a1d2e;
+    --color-accent: #00bcd4;
+    --color-accent-secondary: #2563eb;
+    --color-amber: #f59e0b;
+    --color-green: #10b981;
+    --color-red: #ef4444;
+    --text-bright: #f8fafc;
+    --text-medium: #cbd5e1;
+    --text-dim: #94a3b8;
+    --text-dimmer: #64748b;
+    --border-dark: #1e293b;
+    --border-subtle: #2d3148;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-medium); line-height: 1.6; font-size: 14px; }
+
+/* Nav */
+.site-nav { background: var(--bg-primary); border-bottom: 1px solid var(--border-subtle); padding: 0.9rem 2rem; position: sticky; top: 0; z-index: 100; }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+.nav-brand { font-size: 1.3rem; font-weight: 700; color: var(--text-bright); text-decoration: none; }
+.nav-brand i { color: var(--color-accent); }
+.nav-links { display: flex; gap: 1.8rem; align-items: center; }
+.nav-links a { color: var(--text-dim); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+.nav-links a:hover { color: var(--color-accent); }
+.nav-toggle { display: none; background: none; border: none; color: var(--text-bright); font-size: 1.4rem; cursor: pointer; }
+
+/* Brief header */
+.brief-header { max-width: 780px; margin: 0 auto; padding: 2.5rem 1.5rem 1.5rem; }
+.brief-label { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-amber); margin-bottom: 1rem; }
+.brief-header h1 { font-size: 1.8rem; font-weight: 700; color: var(--text-bright); line-height: 1.25; margin-bottom: 0.5rem; }
+.brief-header .subtitle { font-size: 1rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 1rem; }
+.brief-meta-row { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--text-dimmer); padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); }
+.brief-meta-row span { display: flex; align-items: center; gap: 0.3rem; }
+.brief-meta-row strong { color: var(--text-dim); }
+
+/* Content */
+.brief-content { max-width: 780px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+.brief-section { margin-bottom: 2rem; }
+.section-heading { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+.section-heading h2 { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-bright); white-space: nowrap; }
+.section-heading .heading-line { flex: 1; height: 1px; background: var(--border-subtle); }
+.brief-section p { color: var(--text-medium); font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.75rem; }
+
+/* Market size callout */
+.market-size-callout { font-size: 2rem; font-weight: 700; color: var(--color-accent); margin-bottom: 0.75rem; }
+
+/* Competitor table */
+.competitor-table-wrap { overflow-x: auto; margin: 1rem 0; }
+.competitor-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.competitor-table th { text-align: left; padding: 0.6rem 0.75rem; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dimmer); border-bottom: 1px solid var(--border-subtle); }
+.competitor-table td { padding: 0.6rem 0.75rem; border-bottom: 1px solid rgba(45,49,72,0.5); color: var(--text-dim); }
+.competitor-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+/* Audience cards */
+.audience-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; }
+.audience-card { background: var(--bg-secondary); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.25rem; }
+.audience-card .audience-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem; }
+.audience-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-bright); margin-bottom: 0.4rem; }
+.audience-card p { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 0; }
+
+/* Risk list */
+.risk-list { list-style: none; padding: 0; }
+.risk-list li { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem; background: var(--bg-secondary); border-left: 3px solid var(--color-red); border-radius: 4px; }
+
+/* Action list */
+.action-list { list-style: none; padding: 0; counter-reset: action-counter; }
+.action-list li { font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; padding: 0.5rem 0.75rem 0.5rem 2.5rem; margin-bottom: 0.5rem; background: var(--bg-secondary); border-left: 3px solid var(--color-green); border-radius: 4px; position: relative; counter-increment: action-counter; }
+.action-list li::before { content: counter(action-counter); position: absolute; left: 0.75rem; top: 0.5rem; font-size: 0.8rem; font-weight: 700; color: var(--color-green); }
+
+/* Timeline */
+.timeline { position: relative; padding-left: 1.5rem; margin-top: 1rem; }
+.timeline::before { content: ''; position: absolute; left: 0; top: 0.3rem; bottom: 0.3rem; width: 2px; background: var(--border-subtle); }
+.timeline-item { position: relative; margin-bottom: 1rem; padding-left: 0.75rem; }
+.timeline-item::before { content: ''; position: absolute; left: -1.5rem; top: 0.45rem; width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent-secondary); border: 2px solid var(--bg-primary); }
+.timeline-item.active::before { background: var(--color-amber); box-shadow: 0 0 6px rgba(245,158,11,0.4); }
+.timeline-item.deadline::before { background: var(--color-red); box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.timeline-item .tl-date { font-size: 0.7rem; font-weight: 600; color: var(--text-dimmer); text-transform: uppercase; letter-spacing: 0.05em; }
+.timeline-item .tl-event { font-size: 0.85rem; color: var(--text-medium); }
+
+/* Pillar badges */
+.pillar-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+.pillar-badge { font-size: 0.7rem; font-weight: 600; padding: 3px 10px; border-radius: 12px; background: rgba(37,99,235,0.15); color: #93b4f5; letter-spacing: 0.03em; }
+
+/* Source footer */
+.source-footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
+.source-footer p { font-size: 0.75rem; color: var(--text-dimmer); font-style: italic; }
+
+/* CTA */
+.brief-cta { background: var(--bg-secondary); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; text-align: center; margin-top: 2rem; }
+.brief-cta p { font-size: 0.9rem; color: var(--text-dim); margin-bottom: 0.75rem; }
+.brief-cta .btn { display: inline-block; text-decoration: none; background: var(--color-accent-secondary); color: #fff; border-radius: 999px; padding: 0.5rem 1.5rem; font-weight: 600; font-size: 0.85rem; transition: background 0.2s; }
+.brief-cta .btn:hover { background: #3b7cf5; }
+
+/* Footer */
+.footer { background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); color: var(--text-dim); padding: 2rem 0; text-align: center; }
+.footer p { font-size: 0.85rem; }
+.footer a { color: var(--color-accent); text-decoration: none; }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; gap: 1rem; }
+    .nav-toggle { display: block; }
+    .site-nav { position: relative; }
+    .brief-header h1 { font-size: 1.4rem; }
+    .competitor-table { font-size: 0.75rem; }
+}
+.back-link { display: inline-block; margin: 1.5rem auto 0; color: var(--color-accent); text-decoration: none; font-size: 0.9rem; max-width: 780px; padding: 0 1.5rem; }
+.back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">Preneurial<i>works</i></a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="nav-links">
+      <a href="../framework.html">Framework</a>
+      <a href="../innovation-tool.html">Opportunities</a>
+      <a href="../projects.html">Case Studies</a>
+      <a href="../research.html">Research</a>
+      <a href="../archive.html">Briefings</a>
+    </div>
+  </div>
+</nav>
+<a href="../innovation-tool.html" class="back-link">&larr; Back to Opportunities</a>
+
+<div class="brief-header">
+    <div class="brief-label"><i class="fas fa-crosshairs"></i> Defense Signal Brief — DSB Weekly Deep Dive</div>
+    <h1>DHS Shutdown Exposes $8B TSA Privatization Chokepoint as Pentagon Claims $200B Priority</h1>
+    <p class="subtitle">Budget gridlock creates 18-month window for emergency security contracting—if legal barriers fall</p>
+    <div class="brief-meta-row">
+        <span><i class="fas fa-calendar-alt"></i> <strong>March 25, 2026</strong> <span style="color:#64748b;font-weight:400;">· Signal from Mar 22, 2026 briefing</span></span>
+        <span><i class="fas fa-signal"></i> Signal: <strong>Institutional Friction</strong></span>
+        <span><i class="fas fa-database"></i> <strong>63 sources scanned, 8 cited</strong></span>
+    </div>
+</div>
+
+<div class="brief-content">
+    <!-- 1. Executive Summary -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Executive Summary</h2><div class="heading-line"></div></div>
+        <p>The Pentagon&#x27;s reported $200B Iran operations request has created appropriations gridlock, leaving DHS unfunded and 60,000+ TSA screeners unpaid as of March 2026. While political pressure mounts for privatization under the Screening Partnership Program, no legal pathway exists for emergency contracting to replace federal screeners at scale—and the Big 5 defense contractors lack operational aviation security portfolios. The real opportunity: niche players positioned to deliver interim security management, analytics, and workforce augmentation through existing vehicles like DHS EAGLE II and GSA OASIS+.</p>
+    </div>
+
+    <!-- 2. Problem Statement -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Problem Statement</h2><div class="heading-line"></div></div>
+        <p>TSA&#x27;s 440+ airports depend on federally-employed screeners under 49 USC § 44901, but appropriations gridlock has created operational chaos without triggering legal authorities for emergency privatization. The Screening Partnership Program requires 18-24 months per airport and TSA approval—far too slow for crisis response. Meanwhile, none of the major defense IT contractors (Leidos, CACI, SAIC, Booz Allen) have aviation security operations in their portfolios, exposing a $8B+ market gap for security workforce management, biometric identity systems, and AI-driven threat detection that could be delivered through existing IDIQ vehicles.</p>
+    </div>
+
+    <!-- 3. Market Context -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Market Context</h2><div class="heading-line"></div></div>
+        <div class="market-size-callout">$8.9B (TSA FY2025 enacted budget; ~$3.2B for screening operations annually)</div>
+        <p>TSA&#x27;s 60,000-person screening workforce represents a $3.2B annual labor cost across 440 airports, but privatization remains a political third rail with only 20 airports currently using private screeners under SPP. The real contracting opportunity is adjacent: workforce management systems, biometric identity platforms (CAT-2 scanners), AI/ML threat detection, and training/certification infrastructure. DHS EAGLE II ($22B ceiling, expiring 2026) and GSA OASIS+ (unrestricted) provide immediate procurement pathways, but none have been used for operational security at TSA scale.</p>
+        
+    <div class="competitor-table-wrap">
+        <table class="competitor-table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Market Cap</th>
+                    <th>Vehicles</th>
+                    <th>Relevance</th>
+                </tr>
+            </thead>
+            <tbody>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Leidos Holdings, Inc.</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$17-19B (est. 126.4M shares)</td>
+            <td style="font-size:0.8rem;">DHS EAGLE II, GSA OASIS+, DoD JETS</td>
+            <td style="font-size:0.8rem;">Largest defense IT contractor with DHS access, but lacks aviation security operations; positioned for biometric/AI systems integration only.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">CACI International Inc.</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$10-12B (est. 22.1M shares)</td>
+            <td style="font-size:0.8rem;">DHS EAGLE II, GSA OASIS+, DoD OCONUS IT</td>
+            <td style="font-size:0.8rem;">Aggressive acquirer with DHS vehicle access; positioned for intelligence/vetting systems, not workforce operations.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Science Applications International Corporation (SAIC)</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$5-6B (est. 43.4M shares)</td>
+            <td style="font-size:0.8rem;">DHS EAGLE II, GSA OASIS+, Navy SeaPort-NxG</td>
+            <td style="font-size:0.8rem;">Declining margins and competitive pressure suggest limited capacity for new high-risk operational contracts.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Booz Allen Hamilton Inc.</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">$13-15B (est. 120.6M shares)</td>
+            <td style="font-size:0.8rem;">DHS EAGLE II, GSA OASIS+, DoD ADVANA</td>
+            <td style="font-size:0.8rem;">Fastest-growing incumbent with AI/analytics strength; best positioned for threat detection and identity management systems.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Peraton (formerly Perspecta LLC)</td>
+            <td><span style="color: #00bcd4;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">incumbent</span></td>
+            <td style="font-size:0.8rem;">Private (Veritas Capital acquired 2021 for $7.1B)</td>
+            <td style="font-size:0.8rem;">DHS EAGLE II (legacy Perspecta holdings), Classified USIC vehicles</td>
+            <td style="font-size:0.8rem;">Privately held with deep Intel Community ties; positioned for vetting/clearance infrastructure, not public-facing operations.</td>
+        </tr>
+        <tr>
+            <td style="font-weight:600;color:var(--text-bright);">Unisys Corporation</td>
+            <td><span style="color: #ef4444;font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">affected party</span></td>
+            <td style="font-size:0.8rem;">$1-1.5B (est. 71.3M shares)</td>
+            <td style="font-size:0.8rem;">Legacy TSA IT contracts (pre-2015), GSA Schedule 70</td>
+            <td style="font-size:0.8rem;">Legacy TSA IT provider in financial distress; unlikely to compete for new operational contracts but holds institutional knowledge.</td>
+        </tr></tbody>
+        </table>
+    </div>
+    </div>
+
+    <!-- 4. Opportunity Analysis -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Opportunity Analysis</h2><div class="heading-line"></div></div>
+        <div class="audience-grid">
+        <div class="audience-card">
+            <div class="audience-label" style="color:#00bcd4;"><i class="fas fa-building"></i> Federal Program Managers &amp; CTOs</div>
+            <h3>Use DHS EAGLE II and OASIS+ to contract for workforce analytics and biometric systems—not screener replacement.</h3>
+            <p>TSA&#x27;s Office of Security Operations (OSO) and Innovation Task Force should issue task orders under DHS EAGLE II (before 2026 expiration) or GSA OASIS+ for adjacent capabilities: AI-driven queue management, biometric identity verification (CAT-2 scanner upgrades), and workforce scheduling optimization. These avoid the 49 USC § 44901 federal employee requirement and deliver measurable passenger throughput improvements within 6-9 months. Partner with DHS S&amp;T Directorate to pilot AI threat detection under OTA authority (6 USC § 391) at 3-5 test airports before broader rollout.</p>
+        </div>
+        <div class="audience-card">
+            <div class="audience-label" style="color:#f59e0b;"><i class="fas fa-briefcase"></i> Defense &amp; Gov-Tech Contractors</div>
+            <h3>Partner with airport authorities and private security firms to build SPP-ready consortia—18-month lead time required.</h3>
+            <p>Major integrators (Leidos, Booz Allen, CACI) lack operational aviation security portfolios but can capture the back-office systems layer: training management, clearance processing, and performance analytics. The SPP pathway requires partnerships with licensed security providers (Allied Universal, Securitas, G4S) who hold the operational credentials. Build teaming agreements now for 2027-2028 SPP competitions at mid-tier airports (10-20M annual passengers) where local political support exists. Focus on airports in states with Republican congressional delegations pressing for privatization.</p>
+        </div>
+        <div class="audience-card">
+            <div class="audience-label" style="color:#10b981;"><i class="fas fa-rocket"></i> GovTech Startups &amp; Market Entrants</div>
+            <h3>Target TSA&#x27;s Innovation Task Force with AI queue management and biometric SaaS—avoid the screener replacement trap.</h3>
+            <p>Startups should ignore the privatization narrative (18-24 month timelines, federal employee legal barriers) and focus on software/analytics sold directly to TSA or airport authorities. Offer: Real-time queue prediction using computer vision, biometric credential reconciliation (linking CAT-2 to CBP databases), or screener scheduling optimization. Use GSA Schedule 70 or direct airport authority contracts (bypassing federal procurement). TSA&#x27;s FY2025 Innovation Task Force budget (~$50-80M) and airport authority IT budgets ($200-500M collectively) are accessible within 3-6 months through pilots.</p>
+        </div>
+</div>
+    </div>
+
+    <!-- 5. Risk Factors -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Risk Factors</h2><div class="heading-line"></div></div>
+        <ul class="risk-list"><li>Legal Barrier — 49 USC § 44901 requires federal screeners absent SPP waiver; no emergency authority exists to bypass this statute even during appropriations lapses, and historical precedent (2018-2019 shutdown) shows TSA employees work unpaid rather than privatize.</li><li>Timeline Mismatch — SPP transitions take 18-24 months per airport from application to operations; any emergency contracting solution arrives too late to address current crisis, and DHS EAGLE II expires in 2026 before large-scale task orders could deploy.</li><li>Incumbent Gap — None of the Big 5 defense contractors (Leidos, CACI, SAIC, Booz Allen, Peraton) have operational aviation security portfolios or licensed security workforces; teaming with Allied Universal/Securitas adds complexity and delays JV approvals by 6-12 months.</li></ul>
+    </div>
+
+    <!-- 6. Decision Timeline -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Decision Timeline</h2><div class="heading-line"></div></div>
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="tl-date">December 2018 - January 2019</div>
+            <div class="tl-event">35-day government shutdown: TSA screeners worked unpaid, 10% callout rates, no privatization actions taken despite operational stress</div>
+        </div>
+        <div class="timeline-item">
+            <div class="tl-date">May 2021</div>
+            <div class="tl-event">Perspecta acquired by Veritas Capital to form Peraton ($7.1B transaction); consolidated defense IT market reduced competitive options</div>
+        </div>
+        <div class="timeline-item">
+            <div class="tl-date">October 1, 2024</div>
+            <div class="tl-event">FY2025 begins; typical 3-6 month continuing resolution begins (expiration likely March-April 2025)</div>
+        </div>
+        <div class="timeline-item active">
+            <div class="tl-date">March 22, 2026</div>
+            <div class="tl-event">Signal date: DHS remains unfunded, TSA screeners unpaid, Pentagon seeks $200B Iran supplemental creating appropriations gridlock</div>
+        </div>
+        <div class="timeline-item active">
+            <div class="tl-date">Now — Q2 2026</div>
+            <div class="tl-event">Window for TSA Innovation Task Force to issue DHS EAGLE II task orders for AI/biometric systems before vehicle expiration</div>
+        </div>
+        <div class="timeline-item deadline">
+            <div class="tl-date">Late 2026</div>
+            <div class="tl-event">DHS EAGLE II contract vehicle expires; new awards must shift to GSA OASIS+ or successor vehicles</div>
+        </div>
+        <div class="timeline-item">
+            <div class="tl-date">Q1 2027</div>
+            <div class="tl-event">Earliest possible SPP application approvals for airports applying in Q2 2026; 18-month implementation timeline begins</div>
+        </div>
+        <div class="timeline-item deadline">
+            <div class="tl-date">Q3-Q4 2027</div>
+            <div class="tl-event">First operational transitions possible for mid-tier airports (10-20M passengers) under expedited SPP timeline</div>
+        </div>
+</div>
+    </div>
+
+    <!-- 7. Recommended Actions -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Recommended Actions</h2><div class="heading-line"></div></div>
+        <ol class="action-list"><li>TSA Office of Security Operations: Issue task orders under DHS EAGLE II (before 2026 expiration) for AI-driven queue management pilots at 5 high-traffic airports (ATL, ORD, DFW, LAX, DEN); target 90-day award cycle with Booz Allen or Leidos as likely awardees based on AI/ML portfolio strength.</li><li>Defense Contractors (Leidos, Booz Allen, CACI): Form teaming agreements with Allied Universal or Securitas by Q3 2026 to build SPP-ready consortia; target 8-12 mid-tier airports in Texas, Florida, and Georgia where Republican congressional delegations support privatization; pre-position joint capabilities statements.</li><li>GovTech Startups: Pursue GSA Schedule 70 or direct airport authority contracts for biometric SaaS and computer vision analytics; bypass federal procurement delays by selling to airport operators (Port Authority of NY/NJ, LAX World Airports, Dallas Fort Worth International); target $500K-$2M pilot contracts deliverable in 6 months.</li><li>Congressional Appropriators: Amend 6 USC § 391 to expand DHS OTA authority from R&amp;D to operational prototypes for security technologies; enables 90-day procurement cycles for AI threat detection and biometric systems without full FAR compliance.</li><li>Airport Authority CIOs: Independently fund queue management and passenger flow optimization using capital improvement budgets ($50-200M annually per major hub); deploy vendor-neutral APIs to integrate with TSA systems and demonstrate operational improvements that pressure federal adoption.</li></ol>
+    </div>
+
+    <!-- 8. Framework Lens -->
+    <div class="brief-section">
+        <div class="section-heading"><h2>Framework Lens</h2><div class="heading-line"></div></div>
+        <div class="pillar-badges"><span class="pillar-badge">Institutional Friction</span> <span class="pillar-badge">Responsible Adoption</span></div>
+        <p>This signal exposes acute Institutional Friction at the intersection of appropriations politics and operational continuity—TSA&#x27;s legal requirement for federal screeners (49 USC § 44901) collides with budget gridlock, yet no emergency authority exists to bridge the gap. The 2018-2019 shutdown precedent proves the system tolerates operational degradation rather than rapid privatization. The Responsible Adoption challenge: any technology solution (AI threat detection, biometric identity) must navigate TSA&#x27;s risk-averse certification process while delivering measurable throughput improvements without compromising security baselines. The Innovation Pathway is narrow—existing IDIQ vehicles (DHS EAGLE II, GSA OASIS+) enable rapid contracting for adjacent capabilities (analytics, workforce management), but the 18-24 month SPP timeline for operational transitions means the window for emergency action has already closed. Measurable Impact requires focusing on software/systems that improve screener productivity (passengers per hour per lane) rather than attempting wholesale privatization.</p>
+    </div>
+
+    <!-- Sources (compact) -->
+    <div class="source-footer">
+        <p>This brief synthesized 8 sources including Federal News Network, The Hill, SAM.gov — Oneida-Leidos JV, LLC, and 5 more after scanning 63 databases, news feeds, and APIs.</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="brief-cta">
+        <p>Defense Signal Brief Weekly Deep Dives are published midweek for subscribers, building on signals from the Sunday Defense Signal Brief.</p>
+        <a href="https://preneurial.works/innovation-tool.html" class="btn">Subscribe to get both</a>
+    </div>
+</div>
+<div style="max-width:780px;margin:1.5rem auto 0;padding:0 1.5rem 2rem;text-align:center;">
+  <p style="color:var(--text-dimmer);font-size:0.7rem;font-style:italic;margin:0;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+</body>
+</html>
