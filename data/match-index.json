@@ -1,53 +1,207 @@
 {
   "signals": [
     {
+      "signal_id": "290aaa8311308ecf8f1d3af8c906ea3fc1c1d94d2fe211aadf913e381dca63b9",
+      "title": "Woman Wrongfully Jailed 5 Months After AI Facial Recognition Error",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-17T07:01:14.295828"
+    },
+    {
+      "signal_id": "568cad7aaa24db8b",
+      "title": "Navy Requests $3B for Tomahawks, 1,200% Procurement Increase",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.262882"
+    },
+    {
+      "signal_id": "3d137bc0af2799f2",
+      "title": "Pentagon Deploys Anti-Drone Laser After FAA Testing",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.261769"
+    },
+    {
+      "signal_id": "da8bbe69c371c49d",
+      "title": "20% of Workers Report AI Replacing Job Tasks",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.261189"
+    },
+    {
+      "signal_id": "a5e7a6aa653e312f",
+      "title": "GSA Shifts USAi from Free to Paid Service",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.260736"
+    },
+    {
+      "signal_id": "976a30320d6924ed",
+      "title": "Anthropic's Glasswing Discovers Thousands of Cyber Vulnerabilities",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.260282"
+    },
+    {
+      "signal_id": "a743eb44f9a01105",
+      "title": "VA Seeks 10.9% Budget Increase for AI Infrastructure",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.259444"
+    },
+    {
+      "signal_id": "e36a33732a0c5f95",
+      "title": "CIA Generates First Intelligence Report Using AI",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.258724"
+    },
+    {
+      "signal_id": "318a17e9bed1aa59",
+      "title": "Pentagon's Anthropic Blacklist Opens Doors for Small AI Rivals",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.257967"
+    },
+    {
+      "signal_id": "7de5a55a71d4368a",
+      "title": "DIA Centralizes AI Efforts with Digital Modernization Accelerator",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-15T07:00:03.255836"
+    },
+    {
+      "signal_id": "4b4502aa20d0f242c6ed448dd9470b2c60389fd29fefb0a5f61b58978fa97d41",
+      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.491216"
+    },
+    {
+      "signal_id": "6186dcd522c5cdcd24610606361bc0d27139edd55a0a8d451d16953c873a3309",
+      "title": "Acclarent TruDi Navigation System Was Alleged to Have Misguided Sinus Surgery, Reportedly Contributing to Patient's Stroke",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.471985"
+    },
+    {
+      "signal_id": "cbdedc2befaeeabc3e06b7c26b07e0b10477c424fb8b7e0694c9a58f409da9d1",
+      "title": "Purported Pornographic Deepfakes and Fake Accounts Reportedly Impersonated German TV Presenter and Actor Collien Fernandes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.438989"
+    },
+    {
+      "signal_id": "a4b5c53100ae2ba8b94ea855750e7e2dc0461f4526e332f6d65ac7b3326c26ea",
+      "title": "Google Gemini Reportedly Reinforced Delusions,  Allegedly Contributing to Florida User's Near-Harm Episode and Suicide",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.431012"
+    },
+    {
+      "signal_id": "bb553daf139372aa8c63cc984f3bbbd366e2bd17313d8d9e16e1099e63093b2e",
+      "title": "Anthropic's Claude Was Reportedly Jailbroken To Allegedly Help Steal Sensitive Mexican Government Data",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.424011"
+    },
+    {
+      "signal_id": "58aeee076be7badd8904edb44127c4f37b42991df7cfaaa92e112959abe4d786",
+      "title": "UK High Court Found Sky Betting & Gaming Unlawfully Used Automated Profiling and Targeted Marketing to Exploit a Recovering Problem Gambler",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.397288"
+    },
+    {
+      "signal_id": "d0fd641cc0c7c541377be3cb2b65ddaf15bb37b02716f29c9438b19bcf5f6609",
+      "title": "Baltimore Lawsuit Alleged DraftKings and FanDuel Used Machine-Learning-Driven Targeting to Exploit Vulnerable Gamblers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.388787"
+    },
+    {
+      "signal_id": "3fe8a535bef652aba1461ff92151ab11dfb070280c0beb6fd7856bd4c016cfad",
+      "title": "Perplexity AI Reportedly Misstated CLL Research, Allegedly Contributing to Delayed Treatment and Prolonged Suffering",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.380791"
+    },
+    {
+      "signal_id": "b55134b91b806e0cef5816035facb4b1d0dbf9317d510fa07f08b01ece0f3678",
+      "title": "'Citizens Against Mamdani' Accounts Reportedly Posted AI-Generated Videos of Fictional New Yorkers to Simulate Political Opposition",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.377456"
+    },
+    {
+      "signal_id": "726a8749705a5a9c89960593cfecb8bfb9a3cf8f29a4ada62fc794affce29d61",
+      "title": "Bal\u00e1zs Orb\u00e1n Allegedly Published Purported Deepfake of P\u00e9ter Magyar Claiming He Would Cut Pensions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.325576"
+    },
+    {
+      "signal_id": "13c153ec2575fe534de46724f8a93dc273e119f526f968b65812b30c5e2b71dd",
+      "title": "Purported Deepfake Images of Gr\u00e1inne Seoige Reportedly Circulated During Ireland's 2024 General Election Campaign",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.314919"
+    },
+    {
+      "signal_id": "b5409913a13f07285e08c0840f59533d3a25bb180cd3072a306298b1a8b6e06a",
+      "title": "Meta AI Smart Glasses Reportedly Exposed Intimate User Imagery and Video to Human Reviewers in Kenya",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.299045"
+    },
+    {
+      "signal_id": "51bd993eb531bfcaa465b6a77c116865dbd7082d7edd0232708c89318e9d24cd",
+      "title": "Purported Facial Recognition Error Reportedly Led to Arrest and Jailing of Tennessee Woman in North Dakota Fraud Case",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-10T07:03:08.265512"
+    },
+    {
       "signal_id": "3a1eca9e3f5f119d",
       "title": "AI Governance Measures Success by Acquisition Activity, Not Deployment Outcomes",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.170448"
-    },
-    {
-      "signal_id": "d4aee9e422c922ef",
-      "title": "Army Launches $50 Billion MAPS Enterprise Contracting Vehicle with 350 Awards",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.169992"
+      "last_updated": "2026-04-08T07:00:05.936285"
     },
     {
       "signal_id": "e100313a1352995a",
       "title": "CIA Analysis Predicts AI Trust Erosion Will Revive Human Intelligence Tradecraft",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.169331"
+      "last_updated": "2026-04-08T07:00:05.935312"
     },
     {
       "signal_id": "cf072c3e0cc75a1c",
       "title": "GSA's Draft AI Procurement Guidance Grants 'Any Lawful Use' Rights",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.168887"
+      "last_updated": "2026-04-08T07:00:05.934749"
     },
     {
       "signal_id": "bbf33a0533370083",
       "title": "82% Agentic AI Adoption Rates Mask Human Capital Deployment Barriers",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.168425"
+      "last_updated": "2026-04-08T07:00:05.934136"
     },
     {
       "signal_id": "d275f17bc5556822",
       "title": "2027 Budget Cuts Pentagon R&D by One-Third While Banking on Commercial Tech",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.167942"
+      "last_updated": "2026-04-08T07:00:05.933471"
     },
     {
       "signal_id": "e62d1ad5dfa8dad6",
       "title": "Pentagon Requests Civilian Agency Budget Flexibilities for Acquisition Reform",
       "status": "detected",
       "brief_id": "",
-      "last_updated": "2026-04-05T07:02:13.167307"
+      "last_updated": "2026-04-08T07:00:05.930965"
     },
     {
       "signal_id": "61092c9d5382cf16a8d3c13af21cc36a4b46358cc49025186ef9555ad684fc8a",
@@ -547,158 +701,18 @@
       "last_updated": "2026-03-30T17:38:23.629219"
     },
     {
-      "signal_id": "45bec104c28f76df3096e40edbb6a12e6d41187e1b10db8fb42148996b7816e4",
-      "title": "[Department of Health and Human Services] AI Use Policy Tool",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.628854"
+      "signal_id": "72a985642560aad6",
+      "title": "AI Moving from Pilot to Production Without Governance Adaptation",
+      "status": "brief_generated",
+      "brief_id": "e9701916d5d24b65",
+      "last_updated": "2026-04-15T07:10:49.053911"
     },
     {
-      "signal_id": "55d539ab685029b123e57f4a6aa363004dba29a137ec916ec3e5bbe34e1091bc",
-      "title": "[Department of Health and Human Services] AI to Improve Public Access to the Administrative Appeals Process",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.628596"
-    },
-    {
-      "signal_id": "1cf764842ab1e0e99b34036c1c88fc3d4fab194642de0839a6cf6325bb996323",
-      "title": "[Department of Health and Human Services] Plan Certification Recommendation Model",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.628308"
-    },
-    {
-      "signal_id": "9121f5262ca96418ee1c658ee0dd0687fdc8da16cbc26802121d8e22f05d19da",
-      "title": "[Department of Health and Human Services] Independent Dispute Resolution (IDR) Eligibility Rules Engine",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.627999"
-    },
-    {
-      "signal_id": "7ad148ba40fd42ec0194cb4d9750a919e0c5560bda6a3881808d0e99c744d5fd",
-      "title": "[Department of Health and Human Services] Citation Analysis and Survey Assistant (CASA - Nursing Home Survey CMS 2567)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.627677"
-    },
-    {
-      "signal_id": "6d1ac419c593ce6d7ea15f64c8b1183a582a614aa96555e0965ef3074a4cc1b2",
-      "title": "[Department of Health and Human Services] Quality and Safety Review System AI-enabled automated abstraction",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.627279"
-    },
-    {
-      "signal_id": "005d4ae3c7f3dcd919134fde8bf68aa3fc30987182221cd56caf516aba5c9668",
-      "title": "[Department of Health and Human Services] NLQuery- As Data or Pulse",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.626967"
-    },
-    {
-      "signal_id": "13d53ecd30e26d5cd38978f8ab81c6ab156ee18391ea8474fa7d96ffd1aaa911",
-      "title": "[Department of Health and Human Services] Enhancing Diversity in Peer Review - Pilot",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.626644"
-    },
-    {
-      "signal_id": "be1c2c50fc2abf7531db21888bee8e27e24a624b95fe198987aa491e0b2fe339",
-      "title": "[Department of Health and Human Services] Unaccompanied Children Process Model Digital Twins",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.626286"
-    },
-    {
-      "signal_id": "d28e3667403cb2187bfec2d812572c0cc8c4bce0431418e7c4e286eaec5df614",
-      "title": "[Department of Health and Human Services] Unaccompanied Children Program Policy & Procedure Research Tool",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.625933"
-    },
-    {
-      "signal_id": "43fd15363e64225a743d60655be6537214929dcdcac58a19ab6bc9aba8a6da35",
-      "title": "[Department of Health and Human Services] Grant Spend Health Analysis",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.625634"
-    },
-    {
-      "signal_id": "2a8c5008a5de3bead246a10d672692c6c3bd5c2c7b192f2e322010b1dbfa818a",
-      "title": "[Department of Health and Human Services] Design Your Facility",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.625338"
-    },
-    {
-      "signal_id": "4a17afe913679b27af9c6711232f7f6700460992263b2de15b8d4b880e1fa358",
-      "title": "[General Services Administration] Login.gov",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.624966"
-    },
-    {
-      "signal_id": "35826e9b80f401167a7d0353a95245462399a02315c08244b0f1709acf11842d",
-      "title": "[Department of Energy] Argo",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.624661"
-    },
-    {
-      "signal_id": "c864c05d70dfa77a9c0b28f88224008d2ad26d0ca08dd39152e266308132ee4e",
-      "title": "[Department of Energy] Interactive platform to help review and create \"Promoting Inclusive and Equitable Research\" Plans",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.624270"
-    },
-    {
-      "signal_id": "d1852a3a0142ac9250283a34f2f8afba51c8b506b930bd61a9f9c7ffb76e3173",
-      "title": "[Department of Commerce] Linkage and Matching Program (LaMP)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.623965"
-    },
-    {
-      "signal_id": "6ece0dd9706189ad66f9cad06f643edaeb27e231b2eb296e9c400e09ec4b1b81",
-      "title": "[Department of Commerce] Census Bureau Demographic Frame Person-Place Model",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.623613"
-    },
-    {
-      "signal_id": "27000c7ecc5507932f75d0c1227c9892b2e38f7f73dcd85ab9192992d93ebde0",
-      "title": "[Department of Commerce] School staff information extraction from web page text",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.623339"
-    },
-    {
-      "signal_id": "09a1c40dc4766a880b39fabba199f2dc7b93c7c16b7a78827396269709ac884c",
-      "title": "[Department of Homeland Security] Voice Analytics for Investigative Data",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.623063"
-    },
-    {
-      "signal_id": "c694d8b2161613a3ea4386774a8ebe5e2d0d1495f5eefcb30af25580e355246b",
-      "title": "[Department of Homeland Security] Incident Management Workforce Deployment Model (depmod)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.622692"
-    },
-    {
-      "signal_id": "18bbfc5f7c03d8a579ffea1082c4e45da41ed8d99ab777e7b326408b7ad41c9d",
-      "title": "[Department of Homeland Security] RVSS Legacy Overhauled System Project",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.622381"
-    },
-    {
-      "signal_id": "6133cdfc2bf7e9c317167ce023e03eae181be07fd79c404442eddab090d860c0",
-      "title": "[Department of Homeland Security] AI for Autonomous Situational Awareness",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.622054"
+      "signal_id": "d4aee9e422c922ef",
+      "title": "Army Launches $50 Billion MAPS Enterprise Contracting Vehicle with 350 Awards",
+      "status": "brief_generated",
+      "brief_id": "7c170ffa01ee3fbf",
+      "last_updated": "2026-04-08T07:10:51.121653"
     },
     {
       "signal_id": "91b60c042f97f304",
@@ -752,87 +766,34 @@
   ],
   "topic_threads": [
     {
-      "id": "0d8bd748c6a3613d",
-      "title": "Lumbra AI / Latent AI",
-      "keywords": [
-        "agentic",
-        "pentagon",
-        "integration",
-        "challenge"
-      ],
-      "importance": 0.85
-    },
-    {
-      "id": "eea3046e3dc99a77",
-      "title": "Hidden Level / Epirus",
-      "keywords": [
-        "countering",
-        "drones",
-        "pace",
-        "modern",
-        "war"
-      ],
-      "importance": 0.65
-    },
-    {
-      "id": "10755387ee46dc15",
-      "title": "NGA / MUSV",
-      "keywords": [
-        "defense",
-        "business",
-        "brief",
-        "navy",
-        "musv",
-        "pivot",
-        "nga",
-        "taps"
-      ],
-      "importance": 0.63
-    },
-    {
-      "id": "6c709e5686784a57",
-      "title": "Australia / Genesis Mission",
-      "keywords": [
-        "washington",
-        "built",
-        "infrastructure",
-        "aukus",
-        "needs",
-        "then",
-        "locked",
-        "allies"
-      ],
-      "importance": 0.57
-    },
-    {
       "id": "2ec08bb764159da1",
       "title": "Lockheed Martin / Precision Strike Missile",
       "keywords": [
         "lockheed",
-        "missile",
         "strike",
-        "saildrone",
-        "place",
-        "launchers",
-        "naval",
-        "drones"
+        "pentagon",
+        "agree",
+        "pac-",
+        "tests",
+        "upgraded",
+        "precision"
       ],
-      "importance": 0.35
+      "importance": 0.47
     },
     {
-      "id": "f70d2a8d4fc24106",
-      "title": "Baidu / Apollo Go",
+      "id": "0f15b380f857e9dd",
+      "title": "Central Intelligence Agency / Office of Management and Budget",
       "keywords": [
+        "speed",
         "both",
         "involved",
         "bsp",
         "incident",
-        "robotaxi",
-        "outage",
-        "caused",
-        "'system"
+        "production",
+        "scaling",
+        "exposes"
       ],
-      "importance": 0.29
+      "importance": 0.33
     },
     {
       "id": "6ecda34df2414f66",
@@ -847,74 +808,29 @@
         "screening",
         "lawmakers"
       ],
-      "importance": 0.28
+      "importance": 0.26
     },
     {
-      "id": "181daf460855bbce",
-      "title": "Gecko Robotics / U.S. Pacific Fleet",
-      "keywords": [
-        "navy",
-        "taps",
-        "gecko",
-        "robotics",
-        "help",
-        "remedy",
-        "maintenance",
-        "headaches"
-      ],
-      "importance": 0.27
-    },
-    {
-      "id": "818e1b391b4b99ee",
-      "title": "Baykar / K2",
-      "keywords": [
-        "turkey",
-        "baykar",
-        "tests",
-        "swarm",
-        "behavior",
-        "one-way",
-        "attack",
-        "drone"
-      ],
-      "importance": 0.27
-    },
-    {
-      "id": "8b710eca6786fbd5",
-      "title": "SBIR / STTR",
-      "keywords": [
-        "sbir",
-        "sttr",
-        "reauthorization",
-        "future",
-        "small",
-        "business",
-        "innovation",
-        "csis"
-      ],
-      "importance": 0.27
-    },
-    {
-      "id": "5705856d3aa931c7",
-      "title": "ICE / Border Patrol",
+      "id": "2d4dd77b3c6ffd6b",
+      "title": "Google / Gemini",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "immigration",
-        "agents",
-        "using",
-        "meta's"
+        "purported",
+        "gemini-generated",
+        "images",
+        "reportedly"
       ],
-      "importance": 0.26
+      "importance": 0.25
     }
   ],
   "entities_by_type": {
     "company": [
       {
         "name": "unknown-deepfake-technology-developers",
-        "mentions": 295,
+        "mentions": 300,
         "description": ""
       },
       {
@@ -923,18 +839,18 @@
         "description": ""
       },
       {
+        "name": "unknown-scammers",
+        "mentions": 168,
+        "description": ""
+      },
+      {
         "name": "OECD",
         "mentions": 167,
         "description": ""
       },
       {
-        "name": "unknown-scammers",
-        "mentions": 166,
-        "description": ""
-      },
-      {
         "name": "unknown-voice-cloning-technology-developers",
-        "mentions": 149,
+        "mentions": 153,
         "description": ""
       },
       {
@@ -949,7 +865,12 @@
       },
       {
         "name": "Hill",
-        "mentions": 105,
+        "mentions": 111,
+        "description": ""
+      },
+      {
+        "name": "War on the Rocks",
+        "mentions": 96,
         "description": ""
       },
       {
@@ -964,22 +885,27 @@
       },
       {
         "name": "Nextgov/FCW",
-        "mentions": 81,
+        "mentions": 86,
         "description": ""
       },
       {
         "name": "google",
-        "mentions": 77,
-        "description": ""
-      },
-      {
-        "name": "War on the Rocks",
-        "mentions": 74,
+        "mentions": 78,
         "description": ""
       },
       {
         "name": "Anthropic",
-        "mentions": 70,
+        "mentions": 77,
+        "description": ""
+      },
+      {
+        "name": "CNAS",
+        "mentions": 60,
+        "description": ""
+      },
+      {
+        "name": "Defense One",
+        "mentions": 57,
         "description": ""
       },
       {
@@ -998,18 +924,8 @@
         "description": ""
       },
       {
-        "name": "CNAS",
-        "mentions": 54,
-        "description": ""
-      },
-      {
         "name": "Department of the Treasury",
         "mentions": 53,
-        "description": ""
-      },
-      {
-        "name": "Department of State",
-        "mentions": 52,
         "description": ""
       }
     ],
@@ -1021,17 +937,17 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 255,
+        "mentions": 258,
         "description": ""
       },
       {
         "name": "Department of Veterans Affairs",
-        "mentions": 234,
+        "mentions": 238,
         "description": ""
       },
       {
         "name": "Department of Defense",
-        "mentions": 161,
+        "mentions": 183,
         "description": ""
       },
       {
@@ -1046,7 +962,12 @@
       },
       {
         "name": "Central Intelligence Agency",
-        "mentions": 49,
+        "mentions": 54,
+        "description": ""
+      },
+      {
+        "name": "U.S. Army",
+        "mentions": 32,
         "description": ""
       },
       {
@@ -1055,13 +976,13 @@
         "description": ""
       },
       {
-        "name": "U.S. Army",
-        "mentions": 31,
+        "name": "General Services Administration",
+        "mentions": 30,
         "description": ""
       },
       {
-        "name": "General Services Administration",
-        "mentions": 29,
+        "name": "U.S. Navy",
+        "mentions": 28,
         "description": ""
       },
       {
@@ -1071,12 +992,7 @@
       },
       {
         "name": "U.S. Air Force",
-        "mentions": 24,
-        "description": ""
-      },
-      {
-        "name": "U.S. Navy",
-        "mentions": 23,
+        "mentions": 26,
         "description": ""
       },
       {
@@ -1085,32 +1001,32 @@
         "description": ""
       },
       {
+        "name": "NATO",
+        "mentions": 16,
+        "description": ""
+      },
+      {
         "name": "U.S. Space Force",
-        "mentions": 14,
+        "mentions": 15,
         "description": ""
       },
       {
         "name": "Office of Management and Budget",
+        "mentions": 14,
+        "description": ""
+      },
+      {
+        "name": "Pete Hegseth",
+        "mentions": 13,
+        "description": ""
+      },
+      {
+        "name": "Trump administration",
         "mentions": 13,
         "description": ""
       },
       {
         "name": "CSIS",
-        "mentions": 12,
-        "description": ""
-      },
-      {
-        "name": "Transportation Security Administration",
-        "mentions": 12,
-        "description": ""
-      },
-      {
-        "name": "Pete Hegseth",
-        "mentions": 12,
-        "description": ""
-      },
-      {
-        "name": "NATO",
         "mentions": 12,
         "description": ""
       }
@@ -1122,7 +1038,17 @@
         "description": ""
       },
       {
+        "name": "Project Maven",
+        "mentions": 5,
+        "description": ""
+      },
+      {
         "name": "F-35",
+        "mentions": 4,
+        "description": ""
+      },
+      {
+        "name": "Precision Strike Missile",
         "mentions": 4,
         "description": ""
       },
@@ -1152,12 +1078,27 @@
         "description": ""
       },
       {
-        "name": "Precision Strike Missile",
+        "name": "PAC-3",
         "mentions": 3,
         "description": ""
       },
       {
-        "name": "Project Maven",
+        "name": "Patriot",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Kessel Run",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Army Software Factory",
+        "mentions": 3,
+        "description": ""
+      },
+      {
+        "name": "Marine Corps Software Factory",
         "mentions": 3,
         "description": ""
       },
@@ -1177,11 +1118,6 @@
         "description": ""
       },
       {
-        "name": "Patriot",
-        "mentions": 2,
-        "description": ""
-      },
-      {
         "name": "Spark Tank",
         "mentions": 2,
         "description": ""
@@ -1193,26 +1129,6 @@
       },
       {
         "name": "Shahed-136",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Switchblade",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Collaborate Combat Aircraft",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Best Drone Warfighter Competition",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Blue UAS Select",
         "mentions": 2,
         "description": ""
       }
@@ -1227,6 +1143,11 @@
       {
         "name": "Kristi Noem",
         "mentions": 10,
+        "description": ""
+      },
+      {
+        "name": "Sanae Takaichi",
+        "mentions": 4,
         "description": ""
       },
       {
@@ -1245,7 +1166,7 @@
         "description": ""
       },
       {
-        "name": "Sanae Takaichi",
+        "name": "Donald Trump",
         "mentions": 3,
         "description": ""
       },
@@ -1256,11 +1177,6 @@
       },
       {
         "name": "Hakeem Jeffries",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Donald Trump",
         "mentions": 2,
         "description": ""
       },
@@ -1283,7 +1199,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 7,
+        "mentions": 8,
         "description": ""
       },
       {
@@ -1298,6 +1214,11 @@
       },
       {
         "name": "SkyShot 1600",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Qwen",
         "mentions": 2,
         "description": ""
       }

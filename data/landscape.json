@@ -6,19 +6,19 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 255
+      "mentions": 258
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 234
+      "mentions": 238
+    },
+    {
+      "name": "Department of Defense",
+      "mentions": 171
     },
     {
       "name": "Department of the Interior",
       "mentions": 169
-    },
-    {
-      "name": "Department of Defense",
-      "mentions": 156
     },
     {
       "name": "United States Agency for International Development",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Hill",
-      "mentions": 105
+      "mentions": 111
     },
     {
       "name": "Department of Agriculture",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 81
+      "mentions": 86
     },
     {
       "name": "Department of Energy",
@@ -42,15 +42,19 @@
     },
     {
       "name": "War on the Rocks",
-      "mentions": 73
+      "mentions": 75
     },
     {
       "name": "Anthropic",
-      "mentions": 70
+      "mentions": 74
     },
     {
       "name": "Department of Labor",
       "mentions": 69
+    },
+    {
+      "name": "Defense One",
+      "mentions": 56
     },
     {
       "name": "Department of Commerce",
@@ -61,115 +65,54 @@
       "mentions": 54
     },
     {
+      "name": "CNAS",
+      "mentions": 53
+    },
+    {
+      "name": "Department of State",
+      "mentions": 53
+    },
+    {
       "name": "Department of the Treasury",
       "mentions": 53
     },
     {
-      "name": "CNAS",
-      "mentions": 52
-    },
-    {
-      "name": "Department of State",
-      "mentions": 52
-    },
-    {
-      "name": "Defense One",
+      "name": "Central Intelligence Agency",
       "mentions": 51
-    },
-    {
-      "name": "Board of Governors of the Federal Reserve System",
-      "mentions": 48
     }
   ],
   "active_threads": [
-    {
-      "id": "0d8bd748c6a3613d",
-      "title": "Lumbra AI / Latent AI",
-      "keywords": [
-        "agentic",
-        "pentagon",
-        "integration",
-        "challenge"
-      ],
-      "importance": 0.85,
-      "description": "Agentic AI and the Pentagon\u2019s Integration Challenge"
-    },
-    {
-      "id": "eea3046e3dc99a77",
-      "title": "Hidden Level / Epirus",
-      "keywords": [
-        "countering",
-        "drones",
-        "pace",
-        "modern",
-        "war"
-      ],
-      "importance": 0.65,
-      "description": "Countering Drones and the Pace of Modern War"
-    },
-    {
-      "id": "10755387ee46dc15",
-      "title": "NGA / MUSV",
-      "keywords": [
-        "defense",
-        "business",
-        "brief",
-        "navy",
-        "musv",
-        "pivot",
-        "nga",
-        "taps"
-      ],
-      "importance": 0.63,
-      "description": "Defense Business Brief: The Navy\u2019s MUSV pivot; NGA taps Vantor for $2.3M spy sat"
-    },
-    {
-      "id": "6c709e5686784a57",
-      "title": "Australia / Genesis Mission",
-      "keywords": [
-        "washington",
-        "built",
-        "infrastructure",
-        "aukus",
-        "needs",
-        "then",
-        "locked",
-        "allies"
-      ],
-      "importance": 0.57,
-      "description": "Washington Built the AI Infrastructure AUKUS Needs \u2014 Then Locked Allies Out"
-    },
     {
       "id": "2ec08bb764159da1",
       "title": "Lockheed Martin / Precision Strike Missile",
       "keywords": [
         "lockheed",
-        "missile",
         "strike",
-        "saildrone",
-        "place",
-        "launchers",
-        "naval",
-        "drones"
+        "pentagon",
+        "agree",
+        "pac-",
+        "tests",
+        "upgraded",
+        "precision"
       ],
-      "importance": 0.35,
-      "description": "Saildrone, Lockheed to place missile launchers on naval drones; Lockheed tests upgraded Precision Strike Missile designed to strike ships"
+      "importance": 0.47,
+      "description": "Lockheed tests upgraded Precision Strike Missile designed to strike ships; Pentagon, Boeing agree to triple PAC-3 seeker production; Pentagon, Lockheed Martin agree to $4.7 billion PAC-3 interceptor d"
     },
     {
-      "id": "f70d2a8d4fc24106",
-      "title": "Baidu / Apollo Go",
+      "id": "0f15b380f857e9dd",
+      "title": "Central Intelligence Agency / Office of Management and Budget",
       "keywords": [
+        "speed",
         "both",
         "involved",
         "bsp",
         "incident",
-        "robotaxi",
-        "outage",
-        "caused",
-        "'system"
+        "production",
+        "scaling",
+        "exposes"
       ],
-      "importance": 0.29,
-      "description": "Both involved in BSP incident: Robotaxi outage caused by 'system failure'; Both involved in BSP incident: More than 100 Baidu robotaxis froze mid-traffic in Wuhan. The age of the mass fl"
+      "importance": 0.33,
+      "description": "Both involved in BSP incident: Production AI Scaling Exposes $1.2B Governance Infrastructure Gap Across Defense; Army Doctrine Writers Embrace AI to Speed Knowledge to Force; CIA announces new acquisi"
     },
     {
       "id": "6ecda34df2414f66",
@@ -184,62 +127,30 @@
         "screening",
         "lawmakers"
       ],
-      "importance": 0.28,
+      "importance": 0.26,
       "description": "Senate passes measure prohibiting preferential airport screening for lawmakers; Trump budget would cut TSA funding, require privatization at small airports"
     },
     {
-      "id": "181daf460855bbce",
-      "title": "Gecko Robotics / U.S. Pacific Fleet",
+      "id": "2d4dd77b3c6ffd6b",
+      "title": "Google / Gemini",
       "keywords": [
-        "navy",
-        "taps",
-        "gecko",
-        "robotics",
-        "help",
-        "remedy",
-        "maintenance",
-        "headaches"
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "purported",
+        "gemini-generated",
+        "images",
+        "reportedly"
       ],
-      "importance": 0.27,
-      "description": "US Navy taps Gecko Robotics to help remedy maintenance headaches"
-    },
-    {
-      "id": "818e1b391b4b99ee",
-      "title": "Baykar / K2",
-      "keywords": [
-        "turkey",
-        "baykar",
-        "tests",
-        "swarm",
-        "behavior",
-        "one-way",
-        "attack",
-        "drone"
-      ],
-      "importance": 0.27,
-      "description": "Turkey\u2019s Baykar tests swarm behavior of its K2 one-way attack drone"
-    },
-    {
-      "id": "8b710eca6786fbd5",
-      "title": "SBIR / STTR",
-      "keywords": [
-        "sbir",
-        "sttr",
-        "reauthorization",
-        "future",
-        "small",
-        "business",
-        "innovation",
-        "csis"
-      ],
-      "importance": 0.27,
-      "description": "SBIR and STTR Reauthorization and the Future of Small Business Innovation - CSIS"
+      "importance": 0.25,
+      "description": "Both involved in BSP incident: Purported Gemini-Generated AI Images Reportedly Claimed U.S. Delta Force Soldier; Both involved in BSP incident: Google in talks with Pentagon to deploy Gemini AI after "
     }
   ],
   "signal_funnel": {
-    "detected": 1072,
+    "detected": 1094,
     "elevated": 0,
-    "brief_generated": 7,
+    "brief_generated": 9,
     "materialized": 0
   }
 }

@@ -1,18 +1,16 @@
 [
   {
+    "date": "2026-03-15",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "Ukraine is opening its combat AI and drone data to Western defense partners in a world-first data-sharing arrangement — creating an immediate pathway for U.",
+    "snippet": "Ukraine is opening its combat AI and drone data to Western defense partners in a world-first data-sharing arrangement — creating an immediate pathway for U.S...",
+    "url": "briefings/2026-03-15.html"
+  },
+  {
     "date": "2026-03-08",
     "vertical": "defense_warfighting",
-    "domains": [
-      "autonomous_systems",
-      "logistics_supply_chain",
-      "artificial_intelligence",
-      "electronic_warfare",
-      "cybersecurity",
-      "health_biotech",
-      "space_systems",
-      "data_analytics",
-      "software_modernization"
-    ],
+    "domains": [],
     "headline": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa.",
     "snippet": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa...",
     "url": "briefings/2026-03-08.html"
@@ -20,22 +18,9 @@
   {
     "date": "2026-03-05",
     "vertical": "defense_warfighting",
-    "domains": [
-      "autonomous_systems",
-      "electronic_warfare"
-    ],
+    "domains": [],
     "headline": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech.",
     "snippet": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech...",
     "url": "briefings/2026-03-05.html"
-  },
-  {
-    "date": "2026-03-01",
-    "vertical": "defense_warfighting",
-    "domains": [
-      "electronic_warfare"
-    ],
-    "headline": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac.",
-    "snippet": "The Pentagon&#x27;s standoff with Anthropic over military AI restrictions has created an immediate opening for intrapreneurs to shape how Congress defines ac...",
-    "url": "briefings/2026-03-01.html"
   }
 ]

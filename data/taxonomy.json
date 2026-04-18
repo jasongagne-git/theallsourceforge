@@ -414,7 +414,15 @@
       "mentions": 7
     },
     {
+      "name": "Project Maven",
+      "mentions": 5
+    },
+    {
       "name": "F-35",
+      "mentions": 4
+    },
+    {
+      "name": "Precision Strike Missile",
       "mentions": 4
     },
     {
@@ -438,16 +446,8 @@
       "mentions": 3
     },
     {
-      "name": "Precision Strike Missile",
+      "name": "PAC-3",
       "mentions": 3
-    },
-    {
-      "name": "Project Maven",
-      "mentions": 3
-    },
-    {
-      "name": "Direct File",
-      "mentions": 2
     }
   ],
   "active_agencies": [
@@ -457,15 +457,15 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 255
+      "mentions": 258
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 234
+      "mentions": 238
     },
     {
       "name": "Department of Defense",
-      "mentions": 161
+      "mentions": 183
     },
     {
       "name": "Department of Energy",
@@ -477,25 +477,25 @@
     },
     {
       "name": "Central Intelligence Agency",
-      "mentions": 49
+      "mentions": 54
+    },
+    {
+      "name": "U.S. Army",
+      "mentions": 32
     },
     {
       "name": "Government Accountability Office",
       "mentions": 31
     },
     {
-      "name": "U.S. Army",
-      "mentions": 31
-    },
-    {
       "name": "General Services Administration",
-      "mentions": 29
+      "mentions": 30
     }
   ],
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 7,
+      "mentions": 8,
       "description": ""
     },
     {
