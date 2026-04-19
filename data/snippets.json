@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-03-22",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Marine Corps&#x27; $10 antenna fix that replaced a $5,600 component — saving $600,000+ and eliminating supply delays — demonstrates an immediate opening.",
+    "snippet": "The Marine Corps&#x27; $10 antenna fix that replaced a $5,600 component — saving $600,000+ and eliminating supply delays — demonstrates an immediate opening ...",
+    "url": "briefings/2026-03-22.html"
+  },
+  {
     "date": "2026-03-15",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa.",
     "snippet": "The Pentagon&#x27;s counter-drone task force is conducting live-fire laser tests at White Sands this weekend while simultaneously acknowledging critical capa...",
     "url": "briefings/2026-03-08.html"
-  },
-  {
-    "date": "2026-03-05",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech.",
-    "snippet": "The Pentagon&#x27;s imminent order of 30,000 one-way drones through its &quot;Gauntlet&quot; exercise represents a concrete pathway for emerging defense tech...",
-    "url": "briefings/2026-03-05.html"
   }
 ]
