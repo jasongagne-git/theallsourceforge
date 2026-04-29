@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Subscribe — The All Source Forge</title>
-  <meta name="description" content="Subscribe to The All Source Forge. Weekly signal briefs, deep dive analysis, and early access to defense AI governance research.">
+  <meta name="description" content="Subscribe to The All Source Forge. Weekly signal briefs and deep-dive analysis on defense AI, delivered to your inbox.">
   <meta property="og:title" content="Subscribe — The All Source Forge">
-  <meta property="og:description" content="Weekly signal briefs, deepdive analysis, and early access to defense AI governance research.">
+  <meta property="og:description" content="Weekly signal briefs and deep-dive analysis on defense AI, delivered to your inbox.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://theallsourceforge.com/join.html">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://theallsourceforge.com/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -153,8 +158,8 @@
 <section class="hero hero-compact" id="main-content">
   <div class="container">
     <div class="overline overline-hero">Subscribe</div>
-    <h1>Get weekly signal briefs, deepdive analysis, and research updates.</h1>
-    <p class="subtitle">Innovation intelligence for defense AI, delivered to your inbox.</p>
+    <h1>Get weekly signal briefs and deep-dive analysis on defense AI.</h1>
+    <p class="subtitle">Innovation intelligence for defense and IC professionals, delivered to your inbox. Both publications come with every subscription.</p>
   </div>
 </section>
 
@@ -167,10 +172,10 @@
         <div class="step-dot" data-step="2"></div>
       </div>
 
-      <!-- Step 1: Essential info -->
+      <!-- Step 1: Identity -->
       <div class="profiler-step active" data-step="1">
-        <h2 style="margin-bottom: 0.5rem;">Subscribe to the brief</h2>
-        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">Name and email &mdash; that's all that's needed to get started.</p>
+        <h2 style="margin-bottom: 0.5rem;">Subscribe</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">Every subscription includes the Weekly Signal Brief and the Deep-Dive Analysis. Start with name and email.</p>
 
         <div class="form-group" id="name-group">
           <label>Name</label>
@@ -188,33 +193,19 @@
           <input type="text" id="join-website" name="website" autocomplete="off" tabindex="-1">
         </div>
 
-        <div class="form-group">
-          <label>What do you want to receive?</label>
-          <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
-            <label class="checkbox-item"><input type="checkbox" value="weekly_brief" checked> <strong style="color: var(--text-primary);">Weekly Signal Brief</strong> &mdash; curated defense AI signals, entity-resolved, with opportunity analysis</label>
-            <label class="checkbox-item"><input type="checkbox" value="deepdive" checked> <strong style="color: var(--text-primary);">Deepdive Analysis</strong> &mdash; long-form briefs on emerging patterns and governance shifts</label>
-            <label class="checkbox-item"><input type="checkbox" value="research"> <strong style="color: var(--text-primary);">Research Updates</strong> &mdash; SENTINEL experiment results and governance gap analysis findings</label>
-            <label class="checkbox-item"><input type="checkbox" value="sentinel"> <strong style="color: var(--text-primary);">SENTINEL Participation</strong> &mdash; run experiments on your own hardware</label>
-          </div>
-        </div>
-
         <p style="font-size: 0.8rem; color: var(--text-tertiary); margin-top: 0.5rem;">Your information is never shared, sold, or disclosed. Government and .mil/.gov email addresses are handled with operational security standards appropriate for defense and IC professionals.</p>
 
-        <div class="btn-group" style="justify-content: space-between; align-items: center;">
-          <span></span>
-          <div style="display: flex; gap: 1rem; align-items: center;">
-            <button class="btn btn-outline" onclick="submitExpress()" style="font-size: 0.85rem;">Just subscribe</button>
-            <button class="btn btn-primary" onclick="nextStep(2)">Continue &mdash; tell us more &rarr;</button>
-          </div>
+        <div class="btn-group" style="justify-content: flex-end;">
+          <button class="btn btn-primary" onclick="nextStep(2)">Continue &rarr;</button>
         </div>
       </div>
 
-      <!-- Step 2: Optional profiling -->
+      <!-- Step 2: Profile -->
       <div class="profiler-step" data-step="2">
-        <h2 style="margin-bottom: 0.5rem;">Help me tailor your brief <span style="font-size: 0.85rem; font-weight: 400; color: var(--text-tertiary);">(optional)</span></h2>
-        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">This helps me match signals to your mission. Skip anything you'd rather not answer.</p>
+        <h2 style="margin-bottom: 0.5rem;">A little about you</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">Your role helps me match signals to your mission. Everything below it is optional.</p>
 
-        <div class="form-group">
+        <div class="form-group" id="persona-group">
           <label>Your role</label>
           <div class="persona-grid">
             <div class="persona-option" onclick="selectPersona(this, 'institutional')">
@@ -230,10 +221,11 @@
               <p>Academic, think tank, or independent</p>
             </div>
           </div>
+          <div class="form-error" id="persona-error">Please pick the role that fits best.</div>
         </div>
 
         <div class="form-group">
-          <label>Signal domains you care about</label>
+          <label>Signal domains you care about <span style="font-weight: 400; color: var(--text-tertiary); font-size: 0.8rem;">(optional)</span></label>
           <div class="checkbox-grid" style="margin-top: 0.5rem;">
             <label class="checkbox-item"><input type="checkbox" value="defense_warfighting"> Defense &amp; Warfighting</label>
             <label class="checkbox-item"><input type="checkbox" value="ai_governance"> AI Governance &amp; Policy</label>
@@ -244,18 +236,6 @@
             <label class="checkbox-item"><input type="checkbox" value="autonomous_systems"> Autonomous Systems</label>
             <label class="checkbox-item"><input type="checkbox" value="ai_safety"> AI Safety &amp; Alignment</label>
           </div>
-        </div>
-
-        <div class="form-group">
-          <label>Organization (optional)</label>
-          <input type="text" placeholder="Where you work">
-          <div class="hint">Helps me tailor signal relevance. Never shared.</div>
-        </div>
-
-        <div class="form-group">
-          <label>Anything else? (optional)</label>
-          <textarea rows="3" placeholder="Topics you're tracking, questions about the research, or context about your work."></textarea>
-          <div class="hint">Your questions feed directly into the research pipeline.</div>
         </div>
 
         <div class="btn-group" style="justify-content: space-between;">
@@ -272,7 +252,8 @@
 
           <div id="confirmation-summary" style="text-align: left; margin-top: 2rem; padding: 1.5rem 2rem; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border);">
             <h4 style="margin-bottom: 0.75rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--blue);">What you'll receive</h4>
-            <div id="confirm-products" style="font-size: 0.9rem;"></div>
+            <p style="font-size: 0.9rem; margin: 0;"><strong style="color: var(--text-primary);">Weekly Signal Brief</strong> &mdash; curated defense AI signals, entity-resolved, with opportunity analysis.</p>
+            <p style="font-size: 0.9rem; margin: 0.5rem 0 0;"><strong style="color: var(--text-primary);">Deep-Dive Analysis</strong> &mdash; long-form briefs on emerging patterns and governance shifts.</p>
           </div>
 
           <div class="btn-group" style="justify-content: center; margin-top: 2rem;">
@@ -310,9 +291,11 @@
 let currentStep = 1;
 let selectedPersona = '';
 
+// Maps the UI role choice to the backend's persona + sector enums.
+// The form asks one question (role); the backend stores both.
 const PERSONA_MAP = {
   'institutional': { persona: 'institutional_innovator', sector: 'defense_warfighting' },
-  'industry':      { persona: 'industry_partner',       sector: 'defense_modernization' },
+  'industry':      { persona: 'industry_partner',        sector: 'defense_modernization' },
   'researcher':    { persona: 'market_entrant',          sector: 'dual_use' }
 };
 
@@ -320,6 +303,7 @@ function selectPersona(el, type) {
   document.querySelectorAll('.persona-option').forEach(p => p.classList.remove('selected'));
   el.classList.add('selected');
   selectedPersona = type;
+  document.getElementById('persona-group').classList.remove('has-error');
 }
 
 function clearErrors() {
@@ -333,11 +317,9 @@ function validateStep1() {
   const email = document.getElementById('join-email').value.trim();
   const honeypot = document.getElementById('join-website').value;
 
-  // Honeypot check — silently reject bots
+  // Honeypot check — silently advance bots to confirmation without contacting the API
   if (honeypot) {
     nextStep(3);
-    document.getElementById('confirm-products').innerHTML =
-      '<strong style="color: var(--text-primary);">Subscribed to:</strong> Weekly Signal Brief';
     return false;
   }
 
@@ -350,6 +332,15 @@ function validateStep1() {
     valid = false;
   }
   return valid;
+}
+
+function validateStep2() {
+  clearErrors();
+  if (!selectedPersona) {
+    document.getElementById('persona-group').classList.add('has-error');
+    return false;
+  }
+  return true;
 }
 
 function nextStep(step) {
@@ -371,15 +362,6 @@ function nextStep(step) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function getSelectedProducts() {
-  const products = [];
-  document.querySelectorAll('.profiler-step[data-step="1"] .checkbox-item input:checked').forEach(cb => {
-    const label = cb.parentElement.querySelector('strong');
-    if (label) products.push(label.textContent);
-  });
-  return products;
-}
-
 function getSelectedDomains() {
   var domains = [];
   document.querySelectorAll('.profiler-step[data-step="2"] .checkbox-grid input:checked').forEach(function(cb) {
@@ -388,14 +370,14 @@ function getSelectedDomains() {
   return domains;
 }
 
-function buildPayload(opts) {
-  var mapped = PERSONA_MAP[opts.persona] || PERSONA_MAP['institutional'];
+function buildPayload() {
+  var mapped = PERSONA_MAP[selectedPersona];
   return {
-    email: opts.email,
-    name: opts.name,
+    email: document.getElementById('join-email').value.trim(),
+    name: document.getElementById('join-name').value.trim(),
     persona: mapped.persona,
     sector: mapped.sector,
-    technology_domains: opts.domains || [],
+    technology_domains: getSelectedDomains(),
     consent_newsletter: true,
     consent_notifications: true
   };
@@ -415,48 +397,13 @@ function submitToAPI(payload, onSuccess, onError) {
   .catch(onError);
 }
 
-function submitExpress() {
-  if (!validateStep1()) return;
-
-  var products = getSelectedProducts();
-  var payload = buildPayload({
-    email: document.getElementById('join-email').value.trim(),
-    name: document.getElementById('join-name').value.trim(),
-    persona: 'institutional',
-    domains: []
-  });
-
-  submitToAPI(payload, function() {
-    document.getElementById('confirm-products').innerHTML =
-      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-      (products.length ? products.join(', ') : 'Weekly Signal Brief');
-    nextStep(3);
-  }, function(err) {
-    document.getElementById('confirm-products').innerHTML =
-      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-      (products.length ? products.join(', ') : 'Weekly Signal Brief');
-    nextStep(3);
-  });
-}
-
 function submitProfiler() {
-  var products = getSelectedProducts();
-  var payload = buildPayload({
-    email: document.getElementById('join-email').value.trim(),
-    name: document.getElementById('join-name').value.trim(),
-    persona: selectedPersona || 'institutional',
-    domains: getSelectedDomains()
-  });
-
-  submitToAPI(payload, function() {
-    document.getElementById('confirm-products').innerHTML =
-      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+  if (!validateStep2()) return;
+  submitToAPI(buildPayload(), function() {
     nextStep(3);
-  }, function(err) {
-    document.getElementById('confirm-products').innerHTML =
-      '<strong style="color: var(--text-primary);">Subscribed to:</strong> ' +
-      (products.length ? products.join(', ') : 'Weekly Signal Brief');
+  }, function() {
+    // On API error, still advance to confirmation — submission has already been attempted
+    // and the user shouldn't be blocked. Errors are logged on the worker side.
     nextStep(3);
   });
 }
