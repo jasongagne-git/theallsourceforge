@@ -1,6 +1,125 @@
 {
   "signals": [
     {
+      "signal_id": "57bc6f24c2710b729768ad43661b34fff3a83e1e6584ff8d08c3fcb0382fe4b7",
+      "title": "US tech firms successfully lobbied EU to keep datacentre emissions secret",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.412655"
+    },
+    {
+      "signal_id": "305079c1d6408cc8232d092a97e8d9d9bf3c91933d32ba3c36d53acc83a254c8",
+      "title": "US tech firms successfully lobbied EU to hide environmental toll of data centres",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.370340"
+    },
+    {
+      "signal_id": "0911eb4e7028f6e9c0ee9bfd55e70b95f8723373107635c342eb363a9586cdd2",
+      "title": "Poll reveals millions of Americans consult AI before, after\u2014and sometimes instead of\u2014seeing a doctor",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.151959"
+    },
+    {
+      "signal_id": "3287498013a06d001697453342189a9e8b8136d75271413ffff90d95c6a45c26",
+      "title": "\u2018That wasn\u2019t me\u2019: How facial recognition led to a woman being jailed for 6 months",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.128374"
+    },
+    {
+      "signal_id": "1d4bcee38d01fe964f3cf9f0649c183101a388d3fd363b5dad362e8718c46172",
+      "title": "US government ramps up mass surveillance with help of AI tech, your apps",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.074659"
+    },
+    {
+      "signal_id": "2941dc223339a0f19303cecdb62e5c17c08199fe41e1733727b8e89fd4fbf36e",
+      "title": "Moving Goalposts: Football, Facial Recognition and the Expansion of Surveillance",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.060713"
+    },
+    {
+      "signal_id": "0c969545bdd6e856787fcd9cb61bd070a64551fd047ca113eada8beb76eab355",
+      "title": "Police used AI facial recognition to arrest a Tennessee woman for crimes committed in a state she says she\u2019s never visited",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:23.053512"
+    },
+    {
+      "signal_id": "2aa55c155469e8b7bcb6dbe52a90a8263aa5a16ce05a9a5e6329c871c34ead6a",
+      "title": "Satellite mega-constellations raise odds of a runaway space-debris cascade",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.983121"
+    },
+    {
+      "signal_id": "a97987436b5065384e83f23fb2b85dcdf4e70d90268e4a550a2dec8465e21793",
+      "title": "Starlink outage disrupts Navy drone test, spotlighting Pentagon reliance",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.952488"
+    },
+    {
+      "signal_id": "feabf5d6dbb6207ad71b50288aafe472e45695314d2a2651741b31124681fa7c",
+      "title": "Rapid AI gains intensify the push to secure critical systems",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.928120"
+    },
+    {
+      "signal_id": "ccf23a958772f57d5739483e6fdd29c884a74ea015b306beb8c43f9d416b147c",
+      "title": "US Fair Lending Enforcement Curbed Under Trump CFPB\u2019s Final Rule",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.881675"
+    },
+    {
+      "signal_id": "54fa908c5bcfabf2d853a4aff887ca00a11352994af6ffde047fa413888e4c7e",
+      "title": "More landlords and lenders are using AI. Fewer regulators are checking them for bias",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.807371"
+    },
+    {
+      "signal_id": "97ee49a1901165797559bd5469836fab93d1dcd6f33dd3fd771ba90c0d34271c",
+      "title": "AI pushes 2026 tech layoffs past 50K in just three months, employers reveal",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.789956"
+    },
+    {
+      "signal_id": "044f6d272d3dd995fe31727d84570cc25bb05f946fd4dfd906362d0e053ef9a9",
+      "title": "Ohio Man Pleaded Guilty after Prosecutors Alleged He Used AI to Create and Distribute Nonconsensual Intimate-Image Forgeries Including CSAM in Harassment Campaign",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.749059"
+    },
+    {
+      "signal_id": "a2bf1d6ceda430393b06039a6666b036996b6102ac9edf9f6437d53f6dbd87c1",
+      "title": "Sixth Circuit Sanctioned Lawyers in Whiting v. City of Athens over Alleged Fake Appellate Citations in Briefs Reportedly Bearing Hallmarks of Hallucinations",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.742844"
+    },
+    {
+      "signal_id": "5b3e287eeaf5c5cad533a872d3b6eec13c5cc37bb841114f74594aedcd1d17fb",
+      "title": "Lower Saxony CDU Employee Allegedly Shared Sexualized Purported Deepfake of Colleague in Internal WhatsApp Group",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.731512"
+    },
+    {
+      "signal_id": "fa23d8b079dd2328c98be4959a1dd880c13cbdd06bf82ecfaba589bbcb695344",
+      "title": "Former New Orleans Isidore Newman School Teacher Allegedly Used AI to Create Fake Nude Images from Social Media Photos of Girls, Including Students",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-04-24T07:05:22.709110"
+    },
+    {
       "signal_id": "290aaa8311308ecf8f1d3af8c906ea3fc1c1d94d2fe211aadf913e381dca63b9",
       "title": "Woman Wrongfully Jailed 5 Months After AI Facial Recognition Error",
       "status": "detected",
@@ -582,125 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.635020"
     },
     {
-      "signal_id": "6b956eb59b500331a967addc6d8b703d7603b03d9064b22a18723e9e08c69a3f",
-      "title": "[United States Agency for International Development] SERVIR Weather & Climate Resilience: Short-term and seasonal weather prediction and hazard mapping. SERVIR is mapping floods and landslides with machine learning classification techniques, on the order of 10m to 10km. SERVIR is exploring the performance of weather foundational models versus numerical weather predictions on the 4-10km scale.",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.634709"
-    },
-    {
-      "signal_id": "d7474681a64cba0df47db181a85458c79b74fcbd3e2b1fbb2445c390320c2fd6",
-      "title": "[United States Agency for International Development] SERVIR Ecosystem and Carbon Management: Automation of land cover and change mapping, including forest disturbance due to roads and mining. SERVIR is applying machine learning and deep learning techniques on satellite data to automate the classification and identification of land surface activities at the scale of 10s of meters.",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.634380"
-    },
-    {
-      "signal_id": "b02dc44351292cabc87d20b3d181fbe211a8a8b9bf438b459926abe40b01e109",
-      "title": "[United States Agency for International Development] SERVIR Water Security: SERVIR is applying deep learning on in situ and global/regional hydrologic forecasts to fill gaps in historic and recent streamflow and river elevation estimates, and improve streamflow forecasts, to a vertical precision of meters to centimeters, potentially for thousands to millions or river reaches worldwide.",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.633979"
-    },
-    {
-      "signal_id": "122fd8f45f4166971c0d70b3dc4735b7460354e976767157df61ed5b5037c2b6",
-      "title": "[United States Agency for International Development] Identifying harmful social media content in Sinhala and Tamil",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.633664"
-    },
-    {
-      "signal_id": "db6da9ddd8ddcfa191928e439711aa9b4d7bb2c63df9f5ba71fc621cb6c2de77",
-      "title": "[United States Agency for International Development] AI tools for grant application application review",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.633323"
-    },
-    {
-      "signal_id": "5957afc9e3ce4f84ee7d935b39300bd14c0e03b34f6b3762b0baa45ff1686bd5",
-      "title": "[United States Agency for International Development] Using ML for predicting treatment interruption among PLHIV in Nigeria",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.633024"
-    },
-    {
-      "signal_id": "2f432d906f7620dc31bfa2fa9d2c7a8ca4514175cfa4cc847c8e8de248831c54",
-      "title": "[United States Agency for International Development] Gender differentiated credit scoring",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.632583"
-    },
-    {
-      "signal_id": "d353f22e86d194adf0257a973d44326cd0d5fd7c2afaef407dd50c26eb03f18a",
-      "title": "[Department of the Treasury] EFTPS Fraud Monitoring",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.632246"
-    },
-    {
-      "signal_id": "a90b18f7146a393c7e1dad8bf5c4e2548c8df8214a2adb37e63b5e2bbde93fb4",
-      "title": "[Department of the Treasury] Customer Experience Analytics",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.631884"
-    },
-    {
-      "signal_id": "32c1e34d4758ee8d8d2b3feb5dac511ebc69bc3b608ce43aee81d093da248ac4",
-      "title": "[Department of the Treasury] Automated Collection System (ACS) Voicebot",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.631557"
-    },
-    {
-      "signal_id": "ed5caf689a4d0733eae04cc1accc35acf51e99b074904857d12ac2d5184f22cb",
-      "title": "[Department of the Treasury] Transcription -- Evidence.com",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.631230"
-    },
-    {
-      "signal_id": "26db462774ed5c981f3d98a995475431175c3048a0ec6160ead6df253d670fdf",
-      "title": "[Department of State] TIP Report Research Translation",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.630932"
-    },
-    {
-      "signal_id": "e6f4d79caa0fbf52dae10715cd258498f006a7a330548691cfbaf2951ac6164c",
-      "title": "[Social Security Administration] Proactive Triage and Analysis of Hearings (PATH)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.630641"
-    },
-    {
-      "signal_id": "59e9020d82a812a1263a180a2264db400068f16330ec0f6d165f64f628e55ac6",
-      "title": "[Social Security Administration] Representative Payee Misuse Model",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.630241"
-    },
-    {
-      "signal_id": "8b36c73858abec7097bcabff86a9d426c9afab01061f7437c858b7446e41531c",
-      "title": "[Social Security Administration] Insight",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.629860"
-    },
-    {
-      "signal_id": "63c07f37e0d254398e840a9902a3d41e04b413426b9e11277d5317b610d60c9a",
-      "title": "[Department of Health and Human Services] Detecting Overlapping Science (DOS)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.629497"
-    },
-    {
-      "signal_id": "22ddfe6b6fd650925a97e02fb82197208bd70c3da2024a5dbace80c93f016f5a",
-      "title": "[Department of Health and Human Services] DAIT AIDS-Related Research Solution",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.629219"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,6 +766,36 @@
   ],
   "topic_threads": [
     {
+      "id": "b7aac3ef4159ebc0",
+      "title": "Yahoo / Colorado",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "elon",
+        "xai",
+        "colorado",
+        "musk's"
+      ],
+      "importance": 1.0
+    },
+    {
+      "id": "8fa9e69f3182e833",
+      "title": "Microsoft / EU",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "tech",
+        "firms",
+        "successfully",
+        "lobbied"
+      ],
+      "importance": 0.71
+    },
+    {
       "id": "2ec08bb764159da1",
       "title": "Lockheed Martin / Precision Strike Missile",
       "keywords": [
@@ -778,7 +808,22 @@
         "upgraded",
         "precision"
       ],
-      "importance": 0.47
+      "importance": 0.44
+    },
+    {
+      "id": "2d4dd77b3c6ffd6b",
+      "title": "Google / Gemini",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "pentagon",
+        "gemini",
+        "google's",
+        "military"
+      ],
+      "importance": 0.42
     },
     {
       "id": "0f15b380f857e9dd",
@@ -793,37 +838,22 @@
         "scaling",
         "exposes"
       ],
-      "importance": 0.33
+      "importance": 0.3
     },
     {
-      "id": "6ecda34df2414f66",
-      "title": "Transportation Security Administration / TSA",
+      "id": "59b40ec3965cc0c2",
+      "title": "House / Senate",
       "keywords": [
         "senate",
-        "passes",
-        "measure",
-        "prohibiting",
-        "preferential",
-        "airport",
-        "screening",
-        "lawmakers"
-      ],
-      "importance": 0.26
-    },
-    {
-      "id": "2d4dd77b3c6ffd6b",
-      "title": "Google / Gemini",
-      "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "purported",
-        "gemini-generated",
-        "images",
-        "reportedly"
+        "passes",
+        "-day",
+        "extension"
       ],
-      "importance": 0.25
+      "importance": 0.26
     }
   ],
   "entities_by_type": {
@@ -860,7 +890,7 @@
       },
       {
         "name": "openai",
-        "mentions": 131,
+        "mentions": 132,
         "description": ""
       },
       {
@@ -889,13 +919,13 @@
         "description": ""
       },
       {
-        "name": "google",
-        "mentions": 78,
+        "name": "Anthropic",
+        "mentions": 82,
         "description": ""
       },
       {
-        "name": "Anthropic",
-        "mentions": 77,
+        "name": "google",
+        "mentions": 78,
         "description": ""
       },
       {
@@ -937,7 +967,7 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 258,
+        "mentions": 259,
         "description": ""
       },
       {
@@ -947,7 +977,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 183,
+        "mentions": 191,
         "description": ""
       },
       {
@@ -967,7 +997,7 @@
       },
       {
         "name": "U.S. Army",
-        "mentions": 32,
+        "mentions": 33,
         "description": ""
       },
       {
@@ -982,7 +1012,7 @@
       },
       {
         "name": "U.S. Navy",
-        "mentions": 28,
+        "mentions": 29,
         "description": ""
       },
       {
@@ -992,7 +1022,7 @@
       },
       {
         "name": "U.S. Air Force",
-        "mentions": 26,
+        "mentions": 27,
         "description": ""
       },
       {
@@ -1002,11 +1032,16 @@
       },
       {
         "name": "NATO",
-        "mentions": 16,
+        "mentions": 17,
         "description": ""
       },
       {
         "name": "U.S. Space Force",
+        "mentions": 15,
+        "description": ""
+      },
+      {
+        "name": "Trump administration",
         "mentions": 15,
         "description": ""
       },
@@ -1016,18 +1051,13 @@
         "description": ""
       },
       {
+        "name": "China",
+        "mentions": 14,
+        "description": ""
+      },
+      {
         "name": "Pete Hegseth",
         "mentions": 13,
-        "description": ""
-      },
-      {
-        "name": "Trump administration",
-        "mentions": 13,
-        "description": ""
-      },
-      {
-        "name": "CSIS",
-        "mentions": 12,
         "description": ""
       }
     ],
@@ -1199,7 +1229,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 8,
+        "mentions": 10,
         "description": ""
       },
       {

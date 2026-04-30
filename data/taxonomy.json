@@ -457,7 +457,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 258
+      "mentions": 259
     },
     {
       "name": "Department of Veterans Affairs",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 183
+      "mentions": 191
     },
     {
       "name": "Department of Energy",
@@ -481,7 +481,7 @@
     },
     {
       "name": "U.S. Army",
-      "mentions": 32
+      "mentions": 33
     },
     {
       "name": "Government Accountability Office",
@@ -495,7 +495,7 @@
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 8,
+      "mentions": 10,
       "description": ""
     },
     {
