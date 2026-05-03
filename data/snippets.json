@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-04-05",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "Defense acquisition reform just got a congressional opening.",
+    "snippet": "Defense acquisition reform just got a congressional opening. The Pentagon is requesting budget flexibilities already available to civilian agencies—the exact...",
+    "url": "briefings/2026-04-05.html"
+  },
+  {
     "date": "2026-03-29",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Marine Corps&#x27; $10 antenna fix that replaced a $5,600 component — saving $600,000+ and eliminating supply delays — demonstrates an immediate opening.",
     "snippet": "The Marine Corps&#x27; $10 antenna fix that replaced a $5,600 component — saving $600,000+ and eliminating supply delays — demonstrates an immediate opening ...",
     "url": "briefings/2026-03-22.html"
-  },
-  {
-    "date": "2026-03-15",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "Ukraine is opening its combat AI and drone data to Western defense partners in a world-first data-sharing arrangement — creating an immediate pathway for U.",
-    "snippet": "Ukraine is opening its combat AI and drone data to Western defense partners in a world-first data-sharing arrangement — creating an immediate pathway for U.S...",
-    "url": "briefings/2026-03-15.html"
   }
 ]
