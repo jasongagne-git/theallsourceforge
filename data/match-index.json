@@ -1,6 +1,34 @@
 {
   "signals": [
     {
+      "signal_id": "e16cfd083cc9640c3ae32b8f5370fd614f1bef0d2e06c04c4823fcf04ca78d40",
+      "title": "Purportedly AI-Enhanced Images of Iranian Women Protesters Were Reportedly Spread With Unverified Execution Claims",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-01T07:02:08.721346"
+    },
+    {
+      "signal_id": "ee053fe3d711a9616390ece3435f86fd87f0703815abb98dbf3ed9344a514d17",
+      "title": "Purportedly AI-Manipulated Medical Scam Advertisement Reportedly Used Bulgarian TV Host and Physician's Likenesses",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-01T07:02:08.554708"
+    },
+    {
+      "signal_id": "7507290a30575188300b68ddd4693b98b5d2ae0c2098ddfc316da9926a7a1979",
+      "title": "Video with Reportedly AI-Generated Media Purported to Show Croatian Immunologist Stipan Jonji\u0107 Promoting Anti-Parasite Product on Facebook",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-01T07:02:08.457969"
+    },
+    {
+      "signal_id": "7df8df8ac89ba858b8d8ff6ae4e0b5c49bf78fbfa26de615dfb3e605df39ae9a",
+      "title": "Purported Deepfake Videos Allegedly Impersonated Optometrist Joseph Allen to Promote Myopia-Reversal Eyedrops on TikTok",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-01T07:02:08.405987"
+    },
+    {
       "signal_id": "57bc6f24c2710b729768ad43661b34fff3a83e1e6584ff8d08c3fcb0382fe4b7",
       "title": "US tech firms successfully lobbied EU to keep datacentre emissions secret",
       "status": "detected",
@@ -673,34 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.636149"
     },
     {
-      "signal_id": "b0a68e542785362c64e8355c594c489cc892ac102e13060b74ea456f5a99e76d",
-      "title": "[United States Agency for International Development] LIDA: Instant Messaging System in the Family Commissioner's Office of Monter\u00eda - C\u00f3rdoba, Colombia",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.635853"
-    },
-    {
-      "signal_id": "d081c40494cdad7828edb35011e11c6b4f53293af478e63f2272fb0719c1d5f0",
-      "title": "[United States Agency for International Development] Knowledge management and situational awareness for civil society in Colombia",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.635589"
-    },
-    {
-      "signal_id": "effaf575d6ff58e1d1f5c440253c925aeb3ffb512a20c7964a0ef08f25627ee0",
-      "title": "[United States Agency for International Development] Amazon\u00eda Mia - AI for environmental law enforcement in Colombia",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.635320"
-    },
-    {
-      "signal_id": "00dc8c19080e11a8f362ea0cfd425da5b8e6f471a142184e2b0b6a5b3a312ef9",
-      "title": "[United States Agency for International Development] SERVIR Air Quality and Health: Processing modeled air quality forecasts and assimilating large volumes of data from satellite instruments. SERVIR is downscaling satellite- and model-derived air quality predictions with neural networks, down to 5km spatial resolution.",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.635020"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,21 +766,6 @@
   ],
   "topic_threads": [
     {
-      "id": "b7aac3ef4159ebc0",
-      "title": "Yahoo / Colorado",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "elon",
-        "xai",
-        "colorado",
-        "musk's"
-      ],
-      "importance": 1.0
-    },
-    {
       "id": "8fa9e69f3182e833",
       "title": "Microsoft / EU",
       "keywords": [
@@ -793,22 +778,7 @@
         "successfully",
         "lobbied"
       ],
-      "importance": 0.71
-    },
-    {
-      "id": "2ec08bb764159da1",
-      "title": "Lockheed Martin / Precision Strike Missile",
-      "keywords": [
-        "lockheed",
-        "strike",
-        "pentagon",
-        "agree",
-        "pac-",
-        "tests",
-        "upgraded",
-        "precision"
-      ],
-      "importance": 0.44
+      "importance": 0.66
     },
     {
       "id": "2d4dd77b3c6ffd6b",
@@ -823,54 +793,24 @@
         "google's",
         "military"
       ],
-      "importance": 0.42
-    },
-    {
-      "id": "0f15b380f857e9dd",
-      "title": "Central Intelligence Agency / Office of Management and Budget",
-      "keywords": [
-        "speed",
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "production",
-        "scaling",
-        "exposes"
-      ],
-      "importance": 0.3
-    },
-    {
-      "id": "59b40ec3965cc0c2",
-      "title": "House / Senate",
-      "keywords": [
-        "senate",
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "passes",
-        "-day",
-        "extension"
-      ],
-      "importance": 0.26
+      "importance": 0.39
     }
   ],
   "entities_by_type": {
     "company": [
       {
         "name": "unknown-deepfake-technology-developers",
-        "mentions": 300,
+        "mentions": 311,
+        "description": ""
+      },
+      {
+        "name": "unknown-scammers",
+        "mentions": 179,
         "description": ""
       },
       {
         "name": "Department of the Interior",
         "mentions": 169,
-        "description": ""
-      },
-      {
-        "name": "unknown-scammers",
-        "mentions": 168,
         "description": ""
       },
       {
@@ -880,7 +820,7 @@
       },
       {
         "name": "unknown-voice-cloning-technology-developers",
-        "mentions": 153,
+        "mentions": 165,
         "description": ""
       },
       {
@@ -915,7 +855,7 @@
       },
       {
         "name": "Nextgov/FCW",
-        "mentions": 86,
+        "mentions": 88,
         "description": ""
       },
       {
@@ -935,7 +875,7 @@
       },
       {
         "name": "Defense One",
-        "mentions": 57,
+        "mentions": 58,
         "description": ""
       },
       {
@@ -977,7 +917,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 191,
+        "mentions": 192,
         "description": ""
       },
       {
@@ -1046,12 +986,12 @@
         "description": ""
       },
       {
-        "name": "Office of Management and Budget",
-        "mentions": 14,
+        "name": "China",
+        "mentions": 15,
         "description": ""
       },
       {
-        "name": "China",
+        "name": "Office of Management and Budget",
         "mentions": 14,
         "description": ""
       },
@@ -1181,6 +1121,11 @@
         "description": ""
       },
       {
+        "name": "Donald Trump",
+        "mentions": 4,
+        "description": ""
+      },
+      {
         "name": "National Defense Strategy",
         "mentions": 3,
         "description": ""
@@ -1192,11 +1137,6 @@
       },
       {
         "name": "Munich Security Conference",
-        "mentions": 3,
-        "description": ""
-      },
-      {
-        "name": "Donald Trump",
         "mentions": 3,
         "description": ""
       },

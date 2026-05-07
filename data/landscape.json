@@ -6,11 +6,11 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 258
+      "mentions": 256
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 238
+      "mentions": 237
     },
     {
       "name": "Department of Defense",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 86
+      "mentions": 88
     },
     {
       "name": "Department of Energy",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Defense One",
-      "mentions": 56
+      "mentions": 57
     },
     {
       "name": "Department of Commerce",
@@ -77,27 +77,11 @@
       "mentions": 53
     },
     {
-      "name": "Central Intelligence Agency",
-      "mentions": 50
+      "name": "Board of Governors of the Federal Reserve System",
+      "mentions": 48
     }
   ],
   "active_threads": [
-    {
-      "id": "b7aac3ef4159ebc0",
-      "title": "Yahoo / Colorado",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "elon",
-        "xai",
-        "colorado",
-        "musk's"
-      ],
-      "importance": 1.0,
-      "description": "Both involved in BSP incident: Elon Musk's xAI sues Colorado over state's first-in-the-nation AI regulation law; Both involved in BSP incident: Elon Musk\u2019s xAI Hits Colorado With Lawsuit Over New AI R"
-    },
     {
       "id": "8fa9e69f3182e833",
       "title": "Microsoft / EU",
@@ -111,24 +95,8 @@
         "successfully",
         "lobbied"
       ],
-      "importance": 0.71,
+      "importance": 0.66,
       "description": "Both involved in BSP incident: US tech firms successfully lobbied EU to hide environmental toll of data centres; Both involved in BSP incident: US tech firms successfully lobbied EU to keep datacentre"
-    },
-    {
-      "id": "2ec08bb764159da1",
-      "title": "Lockheed Martin / Precision Strike Missile",
-      "keywords": [
-        "lockheed",
-        "strike",
-        "pentagon",
-        "agree",
-        "pac-",
-        "tests",
-        "upgraded",
-        "precision"
-      ],
-      "importance": 0.44,
-      "description": "Lockheed tests upgraded Precision Strike Missile designed to strike ships; Pentagon, Boeing agree to triple PAC-3 seeker production; Pentagon, Lockheed Martin agree to $4.7 billion PAC-3 interceptor d"
     },
     {
       "id": "2d4dd77b3c6ffd6b",
@@ -143,44 +111,12 @@
         "google's",
         "military"
       ],
-      "importance": 0.42,
+      "importance": 0.39,
       "description": "Both involved in BSP incident: Purported Gemini-Generated AI Images Reportedly Claimed U.S. Delta Force Soldier; Both involved in BSP incident: Google in talks with Pentagon to deploy Gemini AI after "
-    },
-    {
-      "id": "0f15b380f857e9dd",
-      "title": "Central Intelligence Agency / Office of Management and Budget",
-      "keywords": [
-        "speed",
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "production",
-        "scaling",
-        "exposes"
-      ],
-      "importance": 0.3,
-      "description": "Both involved in BSP incident: Production AI Scaling Exposes $1.2B Governance Infrastructure Gap Across Defense; Army Doctrine Writers Embrace AI to Speed Knowledge to Force; CIA announces new acquisi"
-    },
-    {
-      "id": "59b40ec3965cc0c2",
-      "title": "House / Senate",
-      "keywords": [
-        "senate",
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "passes",
-        "-day",
-        "extension"
-      ],
-      "importance": 0.26,
-      "description": "Both involved in BSP incident: Senate passes 10-day extension of nation\u2019s spy powers; Shutdown poised to continue for DHS after House, Senate take diverging paths"
     }
   ],
   "signal_funnel": {
-    "detected": 1111,
+    "detected": 1115,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
