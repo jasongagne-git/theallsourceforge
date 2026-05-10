@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Source Forge Weekly — April 12, 2026 | The All Source Forge</title>
+<link rel="canonical" href="https://theallsourceforge.com/briefings/2026-04-12.html">
+<meta name="description" content="DIA&#x27;s new Digital Modernization Accelerator [centralizes AI efforts](https://breakingdefense.com/2026/04/dia-centralizes-ai-efforts-with-digital-modernization-a">
+<meta property="og:title" content="All Source Forge Weekly — April 12, 2026">
+<meta property="og:description" content="DIA&#x27;s new Digital Modernization Accelerator centralizes AI efforts with a mandate to &quot;move lik">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://theallsourceforge.com/briefings/2026-04-12.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="All Source Forge Weekly — April 12, 2026">
+<meta name="twitter:description" content="DIA&#x27;s new Digital Modernization Accelerator centralizes AI efforts with a mandate to &quot;move lik">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.briefing-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.briefing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-accent-secondary);
+}
+.briefing-header .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-header .tagline {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.briefing-header .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+/* Signal legend */
+.signal-legend {
+    background: var(--bg-secondary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.signal-legend .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dimmer);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+/* Briefing content */
+.briefing-h1 {
+    color: var(--text-bright);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.briefing-h2 {
+    color: var(--text-bright);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
+}
+.briefing-ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+    list-style: none;
+}
+.briefing-li {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--color-accent-secondary);
+    border-radius: 4px;
+}
+.briefing-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background: var(--bg-tertiary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+.briefing-link:hover { color: var(--text-bright); border-color: var(--text-dimmer); }
+.briefing-strong { color: var(--text-bright); font-weight: 600; }
+.signal-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    margin-right: 4px;
+}
+
+.briefing-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.briefing-meta .tag {
+    background: var(--bg-secondary);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.briefing-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.briefing-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.briefing-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.briefing-cta a.btn:hover { background: #3b7cf5; }
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">the allsource<i>[forge]</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="../research.html">Governance</a>
+            <a href="../research/sentinel.html">SENTINEL</a>
+            <a href="../signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="briefing-container">
+    <div class="briefing-header">
+        <div class="brand">All Source Forge Weekly</div>
+        <div class="tagline">Evidence-based intelligence for people who build, govern, or deploy AI in defense</div>
+        <div class="date">April 12, 2026</div>
+    </div>
+
+    <div class="signal-legend">
+        <span class="label">Signal Types</span>
+        <span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span>
+        <span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span>
+        <span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span>
+        <span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span>
+        <span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span>
+        <span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span>
+        <span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span>
+        <span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span>
+    </div>
+
+    <div class="briefing-content">
+        <h2 class="briefing-h2">Opportunity of the Week</h2>
+<p class="briefing-p">DIA's new Digital Modernization Accelerator <a href="https://breakingdefense.com/2026/04/dia-centralizes-ai-efforts-with-digital-modernization-accelerator/" class="briefing-link" target="_blank" rel="noopener">centralizes AI efforts</a> with a mandate to "move like somebody's on your heels" — while the Pentagon's Anthropic blacklist <a href="https://www.defensenews.com/pentagon/2026/04/09/pentagons-ouster-of-anthropic-opens-doors-for-small-ai-rivals/" class="briefing-link" target="_blank" rel="noopener">opens procurement doors for small AI rivals</a>. Defense AI builders with operational track records can now bypass the usual vendor incumbents by directly engaging combatant commanders and innovation cells who are suddenly fielding calls. The window exists because large-scale AI deployment creates immediate demand that existing contracts can't fill fast enough.</p>
+<h2 class="briefing-h2">Key Signals</h2>
+<ul class="briefing-ul">
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span></strong> CIA <a href="https://www.nextgov.com/artificial-intelligence/2026/04/cia-plans-ai-coworkers-deputy-director-says/412744/" class="briefing-link" target="_blank" rel="noopener">generated its first intelligence report using AI</a> and plans "AI coworkers" for employees — revealing that production AI is already embedded in national security workflows, not just pilot programs. VA's FY27 budget seeks <a href="https://www.govexec.com/technology/2026/04/vas-fy27-budget-proposal-seeks-funding-additional-ai-adoption/412699/" class="briefing-link" target="_blank" rel="noopener">10.9% increase for AI infrastructure</a>, signaling agencies are moving from experimentation to operational scale.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span></strong> Anthropic's Glasswing initiative reportedly <a href="https://www.nextgov.com/cybersecurity/2026/04/anthropics-glasswing-initiative-raises-questions-us-cyber-operations/412721/" class="briefing-link" target="_blank" rel="noopener">uncovered thousands of cyber vulnerabilities</a>, raising questions about how Claude Mythos Preview could reshape offensive cyber operations — and whether governance frameworks can track what AI discovers that humans never surface.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span></strong> GSA <a href="https://www.nextgov.com/artificial-intelligence/2026/04/gsa-require-agencies-pay-usai-after-launching-it-free-service/412678/" class="briefing-link" target="_blank" rel="noopener">now requires agencies to pay for USAi</a> after launching it as free last year, while <a href="https://thehill.com/policy/technology/5826742-ai-workplace-impact-survey-americans/" class="briefing-link" target="_blank" rel="noopener">20% of workers report AI has replaced job tasks</a> — demonstrating that cost models and workforce impacts weren't addressed before deployment at scale.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span></strong> Pentagon <a href="https://www.defensenews.com/news/pentagon-congress/2026/04/10/pentagon-faa-sign-agreement-on-deploying-anti-drone-laser-system-near-mexico/" class="briefing-link" target="_blank" rel="noopener">deploys anti-drone laser system</a> only after FAA testing validates operational parameters. This bureaucratic sequencing creates delays in counter-UAS deployment despite urgent border security demands.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span></strong> Navy requests <a href="https://www.defensenews.com/news/your-navy/2026/04/07/us-navy-seeks-1200-increase-in-tomahawk-missile-procurement-for-2027/" class="briefing-link" target="_blank" rel="noopener">$3B for Tomahawks and 1,200% increase in procurement</a> to replenish Iran war stocks — while simultaneously <a href="https://www.defensenews.com/news/your-navy/2026/04/10/us-navy-ends-uss-boise-submarine-overhaul-after-price-tag-soars/" class="briefing-link" target="_blank" rel="noopener">canceling USS Boise overhaul after costs ballooned</a>. Munitions spending surges while maintenance infrastructure collapses.</p>
+</li>
+</ul>
+<h2 class="briefing-h2">Pattern Watch</h2>
+<p class="briefing-p">AI is moving from pilot to production across defense and intelligence without corresponding governance adaptation. CIA generates intelligence reports with AI, VA scales infrastructure spending, and workers report job displacement — but cost models, monitoring frameworks, and workforce transition plans remain reactive. This creates a procurement opening: agencies need operational AI systems now, but lack internal capacity to deploy safely at scale.</p>
+<h2 class="briefing-h2">Actionable Intel</h2>
+<p class="briefing-p"><strong class="briefing-strong">Defense professionals:</strong> Contact DIA's Digital Modernization Accelerator (Maj. Gen. Robert Kinney) and engage combatant commands now fielding calls from <a href="https://www.defensenews.com/pentagon/2026/04/09/pentagons-ouster-of-anthropic-opens-doors-for-small-ai-rivals/" class="briefing-link" target="_blank" rel="noopener">small AI startups post-Anthropic exit</a>. Target <a href="https://www.govexec.com/technology/2026/04/vas-fy27-budget-proposal-seeks-funding-additional-ai-adoption/412699/" class="briefing-link" target="_blank" rel="noopener">CDAO's AI infrastructure programs</a> where FY27 budget increases signal deployment readiness.</p>
+<p class="briefing-p"><strong class="briefing-strong">AI builders:</strong> Study <a href="https://www.nextgov.com/cybersecurity/2026/04/anthropics-glasswing-initiative-raises-questions-us-cyber-operations/412721/" class="briefing-link" target="_blank" rel="noopener">Anthropic's Claude Mythos vulnerability discovery</a> as a case study in AI discovering what humans miss — then build monitoring systems that surface behavioral drift before it becomes operational risk. Design for <a href="https://www.nextgov.com/artificial-intelligence/2026/04/openai-national-security-lead-endorses-appropriate-human-judgment-ai/412738/" class="briefing-link" target="_blank" rel="noopener">OpenAI's "appropriate human judgment" framework</a> to meet emerging national security requirements.</p>
+<p class="briefing-p"><strong class="briefing-strong">Policy professionals:</strong> Analyze <a href="https://www.nextgov.com/artificial-intelligence/2026/04/gsa-require-agencies-pay-usai-after-launching-it-free-service/412678/" class="briefing-link" target="_blank" rel="noopener">GSA's USAi pricing shift</a> and <a href="https://thehill.com/policy/technology/5826742-ai-workplace-impact-survey-americans/" class="briefing-link" target="_blank" rel="noopener">worker displacement data</a> to draft cost and workforce impact assessment requirements before deployment. Use <a href="https://www.nextgov.com/artificial-intelligence/2026/04/secret-service-embedding-ai-experts-across-agency/412646/" class="briefing-link" target="_blank" rel="noopener">Secret Service's AI expert embedding model</a> as template for technical capacity requirements in procurement standards.</p>
+    </div>
+
+    <div class="briefing-meta">
+        <span class="tag">60 sources cited</span>
+        <span class="tag">claude-sonnet-4-5-20250929</span>
+    </div>
+
+    <div class="briefing-cta">
+        <p>Get the All Source Forge Weekly delivered to your inbox every Sunday.</p>
+        <a href="https://theallsourceforge.com/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a href="../archive.html" class="back-link">&larr; Back to Archive</a>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://theallsourceforge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
