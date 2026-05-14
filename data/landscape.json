@@ -6,15 +6,15 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 256
+      "mentions": 251
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 237
+      "mentions": 236
     },
     {
       "name": "Department of Defense",
-      "mentions": 178
+      "mentions": 181
     },
     {
       "name": "Department of the Interior",
@@ -34,15 +34,15 @@
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 88
+      "mentions": 85
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 81
     },
     {
       "name": "Department of Energy",
       "mentions": 80
-    },
-    {
-      "name": "Anthropic",
-      "mentions": 79
     },
     {
       "name": "War on the Rocks",
@@ -83,40 +83,24 @@
   ],
   "active_threads": [
     {
-      "id": "8fa9e69f3182e833",
-      "title": "Microsoft / EU",
+      "id": "dfda412c9168ff1b",
+      "title": "Government Accountability Office / IRS",
       "keywords": [
+        "irs",
         "both",
         "involved",
         "bsp",
         "incident",
         "tech",
-        "firms",
-        "successfully",
-        "lobbied"
+        "lacks",
+        "transparent"
       ],
-      "importance": 0.66,
-      "description": "Both involved in BSP incident: US tech firms successfully lobbied EU to hide environmental toll of data centres; Both involved in BSP incident: US tech firms successfully lobbied EU to keep datacentre"
-    },
-    {
-      "id": "2d4dd77b3c6ffd6b",
-      "title": "Google / Gemini",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "pentagon",
-        "gemini",
-        "google's",
-        "military"
-      ],
-      "importance": 0.39,
-      "description": "Both involved in BSP incident: Purported Gemini-Generated AI Images Reportedly Claimed U.S. Delta Force Soldier; Both involved in BSP incident: Google in talks with Pentagon to deploy Gemini AI after "
+      "importance": 0.34,
+      "description": "Both involved in BSP incident: IRS lacks transparent plans to leverage tech in the face of staffing cuts, GAO..; Both involved in BSP incident: IRS changes might affect taxpayer audits; IRS faces AI s"
     }
   ],
   "signal_funnel": {
-    "detected": 1115,
+    "detected": 1122,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

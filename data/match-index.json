@@ -1,6 +1,55 @@
 {
   "signals": [
     {
+      "signal_id": "3355908686ae9df3a7d506cb94333b0d640884946a833ef1f3fe88a8154c55fe",
+      "title": "Banks must work harder to navigate a tsunami of cyber, fraud risks",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.494359"
+    },
+    {
+      "signal_id": "c76dd8a39e379002441c345baddbef3eaaf9120400da7741c4482a61a15d1c2c",
+      "title": "Man Trapped in Dystopian Nightmare Thanks to AI Surveillance Cameras Flagging...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.313054"
+    },
+    {
+      "signal_id": "2420bead9bca80435ff128030041e7de1f3edc25d7fd41a5842de6a65263c895",
+      "title": "Lowe\u2019s faces pressure to cut ties with Flock Safety as AI surveillance data raises serious privacy concerns",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.295473"
+    },
+    {
+      "signal_id": "3a1aecf1622bb17fc26ca623fb3e4523da4e3a7bf8206964127576bfc5128517",
+      "title": "Inside Project Maven\u2019s accountability trap",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.195132"
+    },
+    {
+      "signal_id": "950cf2dd9af4a5fc2dfa2e5c8c6c6a585bbc448c4e50936b1962b400f09ca155",
+      "title": "AI Review of Police Footage Sparks Bias, Legal Worries",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.132776"
+    },
+    {
+      "signal_id": "68ff9e48f3717e24d2144aa0b41e34274ef7df25c81c9db21402874eca5593d4",
+      "title": "Weeks after security breach incident involving a third party AI tool, billion-dollar US company reveals another exposure that occurred",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.031530"
+    },
+    {
+      "signal_id": "a6f419cc59d0cc51e187326d2676ae680c99a76b0c622b248c13b33d1e6c6233",
+      "title": "Nine Seconds to Zero: What the PocketOS Incident Reveals About Enterprise AI Risk",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-08T07:03:41.017811"
+    },
+    {
       "signal_id": "e16cfd083cc9640c3ae32b8f5370fd614f1bef0d2e06c04c4823fcf04ca78d40",
       "title": "Purportedly AI-Enhanced Images of Iranian Women Protesters Were Reportedly Spread With Unverified Execution Claims",
       "status": "detected",
@@ -652,55 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.638397"
     },
     {
-      "signal_id": "831d838f3d408b92d754336027f53e101b5719f3b3b5ec40edd99f2715267c95",
-      "title": "[United States Agency for International Development] AI analysis of Moldova's media content and social media landscape",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.638061"
-    },
-    {
-      "signal_id": "45bd9e8f538a88c864ae9a3459ba49a585f85a670909ae792b14b946d57d25e3",
-      "title": "[United States Agency for International Development] Anti-Money Laundering and Shareholders Transparency IT System",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.637736"
-    },
-    {
-      "signal_id": "c0b51104a4ec5dce4bc41a37cfa059fe05240885bedf8b029f941835b9091e5a",
-      "title": "[United States Agency for International Development] Predictive analytics model to predict HIV Treatment Interruption Risk",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.637457"
-    },
-    {
-      "signal_id": "a85f19cc2d5b7877c87f56d7ac46507d887147c3e76c37b488fb1b94f0214324",
-      "title": "[United States Agency for International Development] Chatbot to respond to teachers' questions about how to prevent student dropout",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.637124"
-    },
-    {
-      "signal_id": "88fffa2b04daf0d0b96d8b38e366e9bd6b2ac350a55278b0874eb94d834e2378",
-      "title": "[United States Agency for International Development] Mobile application for reading rapid cryptococcosis tests",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.636747"
-    },
-    {
-      "signal_id": "fcb98a60fd31f4d99c926c7828fbe72e281f2e96705d941ac4fd0625b7180441",
-      "title": "[United States Agency for International Development] Mibanco: Equitable Finance Activity in Colombia",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.636446"
-    },
-    {
-      "signal_id": "985495ede3b435e8e46f6271a05b11799787f51af06c3adb6fccecd419f1cb9f",
-      "title": "[United States Agency for International Development] Twitter trend analysis in Colombia",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.636149"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,34 +766,19 @@
   ],
   "topic_threads": [
     {
-      "id": "8fa9e69f3182e833",
-      "title": "Microsoft / EU",
+      "id": "dfda412c9168ff1b",
+      "title": "Government Accountability Office / IRS",
       "keywords": [
+        "irs",
         "both",
         "involved",
         "bsp",
         "incident",
         "tech",
-        "firms",
-        "successfully",
-        "lobbied"
+        "lacks",
+        "transparent"
       ],
-      "importance": 0.66
-    },
-    {
-      "id": "2d4dd77b3c6ffd6b",
-      "title": "Google / Gemini",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "pentagon",
-        "gemini",
-        "google's",
-        "military"
-      ],
-      "importance": 0.39
+      "importance": 0.34
     }
   ],
   "entities_by_type": {
@@ -860,7 +845,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 82,
+        "mentions": 84,
         "description": ""
       },
       {
@@ -917,7 +902,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 192,
+        "mentions": 202,
         "description": ""
       },
       {
@@ -942,7 +927,7 @@
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 31,
+        "mentions": 33,
         "description": ""
       },
       {
@@ -956,12 +941,12 @@
         "description": ""
       },
       {
-        "name": "Social Security Administration",
-        "mentions": 27,
+        "name": "U.S. Air Force",
+        "mentions": 28,
         "description": ""
       },
       {
-        "name": "U.S. Air Force",
+        "name": "Social Security Administration",
         "mentions": 27,
         "description": ""
       },
@@ -971,22 +956,22 @@
         "description": ""
       },
       {
+        "name": "Trump administration",
+        "mentions": 18,
+        "description": ""
+      },
+      {
         "name": "NATO",
         "mentions": 17,
         "description": ""
       },
       {
-        "name": "U.S. Space Force",
-        "mentions": 15,
-        "description": ""
-      },
-      {
-        "name": "Trump administration",
-        "mentions": 15,
-        "description": ""
-      },
-      {
         "name": "China",
+        "mentions": 16,
+        "description": ""
+      },
+      {
+        "name": "U.S. Space Force",
         "mentions": 15,
         "description": ""
       },
@@ -1009,7 +994,7 @@
       },
       {
         "name": "Project Maven",
-        "mentions": 5,
+        "mentions": 6,
         "description": ""
       },
       {
