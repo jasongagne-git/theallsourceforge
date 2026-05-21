@@ -1,6 +1,90 @@
 {
   "signals": [
     {
+      "signal_id": "8534f54a8d0e00f2424ea613a88d8ab977c9945a90a13ade739928a867dcfaf8",
+      "title": "The VA's tech mess began in Kansas City. Here's how to fix it for veterans | Opinion",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.412776"
+    },
+    {
+      "signal_id": "e13e3bd59a4137e3fbcc3114a1f7915423d359ffcf5324b999b7569391ebab73",
+      "title": "Pentagon wants AI to aim its drone-killing turrets \u2014 with a human still on the trigger",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.301941"
+    },
+    {
+      "signal_id": "b3d0cf489dd21776c020d1f0fd866646293de7eeb88bab9c313c7ebbe235abb5",
+      "title": "How AI can lead to false arrests and wrongful convictions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.261467"
+    },
+    {
+      "signal_id": "b880952256563faa3fbb5c33536b903135256e9bec15208c3e8cf91cd18723fc",
+      "title": "Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.254695"
+    },
+    {
+      "signal_id": "703420b7e68ab4212b05716263bbd1ea305f698c666c9b41a200a6bf20fab694",
+      "title": "AI Spy Cameras Suddenly Blanketing America",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.236543"
+    },
+    {
+      "signal_id": "e4c9f3330deee5bf07cbfd4c8e9ccae40bc5fb5cbb13e67264957487a7297126",
+      "title": "Facial recognition jails innocent grandmother, attorney says",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.200200"
+    },
+    {
+      "signal_id": "ef0c2c9b2c0e7820872cf90957753a3d909d2f15f6e94be7c1f6a0e42f69b32e",
+      "title": "Most enterprises can't stop stage-three AI agent threats, VentureBeat survey finds",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:48.028180"
+    },
+    {
+      "signal_id": "8e74cda73f3000e65f52b2c929fa99a42482a0a812ab7babd2fa091bd0cc039e",
+      "title": "Maryland Police Allegedly Relied on Facial Recognition Lead in Wrongful Arrest and Detention of Kimberlee Williams",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:47.957432"
+    },
+    {
+      "signal_id": "d135830f6313b3da17da97682448ca94b41165e49fd7cb91622a314dc6de288c",
+      "title": "Tasmanian School Students Reportedly Created Purported AI-Generated Pornographic Images of Female Classmates",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:47.936760"
+    },
+    {
+      "signal_id": "5e7a0c6d74189b46f48a7d65234e8433a6d8703eafec9f2365691d4675db0182",
+      "title": "Jasper County Student in Texas Reportedly Posted Purported AI-Generated Nude Image of Classmate on Snapchat",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:47.933363"
+    },
+    {
+      "signal_id": "c4ffaeacaec8c68590ab6326d74d983eba7de81124f199ad1db2f4eca73f2f2b",
+      "title": "Ahmedabad Aadhaar Fraud Racket Reportedly Used Purportedly AI-Generated Deepfakes to Change Businessman's Linked Mobile Number",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:47.929507"
+    },
+    {
+      "signal_id": "7de12d6a1a63547a69a772de838bb7075af3efc0494d7dfff1ebc485f842c028",
+      "title": "Meta Internal AI Agent Reportedly Gave Advice That Allegedly Exposed Sensitive Data to Unauthorized Employees",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-15T07:04:47.918439"
+    },
+    {
       "signal_id": "3355908686ae9df3a7d506cb94333b0d640884946a833ef1f3fe88a8154c55fe",
       "title": "Banks must work harder to navigate a tsunami of cyber, fraud risks",
       "status": "detected",
@@ -617,90 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.642475"
     },
     {
-      "signal_id": "7d502278beb7384592319cc73b1b7e325b89edbcd3347089a624bc0be9e14a31",
-      "title": "[Board of Governors of the Federal Reserve System] Risk Rating Model- Community Banks",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.642154"
-    },
-    {
-      "signal_id": "edaf0816917af13aec514009f64b732fb32484f76a81c1de74a9d350dd272f5e",
-      "title": "[Board of Governors of the Federal Reserve System] Bank Performance Monitoring",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.641782"
-    },
-    {
-      "signal_id": "bee4eb42eae2d17de99c1d9a03c9c0b74e95b1c18d7e913cd9044a66d9ff2afc",
-      "title": "[Board of Governors of the Federal Reserve System] Bank Exam Quality Control",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.641406"
-    },
-    {
-      "signal_id": "2cbd4e23f68a80961a962b4a6340b4805c642fe7d1646cd1e4b5a0a0b346c0eb",
-      "title": "[Board of Governors of the Federal Reserve System] Novel Activities Call Report Classification",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.641053"
-    },
-    {
-      "signal_id": "db64d8ac562f391cd06b8a1babd9b06b693132b5bb9c96d2eb4160d6711c9ba6",
-      "title": "[Federal Deposit Insurance Corporation] Structured Interview (SI) tool",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.640764"
-    },
-    {
-      "signal_id": "0f94ce721ebb663aa5c3233788f57d179245fb4b42bc9190f3b4b1869a43e0e5",
-      "title": "[Federal Deposit Insurance Corporation] Automatically-Scored Writing Assessment (AWA)",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.640478"
-    },
-    {
-      "signal_id": "6854e0568717098b8a1f793cb4fbddf10a8cb6b641da18a311d5518e43fe8c01",
-      "title": "[Department of Agriculture] Dam Inspection Report Document Processing",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.640204"
-    },
-    {
-      "signal_id": "adcd4d7c00f0eebd720f898200c54a5c08684f26f68f2dd3a7acfea5518a0258",
-      "title": "[Department of Agriculture] Multilingual Translation of Recalls and Public Health Alerts",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.639893"
-    },
-    {
-      "signal_id": "98070fe8e546ee98012c0454224ea46ee5708e696d2f29f6ead64dc885c2eb65",
-      "title": "[Department of Agriculture] Nutrition Education & Local Access Dashboard",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.639414"
-    },
-    {
-      "signal_id": "ad274f0b9e8ae0439a9576f36633fbef9134ca94ed850fd7aa1a9d07586bf0b3",
-      "title": "[Department of Agriculture] Video Surveillance System",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.639086"
-    },
-    {
-      "signal_id": "a4551ba2bc85f690423bb8f2ff178e2bbdb880d0d2c0552780ef3f271088c8b1",
-      "title": "[Department of Agriculture] List Frame Deadwood Identification",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.638704"
-    },
-    {
-      "signal_id": "159a55e4385d7b9fe6832b9bc53600c2770e8a2df9717390a2cf0cbe1063e0fb",
-      "title": "[United States Agency for International Development] \"Bu Mira\" financial inclusion chatbot",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.638397"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -778,7 +778,22 @@
         "lacks",
         "transparent"
       ],
-      "importance": 0.34
+      "importance": 0.31
+    },
+    {
+      "id": "b741be4f585e2cb4",
+      "title": "VA / Veterans Affairs",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "veterans",
+        "hiring",
+        "overtime",
+        "processing"
+      ],
+      "importance": 0.27
     }
   ],
   "entities_by_type": {
@@ -815,7 +830,7 @@
       },
       {
         "name": "openai",
-        "mentions": 132,
+        "mentions": 133,
         "description": ""
       },
       {
@@ -845,7 +860,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 84,
+        "mentions": 85,
         "description": ""
       },
       {
@@ -870,7 +885,7 @@
       },
       {
         "name": "facebook",
-        "mentions": 54,
+        "mentions": 55,
         "description": ""
       },
       {
@@ -902,7 +917,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 202,
+        "mentions": 216,
         "description": ""
       },
       {
@@ -994,7 +1009,7 @@
       },
       {
         "name": "Project Maven",
-        "mentions": 6,
+        "mentions": 7,
         "description": ""
       },
       {
@@ -1126,6 +1141,11 @@
         "description": ""
       },
       {
+        "name": "Trump Administration",
+        "mentions": 3,
+        "description": ""
+      },
+      {
         "name": "Defense Protection Act",
         "mentions": 2,
         "description": ""
@@ -1154,7 +1174,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 10,
+        "mentions": 11,
         "description": ""
       },
       {

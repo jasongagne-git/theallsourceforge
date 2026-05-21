@@ -6,15 +6,15 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 251
+      "mentions": 249
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 236
+      "mentions": 235
     },
     {
       "name": "Department of Defense",
-      "mentions": 181
+      "mentions": 182
     },
     {
       "name": "Department of the Interior",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Department of Energy",
-      "mentions": 80
+      "mentions": 79
     },
     {
       "name": "War on the Rocks",
@@ -95,12 +95,28 @@
         "lacks",
         "transparent"
       ],
-      "importance": 0.34,
+      "importance": 0.31,
       "description": "Both involved in BSP incident: IRS lacks transparent plans to leverage tech in the face of staffing cuts, GAO..; Both involved in BSP incident: IRS changes might affect taxpayer audits; IRS faces AI s"
+    },
+    {
+      "id": "b741be4f585e2cb4",
+      "title": "VA / Veterans Affairs",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "veterans",
+        "hiring",
+        "overtime",
+        "processing"
+      ],
+      "importance": 0.27,
+      "description": "Both involved in BSP incident: Hiring, overtime, and AI: VA is Processing veterans\u2019 disability claims faster th; Both involved in BSP incident: The VA's tech mess began in Kansas City. Here's how to f"
     }
   ],
   "signal_funnel": {
-    "detected": 1122,
+    "detected": 1134,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

@@ -415,7 +415,7 @@
     },
     {
       "name": "Project Maven",
-      "mentions": 6
+      "mentions": 7
     },
     {
       "name": "F-35",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 202
+      "mentions": 216
     },
     {
       "name": "Department of Energy",
@@ -495,7 +495,7 @@
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 10,
+      "mentions": 11,
       "description": ""
     },
     {
