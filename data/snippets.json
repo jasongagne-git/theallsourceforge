@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-04-26",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon&#x27;s deployment of 100,000 AI agents on unclassified networks through Google Gemini creates an immediate opening for governance frameworks tha.",
+    "snippet": "The Pentagon&#x27;s deployment of 100,000 AI agents on unclassified networks through Google Gemini creates an immediate opening for governance frameworks tha...",
+    "url": "briefings/2026-04-26.html"
+  },
+  {
     "date": "2026-04-19",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "DIA&#x27;s new Digital Modernization Accelerator centralizes AI efforts with a mandate to &quot;move like somebody&#x27;s on your heels&quot; — while the Pen.",
     "snippet": "DIA&#x27;s new Digital Modernization Accelerator centralizes AI efforts with a mandate to &quot;move like somebody&#x27;s on your heels&quot; — while the Pen...",
     "url": "briefings/2026-04-12.html"
-  },
-  {
-    "date": "2026-04-05",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "Defense acquisition reform just got a congressional opening.",
-    "snippet": "Defense acquisition reform just got a congressional opening. The Pentagon is requesting budget flexibilities already available to civilian agencies—the exact...",
-    "url": "briefings/2026-04-05.html"
   }
 ]
