@@ -1,6 +1,41 @@
 {
   "signals": [
     {
+      "signal_id": "21c226f09030b31348b68493bf8b82e7a741d757355e5b366a1fd53f894b2236",
+      "title": "Pentagon policy isn\u2019t keeping pace with autonomous weapons, senators argue",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-22T07:03:13.460429"
+    },
+    {
+      "signal_id": "9f8c55f5cfc3290da0dbf3c281c0c967081bb8c5a45b43089c0c7e9242e5cb9b",
+      "title": "Anthropic got frozen out of Pentagon AI deals after refusing to drop safety guardrails on autonomous weapons \u2014 then a federal judge blocked the blacklist",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-22T07:03:13.448800"
+    },
+    {
+      "signal_id": "5b027b55340dd9428765c6db6439d8a8f70360c7e80a42aa6aae4e16eab64a5a",
+      "title": "Google expands Pentagon\u2019s access to its AI after Anthropic\u2019s refusal",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-22T07:03:13.428418"
+    },
+    {
+      "signal_id": "e0470dd872a117f21c0a64cf5e9dcc43f2677eb19552d02a57c6fb5189ea3d7f",
+      "title": "A grandmother lost everything because a cop trusted AI",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-22T07:03:13.265644"
+    },
+    {
+      "signal_id": "f1327559636242f8187191693be62d7e845524a2699e40c7f4d92fe43de1c417",
+      "title": "The secret Chinese surveillance programme tracking people like me",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-05-22T07:03:13.245676"
+    },
+    {
       "signal_id": "8534f54a8d0e00f2424ea613a88d8ab977c9945a90a13ade739928a867dcfaf8",
       "title": "The VA's tech mess began in Kansas City. Here's how to fix it for veterans | Opinion",
       "status": "detected",
@@ -666,41 +701,6 @@
       "last_updated": "2026-03-30T17:38:23.644068"
     },
     {
-      "signal_id": "c2f70f4c1c25170153cb74ff662cfe180639d0ea59963446f9570f08794ad585",
-      "title": "[Tennessee Valley Authority] Load Forecasting",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.643759"
-    },
-    {
-      "signal_id": "8548e2d57d30b4b9853769f352c5cee2cd732e22b226b94ac58d82f0e7a5178b",
-      "title": "[Department of Veterans Affairs] Silverberry Surgery Planning AI",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.643415"
-    },
-    {
-      "signal_id": "e171bea3061df9f769b3a94f3fc3cc57b80860b0b4ce8f5ce387d35a5d691251",
-      "title": "[Department of Veterans Affairs] GE Xeleris",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.643124"
-    },
-    {
-      "signal_id": "2dd9d436329ed010d806988b33c45e5b8735334762e5745dc22bf106e640018e",
-      "title": "[Department of Veterans Affairs] CareCentra Next Level Personalized AI Health Coach",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.642805"
-    },
-    {
-      "signal_id": "8a52233c6747d110a8d3a05c2826f3eff5babdff3d1e4dd938988057d7653ec8",
-      "title": "[Board of Governors of the Federal Reserve System] Risk Rating Model",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-03-30T17:38:23.642475"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,19 +766,19 @@
   ],
   "topic_threads": [
     {
-      "id": "dfda412c9168ff1b",
-      "title": "Government Accountability Office / IRS",
+      "id": "efad61c5a0ba7bb8",
+      "title": "NIST / Federal Government",
       "keywords": [
-        "irs",
         "both",
         "involved",
         "bsp",
         "incident",
-        "tech",
-        "lacks",
-        "transparent"
+        "nist",
+        "summer",
+        "release",
+        "cyber"
       ],
-      "importance": 0.31
+      "importance": 0.29
     },
     {
       "id": "b741be4f585e2cb4",
@@ -793,7 +793,7 @@
         "overtime",
         "processing"
       ],
-      "importance": 0.27
+      "importance": 0.25
     }
   ],
   "entities_by_type": {
@@ -835,7 +835,7 @@
       },
       {
         "name": "Hill",
-        "mentions": 111,
+        "mentions": 112,
         "description": ""
       },
       {
@@ -860,7 +860,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 85,
+        "mentions": 88,
         "description": ""
       },
       {
@@ -917,7 +917,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 216,
+        "mentions": 227,
         "description": ""
       },
       {
@@ -937,12 +937,12 @@
       },
       {
         "name": "U.S. Army",
-        "mentions": 33,
+        "mentions": 35,
         "description": ""
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 33,
+        "mentions": 34,
         "description": ""
       },
       {
@@ -976,13 +976,13 @@
         "description": ""
       },
       {
-        "name": "NATO",
-        "mentions": 17,
+        "name": "China",
+        "mentions": 18,
         "description": ""
       },
       {
-        "name": "China",
-        "mentions": 16,
+        "name": "NATO",
+        "mentions": 17,
         "description": ""
       },
       {
@@ -1107,7 +1107,7 @@
     "policy": [
       {
         "name": "Trump",
-        "mentions": 14,
+        "mentions": 15,
         "description": ""
       },
       {
@@ -1179,7 +1179,7 @@
       },
       {
         "name": "AI",
-        "mentions": 3,
+        "mentions": 5,
         "description": ""
       },
       {

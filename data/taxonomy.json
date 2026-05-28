@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 216
+      "mentions": 227
     },
     {
       "name": "Department of Energy",
@@ -481,11 +481,11 @@
     },
     {
       "name": "U.S. Army",
-      "mentions": 33
+      "mentions": 35
     },
     {
       "name": "Government Accountability Office",
-      "mentions": 33
+      "mentions": 34
     },
     {
       "name": "General Services Administration",
@@ -500,7 +500,7 @@
     },
     {
       "name": "AI",
-      "mentions": 3,
+      "mentions": 5,
       "description": ""
     }
   ]

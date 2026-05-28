@@ -2,19 +2,19 @@
   "top_entities": [
     {
       "name": "Department of Health and Human Services",
-      "mentions": 270
+      "mentions": 268
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 249
+      "mentions": 240
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 235
+      "mentions": 234
     },
     {
       "name": "Department of Defense",
-      "mentions": 182
+      "mentions": 183
     },
     {
       "name": "Department of the Interior",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Hill",
-      "mentions": 111
+      "mentions": 107
     },
     {
       "name": "Department of Agriculture",
@@ -34,39 +34,35 @@
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 85
+      "mentions": 82
     },
     {
       "name": "Anthropic",
-      "mentions": 81
+      "mentions": 80
     },
     {
       "name": "Department of Energy",
       "mentions": 79
     },
     {
-      "name": "War on the Rocks",
-      "mentions": 75
-    },
-    {
       "name": "Department of Labor",
-      "mentions": 69
+      "mentions": 68
     },
     {
-      "name": "Defense One",
-      "mentions": 57
+      "name": "War on the Rocks",
+      "mentions": 66
     },
     {
       "name": "Department of Commerce",
       "mentions": 56
     },
     {
-      "name": "Federal Deposit Insurance Corporation",
-      "mentions": 54
+      "name": "Defense One",
+      "mentions": 55
     },
     {
-      "name": "CNAS",
-      "mentions": 53
+      "name": "Federal Deposit Insurance Corporation",
+      "mentions": 54
     },
     {
       "name": "Department of State",
@@ -79,24 +75,28 @@
     {
       "name": "Board of Governors of the Federal Reserve System",
       "mentions": 48
+    },
+    {
+      "name": "Breaking Defense",
+      "mentions": 44
     }
   ],
   "active_threads": [
     {
-      "id": "dfda412c9168ff1b",
-      "title": "Government Accountability Office / IRS",
+      "id": "efad61c5a0ba7bb8",
+      "title": "NIST / Federal Government",
       "keywords": [
-        "irs",
         "both",
         "involved",
         "bsp",
         "incident",
-        "tech",
-        "lacks",
-        "transparent"
+        "nist",
+        "summer",
+        "release",
+        "cyber"
       ],
-      "importance": 0.31,
-      "description": "Both involved in BSP incident: IRS lacks transparent plans to leverage tech in the face of staffing cuts, GAO..; Both involved in BSP incident: IRS changes might affect taxpayer audits; IRS faces AI s"
+      "importance": 0.29,
+      "description": "Both involved in BSP incident: NIST aims for summer release of AI cyber guidelines; Both involved in BSP incident: NIST AI Cyber Guidelines Summer Release Opens 90-Day Window for Standards Input:"
     },
     {
       "id": "b741be4f585e2cb4",
@@ -111,12 +111,12 @@
         "overtime",
         "processing"
       ],
-      "importance": 0.27,
+      "importance": 0.25,
       "description": "Both involved in BSP incident: Hiring, overtime, and AI: VA is Processing veterans\u2019 disability claims faster th; Both involved in BSP incident: The VA's tech mess began in Kansas City. Here's how to f"
     }
   ],
   "signal_funnel": {
-    "detected": 1134,
+    "detected": 1139,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
