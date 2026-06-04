@@ -2,63 +2,51 @@
   "top_entities": [
     {
       "name": "Department of Health and Human Services",
-      "mentions": 268
-    },
-    {
-      "name": "Department of Homeland Security",
-      "mentions": 240
+      "mentions": 267
     },
     {
       "name": "Department of Veterans Affairs",
       "mentions": 234
     },
     {
-      "name": "Department of Defense",
-      "mentions": 183
+      "name": "Department of Homeland Security",
+      "mentions": 224
     },
     {
       "name": "Department of the Interior",
       "mentions": 169
     },
     {
-      "name": "United States Agency for International Development",
-      "mentions": 136
+      "name": "Department of Defense",
+      "mentions": 139
     },
     {
-      "name": "Hill",
-      "mentions": 107
+      "name": "United States Agency for International Development",
+      "mentions": 136
     },
     {
       "name": "Department of Agriculture",
       "mentions": 88
     },
     {
-      "name": "Nextgov/FCW",
-      "mentions": 82
-    },
-    {
-      "name": "Anthropic",
-      "mentions": 80
-    },
-    {
       "name": "Department of Energy",
-      "mentions": 79
+      "mentions": 78
+    },
+    {
+      "name": "Hill",
+      "mentions": 75
     },
     {
       "name": "Department of Labor",
       "mentions": 68
     },
     {
-      "name": "War on the Rocks",
-      "mentions": 66
+      "name": "Nextgov/FCW",
+      "mentions": 62
     },
     {
       "name": "Department of Commerce",
       "mentions": 56
-    },
-    {
-      "name": "Defense One",
-      "mentions": 55
     },
     {
       "name": "Federal Deposit Insurance Corporation",
@@ -77,14 +65,42 @@
       "mentions": 48
     },
     {
-      "name": "Breaking Defense",
-      "mentions": 44
+      "name": "Anthropic",
+      "mentions": 47
+    },
+    {
+      "name": "War on the Rocks",
+      "mentions": 39
+    },
+    {
+      "name": "Tennessee Valley Authority",
+      "mentions": 37
+    },
+    {
+      "name": "Defense One",
+      "mentions": 33
     }
   ],
   "active_threads": [
     {
+      "id": "a412fb940f833438",
+      "title": "facial recognition / ICE",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "dhs",
+        "facial",
+        "recognition",
+        "ice"
+      ],
+      "importance": 0.49,
+      "description": "Both involved in BSP incident: Immigration agents are using Meta's AI glasses \u2014 and critics are alarmed; House Democrats appear ready to back Senate DHS funding deal; Both involved in BSP incident: Fa"
+    },
+    {
       "id": "efad61c5a0ba7bb8",
-      "title": "NIST / Federal Government",
+      "title": "Federal Government / NIST",
       "keywords": [
         "both",
         "involved",
@@ -95,28 +111,12 @@
         "release",
         "cyber"
       ],
-      "importance": 0.29,
+      "importance": 0.27,
       "description": "Both involved in BSP incident: NIST aims for summer release of AI cyber guidelines; Both involved in BSP incident: NIST AI Cyber Guidelines Summer Release Opens 90-Day Window for Standards Input:"
-    },
-    {
-      "id": "b741be4f585e2cb4",
-      "title": "VA / Veterans Affairs",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "veterans",
-        "hiring",
-        "overtime",
-        "processing"
-      ],
-      "importance": 0.25,
-      "description": "Both involved in BSP incident: Hiring, overtime, and AI: VA is Processing veterans\u2019 disability claims faster th; Both involved in BSP incident: The VA's tech mess began in Kansas City. Here's how to f"
     }
   ],
   "signal_funnel": {
-    "detected": 1139,
+    "detected": 1169,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

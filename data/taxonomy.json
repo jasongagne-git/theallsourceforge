@@ -457,7 +457,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 259
+      "mentions": 261
     },
     {
       "name": "Department of Veterans Affairs",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Defense",
-      "mentions": 227
+      "mentions": 233
     },
     {
       "name": "Department of Energy",
@@ -495,7 +495,7 @@
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 11,
+      "mentions": 12,
       "description": ""
     },
     {
