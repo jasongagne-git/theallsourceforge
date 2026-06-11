@@ -1,122 +1,106 @@
 {
   "top_entities": [
     {
-      "name": "Department of Health and Human Services",
-      "mentions": 267
-    },
-    {
-      "name": "Department of Veterans Affairs",
-      "mentions": 234
-    },
-    {
-      "name": "Department of Homeland Security",
-      "mentions": 224
-    },
-    {
-      "name": "Department of the Interior",
-      "mentions": 169
-    },
-    {
       "name": "Department of Defense",
-      "mentions": 139
-    },
-    {
-      "name": "United States Agency for International Development",
-      "mentions": 136
-    },
-    {
-      "name": "Department of Agriculture",
-      "mentions": 88
-    },
-    {
-      "name": "Department of Energy",
-      "mentions": 78
+      "mentions": 131
     },
     {
       "name": "Hill",
-      "mentions": 75
-    },
-    {
-      "name": "Department of Labor",
-      "mentions": 68
+      "mentions": 57
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 62
-    },
-    {
-      "name": "Department of Commerce",
-      "mentions": 56
-    },
-    {
-      "name": "Federal Deposit Insurance Corporation",
       "mentions": 54
     },
     {
-      "name": "Department of State",
-      "mentions": 53
-    },
-    {
-      "name": "Department of the Treasury",
-      "mentions": 53
-    },
-    {
-      "name": "Board of Governors of the Federal Reserve System",
-      "mentions": 48
-    },
-    {
       "name": "Anthropic",
-      "mentions": 47
+      "mentions": 45
     },
     {
-      "name": "War on the Rocks",
-      "mentions": 39
-    },
-    {
-      "name": "Tennessee Valley Authority",
+      "name": "Department of Homeland Security",
       "mentions": 37
     },
     {
+      "name": "War on the Rocks",
+      "mentions": 32
+    },
+    {
       "name": "Defense One",
-      "mentions": 33
+      "mentions": 30
+    },
+    {
+      "name": "GovExec",
+      "mentions": 26
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 26
+    },
+    {
+      "name": "Breaking Defense",
+      "mentions": 24
+    },
+    {
+      "name": "Google",
+      "mentions": 24
+    },
+    {
+      "name": "Federal News Network",
+      "mentions": 23
+    },
+    {
+      "name": "C4ISRNET",
+      "mentions": 22
+    },
+    {
+      "name": "Center for a New American Security",
+      "mentions": 20
+    },
+    {
+      "name": "White House",
+      "mentions": 19
+    },
+    {
+      "name": "Congress",
+      "mentions": 18
+    },
+    {
+      "name": "MIT Tech Review",
+      "mentions": 18
+    },
+    {
+      "name": "U.S. Navy",
+      "mentions": 17
+    },
+    {
+      "name": "facial recognition",
+      "mentions": 17
+    },
+    {
+      "name": "CSIS Analysis",
+      "mentions": 16
     }
   ],
   "active_threads": [
     {
-      "id": "a412fb940f833438",
-      "title": "facial recognition / ICE",
+      "id": "7c5afa8f304f9642",
+      "title": "Amazon / Ring",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "dhs",
+        "sued",
+        "ring",
         "facial",
-        "recognition",
-        "ice"
+        "amazon"
       ],
-      "importance": 0.49,
-      "description": "Both involved in BSP incident: Immigration agents are using Meta's AI glasses \u2014 and critics are alarmed; House Democrats appear ready to back Senate DHS funding deal; Both involved in BSP incident: Fa"
-    },
-    {
-      "id": "efad61c5a0ba7bb8",
-      "title": "Federal Government / NIST",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "nist",
-        "summer",
-        "release",
-        "cyber"
-      ],
-      "importance": 0.27,
-      "description": "Both involved in BSP incident: NIST aims for summer release of AI cyber guidelines; Both involved in BSP incident: NIST AI Cyber Guidelines Summer Release Opens 90-Day Window for Standards Input:"
+      "importance": 0.39,
+      "description": "Both involved in BSP incident: Amazon sued over claims Ring cameras collected facial data without consent; Both involved in BSP incident: Amazon Ring sued over facial recognition privacy violation; Bo"
     }
   ],
   "signal_funnel": {
-    "detected": 1169,
+    "detected": 1179,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

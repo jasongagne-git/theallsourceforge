@@ -1,6 +1,76 @@
 {
   "signals": [
     {
+      "signal_id": "be6d02b214e0b254a7917dcb27cf0ece7db1c8895044d95a71e9ea935366985a",
+      "title": "Nevada facial recognition project draws scrutiny over privacy, police oversight",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.975885"
+    },
+    {
+      "signal_id": "f1060ed2dfee2e6b54ecf16e48f572012532ca94f1480a71da0bf6ea1394cfd2",
+      "title": "Amazon's Ring sued over facial recognition feature, latest privacy concern for doorbell maker",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.959604"
+    },
+    {
+      "signal_id": "0fec19222e1861b917265b6424aab5e2f06bbea9632b500008cfb0fe4ee4cc9d",
+      "title": "Amazon Ring sued over facial recognition privacy violation",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.936632"
+    },
+    {
+      "signal_id": "27d3da1ad3067446aa606ae8ff3eaec0c652551561bf8ee850ca1f0deab42e73",
+      "title": "Man wrongfully jailed; prosecutors cite facial recognition match before dropping...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.924573"
+    },
+    {
+      "signal_id": "da5eb55b691643effbaee89d4e6dc39a6de9fd4f376a5116b2d1b49fdd63c8cf",
+      "title": "Amazon sued over claims Ring cameras collected facial data without consent",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.911970"
+    },
+    {
+      "signal_id": "60e2afdee53b37b1d64424c5b2298bdec1cde00f10c7734598813d834350fa88",
+      "title": "Amazon faces class action lawsuit over Ring facial recognition feature",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.899479"
+    },
+    {
+      "signal_id": "ed078d85d23b2c9a24b3b16d44d23951e80c4ce5dc33dd0d2b40424bba8130bb",
+      "title": "Amazon Ring sued over facial recognition",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.880095"
+    },
+    {
+      "signal_id": "dac1e1d4e4e434f48eb361e76e0e1c8907b2169147f1dfb87e324b1b5a2d982b",
+      "title": "Amazon Ring Sued for Facial Recognition Technology: Here's Why It May Violate...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.859163"
+    },
+    {
+      "signal_id": "d4e83aa4078cf27181e06cc4d0d26ad48c2554acf99b2693d73e576f44c91675",
+      "title": "Tesla Robotaxi Crashes Blamed on Human Teleoperators: Backup System Failed Twice in NHTSA Data",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.774722"
+    },
+    {
+      "signal_id": "bb1b140fa877ccac5d7422ce7291b3b53f84b18fca4c1dd4023b1f786d04cd17",
+      "title": "Tesla\u2019s own AI trainers don\u2019t trust \u2018Full Self-Driving\u2019 or its safety stats, Reuters finds",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-05T07:02:34.757474"
+    },
+    {
       "signal_id": "3a367f24896fbe11dcd90a4d7955b6b9675a5745116b48448acec9fbf0a80ac6",
       "title": "Pentagon's $54B Autonomous Systems Sprint Creates 18-Month Governance Window: Replicator delivery delays and policy lag open competitive arbitrage for rapid fielders",
       "status": "detected",
@@ -631,76 +701,6 @@
       "last_updated": "2026-04-10T07:03:08.424011"
     },
     {
-      "signal_id": "58aeee076be7badd8904edb44127c4f37b42991df7cfaaa92e112959abe4d786",
-      "title": "UK High Court Found Sky Betting & Gaming Unlawfully Used Automated Profiling and Targeted Marketing to Exploit a Recovering Problem Gambler",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.397288"
-    },
-    {
-      "signal_id": "d0fd641cc0c7c541377be3cb2b65ddaf15bb37b02716f29c9438b19bcf5f6609",
-      "title": "Baltimore Lawsuit Alleged DraftKings and FanDuel Used Machine-Learning-Driven Targeting to Exploit Vulnerable Gamblers",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.388787"
-    },
-    {
-      "signal_id": "3fe8a535bef652aba1461ff92151ab11dfb070280c0beb6fd7856bd4c016cfad",
-      "title": "Perplexity AI Reportedly Misstated CLL Research, Allegedly Contributing to Delayed Treatment and Prolonged Suffering",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.380791"
-    },
-    {
-      "signal_id": "b55134b91b806e0cef5816035facb4b1d0dbf9317d510fa07f08b01ece0f3678",
-      "title": "'Citizens Against Mamdani' Accounts Reportedly Posted AI-Generated Videos of Fictional New Yorkers to Simulate Political Opposition",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.377456"
-    },
-    {
-      "signal_id": "726a8749705a5a9c89960593cfecb8bfb9a3cf8f29a4ada62fc794affce29d61",
-      "title": "Bal\u00e1zs Orb\u00e1n Allegedly Published Purported Deepfake of P\u00e9ter Magyar Claiming He Would Cut Pensions",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.325576"
-    },
-    {
-      "signal_id": "13c153ec2575fe534de46724f8a93dc273e119f526f968b65812b30c5e2b71dd",
-      "title": "Purported Deepfake Images of Gr\u00e1inne Seoige Reportedly Circulated During Ireland's 2024 General Election Campaign",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.314919"
-    },
-    {
-      "signal_id": "b5409913a13f07285e08c0840f59533d3a25bb180cd3072a306298b1a8b6e06a",
-      "title": "Meta AI Smart Glasses Reportedly Exposed Intimate User Imagery and Video to Human Reviewers in Kenya",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.299045"
-    },
-    {
-      "signal_id": "51bd993eb531bfcaa465b6a77c116865dbd7082d7edd0232708c89318e9d24cd",
-      "title": "Purported Facial Recognition Error Reportedly Led to Arrest and Jailing of Tennessee Woman in North Dakota Fraud Case",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.265512"
-    },
-    {
-      "signal_id": "3a1eca9e3f5f119d",
-      "title": "AI Governance Measures Success by Acquisition Activity, Not Deployment Outcomes",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-08T07:00:05.936285"
-    },
-    {
-      "signal_id": "e100313a1352995a",
-      "title": "CIA Analysis Predicts AI Trust Erosion Will Revive Human Intelligence Tradecraft",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-08T07:00:05.935312"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,34 +766,19 @@
   ],
   "topic_threads": [
     {
-      "id": "a412fb940f833438",
-      "title": "facial recognition / ICE",
+      "id": "7c5afa8f304f9642",
+      "title": "Amazon / Ring",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "dhs",
+        "sued",
+        "ring",
         "facial",
-        "recognition",
-        "ice"
+        "amazon"
       ],
-      "importance": 0.49
-    },
-    {
-      "id": "efad61c5a0ba7bb8",
-      "title": "Federal Government / NIST",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "nist",
-        "summer",
-        "release",
-        "cyber"
-      ],
-      "importance": 0.27
+      "importance": 0.39
     }
   ],
   "entities_by_type": {
@@ -839,6 +824,11 @@
         "description": ""
       },
       {
+        "name": "Anthropic",
+        "mentions": 97,
+        "description": ""
+      },
+      {
         "name": "War on the Rocks",
         "mentions": 96,
         "description": ""
@@ -846,11 +836,6 @@
       {
         "name": "unknown",
         "mentions": 95,
-        "description": ""
-      },
-      {
-        "name": "Anthropic",
-        "mentions": 91,
         "description": ""
       },
       {
@@ -911,13 +896,13 @@
         "description": ""
       },
       {
-        "name": "Department of Veterans Affairs",
-        "mentions": 238,
+        "name": "Department of Defense",
+        "mentions": 240,
         "description": ""
       },
       {
-        "name": "Department of Defense",
-        "mentions": 233,
+        "name": "Department of Veterans Affairs",
+        "mentions": 238,
         "description": ""
       },
       {
@@ -946,13 +931,13 @@
         "description": ""
       },
       {
-        "name": "General Services Administration",
-        "mentions": 30,
+        "name": "U.S. Navy",
+        "mentions": 31,
         "description": ""
       },
       {
-        "name": "U.S. Navy",
-        "mentions": 29,
+        "name": "General Services Administration",
+        "mentions": 30,
         "description": ""
       },
       {
@@ -966,12 +951,12 @@
         "description": ""
       },
       {
-        "name": "Trump administration",
-        "mentions": 19,
+        "name": "China",
+        "mentions": 20,
         "description": ""
       },
       {
-        "name": "China",
+        "name": "Trump administration",
         "mentions": 19,
         "description": ""
       },
@@ -1174,7 +1159,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 12,
+        "mentions": 14,
         "description": ""
       },
       {
@@ -1194,6 +1179,11 @@
       },
       {
         "name": "Qwen",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "Grok",
         "mentions": 2,
         "description": ""
       }

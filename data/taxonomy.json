@@ -460,12 +460,12 @@
       "mentions": 261
     },
     {
-      "name": "Department of Veterans Affairs",
-      "mentions": 238
+      "name": "Department of Defense",
+      "mentions": 240
     },
     {
-      "name": "Department of Defense",
-      "mentions": 233
+      "name": "Department of Veterans Affairs",
+      "mentions": 238
     },
     {
       "name": "Department of Energy",
@@ -488,14 +488,14 @@
       "mentions": 34
     },
     {
-      "name": "General Services Administration",
-      "mentions": 30
+      "name": "U.S. Navy",
+      "mentions": 31
     }
   ],
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 12,
+      "mentions": 14,
       "description": ""
     },
     {
