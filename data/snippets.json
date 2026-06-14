@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-05-17",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Air Force&#x27;s enterprise AI license through Salesforce&#x27;s Army contract signals a fundamental shift in how services are acquiring agentic AI syste.",
+    "snippet": "The Air Force&#x27;s enterprise AI license through Salesforce&#x27;s Army contract signals a fundamental shift in how services are acquiring agentic AI syste...",
+    "url": "briefings/2026-05-17.html"
+  },
+  {
     "date": "2026-05-10",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon&#x27;s authorization of eight major AI firms — including AWS, Google, Microsoft, NVIDIA, OpenAI, and SpaceX — to deploy on classified networks (.",
     "snippet": "The Pentagon&#x27;s authorization of eight major AI firms — including AWS, Google, Microsoft, NVIDIA, OpenAI, and SpaceX — to deploy on classified networks (...",
     "url": "briefings/2026-05-03.html"
-  },
-  {
-    "date": "2026-04-26",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s deployment of 100,000 AI agents on unclassified networks through Google Gemini creates an immediate opening for governance frameworks tha.",
-    "snippet": "The Pentagon&#x27;s deployment of 100,000 AI agents on unclassified networks through Google Gemini creates an immediate opening for governance frameworks tha...",
-    "url": "briefings/2026-04-26.html"
   }
 ]
