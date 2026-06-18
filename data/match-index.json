@@ -1,6 +1,125 @@
 {
   "signals": [
     {
+      "signal_id": "db8fcd024e145dce91cf6d35d9e21d3de6698efead9e4ea7d3709626d5d8c4ad",
+      "title": "GAO Report on Suicide Prevention Across the Defense Department",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.649345"
+    },
+    {
+      "signal_id": "ef61ee7ddb698ddd581837cdd6364addc0d26f8e9d4d0c04e0bb72d21b6fffa3",
+      "title": "As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.551657"
+    },
+    {
+      "signal_id": "80b8648bd2522c4fa95a166c33b5120b1d14e442026b87c1e3da577d494b729e",
+      "title": "AI Chatbots Fail Medical Questions One in Five Times, Study Reveals",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.544226"
+    },
+    {
+      "signal_id": "2ec7518952d112527b99ec452e471500f2a046c4a75fb92dd157389e2a1ec0d4",
+      "title": "Fort Myers man sues Jacksonville Beach police, alleges false arrest tied to facial recognition technology",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.521686"
+    },
+    {
+      "signal_id": "b2f4e51be803d00ac7acd65a1e0b23b5b1c43e9df7bee5122626f21fa781e64c",
+      "title": "Florida law enforcement relied too heavily on AI, falsely arrested a suspect, ACLU argues",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.499744"
+    },
+    {
+      "signal_id": "33616ee6b057033ab9f834a02daedbc63cbc2b13ed782d514a5702e20e7812bb",
+      "title": "Powerful AI is making facial recognition better at identifying you",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.468205"
+    },
+    {
+      "signal_id": "424a003c5c3a5a4b31cb6f9ec01451b833a5677783dc070dd54ad1730739a4ce",
+      "title": "Rulings Against Workday Offer Plaintiffs a New Path Amid Spread of AI Employment Screening",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.447161"
+    },
+    {
+      "signal_id": "84da595484eb900cec9954cd637a53baef6989ab7e59c37d711a59e93c8e5630",
+      "title": "Why Tesla's AI trainers don't trust its self-driving tech - or its safety stats",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.409888"
+    },
+    {
+      "signal_id": "0845d7ddd2297b1c417321ba08eef0b7728fedaf5855205b99eb9f2727657443",
+      "title": "Grok Reportedly Generated Images After X Users Asked It to Unredact Epstein-File Photos of Children and Women",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.312242"
+    },
+    {
+      "signal_id": "8f1c7a0566a47f48c3dccb5e9a9aa520fb1ee5420b430f4fae0f8752f0e36896",
+      "title": "COEMPT Quality Assurance Engineers Allegedly Violated Indian CBSE Student Data Privacy Rights by Processing It with Google Gemini",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.242347"
+    },
+    {
+      "signal_id": "80a8e7a7e53adb97d1af2f77be74768202a0321bcd953cf35a09a030c1b61445",
+      "title": "ChatGPT Was Alleged to Have Reinforced Pittsburgh Man's Stalking and Threats Against Women",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.224234"
+    },
+    {
+      "signal_id": "15a1494639a65e73279d47b7c7169acaa8f270edf3b51d90737101a3ea41a7d0",
+      "title": "iRobot Roomba J7 R&D Images Reportedly Appeared in Private Online Groups After Data Labeling",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.193282"
+    },
+    {
+      "signal_id": "40917f0378c64cfe8dc755d1ad89aae2b78567c9e52df0439f850e77d4063573",
+      "title": "Henan Authorities Reportedly Commissioned Facial Recognition System to Track Journalists and International Students",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.186307"
+    },
+    {
+      "signal_id": "08d9fa97e4661000e87fffdf5fff4653276ba19479aaa9e8606c05902bebc326",
+      "title": "GPT-2 Reportedly Reproduced Personal Data from Its Training Data",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.169405"
+    },
+    {
+      "signal_id": "becd3141c46878cb533a7844a517b178b5fbec354019cbd742f9220be5dfc6a2",
+      "title": "Private Medical Photos Were Reportedly Found in LAION-5B AI Training Dataset",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.165949"
+    },
+    {
+      "signal_id": "8f5afb4e3327102005494353fffd1086d8e02194d27d5c657d640f55dec4b61e",
+      "title": "South Korean Agencies Reportedly Shared Airport Travelers' Face Images with Companies to Train Immigration Facial Recognition System",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.155129"
+    },
+    {
+      "signal_id": "9defb1be820f79119d6fcfb5e0cebfef8c62fdfa1c6eac11f832fd0061832738",
+      "title": "Finnish Police Were Reportedly Reprimanded After National Bureau of Investigation Unit Allegedly Used Clearview AI to Identify Potential Abuse Victims",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-12T07:05:21.145045"
+    },
+    {
       "signal_id": "be6d02b214e0b254a7917dcb27cf0ece7db1c8895044d95a71e9ea935366985a",
       "title": "Nevada facial recognition project draws scrutiny over privacy, police oversight",
       "status": "detected",
@@ -582,125 +701,6 @@
       "last_updated": "2026-04-24T07:05:22.742844"
     },
     {
-      "signal_id": "5b3e287eeaf5c5cad533a872d3b6eec13c5cc37bb841114f74594aedcd1d17fb",
-      "title": "Lower Saxony CDU Employee Allegedly Shared Sexualized Purported Deepfake of Colleague in Internal WhatsApp Group",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.731512"
-    },
-    {
-      "signal_id": "fa23d8b079dd2328c98be4959a1dd880c13cbdd06bf82ecfaba589bbcb695344",
-      "title": "Former New Orleans Isidore Newman School Teacher Allegedly Used AI to Create Fake Nude Images from Social Media Photos of Girls, Including Students",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.709110"
-    },
-    {
-      "signal_id": "290aaa8311308ecf8f1d3af8c906ea3fc1c1d94d2fe211aadf913e381dca63b9",
-      "title": "Woman Wrongfully Jailed 5 Months After AI Facial Recognition Error",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-17T07:01:14.295828"
-    },
-    {
-      "signal_id": "568cad7aaa24db8b",
-      "title": "Navy Requests $3B for Tomahawks, 1,200% Procurement Increase",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.262882"
-    },
-    {
-      "signal_id": "3d137bc0af2799f2",
-      "title": "Pentagon Deploys Anti-Drone Laser After FAA Testing",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.261769"
-    },
-    {
-      "signal_id": "da8bbe69c371c49d",
-      "title": "20% of Workers Report AI Replacing Job Tasks",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.261189"
-    },
-    {
-      "signal_id": "a5e7a6aa653e312f",
-      "title": "GSA Shifts USAi from Free to Paid Service",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.260736"
-    },
-    {
-      "signal_id": "976a30320d6924ed",
-      "title": "Anthropic's Glasswing Discovers Thousands of Cyber Vulnerabilities",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.260282"
-    },
-    {
-      "signal_id": "a743eb44f9a01105",
-      "title": "VA Seeks 10.9% Budget Increase for AI Infrastructure",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.259444"
-    },
-    {
-      "signal_id": "e36a33732a0c5f95",
-      "title": "CIA Generates First Intelligence Report Using AI",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.258724"
-    },
-    {
-      "signal_id": "318a17e9bed1aa59",
-      "title": "Pentagon's Anthropic Blacklist Opens Doors for Small AI Rivals",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.257967"
-    },
-    {
-      "signal_id": "7de5a55a71d4368a",
-      "title": "DIA Centralizes AI Efforts with Digital Modernization Accelerator",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-15T07:00:03.255836"
-    },
-    {
-      "signal_id": "4b4502aa20d0f242c6ed448dd9470b2c60389fd29fefb0a5f61b58978fa97d41",
-      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.491216"
-    },
-    {
-      "signal_id": "6186dcd522c5cdcd24610606361bc0d27139edd55a0a8d451d16953c873a3309",
-      "title": "Acclarent TruDi Navigation System Was Alleged to Have Misguided Sinus Surgery, Reportedly Contributing to Patient's Stroke",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.471985"
-    },
-    {
-      "signal_id": "cbdedc2befaeeabc3e06b7c26b07e0b10477c424fb8b7e0694c9a58f409da9d1",
-      "title": "Purported Pornographic Deepfakes and Fake Accounts Reportedly Impersonated German TV Presenter and Actor Collien Fernandes",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.438989"
-    },
-    {
-      "signal_id": "a4b5c53100ae2ba8b94ea855750e7e2dc0461f4526e332f6d65ac7b3326c26ea",
-      "title": "Google Gemini Reportedly Reinforced Delusions,  Allegedly Contributing to Florida User's Near-Harm Episode and Suicide",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.431012"
-    },
-    {
-      "signal_id": "bb553daf139372aa8c63cc984f3bbbd366e2bd17313d8d9e16e1099e63093b2e",
-      "title": "Anthropic's Claude Was Reportedly Jailbroken To Allegedly Help Steal Sensitive Mexican Government Data",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-10T07:03:08.424011"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -778,7 +778,7 @@
         "facial",
         "amazon"
       ],
-      "importance": 0.39
+      "importance": 0.37
     }
   ],
   "entities_by_type": {
@@ -810,7 +810,7 @@
       },
       {
         "name": "openai",
-        "mentions": 142,
+        "mentions": 147,
         "description": ""
       },
       {
@@ -850,7 +850,7 @@
       },
       {
         "name": "google",
-        "mentions": 79,
+        "mentions": 81,
         "description": ""
       },
       {
@@ -897,7 +897,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 240,
+        "mentions": 245,
         "description": ""
       },
       {
@@ -921,13 +921,13 @@
         "description": ""
       },
       {
-        "name": "U.S. Army",
-        "mentions": 35,
+        "name": "Government Accountability Office",
+        "mentions": 36,
         "description": ""
       },
       {
-        "name": "Government Accountability Office",
-        "mentions": 34,
+        "name": "U.S. Army",
+        "mentions": 35,
         "description": ""
       },
       {
@@ -951,13 +951,13 @@
         "description": ""
       },
       {
-        "name": "China",
-        "mentions": 20,
+        "name": "Trump administration",
+        "mentions": 25,
         "description": ""
       },
       {
-        "name": "Trump administration",
-        "mentions": 19,
+        "name": "China",
+        "mentions": 21,
         "description": ""
       },
       {
@@ -982,7 +982,7 @@
       },
       {
         "name": "Pete Hegseth",
-        "mentions": 13,
+        "mentions": 14,
         "description": ""
       }
     ],
@@ -1092,7 +1092,7 @@
     "policy": [
       {
         "name": "Trump",
-        "mentions": 15,
+        "mentions": 16,
         "description": ""
       },
       {

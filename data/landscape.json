@@ -2,74 +2,66 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 131
+      "mentions": 117
     },
     {
       "name": "Hill",
-      "mentions": 57
+      "mentions": 49
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 54
+      "mentions": 42
     },
     {
       "name": "Anthropic",
-      "mentions": 45
+      "mentions": 41
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 37
-    },
-    {
-      "name": "War on the Rocks",
-      "mentions": 32
-    },
-    {
-      "name": "Defense One",
-      "mentions": 30
-    },
-    {
-      "name": "GovExec",
-      "mentions": 26
+      "mentions": 31
     },
     {
       "name": "OpenAI",
-      "mentions": 26
+      "mentions": 25
     },
     {
-      "name": "Breaking Defense",
+      "name": "War on the Rocks",
+      "mentions": 25
+    },
+    {
+      "name": "Defense One",
       "mentions": 24
     },
     {
       "name": "Google",
-      "mentions": 24
-    },
-    {
-      "name": "Federal News Network",
       "mentions": 23
     },
     {
-      "name": "C4ISRNET",
-      "mentions": 22
-    },
-    {
-      "name": "Center for a New American Security",
+      "name": "Breaking Defense",
       "mentions": 20
     },
     {
-      "name": "White House",
-      "mentions": 19
+      "name": "C4ISRNET",
+      "mentions": 18
+    },
+    {
+      "name": "GovExec",
+      "mentions": 18
     },
     {
       "name": "Congress",
-      "mentions": 18
+      "mentions": 17
     },
     {
-      "name": "MIT Tech Review",
-      "mentions": 18
+      "name": "Federal News Network",
+      "mentions": 17
     },
     {
-      "name": "U.S. Navy",
+      "name": "Trump administration",
+      "mentions": 17
+    },
+    {
+      "name": "White House",
       "mentions": 17
     },
     {
@@ -77,8 +69,16 @@
       "mentions": 17
     },
     {
-      "name": "CSIS Analysis",
+      "name": "U.S. Navy",
       "mentions": 16
+    },
+    {
+      "name": "MIT Tech Review",
+      "mentions": 15
+    },
+    {
+      "name": "Wired Security",
+      "mentions": 13
     }
   ],
   "active_threads": [
@@ -95,12 +95,12 @@
         "facial",
         "amazon"
       ],
-      "importance": 0.39,
+      "importance": 0.37,
       "description": "Both involved in BSP incident: Amazon sued over claims Ring cameras collected facial data without consent; Both involved in BSP incident: Amazon Ring sued over facial recognition privacy violation; Bo"
     }
   ],
   "signal_funnel": {
-    "detected": 1179,
+    "detected": 1196,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
