@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-05-24",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon&#x27;s new $500 million Perennial Autonomy counter-drone contract and the $54 billion Defense Autonomous Warfare Group (DAWG) initiative open si.",
+    "snippet": "The Pentagon&#x27;s new $500 million Perennial Autonomy counter-drone contract and the $54 billion Defense Autonomous Warfare Group (DAWG) initiative open si...",
+    "url": "briefings/2026-05-24.html"
+  },
+  {
     "date": "2026-05-17",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon is fundamentally restructuring how it procures AI — refusing to ever again rely on a single provider while simultaneously asserting government c.",
     "snippet": "The Pentagon is fundamentally restructuring how it procures AI — refusing to ever again rely on a single provider while simultaneously asserting government c...",
     "url": "briefings/2026-05-10.html"
-  },
-  {
-    "date": "2026-05-03",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s authorization of eight major AI firms — including AWS, Google, Microsoft, NVIDIA, OpenAI, and SpaceX — to deploy on classified networks (.",
-    "snippet": "The Pentagon&#x27;s authorization of eight major AI firms — including AWS, Google, Microsoft, NVIDIA, OpenAI, and SpaceX — to deploy on classified networks (...",
-    "url": "briefings/2026-05-03.html"
   }
 ]
