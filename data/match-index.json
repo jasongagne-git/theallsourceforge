@@ -1,6 +1,83 @@
 {
   "signals": [
     {
+      "signal_id": "f898af29a2f050e5200daa97c27204f4786ccbf194032fc91eab5f40b9d38adc",
+      "title": "Trump signs memo putting \u2018most advanced AI\u2019 into military hands and banning vendors from pulling the plug",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:30.091397"
+    },
+    {
+      "signal_id": "6552dfdda4f5406243cfd4dbbbfeedfa0863ad692eeae9f7cf5008a63c4310f9",
+      "title": "Ukraine\u2019s one-time test used fully autonomous drones to kill Russian soldiers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:30.056689"
+    },
+    {
+      "signal_id": "20c70ebb7a64e01ff2429eea6798d5b9f3b519ebd397f924fa82bd79b9f45e0f",
+      "title": "Health access | AI is becoming health care's newest gatekeeper",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:30.005991"
+    },
+    {
+      "signal_id": "77bf05d07e6f78e8752df0353271cdb177d17d70b449c0f2b5c3e87e451c7852",
+      "title": "Doctors and NHS could be sued for AI-driven diagnosis errors in UK. Here's what report warns",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.985784"
+    },
+    {
+      "signal_id": "b637a01635fb993261c9ca9b1ec7d4aecf4e476bab61f78a934a50c37f1fe521",
+      "title": "\u2018I Lost Everything\u2019: Black Man Arrested and Jailed for Car Theft That Happened While He Was at Work 400 Miles Away in North Carolina",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.973497"
+    },
+    {
+      "signal_id": "4977cc6ec9210ef4a593e786d7038fd3434e4473e042671b9ea536a65d843aba",
+      "title": "Florida man sues police, blames \u2018error-prone\u2019 AI facial recognition for wrongful arrest",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.954312"
+    },
+    {
+      "signal_id": "41bc8705532711a4144ce281be2262a609acfe4367dff6a1e30d7509654ad7a2",
+      "title": "Man describes wrongful arrest by Jacksonville Beach Police using facial recognition technology",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.893561"
+    },
+    {
+      "signal_id": "d45f6c96f3ca7031bdd2a1c90c3683b576d69689e0bed4207f5cab18222406eb",
+      "title": "Workday Hit With Major AI Bias Lawsuit Challenge",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.782619"
+    },
+    {
+      "signal_id": "ef0b498708de604ff78436b85a344b894501a9d582928e213bd5dfff7be2d668",
+      "title": "AI bias threatens LGBTQ users, GLAAD says",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.773800"
+    },
+    {
+      "signal_id": "5e68dd4111f6bb081f6176110dd41ce1f4c34fa18370812fe81b6b71f1efff92",
+      "title": "Dartigue urges 'creative lawyering' to combat AI bias",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.762731"
+    },
+    {
+      "signal_id": "aeb492c6e9ee3c82fa2f6e4d07da71b7d815629b9ec441a3cd0717827e6ae661",
+      "title": "Robot Kicks Child In Stomach During Demo In China",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-19T07:03:29.715948"
+    },
+    {
       "signal_id": "db8fcd024e145dce91cf6d35d9e21d3de6698efead9e4ea7d3709626d5d8c4ad",
       "title": "GAO Report on Suicide Prevention Across the Defense Department",
       "status": "detected",
@@ -624,83 +701,6 @@
       "last_updated": "2026-04-24T07:05:23.128374"
     },
     {
-      "signal_id": "1d4bcee38d01fe964f3cf9f0649c183101a388d3fd363b5dad362e8718c46172",
-      "title": "US government ramps up mass surveillance with help of AI tech, your apps",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.074659"
-    },
-    {
-      "signal_id": "2941dc223339a0f19303cecdb62e5c17c08199fe41e1733727b8e89fd4fbf36e",
-      "title": "Moving Goalposts: Football, Facial Recognition and the Expansion of Surveillance",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.060713"
-    },
-    {
-      "signal_id": "0c969545bdd6e856787fcd9cb61bd070a64551fd047ca113eada8beb76eab355",
-      "title": "Police used AI facial recognition to arrest a Tennessee woman for crimes committed in a state she says she\u2019s never visited",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.053512"
-    },
-    {
-      "signal_id": "2aa55c155469e8b7bcb6dbe52a90a8263aa5a16ce05a9a5e6329c871c34ead6a",
-      "title": "Satellite mega-constellations raise odds of a runaway space-debris cascade",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.983121"
-    },
-    {
-      "signal_id": "a97987436b5065384e83f23fb2b85dcdf4e70d90268e4a550a2dec8465e21793",
-      "title": "Starlink outage disrupts Navy drone test, spotlighting Pentagon reliance",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.952488"
-    },
-    {
-      "signal_id": "feabf5d6dbb6207ad71b50288aafe472e45695314d2a2651741b31124681fa7c",
-      "title": "Rapid AI gains intensify the push to secure critical systems",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.928120"
-    },
-    {
-      "signal_id": "ccf23a958772f57d5739483e6fdd29c884a74ea015b306beb8c43f9d416b147c",
-      "title": "US Fair Lending Enforcement Curbed Under Trump CFPB\u2019s Final Rule",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.881675"
-    },
-    {
-      "signal_id": "54fa908c5bcfabf2d853a4aff887ca00a11352994af6ffde047fa413888e4c7e",
-      "title": "More landlords and lenders are using AI. Fewer regulators are checking them for bias",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.807371"
-    },
-    {
-      "signal_id": "97ee49a1901165797559bd5469836fab93d1dcd6f33dd3fd771ba90c0d34271c",
-      "title": "AI pushes 2026 tech layoffs past 50K in just three months, employers reveal",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.789956"
-    },
-    {
-      "signal_id": "044f6d272d3dd995fe31727d84570cc25bb05f946fd4dfd906362d0e053ef9a9",
-      "title": "Ohio Man Pleaded Guilty after Prosecutors Alleged He Used AI to Create and Distribute Nonconsensual Intimate-Image Forgeries Including CSAM in Harassment Campaign",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.749059"
-    },
-    {
-      "signal_id": "a2bf1d6ceda430393b06039a6666b036996b6102ac9edf9f6437d53f6dbd87c1",
-      "title": "Sixth Circuit Sanctioned Lawyers in Whiting v. City of Athens over Alleged Fake Appellate Citations in Briefs Reportedly Bearing Hallmarks of Hallucinations",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:22.742844"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,19 +766,34 @@
   ],
   "topic_threads": [
     {
-      "id": "7c5afa8f304f9642",
-      "title": "Amazon / Ring",
+      "id": "830aba720a7738e7",
+      "title": "JD Supra / Connecticut",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "sued",
-        "ring",
-        "facial",
-        "amazon"
+        "connecticut",
+        "joins",
+        "regulation",
+        "movement"
       ],
-      "importance": 0.37
+      "importance": 0.29
+    },
+    {
+      "id": "ea5073f85aec0656",
+      "title": "New York / Madison Square Garden",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "facial",
+        "recognition",
+        "better",
+        "identifying"
+      ],
+      "importance": 0.27
     }
   ],
   "entities_by_type": {
@@ -839,12 +854,12 @@
         "description": ""
       },
       {
-        "name": "Department of Agriculture",
-        "mentions": 88,
+        "name": "Nextgov/FCW",
+        "mentions": 89,
         "description": ""
       },
       {
-        "name": "Nextgov/FCW",
+        "name": "Department of Agriculture",
         "mentions": 88,
         "description": ""
       },
@@ -897,7 +912,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 245,
+        "mentions": 253,
         "description": ""
       },
       {
@@ -952,12 +967,12 @@
       },
       {
         "name": "Trump administration",
-        "mentions": 25,
+        "mentions": 27,
         "description": ""
       },
       {
         "name": "China",
-        "mentions": 21,
+        "mentions": 24,
         "description": ""
       },
       {
@@ -1131,17 +1146,17 @@
         "description": ""
       },
       {
+        "name": "National Defense Authorization Act",
+        "mentions": 3,
+        "description": ""
+      },
+      {
         "name": "Defense Protection Act",
         "mentions": 2,
         "description": ""
       },
       {
         "name": "Hakeem Jeffries",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "National Defense Authorization Act",
         "mentions": 2,
         "description": ""
       },

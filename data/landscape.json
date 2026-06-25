@@ -2,34 +2,22 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 117
+      "mentions": 98
     },
     {
       "name": "Hill",
-      "mentions": 49
+      "mentions": 34
     },
     {
       "name": "Nextgov/FCW",
-      "mentions": 42
+      "mentions": 34
     },
     {
       "name": "Anthropic",
-      "mentions": 41
+      "mentions": 32
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 31
-    },
-    {
-      "name": "OpenAI",
-      "mentions": 25
-    },
-    {
-      "name": "War on the Rocks",
-      "mentions": 25
-    },
-    {
-      "name": "Defense One",
       "mentions": 24
     },
     {
@@ -37,31 +25,19 @@
       "mentions": 23
     },
     {
+      "name": "OpenAI",
+      "mentions": 22
+    },
+    {
       "name": "Breaking Defense",
-      "mentions": 20
-    },
-    {
-      "name": "C4ISRNET",
-      "mentions": 18
-    },
-    {
-      "name": "GovExec",
-      "mentions": 18
-    },
-    {
-      "name": "Congress",
-      "mentions": 17
-    },
-    {
-      "name": "Federal News Network",
-      "mentions": 17
+      "mentions": 19
     },
     {
       "name": "Trump administration",
       "mentions": 17
     },
     {
-      "name": "White House",
+      "name": "War on the Rocks",
       "mentions": 17
     },
     {
@@ -69,38 +45,78 @@
       "mentions": 17
     },
     {
-      "name": "U.S. Navy",
+      "name": "Defense One",
       "mentions": 16
     },
     {
-      "name": "MIT Tech Review",
-      "mentions": 15
+      "name": "Federal News Network",
+      "mentions": 16
     },
     {
-      "name": "Wired Security",
+      "name": "GovExec",
+      "mentions": 14
+    },
+    {
+      "name": "U.S. Navy",
+      "mentions": 14
+    },
+    {
+      "name": "White House",
+      "mentions": 14
+    },
+    {
+      "name": "MIT Tech Review",
       "mentions": 13
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 12
+    },
+    {
+      "name": "China",
+      "mentions": 11
+    },
+    {
+      "name": "Colorado",
+      "mentions": 11
     }
   ],
   "active_threads": [
     {
-      "id": "7c5afa8f304f9642",
-      "title": "Amazon / Ring",
+      "id": "830aba720a7738e7",
+      "title": "JD Supra / Connecticut",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "sued",
-        "ring",
-        "facial",
-        "amazon"
+        "connecticut",
+        "joins",
+        "regulation",
+        "movement"
       ],
-      "importance": 0.37,
-      "description": "Both involved in BSP incident: Amazon sued over claims Ring cameras collected facial data without consent; Both involved in BSP incident: Amazon Ring sued over facial recognition privacy violation; Bo"
+      "importance": 0.29,
+      "description": "Both involved in BSP incident: Connecticut Joins the AI Regulation Movement: What Employers Need to Know; Both involved in BSP incident: States Take Aim at AI in Employment Decisions: Illinois\u2019s Discl"
+    },
+    {
+      "id": "ea5073f85aec0656",
+      "title": "New York / Madison Square Garden",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "facial",
+        "recognition",
+        "better",
+        "identifying"
+      ],
+      "importance": 0.27,
+      "description": "Both involved in BSP incident: Powerful AI is making facial recognition better at identifying you; Both involved in BSP incident: Facial recognition is getting better at identifying you with AI. Here\u2019"
     }
   ],
   "signal_funnel": {
-    "detected": 1196,
+    "detected": 1207,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
