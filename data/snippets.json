@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-05-31",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Army&#x27;s &quot;Project Jailbreak&quot; is forcing contractors to open proprietary systems and immediately deploying battlefield fixes from hackathons.",
+    "snippet": "The Army&#x27;s &quot;Project Jailbreak&quot; is forcing contractors to open proprietary systems and immediately deploying battlefield fixes from hackathons ...",
+    "url": "briefings/2026-05-31.html"
+  },
+  {
     "date": "2026-05-24",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Air Force&#x27;s enterprise AI license through Salesforce&#x27;s Army contract signals a fundamental shift in how services are acquiring agentic AI syste.",
     "snippet": "The Air Force&#x27;s enterprise AI license through Salesforce&#x27;s Army contract signals a fundamental shift in how services are acquiring agentic AI syste...",
     "url": "briefings/2026-05-17.html"
-  },
-  {
-    "date": "2026-05-10",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon is fundamentally restructuring how it procures AI — refusing to ever again rely on a single provider while simultaneously asserting government c.",
-    "snippet": "The Pentagon is fundamentally restructuring how it procures AI — refusing to ever again rely on a single provider while simultaneously asserting government c...",
-    "url": "briefings/2026-05-10.html"
   }
 ]
