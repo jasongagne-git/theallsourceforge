@@ -1,6 +1,223 @@
 {
   "signals": [
     {
+      "signal_id": "0cee11c37d7be2b66ddb0b0c1a070b506df90ac472784cdb327fc31d666d8897",
+      "title": "Pok\u00e9mon Go Data Used For Military AI Training: Your Scans Now Train Drones For War",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.479658"
+    },
+    {
+      "signal_id": "c78850a6461e2674bbd9f7866c4927f02a66fee7a7728808f9b4218d2390a3cd",
+      "title": "Florida man blames wrongful arrest on \"error-prone\" AI facial recognition",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.373354"
+    },
+    {
+      "signal_id": "615fd2b3571bf66f010fa2b1fe1c18afeff45239eae0d260070cade4cba5bd87",
+      "title": "ACLU Sues After Facial Recognition Falsely Identifies Florida Man as a Child...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.359801"
+    },
+    {
+      "signal_id": "7f0c11ba793e46580aa9059e632fe423c5b89440a19b2ba2b44821ed6ab69ed0",
+      "title": "Florida Man Wrongfully Arrested After Facial Recognition AI Misidentifies Him in...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.345836"
+    },
+    {
+      "signal_id": "ba9cae0221a656f1a2c6ba89128ddc50f2844c068df06126121a6ec0c464ca03",
+      "title": "Western Australia police are scanning faces in public\u2014and the law is not ready f...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.332836"
+    },
+    {
+      "signal_id": "e03f29f1cca7a07e679758da1e3723d5c9711e014f1788990b036e0e7d306377",
+      "title": "Some local police have access to an ICE facial recognition app",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.322045"
+    },
+    {
+      "signal_id": "47c398b9f74923be155ec550d1f8d343fb37fc4bee3d655198a85da3414f1bdb",
+      "title": "Push for facial recognition on public buses ignites fierce debate in Kansas City",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.301206"
+    },
+    {
+      "signal_id": "ab83ea0b4e9fb48e194ada458bf619c6f11bc94e06a6af917336fd71b7fbf92f",
+      "title": "GLAAD Says AI Is Failing LGBTQ Users\u2014And Warns the Risk Is Growing",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.184095"
+    },
+    {
+      "signal_id": "a93be1575b5610f2a456170d5ea0fb4099ec9c4ac987d39dd65b93ee857d06a1",
+      "title": "AI hiring tools show racial bias, systemic rejection, and creates 330 day black hole. Here\u2019s how to outsmart it.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.163475"
+    },
+    {
+      "signal_id": "ea6813b0035c8c2e7d72431ba6ea81498df479400be613e5d0633e1959fd54b8",
+      "title": "Judge allows most claims in Workday AI discrimination suit",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.155619"
+    },
+    {
+      "signal_id": "f721e71c045c33492508042be282f44634736d8b713b15fa84d443d1b2d94c36",
+      "title": "Tech Layoffs Hit 1,115 a Day in 2026: Companies Cite AI but Cuts Fail to Boost Returns",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:37.096023"
+    },
+    {
+      "signal_id": "afcb2edaa0aa91bdbb13c87be4880488954a1d410804ab26bfcdaf5954c3dd82",
+      "title": "Waymo Robotaxis Reportedly Entered Closed Freeway Construction Zones in Arizona and California",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.985243"
+    },
+    {
+      "signal_id": "5c8a601155df790ddbf1bb1146374dfde8f2508720329ba2e45ccbd9b3b36fc4",
+      "title": "Google Android Earthquake Alerts System Reportedly Underestimated Kahramanmara\u015f Earthquake and Failed to Send Urgent Warnings to Millions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.967134"
+    },
+    {
+      "signal_id": "232f38c764df3547a75000c45292d888ec0e978e60f34fda0814b184e706711c",
+      "title": "Florida Police Reportedly Wrongfully Arrested Commercial Crabber Robert Dillon After Allegedly False Facial Recognition Match",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.948756"
+    },
+    {
+      "signal_id": "c7039cc489926b801b8589e9abd8fb2a0081a1ccd7ad37b1f79c1328396047b4",
+      "title": "OpenAI Allegedly Failed to Intervene in ChatGPT Conversations Preceding Montreal Web Developer Alice Carrier's Suicide",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.758786"
+    },
+    {
+      "signal_id": "38f337870d48e9a9b0f0596a2efcfc0b84742f67749c827f7f98edb5eb978f29",
+      "title": "Google Alleged Outsider Enterprise Used Gemini to Create Phishing Sites for Text-Message Scams",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.732515"
+    },
+    {
+      "signal_id": "fc45e082d57d3e7868bcdc15da5a036bc01372ca22d4f03874d5491eff4a9dec",
+      "title": "Reported Deepfake Video Impersonating Mark Carney Used in Nearly $1M Cryptocurrency Scam Targeting Ontario Senior",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.682113"
+    },
+    {
+      "signal_id": "444aa299a8b156d834d73b89c16d771058f0acb1b9a6a093550e0c7ab8651cc0",
+      "title": "AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During May 2023 Sinuplasty",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.588775"
+    },
+    {
+      "signal_id": "2c0d00c6d3629ed43be87092bab443e575ab14f53e7eb603a5cc06b7f7bdfffb",
+      "title": "Reddit Scam Ads Reportedly Used Deepfake News Segments and Cloned Media Sites to Promote Allegedly Fake AI Investment Platforms",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.537539"
+    },
+    {
+      "signal_id": "5280ab21f5ff67e55f74eeb25c5545e66b5be2b6d2937fc60738ce67b86a3b0b",
+      "title": "Purported Deepfake Video Reportedly Impersonated Former Mongolian Deputy Prime Minister Amarsaikhan Sainbuyan in Investment Scam",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.512717"
+    },
+    {
+      "signal_id": "a0e4949bc7eea4ee9f27ffd086b1c0d0003a316d4a2e1a0e28fbd0e52155cb14",
+      "title": "Purportedly AI-Manipulated Videos Reportedly Targeted Former Kosovo MP Paris Guri and LDK Youth Members Before Snap Elections",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.500459"
+    },
+    {
+      "signal_id": "d648669793f4d40bbc8737c4cb9f250f763b15abd84f20ddd4fe0e3171df2906",
+      "title": "Reported AI-Generated Videos Placed Kosovo Parliamentary Candidates in Purportedly Fabricated Campaign Scenes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.488881"
+    },
+    {
+      "signal_id": "138882515e26ff0928af70c90ca70b26f4b58f0fa6d7d135c6d6705bcb956e55",
+      "title": "Reported AI-Generated Videos Allegedly Posed as Kosovo Election Vox Pops Before June 7, 2026 Vote",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.471994"
+    },
+    {
+      "signal_id": "1f836892dbca5db2377f899b5614ed9836749951a0555a442162fcc4020af1a7",
+      "title": "Reported AI-Generated Videos Purported to Show Kosovo Diaspora Mobilization for Vet\u00ebvendosje Before Snap Elections",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.450120"
+    },
+    {
+      "signal_id": "7dd3ccb9fc9c5a3f9e8b978d87499e56decb60b1e95d3615c28b50fd1d1a3360",
+      "title": "Reported AI-Generated Videos Depicted Former Kosovo President Vjosa Osmani and Other Public Figures in Allegedly False Compromising Scenes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.437752"
+    },
+    {
+      "signal_id": "12db9dc06ea1a6fe87633ff6e5be4b04eb04cf4c0091ea0f4a5050626aa9da12",
+      "title": "Purportedly AI-Generated Videos Reportedly Fabricated Conflict Between Kosovo Leaders Albin Kurti and Vjosa Osmani",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.425445"
+    },
+    {
+      "signal_id": "af17a1591ddfd6c5b89c9a21767fe1d2e0e1f8004c98f0453a0b8073b567ef3d",
+      "title": "Kosovo Public Broadcaster RTK and Journalist G\u00ebzim Bimbashi Were Reportedly AI-Impersonated in Alleged Fake Joint-Cure Scam Video",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.412386"
+    },
+    {
+      "signal_id": "25b84fda4dbcf9197cd7849ced8e4670f9a742b3ab5b2b72cf867f124efc048d",
+      "title": "NoFilterNews Reportedly Posted AI-Generated TikTok Videos Styled as Kosovo Election TV News",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.400293"
+    },
+    {
+      "signal_id": "d76a6e18c7833b445ea93c568133824462457e4743ebc3291d3363afc65c48e1",
+      "title": "AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During June 2022 Sinus Procedure",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.373818"
+    },
+    {
+      "signal_id": "904125a75bb9fbbd674ebe400e04f7f33499c491288bba2b47b74a97919f52ef",
+      "title": "Students at Australian Schools Reportedly Used AI Nudification Tools to Create Nonconsensual Sexual Images of Classmates and Teachers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.336068"
+    },
+    {
+      "signal_id": "7a23c360d5e23bd7cf80ff60a5005400e434d467beebdb7288d91fc4355519e4",
+      "title": "Music Producer Michael Smith Reportedly Arrested for Allegedly Using AI-Generated Songs in $10 Million Streaming Scam",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-06-26T07:06:36.324857"
+    },
+    {
       "signal_id": "f898af29a2f050e5200daa97c27204f4786ccbf194032fc91eab5f40b9d38adc",
       "title": "Trump signs memo putting \u2018most advanced AI\u2019 into military hands and banning vendors from pulling the plug",
       "status": "detected",
@@ -484,223 +701,6 @@
       "last_updated": "2026-05-22T07:03:13.460429"
     },
     {
-      "signal_id": "9f8c55f5cfc3290da0dbf3c281c0c967081bb8c5a45b43089c0c7e9242e5cb9b",
-      "title": "Anthropic got frozen out of Pentagon AI deals after refusing to drop safety guardrails on autonomous weapons \u2014 then a federal judge blocked the blacklist",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-22T07:03:13.448800"
-    },
-    {
-      "signal_id": "5b027b55340dd9428765c6db6439d8a8f70360c7e80a42aa6aae4e16eab64a5a",
-      "title": "Google expands Pentagon\u2019s access to its AI after Anthropic\u2019s refusal",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-22T07:03:13.428418"
-    },
-    {
-      "signal_id": "e0470dd872a117f21c0a64cf5e9dcc43f2677eb19552d02a57c6fb5189ea3d7f",
-      "title": "A grandmother lost everything because a cop trusted AI",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-22T07:03:13.265644"
-    },
-    {
-      "signal_id": "f1327559636242f8187191693be62d7e845524a2699e40c7f4d92fe43de1c417",
-      "title": "The secret Chinese surveillance programme tracking people like me",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-22T07:03:13.245676"
-    },
-    {
-      "signal_id": "8534f54a8d0e00f2424ea613a88d8ab977c9945a90a13ade739928a867dcfaf8",
-      "title": "The VA's tech mess began in Kansas City. Here's how to fix it for veterans | Opinion",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.412776"
-    },
-    {
-      "signal_id": "e13e3bd59a4137e3fbcc3114a1f7915423d359ffcf5324b999b7569391ebab73",
-      "title": "Pentagon wants AI to aim its drone-killing turrets \u2014 with a human still on the trigger",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.301941"
-    },
-    {
-      "signal_id": "b3d0cf489dd21776c020d1f0fd866646293de7eeb88bab9c313c7ebbe235abb5",
-      "title": "How AI can lead to false arrests and wrongful convictions",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.261467"
-    },
-    {
-      "signal_id": "b880952256563faa3fbb5c33536b903135256e9bec15208c3e8cf91cd18723fc",
-      "title": "Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.254695"
-    },
-    {
-      "signal_id": "703420b7e68ab4212b05716263bbd1ea305f698c666c9b41a200a6bf20fab694",
-      "title": "AI Spy Cameras Suddenly Blanketing America",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.236543"
-    },
-    {
-      "signal_id": "e4c9f3330deee5bf07cbfd4c8e9ccae40bc5fb5cbb13e67264957487a7297126",
-      "title": "Facial recognition jails innocent grandmother, attorney says",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.200200"
-    },
-    {
-      "signal_id": "ef0c2c9b2c0e7820872cf90957753a3d909d2f15f6e94be7c1f6a0e42f69b32e",
-      "title": "Most enterprises can't stop stage-three AI agent threats, VentureBeat survey finds",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:48.028180"
-    },
-    {
-      "signal_id": "8e74cda73f3000e65f52b2c929fa99a42482a0a812ab7babd2fa091bd0cc039e",
-      "title": "Maryland Police Allegedly Relied on Facial Recognition Lead in Wrongful Arrest and Detention of Kimberlee Williams",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:47.957432"
-    },
-    {
-      "signal_id": "d135830f6313b3da17da97682448ca94b41165e49fd7cb91622a314dc6de288c",
-      "title": "Tasmanian School Students Reportedly Created Purported AI-Generated Pornographic Images of Female Classmates",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:47.936760"
-    },
-    {
-      "signal_id": "5e7a0c6d74189b46f48a7d65234e8433a6d8703eafec9f2365691d4675db0182",
-      "title": "Jasper County Student in Texas Reportedly Posted Purported AI-Generated Nude Image of Classmate on Snapchat",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:47.933363"
-    },
-    {
-      "signal_id": "c4ffaeacaec8c68590ab6326d74d983eba7de81124f199ad1db2f4eca73f2f2b",
-      "title": "Ahmedabad Aadhaar Fraud Racket Reportedly Used Purportedly AI-Generated Deepfakes to Change Businessman's Linked Mobile Number",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:47.929507"
-    },
-    {
-      "signal_id": "7de12d6a1a63547a69a772de838bb7075af3efc0494d7dfff1ebc485f842c028",
-      "title": "Meta Internal AI Agent Reportedly Gave Advice That Allegedly Exposed Sensitive Data to Unauthorized Employees",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-15T07:04:47.918439"
-    },
-    {
-      "signal_id": "3355908686ae9df3a7d506cb94333b0d640884946a833ef1f3fe88a8154c55fe",
-      "title": "Banks must work harder to navigate a tsunami of cyber, fraud risks",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.494359"
-    },
-    {
-      "signal_id": "c76dd8a39e379002441c345baddbef3eaaf9120400da7741c4482a61a15d1c2c",
-      "title": "Man Trapped in Dystopian Nightmare Thanks to AI Surveillance Cameras Flagging...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.313054"
-    },
-    {
-      "signal_id": "2420bead9bca80435ff128030041e7de1f3edc25d7fd41a5842de6a65263c895",
-      "title": "Lowe\u2019s faces pressure to cut ties with Flock Safety as AI surveillance data raises serious privacy concerns",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.295473"
-    },
-    {
-      "signal_id": "3a1aecf1622bb17fc26ca623fb3e4523da4e3a7bf8206964127576bfc5128517",
-      "title": "Inside Project Maven\u2019s accountability trap",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.195132"
-    },
-    {
-      "signal_id": "950cf2dd9af4a5fc2dfa2e5c8c6c6a585bbc448c4e50936b1962b400f09ca155",
-      "title": "AI Review of Police Footage Sparks Bias, Legal Worries",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.132776"
-    },
-    {
-      "signal_id": "68ff9e48f3717e24d2144aa0b41e34274ef7df25c81c9db21402874eca5593d4",
-      "title": "Weeks after security breach incident involving a third party AI tool, billion-dollar US company reveals another exposure that occurred",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.031530"
-    },
-    {
-      "signal_id": "a6f419cc59d0cc51e187326d2676ae680c99a76b0c622b248c13b33d1e6c6233",
-      "title": "Nine Seconds to Zero: What the PocketOS Incident Reveals About Enterprise AI Risk",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-08T07:03:41.017811"
-    },
-    {
-      "signal_id": "e16cfd083cc9640c3ae32b8f5370fd614f1bef0d2e06c04c4823fcf04ca78d40",
-      "title": "Purportedly AI-Enhanced Images of Iranian Women Protesters Were Reportedly Spread With Unverified Execution Claims",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-01T07:02:08.721346"
-    },
-    {
-      "signal_id": "ee053fe3d711a9616390ece3435f86fd87f0703815abb98dbf3ed9344a514d17",
-      "title": "Purportedly AI-Manipulated Medical Scam Advertisement Reportedly Used Bulgarian TV Host and Physician's Likenesses",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-01T07:02:08.554708"
-    },
-    {
-      "signal_id": "7507290a30575188300b68ddd4693b98b5d2ae0c2098ddfc316da9926a7a1979",
-      "title": "Video with Reportedly AI-Generated Media Purported to Show Croatian Immunologist Stipan Jonji\u0107 Promoting Anti-Parasite Product on Facebook",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-01T07:02:08.457969"
-    },
-    {
-      "signal_id": "7df8df8ac89ba858b8d8ff6ae4e0b5c49bf78fbfa26de615dfb3e605df39ae9a",
-      "title": "Purported Deepfake Videos Allegedly Impersonated Optometrist Joseph Allen to Promote Myopia-Reversal Eyedrops on TikTok",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-01T07:02:08.405987"
-    },
-    {
-      "signal_id": "57bc6f24c2710b729768ad43661b34fff3a83e1e6584ff8d08c3fcb0382fe4b7",
-      "title": "US tech firms successfully lobbied EU to keep datacentre emissions secret",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.412655"
-    },
-    {
-      "signal_id": "305079c1d6408cc8232d092a97e8d9d9bf3c91933d32ba3c36d53acc83a254c8",
-      "title": "US tech firms successfully lobbied EU to hide environmental toll of data centres",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.370340"
-    },
-    {
-      "signal_id": "0911eb4e7028f6e9c0ee9bfd55e70b95f8723373107635c342eb363a9586cdd2",
-      "title": "Poll reveals millions of Americans consult AI before, after\u2014and sometimes instead of\u2014seeing a doctor",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.151959"
-    },
-    {
-      "signal_id": "3287498013a06d001697453342189a9e8b8136d75271413ffff90d95c6a45c26",
-      "title": "\u2018That wasn\u2019t me\u2019: How facial recognition led to a woman being jailed for 6 months",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-04-24T07:05:23.128374"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -778,21 +778,6 @@
         "regulation",
         "movement"
       ],
-      "importance": 0.29
-    },
-    {
-      "id": "ea5073f85aec0656",
-      "title": "New York / Madison Square Garden",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "facial",
-        "recognition",
-        "better",
-        "identifying"
-      ],
       "importance": 0.27
     }
   ],
@@ -809,6 +794,11 @@
         "description": ""
       },
       {
+        "name": "OECD",
+        "mentions": 175,
+        "description": ""
+      },
+      {
         "name": "Department of the Interior",
         "mentions": 169,
         "description": ""
@@ -819,13 +809,8 @@
         "description": ""
       },
       {
-        "name": "OECD",
-        "mentions": 167,
-        "description": ""
-      },
-      {
         "name": "openai",
-        "mentions": 147,
+        "mentions": 148,
         "description": ""
       },
       {
@@ -840,7 +825,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 97,
+        "mentions": 98,
         "description": ""
       },
       {
@@ -907,12 +892,12 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 261,
+        "mentions": 262,
         "description": ""
       },
       {
         "name": "Department of Defense",
-        "mentions": 253,
+        "mentions": 257,
         "description": ""
       },
       {
@@ -932,12 +917,12 @@
       },
       {
         "name": "Central Intelligence Agency",
-        "mentions": 54,
+        "mentions": 55,
         "description": ""
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 36,
+        "mentions": 38,
         "description": ""
       },
       {
@@ -972,7 +957,7 @@
       },
       {
         "name": "China",
-        "mentions": 24,
+        "mentions": 27,
         "description": ""
       },
       {
@@ -1116,6 +1101,11 @@
         "description": ""
       },
       {
+        "name": "Trump Administration",
+        "mentions": 5,
+        "description": ""
+      },
+      {
         "name": "Sanae Takaichi",
         "mentions": 4,
         "description": ""
@@ -1137,11 +1127,6 @@
       },
       {
         "name": "Munich Security Conference",
-        "mentions": 3,
-        "description": ""
-      },
-      {
-        "name": "Trump Administration",
         "mentions": 3,
         "description": ""
       },

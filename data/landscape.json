@@ -2,70 +2,42 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 98
-    },
-    {
-      "name": "Hill",
-      "mentions": 34
-    },
-    {
-      "name": "Nextgov/FCW",
-      "mentions": 34
-    },
-    {
-      "name": "Anthropic",
-      "mentions": 32
-    },
-    {
-      "name": "Department of Homeland Security",
-      "mentions": 24
+      "mentions": 84
     },
     {
       "name": "Google",
-      "mentions": 23
+      "mentions": 25
     },
     {
       "name": "OpenAI",
-      "mentions": 22
+      "mentions": 24
     },
     {
-      "name": "Breaking Defense",
+      "name": "Anthropic",
+      "mentions": 23
+    },
+    {
+      "name": "Hill",
+      "mentions": 21
+    },
+    {
+      "name": "facial recognition",
       "mentions": 19
     },
     {
       "name": "Trump administration",
-      "mentions": 17
+      "mentions": 15
     },
     {
-      "name": "War on the Rocks",
-      "mentions": 17
-    },
-    {
-      "name": "facial recognition",
-      "mentions": 17
-    },
-    {
-      "name": "Defense One",
-      "mentions": 16
-    },
-    {
-      "name": "Federal News Network",
-      "mentions": 16
-    },
-    {
-      "name": "GovExec",
+      "name": "Breaking Defense",
       "mentions": 14
     },
     {
-      "name": "U.S. Navy",
+      "name": "Federal News Network",
       "mentions": 14
     },
     {
       "name": "White House",
-      "mentions": 14
-    },
-    {
-      "name": "MIT Tech Review",
       "mentions": 13
     },
     {
@@ -73,12 +45,40 @@
       "mentions": 12
     },
     {
-      "name": "China",
+      "name": "Colorado",
       "mentions": 11
     },
     {
-      "name": "Colorado",
+      "name": "Nextgov/FCW",
       "mentions": 11
+    },
+    {
+      "name": "xAI",
+      "mentions": 11
+    },
+    {
+      "name": "China",
+      "mentions": 10
+    },
+    {
+      "name": "Gemini",
+      "mentions": 10
+    },
+    {
+      "name": "GovExec",
+      "mentions": 10
+    },
+    {
+      "name": "MSN",
+      "mentions": 10
+    },
+    {
+      "name": "Department of Homeland Security",
+      "mentions": 9
+    },
+    {
+      "name": "Elon Musk",
+      "mentions": 9
     }
   ],
   "active_threads": [
@@ -95,28 +95,12 @@
         "regulation",
         "movement"
       ],
-      "importance": 0.29,
-      "description": "Both involved in BSP incident: Connecticut Joins the AI Regulation Movement: What Employers Need to Know; Both involved in BSP incident: States Take Aim at AI in Employment Decisions: Illinois\u2019s Discl"
-    },
-    {
-      "id": "ea5073f85aec0656",
-      "title": "New York / Madison Square Garden",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "facial",
-        "recognition",
-        "better",
-        "identifying"
-      ],
       "importance": 0.27,
-      "description": "Both involved in BSP incident: Powerful AI is making facial recognition better at identifying you; Both involved in BSP incident: Facial recognition is getting better at identifying you with AI. Here\u2019"
+      "description": "Both involved in BSP incident: Connecticut Joins the AI Regulation Movement: What Employers Need to Know; Both involved in BSP incident: States Take Aim at AI in Employment Decisions: Illinois\u2019s Discl"
     }
   ],
   "signal_funnel": {
-    "detected": 1207,
+    "detected": 1238,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
