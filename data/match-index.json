@@ -1,6 +1,83 @@
 {
   "signals": [
     {
+      "signal_id": "65bc4349264e77a40c4a1579b996bf6e90571368877132ce7566865b85ef4579",
+      "title": "Meta's Smart Glasses Are Testing Facial Recognition Software Used by Police and the Military",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.273551"
+    },
+    {
+      "signal_id": "5fb741c3d90493562a2e0ff5e08c7d0296f6a225b75626ed2fdd63bd0cd7c270",
+      "title": "Police facial recognition tech led to wrongful arrest, lawsuit states",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.253202"
+    },
+    {
+      "signal_id": "350b503b7a350c858efa5b6a59a98ff22bd28260891a96d8d88fbc4e9428ef4f",
+      "title": "A Brazilian Startup Is Betting on AI to Fight Crime. Critics See a Surveillance State",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.249167"
+    },
+    {
+      "signal_id": "4899c3db4690adc1645dca18bbb5aa7c36b8c2bae345b03a16317c713e3d47b0",
+      "title": "Florida Man Wrongfully Arrested After Facial Recognition AI Misidentifies Him in Child Luring Case",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.240797"
+    },
+    {
+      "signal_id": "74bfaeb895a525bc9d58acee163238ff991093af3bddfc65de50f374ad93dbc9",
+      "title": "WA police are scanning faces in public \u2013 and the law is not ready for the consequences",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.228166"
+    },
+    {
+      "signal_id": "04cda92c09dc5a7417eee8e496b9048a4ec99119a944bb37cdb69747240b68a1",
+      "title": "Workday faces lawsuit over AI bias in job application screenings",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.186097"
+    },
+    {
+      "signal_id": "7f9b1d7b22096e1783f94d4eb16226a04f9c4d93efd12aee9f5dbb9a91183ce0",
+      "title": "Workday loses bid to dismiss AI hiring bias lawsuit filed by older Black worker",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.168430"
+    },
+    {
+      "signal_id": "fabf6a461e82ec78c5b3228796bd9f044ee8efe56aee8fdc3be3c99193835cc6",
+      "title": "AI and algorithms can influence biased housing decisions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.155039"
+    },
+    {
+      "signal_id": "737b59d95f3109729078804e0a26407e84cec74a471fbcea7c5c5a8fcd320f7b",
+      "title": "UN Women warns AI amplifies gender bias, digital violence",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.140247"
+    },
+    {
+      "signal_id": "f5754985e049096124d6b81c9dea4b1aa1ba594c2b78886ba37838885d48657b",
+      "title": "Workday AI bias case moves forward, putting HR hiring tools on notice",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.126020"
+    },
+    {
+      "signal_id": "b33ebd2f348727917df5ba5e594808daa4a3882981d347ce9277c3a6272a7b0f",
+      "title": "AI's missing inclusivity: The tech revolution is amplifying gender bias",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-03T07:03:35.108811"
+    },
+    {
       "signal_id": "0cee11c37d7be2b66ddb0b0c1a070b506df90ac472784cdb327fc31d666d8897",
       "title": "Pok\u00e9mon Go Data Used For Military AI Training: Your Scans Now Train Drones For War",
       "status": "detected",
@@ -624,83 +701,6 @@
       "last_updated": "2026-05-29T07:07:43.125147"
     },
     {
-      "signal_id": "dad3a8447793be4493cfebe0cb77c84ad992e170d2e294803e20f0afba17d57e",
-      "title": "Quantum AI and Related AI-Themed Investment Scams Reportedly Used Deepfake Endorsements and Spoofed Media Sites to Solicit Investments",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.083784"
-    },
-    {
-      "signal_id": "7dfcb6ae16e0518c12e05085f2158f37a4308c21f10c9e16283373521c1b136d",
-      "title": "Purported AI Voice Scam Reportedly Targets Westchester Parents with Fake Kidnapping Ransom Calls",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.062358"
-    },
-    {
-      "signal_id": "3fca8ac68a6a69bd274a86ecc919d3911527be014ca71bf9afd134cc4c85446d",
-      "title": "Texas A&M-Commerce Professor Reportedly Used ChatGPT to Accuse Students of Cheating and Assign Incomplete Grades",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.044446"
-    },
-    {
-      "signal_id": "12864c4a30e1840d6ef72cbe4c07d89539c4339a21a8db76265f0445223a7876",
-      "title": "Synthesized Voices Were Reportedly Used by Torswats to Sell Swatting Calls Targeting Schools and Homes",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.030388"
-    },
-    {
-      "signal_id": "fe554374895c1b1386a0ffe527bf4245b153d8c980975cd81c5bed9bf91d7b2a",
-      "title": "AI-Generated Text Detectors Reportedly Misclassified Human and AI-Written Text",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.983774"
-    },
-    {
-      "signal_id": "c12e3cc3e54b43ade0dade1d6eaa4dd27eb37a902fb22908902925b7ad4048a4",
-      "title": "Canadian Universities' AI Proctoring Tools Reportedly Collected Student Biometric Data Without Adequate Consent",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.965378"
-    },
-    {
-      "signal_id": "bfc159c4ade7ba32a7c00fdb409a527327de7b9eda840d4231afb96f6156577f",
-      "title": "Dartmouth's Geisel School of Medicine Reportedly Used Canvas Activity Logs to Accuse Students of Cheating",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.930783"
-    },
-    {
-      "signal_id": "900688a810d67acca4194a52e216e82cc3b383214f35d4289c7f8c7866398e47",
-      "title": "Ireland's 2020 Leaving Certificate Calculated-Grades Model Reportedly Issued Incorrect Scores to Thousands of Students",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.861617"
-    },
-    {
-      "signal_id": "ce6643331d579c6a10e3f629b6b51a4cf6aa7a8916ffbcb5c84cdbb7134e4819",
-      "title": "Houston ISD's EVAAS Teacher-Evaluation System Reportedly Put Teachers' Jobs at Risk Through Unverifiable Scores",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.851305"
-    },
-    {
-      "signal_id": "848c8ab9a1addba68d9362da9b53b8ea543e02126ac03997cb8c9ce38f9536be",
-      "title": "International Baccalaureate\u2019s 2020 Calculated-Grades Model Reportedly Lowered Students' Scores and College Prospects",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:42.839499"
-    },
-    {
-      "signal_id": "21c226f09030b31348b68493bf8b82e7a741d757355e5b366a1fd53f894b2236",
-      "title": "Pentagon policy isn\u2019t keeping pace with autonomous weapons, senators argue",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-22T07:03:13.460429"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -764,23 +764,7 @@
       "last_updated": "2026-02-25T18:01:44.586801"
     }
   ],
-  "topic_threads": [
-    {
-      "id": "830aba720a7738e7",
-      "title": "JD Supra / Connecticut",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "connecticut",
-        "joins",
-        "regulation",
-        "movement"
-      ],
-      "importance": 0.27
-    }
-  ],
+  "topic_threads": [],
   "entities_by_type": {
     "company": [
       {
@@ -825,7 +809,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 98,
+        "mentions": 102,
         "description": ""
       },
       {
@@ -897,7 +881,7 @@
       },
       {
         "name": "Department of Defense",
-        "mentions": 257,
+        "mentions": 262,
         "description": ""
       },
       {
@@ -942,21 +926,21 @@
       },
       {
         "name": "U.S. Air Force",
+        "mentions": 29,
+        "description": ""
+      },
+      {
+        "name": "Trump administration",
+        "mentions": 28,
+        "description": ""
+      },
+      {
+        "name": "China",
         "mentions": 28,
         "description": ""
       },
       {
         "name": "Social Security Administration",
-        "mentions": 27,
-        "description": ""
-      },
-      {
-        "name": "Trump administration",
-        "mentions": 27,
-        "description": ""
-      },
-      {
-        "name": "China",
         "mentions": 27,
         "description": ""
       },
@@ -971,12 +955,12 @@
         "description": ""
       },
       {
-        "name": "U.S. Space Force",
-        "mentions": 15,
+        "name": "Office of Management and Budget",
+        "mentions": 16,
         "description": ""
       },
       {
-        "name": "Office of Management and Budget",
+        "name": "U.S. Space Force",
         "mentions": 15,
         "description": ""
       },
@@ -1159,7 +1143,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 14,
+        "mentions": 15,
         "description": ""
       },
       {

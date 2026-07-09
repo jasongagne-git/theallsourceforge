@@ -2,23 +2,19 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 84
+      "mentions": 83
     },
     {
       "name": "Google",
       "mentions": 25
     },
     {
-      "name": "OpenAI",
-      "mentions": 24
-    },
-    {
       "name": "Anthropic",
       "mentions": 23
     },
     {
-      "name": "Hill",
-      "mentions": 21
+      "name": "OpenAI",
+      "mentions": 23
     },
     {
       "name": "facial recognition",
@@ -29,27 +25,15 @@
       "mentions": 15
     },
     {
-      "name": "Breaking Defense",
-      "mentions": 14
-    },
-    {
-      "name": "Federal News Network",
-      "mentions": 14
-    },
-    {
-      "name": "White House",
-      "mentions": 13
-    },
-    {
-      "name": "Microsoft",
-      "mentions": 12
-    },
-    {
       "name": "Colorado",
       "mentions": 11
     },
     {
-      "name": "Nextgov/FCW",
+      "name": "Microsoft",
+      "mentions": 11
+    },
+    {
+      "name": "White House",
       "mentions": 11
     },
     {
@@ -57,50 +41,49 @@
       "mentions": 11
     },
     {
-      "name": "China",
-      "mentions": 10
-    },
-    {
       "name": "Gemini",
       "mentions": 10
     },
     {
-      "name": "GovExec",
-      "mentions": 10
-    },
-    {
-      "name": "MSN",
-      "mentions": 10
-    },
-    {
-      "name": "Department of Homeland Security",
+      "name": "China",
       "mentions": 9
     },
     {
       "name": "Elon Musk",
       "mentions": 9
-    }
-  ],
-  "active_threads": [
+    },
     {
-      "id": "830aba720a7738e7",
-      "title": "JD Supra / Connecticut",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "connecticut",
-        "joins",
-        "regulation",
-        "movement"
-      ],
-      "importance": 0.27,
-      "description": "Both involved in BSP incident: Connecticut Joins the AI Regulation Movement: What Employers Need to Know; Both involved in BSP incident: States Take Aim at AI in Employment Decisions: Illinois\u2019s Discl"
+      "name": "Federal News Network",
+      "mentions": 9
+    },
+    {
+      "name": "MSN",
+      "mentions": 9
+    },
+    {
+      "name": "Amazon",
+      "mentions": 8
+    },
+    {
+      "name": "Federal Government",
+      "mentions": 7
+    },
+    {
+      "name": "Hill",
+      "mentions": 7
+    },
+    {
+      "name": "JD Supra",
+      "mentions": 7
+    },
+    {
+      "name": "Nvidia",
+      "mentions": 7
     }
   ],
+  "active_threads": [],
   "signal_funnel": {
-    "detected": 1238,
+    "detected": 1249,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
