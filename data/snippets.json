@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-06-14",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused.",
+    "snippet": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused...",
+    "url": "briefings/2026-06-14.html"
+  },
+  {
     "date": "2026-06-07",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Army&#x27;s &quot;Project Jailbreak&quot; is forcing contractors to open proprietary systems and immediately deploying battlefield fixes from hackathons.",
     "snippet": "The Army&#x27;s &quot;Project Jailbreak&quot; is forcing contractors to open proprietary systems and immediately deploying battlefield fixes from hackathons ...",
     "url": "briefings/2026-05-31.html"
-  },
-  {
-    "date": "2026-05-24",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s new $500 million Perennial Autonomy counter-drone contract and the $54 billion Defense Autonomous Warfare Group (DAWG) initiative open si.",
-    "snippet": "The Pentagon&#x27;s new $500 million Perennial Autonomy counter-drone contract and the $54 billion Defense Autonomous Warfare Group (DAWG) initiative open si...",
-    "url": "briefings/2026-05-24.html"
   }
 ]

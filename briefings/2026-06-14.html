@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Source Forge Weekly — June 14, 2026 | The All Source Forge</title>
+<link rel="canonical" href="https://theallsourceforge.com/briefings/2026-06-14.html">
+<meta name="description" content="The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems ([Senators want a new robot warfare-focused combat">
+<meta property="og:title" content="All Source Forge Weekly — June 14, 2026">
+<meta property="og:description" content="The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems ([Senators want a new robot warfare-focused combatant command](https://www.defenseone.com/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://theallsourceforge.com/briefings/2026-06-14.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="All Source Forge Weekly — June 14, 2026">
+<meta name="twitter:description" content="The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems ([Senators want a new robot warfare-focused combatant command](https://www.defenseone.com/">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.briefing-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.briefing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-accent-secondary);
+}
+.briefing-header .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-header .tagline {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.briefing-header .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+/* Signal legend */
+.signal-legend {
+    background: var(--bg-secondary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.signal-legend .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dimmer);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+/* Briefing content */
+.briefing-h1 {
+    color: var(--text-bright);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.briefing-h2 {
+    color: var(--text-bright);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
+}
+.briefing-ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+    list-style: none;
+}
+.briefing-li {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--color-accent-secondary);
+    border-radius: 4px;
+}
+.briefing-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background: var(--bg-tertiary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+.briefing-link:hover { color: var(--text-bright); border-color: var(--text-dimmer); }
+.briefing-strong { color: var(--text-bright); font-weight: 600; }
+.signal-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    margin-right: 4px;
+}
+
+.briefing-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.briefing-meta .tag {
+    background: var(--bg-secondary);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.briefing-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.briefing-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.briefing-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.briefing-cta a.btn:hover { background: #3b7cf5; }
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">the allsource<i>[forge]</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="../research.html">Governance</a>
+            <a href="../research/sentinel.html">SENTINEL</a>
+            <a href="../signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="briefing-container">
+    <div class="briefing-header">
+        <div class="brand">All Source Forge Weekly</div>
+        <div class="tagline">Evidence-based intelligence for people who build, govern, or deploy AI in defense</div>
+        <div class="date">June 14, 2026</div>
+    </div>
+
+    <div class="signal-legend">
+        <span class="label">Signal Types</span>
+        <span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span>
+        <span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span>
+        <span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span>
+        <span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span>
+        <span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span>
+        <span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span>
+        <span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span>
+        <span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span>
+    </div>
+
+    <div class="briefing-content">
+        <h2 class="briefing-h2">Opportunity of the Week</h2>
+<p class="briefing-p">The Senate Armed Services Committee's proposal to create a dedicated combatant command for autonomous systems (<a href="https://www.defenseone.com/policy/2026/06/senators-want-new-robot-warfare-focused-combatant-command/414133/" class="briefing-link" target="_blank" rel="noopener">Senators want a new robot warfare-focused combatant command</a>) opens a structural pathway for scaling drone deployment while establishing governance frameworks that currently don't exist. This represents the largest organizational realignment for AI warfare since Cyber Command's creation — and the window to shape its authorities, resourcing model, and accountability mechanisms is open now, during NDAA markup.</p>
+<h2 class="briefing-h2">Key Signals</h2>
+<ul class="briefing-ul">
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span></strong> The Pentagon's Chief Technology Officer publicly stated DoD may "sacrifice traditional weapons" to buy autonomous systems if reconciliation funding fails (<a href="https://breakingdefense.com/2026/06/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto/" class="briefing-link" target="_blank" rel="noopener">Pentagon may 'sacrifice' traditional weapons to buy more drones if reconciliation fails</a>), revealing that current budget structures force zero-sum trade-offs between legacy and AI-enabled capabilities rather than enabling parallel modernization paths.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span></strong> A Navy unmanned surface vessel conducted what appears to be the first operational rescue of downed aircrew at sea (<a href="https://www.nextgov.com/emerging-tech/2026/06/apparent-first-navy-drone-boat-rescues-helicopter-crew-downed-sea/414084/" class="briefing-link" target="_blank" rel="noopener">In apparent first, Navy drone boat rescues helicopter crew downed at sea</a>), demonstrating autonomous systems crossing from controlled tests into life-or-death operational roles — yet HASC is pushing the Navy to "develop a clear strategy" for deployment (<a href="https://www.defenseone.com/policy/2026/06/house-lawmakers-want-navy-deploy-drone-boats-faster/414018/" class="briefing-link" target="_blank" rel="noopener">House lawmakers want the Navy to deploy drone boats faster</a>), evidence that fielding is outpacing doctrine.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span></strong> VA's Inspector General found that chatbots are being used clinically despite not being designated high-impact systems (<a href="https://www.nextgov.com/artificial-intelligence/2026/06/vas-ai-chatbots-not-designated-high-impact-despite-clinical-use-watchdog-says/414158/" class="briefing-link" target="_blank" rel="noopener">VA's AI chatbots not designated high-impact, despite clinical use</a>), revealing that governance classifications are failing to track actual deployment patterns — systems are migrating into high-stakes uses without triggering corresponding oversight.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span></strong> The White House imposed export controls on Anthropic's Fable 5 and Mythos 5 models (<a href="https://www.nextgov.com/artificial-intelligence/2026/06/anthropic-suspends-top-ai-models-after-us-export-control-order/414173/" class="briefing-link" target="_blank" rel="noopener">Anthropic suspends top AI models after U.S. export control order</a>), while simultaneously agencies report they lack clear guidance on implementing Mythos for cybersecurity (<a href="https://www.nextgov.com/artificial-intelligence/2026/06/lack-white-house-guidance-has-complicated-agency-mythos-adoption-people-familiar-say/414093/" class="briefing-link" target="_blank" rel="noopener">Lack of White House guidance has complicated agency Mythos adoption</a>) — national security agencies want AI tools for vulnerability detection but have no framework for evaluating which models are safe to deploy.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><strong class="briefing-strong"><span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span></strong> Senate appropriators are signaling reluctance to pass another reconciliation bill (<a href="https://www.defenseone.com/policy/2026/06/senate-appropriators-defense-reconciliation-bill/414080/" class="briefing-link" target="_blank" rel="noopener">Senate appropriators dim prospects of another defense reconciliation bill</a>), jeopardizing shipbuilding, munitions, and Golden Dome programs that depend on extra-budgetary funding — Trump administration's AI and autonomous systems initiatives may lose their primary funding mechanism.</p>
+</li>
+</ul>
+<h2 class="briefing-h2">Pattern Watch</h2>
+<p class="briefing-p">Deployment is racing ahead of both governance frameworks and funding authorities. Autonomous systems are conducting operational missions (drone boat rescues, clinical AI), while oversight mechanisms struggle to classify them correctly and budget structures force either/or choices instead of enabling transformation. The gap creates immediate opportunity for organizations that can move faster than policy — but also acute risk as AI systems drift into high-stakes uses without corresponding accountability structures.</p>
+<h2 class="briefing-h2">Actionable Intel</h2>
+<p class="briefing-p"><strong class="briefing-strong">For Defense Professionals:</strong> Engage SASC staff during NDAA markup on the autonomous systems combatant command proposal. The organizational design decisions happening now will determine resourcing authorities and acquisition pathways for the next decade. Contact: Senate Armed Services Committee majority/minority staff covering emerging capabilities portfolios.</p>
+<p class="briefing-p"><strong class="briefing-strong">For AI Builders:</strong> The Navy's successful drone boat rescue proves operational viability but HASC's call for "clear strategy" reveals a deployment doctrine gap. Teams with documentation showing how autonomous systems behave in unscripted scenarios (not just test ranges) have a clear path to influence requirements. Reference: <a href="https://www.defenseone.com/policy/2026/06/house-lawmakers-want-navy-deploy-drone-boats-faster/414018/" class="briefing-link" target="_blank" rel="noopener">House lawmakers want the Navy to deploy drone boats faster</a>.</p>
+<p class="briefing-p"><strong class="briefing-strong">For Policy Professionals:</strong> VA's chatbot misclassification (<a href="https://www.nextgov.com/artificial-intelligence/2026/06/vas-ai-chatbots-not-designated-high-impact-despite-clinical-use-watchdog-says/414158/" class="briefing-link" target="_blank" rel="noopener">VA's AI chatbots not designated high-impact, despite clinical use</a>) exposes that impact assessment frameworks fail when systems migrate across use cases. Senator Warner's proposal to refresh critical infrastructure cyber plans (<a href="https://www.nextgov.com/cybersecurity/2026/06/warner-proposes-overhaul-critical-infrastructure-cyber-plans-ai-threats-rise/414078/" class="briefing-link" target="_blank" rel="noopener">Warner proposes overhaul of critical infrastructure cyber plans</a>) offers a template for adaptive governance that tracks actual system behavior rather than initial design intent.</p>
+    </div>
+
+    <div class="briefing-meta">
+        <span class="tag">60 sources cited</span>
+        <span class="tag">claude-sonnet-4-5-20250929</span>
+    </div>
+
+    <div class="briefing-cta">
+        <p>Get the All Source Forge Weekly delivered to your inbox every Sunday.</p>
+        <a href="https://theallsourceforge.com/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a href="../archive.html" class="back-link">&larr; Back to Archive</a>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://theallsourceforge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
