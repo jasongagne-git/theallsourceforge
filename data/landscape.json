@@ -2,31 +2,27 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 83
-    },
-    {
-      "name": "Google",
-      "mentions": 25
+      "mentions": 75
     },
     {
       "name": "Anthropic",
       "mentions": 23
     },
     {
+      "name": "Google",
+      "mentions": 22
+    },
+    {
       "name": "OpenAI",
-      "mentions": 23
+      "mentions": 22
     },
     {
       "name": "facial recognition",
-      "mentions": 19
+      "mentions": 22
     },
     {
       "name": "Trump administration",
       "mentions": 15
-    },
-    {
-      "name": "Colorado",
-      "mentions": 11
     },
     {
       "name": "Microsoft",
@@ -34,27 +30,7 @@
     },
     {
       "name": "White House",
-      "mentions": 11
-    },
-    {
-      "name": "xAI",
-      "mentions": 11
-    },
-    {
-      "name": "Gemini",
       "mentions": 10
-    },
-    {
-      "name": "China",
-      "mentions": 9
-    },
-    {
-      "name": "Elon Musk",
-      "mentions": 9
-    },
-    {
-      "name": "Federal News Network",
-      "mentions": 9
     },
     {
       "name": "MSN",
@@ -65,11 +41,27 @@
       "mentions": 8
     },
     {
+      "name": "China",
+      "mentions": 8
+    },
+    {
+      "name": "Colorado",
+      "mentions": 8
+    },
+    {
+      "name": "Government Accountability Office",
+      "mentions": 8
+    },
+    {
+      "name": "xAI",
+      "mentions": 8
+    },
+    {
       "name": "Federal Government",
       "mentions": 7
     },
     {
-      "name": "Hill",
+      "name": "Forbes",
       "mentions": 7
     },
     {
@@ -79,11 +71,36 @@
     {
       "name": "Nvidia",
       "mentions": 7
+    },
+    {
+      "name": "Ring",
+      "mentions": 7
+    },
+    {
+      "name": "deepfake-creators",
+      "mentions": 7
     }
   ],
-  "active_threads": [],
+  "active_threads": [
+    {
+      "id": "88e24cc13c06cd6e",
+      "title": "UN Women / Large language models",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "gender",
+        "bias",
+        "ai's",
+        "missing"
+      ],
+      "importance": 0.27,
+      "description": "Both involved in BSP incident: AI's missing inclusivity: The tech revolution is amplifying gender bias; Both involved in BSP incident: UN Women warns AI amplifies gender bias, digital violence"
+    }
+  ],
   "signal_funnel": {
-    "detected": 1249,
+    "detected": 1263,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

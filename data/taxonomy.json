@@ -410,11 +410,11 @@
   ],
   "active_programs": [
     {
-      "name": "Operation Epic Fury",
-      "mentions": 7
+      "name": "Project Maven",
+      "mentions": 8
     },
     {
-      "name": "Project Maven",
+      "name": "Operation Epic Fury",
       "mentions": 7
     },
     {
@@ -456,16 +456,16 @@
       "mentions": 270
     },
     {
+      "name": "Department of Defense",
+      "mentions": 268
+    },
+    {
       "name": "Department of Homeland Security",
       "mentions": 262
     },
     {
-      "name": "Department of Defense",
-      "mentions": 262
-    },
-    {
       "name": "Department of Veterans Affairs",
-      "mentions": 238
+      "mentions": 239
     },
     {
       "name": "Department of Energy",
@@ -481,7 +481,7 @@
     },
     {
       "name": "Government Accountability Office",
-      "mentions": 38
+      "mentions": 40
     },
     {
       "name": "U.S. Army",

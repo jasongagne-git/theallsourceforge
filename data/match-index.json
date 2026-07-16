@@ -1,6 +1,104 @@
 {
   "signals": [
     {
+      "signal_id": "1bbb4054921a60abd1e35fa24753bb1464186219bd805cc885af84de49ab873e",
+      "title": "Wrongful arrest suit sparks fresh scrutiny of police facial recognition",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.678173"
+    },
+    {
+      "signal_id": "d3b20d4a3145874baf987b164d31c724343b7a8f97c9c74f2cca989ca17a523f",
+      "title": "Western Australia police are scanning faces in public\u2014and the law is not ready for the consequences",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.665434"
+    },
+    {
+      "signal_id": "492b9f5fdedf5211370db456957da0910d9df47dfad8df49f4042a4b891a2611",
+      "title": "A city's push for facial recognition on public buses ignites debate over security and privacy",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.657686"
+    },
+    {
+      "signal_id": "7650404060576afee90f0ffdf0dfcfdd27584c9714ae5e7e9768d82651d0a45d",
+      "title": "AI is already rewriting reality for billions of people. It is getting women wrong.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.624146"
+    },
+    {
+      "signal_id": "9dd49246fad1e00f079f6d598c3555065f757ac61a9f0bbd9155f977c663bb68",
+      "title": "AI hiring software screens millions of applicants, but new evidence shows racial bias can hide job by job",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.616543"
+    },
+    {
+      "signal_id": "20f0ff3feac0dd8f3b9732cc6659258165a03f5bdf40c16f99c339a207ddf4e8",
+      "title": "GLAAD report finds AI chatbots giving biased, harmful advice to LGBTQ users",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.606248"
+    },
+    {
+      "signal_id": "090c6f9416ce657090bde1f04d32ae7a1dbfc5bc8d93e0d0968c2164e47cabd5",
+      "title": "GPT-4o Allegedly Reinforced California Man Michael Lines's Delusions Before Suicide Attempt",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.560335"
+    },
+    {
+      "signal_id": "dc6550fbb1e6b43fc275fba5d4ef2d29e4df1dd030dabf1c1d628b9a6385b172",
+      "title": "Purported Deepfakes of Public Figures and Celebrities Reportedly Used to Market Honey-Based Supplements as Alzheimer's Treatments",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.522778"
+    },
+    {
+      "signal_id": "7e4600a0a89e94fd26689cd1d06b5b86e01ab32f7ee27c32df070c8ff84074a2",
+      "title": "Pennsylvania Man Allegedly Used Grok to Create and Possess Purportedly AI-Generated Child Sexual Abuse Material",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.502679"
+    },
+    {
+      "signal_id": "ae24252cd0bd7e66fdf42cbb31a9ccb42390f458784c8e1cfe316d0cc115df74",
+      "title": "Man in Egypt Reportedly Convicted of Using AI-Fabricated Sexual Content to Blackmail Relative",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.460336"
+    },
+    {
+      "signal_id": "536db7f153613554cb5d0854e1178d48efc1ac4a764f6a43984ed4b20ac69d06",
+      "title": "Kalibrate Fuel Pricing Allegedly Enabled California Gas Station Operators to Coordinate Higher Pump Prices",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.443641"
+    },
+    {
+      "signal_id": "a09224966f1e493ff170c4a1977aef658bf3d994e3f8f5e4f0be548090212129",
+      "title": "Former New York City Council Candidate Jonathan Rinaldi Allegedly Used AI to Create False Endorsements and Fabricated News Reports",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.386839"
+    },
+    {
+      "signal_id": "84747ab413f391b6d7240ced322d7c096932e32a9c1d4de3bfa3543098e97e12",
+      "title": "Tesla Driver Reportedly Said Driver-Assistance Mode Was Engaged During Fatal Texas Home Crash",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.293778"
+    },
+    {
+      "signal_id": "fe02d60692a918184bbfaa1f881d3db153f43c11eed3e59d104a9b56ff10139b",
+      "title": "St George's Hospital Medical School allegedly Automated Admissions with Discriminatory Results",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-10T07:05:04.253940"
+    },
+    {
       "signal_id": "65bc4349264e77a40c4a1579b996bf6e90571368877132ce7566865b85ef4579",
       "title": "Meta's Smart Glasses Are Testing Facial Recognition Software Used by Police and the Military",
       "status": "detected",
@@ -603,104 +701,6 @@
       "last_updated": "2026-05-29T07:07:43.422369"
     },
     {
-      "signal_id": "425aecd46b5d1486593b68642c86a1010ffd4fdec202ebdbd0a0dc8a6eb8d4ed",
-      "title": "Artificial intelligence in mental health settings inherits human bias",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.394175"
-    },
-    {
-      "signal_id": "56b12c90bec49b880f4d7287fde29e580db62d6d6f610018b3225ae3a3f7ea3e",
-      "title": "Insurance AI Under Fire for Alleged Racial Bias | Insurify",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.378511"
-    },
-    {
-      "signal_id": "59ccad4dfce69b2b8482e712e0034be6fdbe6114988ab643eca5417d16e4ac12",
-      "title": "Did Meta Target Non-Chinese Workers in Mass Layoffs? Ex-Engineer Makes Explosive Discrimination Claims",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.360769"
-    },
-    {
-      "signal_id": "abf11656ec528548db989199e6fae66fde88017b528a86e902422f269d2b69d6",
-      "title": "Racial Disparities and Bias in Hiring Could Be Perpetuated by AI Tools",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.356927"
-    },
-    {
-      "signal_id": "979871ac5787569418a66b26581d2fd231b98087f79ef84828648a632cd4eb14",
-      "title": "Texas Man Arturo Hernandez Allegedly Published AI-Generated Deepfake Pornography Depicting Women in TAKE IT DOWN Act Case",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.301366"
-    },
-    {
-      "signal_id": "352440bd9b48de3abf46edf6ad40dd000eb1e599726c4a631ae0f4425e555ffa",
-      "title": "New Jersey Man Cornelius Shannon Allegedly Published Hundreds of AI-Generated Deepfake Pornography Albums in TAKE IT DOWN Act Case",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.293283"
-    },
-    {
-      "signal_id": "063fc9249129ac7eef03b72392dab8b6b930baa61507138bc0db945ce59fea7a",
-      "title": "Character.AI Chatbots Reportedly Exposed 11-Year-Old User to Sexual, Violent, and Self-Harm Content",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.268901"
-    },
-    {
-      "signal_id": "e0f132418a71a01394f0084d0b42a9e38ef322a81494581753c26714efa51ee1",
-      "title": "Purportedly AI-Enabled Targeting System Was Reportedly Implicated in Deadly U.S. Strike on Iranian Primary School",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.198529"
-    },
-    {
-      "signal_id": "48b2d1c7afbc8bdb5a45f96054a1decd1e20e71a64e5c73f294324f51a8eb985",
-      "title": "ChatGPT Use Was Reportedly Cited in Delusional State Before Homicide and Assault in Readfield, Maine",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.169009"
-    },
-    {
-      "signal_id": "0611a8c39365f1961f54c8c9e93aa3c81a746aa5a42092f8b837c373c42e2f2f",
-      "title": "ChatGPT Was Allegedly Consulted About Attack Options Before Teen Attempted to Stab Officer at Tira, Israel, Police Station",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.161413"
-    },
-    {
-      "signal_id": "58846c1daaf9154da262de49176d1c7d881b71f88a534a29bd8a9fb3f2d823d6",
-      "title": "ChatGPT Was Reportedly Used in Planning School Stabbing in Pirkkala, Finland, That Injured Three Pupils",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.153068"
-    },
-    {
-      "signal_id": "061d68382e4bc8ce13a9744babefe53b2c65f456e186ec37df8b41a7b354a6dd",
-      "title": "ChatGPT Was Reportedly Consulted on Body-Disposal and Concealment Questions Before and After University of South Florida Doctoral Students Were Killed",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.146463"
-    },
-    {
-      "signal_id": "3bf8ebd9d08192eace5ab309100e4894016200d4454f1a1f2c2d5c329b6debd0",
-      "title": "ChatGPT Was Alleged to Have Aided Planning of Florida State University Mass Shooting",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.138967"
-    },
-    {
-      "signal_id": "96c73c0ddd18f1f1e4a2c10263a920e1baaef867c6bbe28d7cbc8055ac289292",
-      "title": "AI-Themed Investment Scam Network Reportedly Used Keitaro Cloaking Across 15,500 Domains",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.125147"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -764,7 +764,23 @@
       "last_updated": "2026-02-25T18:01:44.586801"
     }
   ],
-  "topic_threads": [],
+  "topic_threads": [
+    {
+      "id": "88e24cc13c06cd6e",
+      "title": "UN Women / Large language models",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "gender",
+        "bias",
+        "ai's",
+        "missing"
+      ],
+      "importance": 0.27
+    }
+  ],
   "entities_by_type": {
     "company": [
       {
@@ -794,7 +810,7 @@
       },
       {
         "name": "openai",
-        "mentions": 148,
+        "mentions": 150,
         "description": ""
       },
       {
@@ -809,12 +825,12 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 102,
+        "mentions": 103,
         "description": ""
       },
       {
         "name": "War on the Rocks",
-        "mentions": 96,
+        "mentions": 97,
         "description": ""
       },
       {
@@ -834,7 +850,7 @@
       },
       {
         "name": "google",
-        "mentions": 81,
+        "mentions": 82,
         "description": ""
       },
       {
@@ -875,18 +891,18 @@
         "description": ""
       },
       {
+        "name": "Department of Defense",
+        "mentions": 268,
+        "description": ""
+      },
+      {
         "name": "Department of Homeland Security",
         "mentions": 262,
         "description": ""
       },
       {
-        "name": "Department of Defense",
-        "mentions": 262,
-        "description": ""
-      },
-      {
         "name": "Department of Veterans Affairs",
-        "mentions": 238,
+        "mentions": 239,
         "description": ""
       },
       {
@@ -906,7 +922,7 @@
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 38,
+        "mentions": 40,
         "description": ""
       },
       {
@@ -931,7 +947,7 @@
       },
       {
         "name": "Trump administration",
-        "mentions": 28,
+        "mentions": 29,
         "description": ""
       },
       {
@@ -972,12 +988,12 @@
     ],
     "program": [
       {
-        "name": "Operation Epic Fury",
-        "mentions": 7,
+        "name": "Project Maven",
+        "mentions": 8,
         "description": ""
       },
       {
-        "name": "Project Maven",
+        "name": "Operation Epic Fury",
         "mentions": 7,
         "description": ""
       },
