@@ -452,16 +452,16 @@
   ],
   "active_agencies": [
     {
+      "name": "Department of Defense",
+      "mentions": 273
+    },
+    {
       "name": "Department of Health and Human Services",
       "mentions": 270
     },
     {
-      "name": "Department of Defense",
-      "mentions": 268
-    },
-    {
       "name": "Department of Homeland Security",
-      "mentions": 262
+      "mentions": 264
     },
     {
       "name": "Department of Veterans Affairs",

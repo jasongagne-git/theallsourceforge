@@ -2,15 +2,11 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 75
+      "mentions": 71
     },
     {
       "name": "Anthropic",
-      "mentions": 23
-    },
-    {
-      "name": "Google",
-      "mentions": 22
+      "mentions": 24
     },
     {
       "name": "OpenAI",
@@ -18,22 +14,26 @@
     },
     {
       "name": "facial recognition",
-      "mentions": 22
+      "mentions": 21
+    },
+    {
+      "name": "Google",
+      "mentions": 20
     },
     {
       "name": "Trump administration",
-      "mentions": 15
+      "mentions": 14
     },
     {
-      "name": "Microsoft",
-      "mentions": 11
-    },
-    {
-      "name": "White House",
+      "name": "Meta",
       "mentions": 10
     },
     {
-      "name": "MSN",
+      "name": "xAI",
+      "mentions": 10
+    },
+    {
+      "name": "Microsoft",
       "mentions": 9
     },
     {
@@ -49,11 +49,23 @@
       "mentions": 8
     },
     {
+      "name": "Elon Musk",
+      "mentions": 8
+    },
+    {
       "name": "Government Accountability Office",
       "mentions": 8
     },
     {
-      "name": "xAI",
+      "name": "JD Supra",
+      "mentions": 8
+    },
+    {
+      "name": "Nvidia",
+      "mentions": 8
+    },
+    {
+      "name": "White House",
       "mentions": 8
     },
     {
@@ -61,19 +73,7 @@
       "mentions": 7
     },
     {
-      "name": "Forbes",
-      "mentions": 7
-    },
-    {
-      "name": "JD Supra",
-      "mentions": 7
-    },
-    {
-      "name": "Nvidia",
-      "mentions": 7
-    },
-    {
-      "name": "Ring",
+      "name": "MSN",
       "mentions": 7
     },
     {
@@ -97,10 +97,26 @@
       ],
       "importance": 0.27,
       "description": "Both involved in BSP incident: AI's missing inclusivity: The tech revolution is amplifying gender bias; Both involved in BSP incident: UN Women warns AI amplifies gender bias, digital violence"
+    },
+    {
+      "id": "fdbe8dbf77e0d561",
+      "title": "Yahoo / GLAAD",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "glaad",
+        "lgbtq",
+        "users",
+        "failing"
+      ],
+      "importance": 0.25,
+      "description": "Both involved in BSP incident: GLAAD Says AI Is Failing LGBTQ Users\u2014And Warns the Risk Is Growing; Both involved in BSP incident: GLAAD report finds AI chatbots giving biased, harmful advice to LGBTQ "
     }
   ],
   "signal_funnel": {
-    "detected": 1263,
+    "detected": 1272,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

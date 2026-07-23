@@ -1,6 +1,69 @@
 {
   "signals": [
     {
+      "signal_id": "95eca9879390e035b0d783823c1066b560fae30edd50cb2f9b5ad5b928a0679c",
+      "title": "Canada's AI strategy aims to make health data more accessible. How will it protect privacy?",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.382780"
+    },
+    {
+      "signal_id": "9e361d1cc0c45eae272791ae3e2968bc40fd4c6267f88864614bbeba5c88d67a",
+      "title": "Police use of artificial intelligence grows as rules lag behind",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.370445"
+    },
+    {
+      "signal_id": "40e4adde1093a0a931ebdf7c8d750ecee9fc5547903e5645fb106e64c0e9362b",
+      "title": "4 Ways the 'Big Beautiful Bill' Supercharged Trump's Immigration Crackdown",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.361083"
+    },
+    {
+      "signal_id": "827699d848d9319d45f2f2b34ac08b2eab1d4c1303c37135b0f47e7752c850d7",
+      "title": "Inside the Creepy AI Tech Quietly Taking Over U.S. Police Departments",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.350618"
+    },
+    {
+      "signal_id": "94f1054506a74d43d43db5beab9777df14de581e8c31a842670e9a4ecb6c9a74",
+      "title": "Meta Sued Over AI Layoffs: How Keystroke Tracking Penalised Sick and Pregnant Staff",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.330645"
+    },
+    {
+      "signal_id": "e633a83e4d64336c3a5623b0728d3121cd3e8a19280eac92bb92ca81ed1ed1a3",
+      "title": "Meta lawsuit alleges AI targeted disabled, medically absent employees for layoffs",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.326714"
+    },
+    {
+      "signal_id": "58ee86705b3cc65d4ede77b19b899f1ca755b922a4c7aed206d2a76ec919072c",
+      "title": "Did Meta's AI Decide Who Got Fired? Lawsuit Claims Workers on Medical Leave Were Targeted",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.306130"
+    },
+    {
+      "signal_id": "05ad8ca9e2bf6cffe65936eb91da6360ea0dd6dc0b7ccfa85b963415cf174ff5",
+      "title": "Big Tech Giant Purged Employees With Disabilities and Medical Leave Using AI, Dozens Claim",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.298628"
+    },
+    {
+      "signal_id": "97e3d3d5795e37ba57e8fefcfc9290a19aa3cf019a5e00c9ffbbcbca97d631f9",
+      "title": "Meta sued over AI-assisted layoffs; employees on maternity, medical leave allege bias",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-17T07:03:05.290668"
+    },
+    {
       "signal_id": "1bbb4054921a60abd1e35fa24753bb1464186219bd805cc885af84de49ab873e",
       "title": "Wrongful arrest suit sparks fresh scrutiny of police facial recognition",
       "status": "detected",
@@ -638,69 +701,6 @@
       "last_updated": "2026-06-05T07:02:34.880095"
     },
     {
-      "signal_id": "dac1e1d4e4e434f48eb361e76e0e1c8907b2169147f1dfb87e324b1b5a2d982b",
-      "title": "Amazon Ring Sued for Facial Recognition Technology: Here's Why It May Violate...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.859163"
-    },
-    {
-      "signal_id": "d4e83aa4078cf27181e06cc4d0d26ad48c2554acf99b2693d73e576f44c91675",
-      "title": "Tesla Robotaxi Crashes Blamed on Human Teleoperators: Backup System Failed Twice in NHTSA Data",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.774722"
-    },
-    {
-      "signal_id": "bb1b140fa877ccac5d7422ce7291b3b53f84b18fca4c1dd4023b1f786d04cd17",
-      "title": "Tesla\u2019s own AI trainers don\u2019t trust \u2018Full Self-Driving\u2019 or its safety stats, Reuters finds",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.757474"
-    },
-    {
-      "signal_id": "3a367f24896fbe11dcd90a4d7955b6b9675a5745116b48448acec9fbf0a80ac6",
-      "title": "Pentagon's $54B Autonomous Systems Sprint Creates 18-Month Governance Window: Replicator delivery delays and policy lag open competitive arbitrage for rapid fielders",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.728255"
-    },
-    {
-      "signal_id": "d9d2819a8d4d901bc53a0b7e5b30bf6062b64be7b2b2de6471261fa13ca9f9ad",
-      "title": "WA politicians warn that federal AI program could reject medical treatments for seniors",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.664727"
-    },
-    {
-      "signal_id": "dbad329d83a1c91f7f9818a93927919ac3c7705d2572ea2eceb9f78cdd0765fa",
-      "title": "Senate Democrats move to roll back Medicare AI prior authorization pilot",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.618307"
-    },
-    {
-      "signal_id": "a6a292af1f9abbe4ee222685b0b342e7b21fbface01c5bbd20753f5dc265f5cf",
-      "title": "Newly Released Footage Highlights ICE\u2019s Use of Facial Recognition Technology",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.447828"
-    },
-    {
-      "signal_id": "d708345dcba80a9e1a21596514126e09a81b356323a3c2bff847bad58018e56f",
-      "title": "Inside GPD's use of facial recognition technology - The Independent Florida...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.435812"
-    },
-    {
-      "signal_id": "03b5c6425c9c24e5a3596f0d552c3e96a56beb9e10ac371772a0529fe5f62e01",
-      "title": "Mumbai to get 15,000 AI-powered CCTV cameras under Rs 2,140-cr surveillance project",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-05-29T07:07:43.422369"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -779,6 +779,21 @@
         "missing"
       ],
       "importance": 0.27
+    },
+    {
+      "id": "fdbe8dbf77e0d561",
+      "title": "Yahoo / GLAAD",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "glaad",
+        "lgbtq",
+        "users",
+        "failing"
+      ],
+      "importance": 0.25
     }
   ],
   "entities_by_type": {
@@ -825,7 +840,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 103,
+        "mentions": 108,
         "description": ""
       },
       {
@@ -886,18 +901,18 @@
     ],
     "agency": [
       {
+        "name": "Department of Defense",
+        "mentions": 273,
+        "description": ""
+      },
+      {
         "name": "Department of Health and Human Services",
         "mentions": 270,
         "description": ""
       },
       {
-        "name": "Department of Defense",
-        "mentions": 268,
-        "description": ""
-      },
-      {
         "name": "Department of Homeland Security",
-        "mentions": 262,
+        "mentions": 264,
         "description": ""
       },
       {
@@ -952,7 +967,7 @@
       },
       {
         "name": "China",
-        "mentions": 28,
+        "mentions": 29,
         "description": ""
       },
       {
