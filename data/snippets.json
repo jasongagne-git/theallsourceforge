@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-06-28",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really.",
+    "snippet": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really ...",
+    "url": "briefings/2026-06-28.html"
+  },
+  {
     "date": "2026-06-21",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused.",
     "snippet": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused...",
     "url": "briefings/2026-06-14.html"
-  },
-  {
-    "date": "2026-06-07",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "France just fielded Berthier, a large-language model for battlefield staff officers, in live NATO exercises—demonstrating that allied nations are deploying A.",
-    "snippet": "France just fielded Berthier, a large-language model for battlefield staff officers, in live NATO exercises—demonstrating that allied nations are deploying A...",
-    "url": "briefings/2026-06-07.html"
   }
 ]
