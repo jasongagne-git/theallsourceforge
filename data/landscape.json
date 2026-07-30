@@ -2,7 +2,7 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 71
+      "mentions": 64
     },
     {
       "name": "Anthropic",
@@ -17,43 +17,31 @@
       "mentions": 21
     },
     {
-      "name": "Google",
-      "mentions": 20
+      "name": "Meta",
+      "mentions": 15
     },
     {
       "name": "Trump administration",
       "mentions": 14
     },
     {
-      "name": "Meta",
-      "mentions": 10
+      "name": "Google",
+      "mentions": 13
     },
     {
-      "name": "xAI",
-      "mentions": 10
+      "name": "China",
+      "mentions": 9
     },
     {
       "name": "Microsoft",
       "mentions": 9
     },
     {
+      "name": "deepfake-creators",
+      "mentions": 9
+    },
+    {
       "name": "Amazon",
-      "mentions": 8
-    },
-    {
-      "name": "China",
-      "mentions": 8
-    },
-    {
-      "name": "Colorado",
-      "mentions": 8
-    },
-    {
-      "name": "Elon Musk",
-      "mentions": 8
-    },
-    {
-      "name": "Government Accountability Office",
       "mentions": 8
     },
     {
@@ -65,20 +53,32 @@
       "mentions": 8
     },
     {
-      "name": "White House",
-      "mentions": 8
-    },
-    {
-      "name": "Federal Government",
-      "mentions": 7
-    },
-    {
       "name": "MSN",
       "mentions": 7
     },
     {
-      "name": "deepfake-creators",
+      "name": "White House",
       "mentions": 7
+    },
+    {
+      "name": "Workday",
+      "mentions": 7
+    },
+    {
+      "name": "Federal Government",
+      "mentions": 6
+    },
+    {
+      "name": "Forbes",
+      "mentions": 6
+    },
+    {
+      "name": "Government Accountability Office",
+      "mentions": 6
+    },
+    {
+      "name": "Ring",
+      "mentions": 6
     }
   ],
   "active_threads": [
@@ -116,7 +116,7 @@
     }
   ],
   "signal_funnel": {
-    "detected": 1272,
+    "detected": 1294,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

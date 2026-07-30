@@ -1,6 +1,160 @@
 {
   "signals": [
     {
+      "signal_id": "700b8e9361a49f1628edb52619b598bedbc408e607c7b8a54394e961b49283af",
+      "title": "ChatGPT Now Threatens Medicaid Funding for Hospitals Nationwide: Error Rate Unpublished",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.736656"
+    },
+    {
+      "signal_id": "8d0518bd8ddf8975a0e117eb4210427b23cc24c00d320fd0dc20c3182d7c87db",
+      "title": "AI Is Making Doctor's Visits More Expensive \u2014 4 Ways To Avoid Surcharges",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.645194"
+    },
+    {
+      "signal_id": "9624990bc1f66d6ad7ec61ee514b809193a5b201166e070d651b7d3dffb0da94",
+      "title": "The Risky Marriage of AI and Police Reports",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.595608"
+    },
+    {
+      "signal_id": "de248071733fab796954ffe0a6fa1d4b211a45070ae6b55a4faaa17b59de3990",
+      "title": "90,000 Flock cameras have quietly gone up in the US: What they track and how to check your city",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.587981"
+    },
+    {
+      "signal_id": "6ae6275d47c1d622223b5ff65d405cee29cc73517aa8250eb10dccad0b66d511",
+      "title": "\u2018We should be worried\u2019: report sheds light on ICE\u2019s booming arsenal of hi-tech surveillance tools",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.556283"
+    },
+    {
+      "signal_id": "2c82a7e30a4c77e124108b110187de2c4573decb93cce04f1d421233e4c74b03",
+      "title": "Is AI Rejecting Your CV Because of Your Age or Race? Landmark Lawsuit Could Reshape Recruitment",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.466199"
+    },
+    {
+      "signal_id": "e88aea907266afd538de6062880dd352e26e055ad770bfbc94113361f99ae598",
+      "title": "'AI Decided Who Got Fired': Meta Sued Over Claims AI Selected Workers on Maternity and Medical Leave for Layoffs",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.452714"
+    },
+    {
+      "signal_id": "75469f3277f9eb39d1ac78f97c8511f2080c940841239b912c016ec3c3824477",
+      "title": "Meta layoffs: Instagram parent sued over claims AI unfairly targeted employees on medical leave",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.445495"
+    },
+    {
+      "signal_id": "89cba50ee5ddcf1b58ab7466a81eb609c8836787b57f85e6e7ae4929245b8107",
+      "title": "Meta Purged Employees With Disabilities and Medical Leave Using AI, Dozens Claim",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.433350"
+    },
+    {
+      "signal_id": "d991f125f1f4eb85f193da69f2b926fe779903aa7274c1cd719d099bfa7b3a69",
+      "title": "Meta sued by 26 ex-employees over alleged AI-driven layoff bias",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.419374"
+    },
+    {
+      "signal_id": "81c16e768bb4ac0b6d64a8fb373a871df90cd09b8f348ba8577bad9fdb0b7d5e",
+      "title": "Purportedly AI-Powered Software Allegedly Used to Replace Montefiore Hospital Utilization-Review Nurses Despite Contractual AI Safeguards",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.349613"
+    },
+    {
+      "signal_id": "16a156bdb0ac1e4f130868c2b5e9a9a4bc16f88999044dbb6377da8a4e451a20",
+      "title": "Purportedly AI-Generated Images Reportedly Used During Four-Year Catfishing Campaign Targeting Welsh Teenager",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.342576"
+    },
+    {
+      "signal_id": "bef9c3359f147d19d6bd0d78f94f11f3d50ab604bcc4c0d7ee10d201d9242be6",
+      "title": "Purported AI-Generated Video Allegedly Contributed to Laredo, Texas, Teen's Death by Suicide",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.329966"
+    },
+    {
+      "signal_id": "c816e1b13e965852c4c8573218381e700d6a53ea372938e1bacf5e1e7d350bc0",
+      "title": "Purportedly AI-Powered 007TG Platform Reportedly Used by Scam Networks Linked to $75 Million in Proceeds",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.320023"
+    },
+    {
+      "signal_id": "3c65d6db0f450dbec1b45201aa365753b5d8a9d26f202d54ed8dc40bf91ec4a8",
+      "title": "Purportedly AI-Powered KT Platform Reportedly Used in Forced Scamming Operation Involving Trafficked Worker in Myanmar",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.294724"
+    },
+    {
+      "signal_id": "1486b7bb202e3666bbeafc64fa2874506fa9e873e91d1f3320fa34688991b8ab",
+      "title": "Koi Security's AI-Assisted Threat Report Allegedly Led to Blocking of MeetingTV Domains",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.268676"
+    },
+    {
+      "signal_id": "830a376e7cd6517577b5e745e3c0caabd102e9c440916ba7f1cdba244ad6a843",
+      "title": "Meta's AI-Assisted Layoff Process Allegedly Disproportionately Selected Employees on Protected Leave",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.242961"
+    },
+    {
+      "signal_id": "114d28e84efef756169e176c2e17b2a2655163603eb1cb3b9bcee973e2db9b36",
+      "title": "LLM-Driven Ransomware Operator Dubbed JADEPUFFER Reportedly Targeted Production Database",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.189172"
+    },
+    {
+      "signal_id": "ae37904f7ef933496fb6f3f5d36b736913e634e795db065ab0892dcb7bc894f7",
+      "title": "Eightfold AI Hiring Tools Allegedly Secretly Scored Job Applicants for Employers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.142406"
+    },
+    {
+      "signal_id": "3a36db6b4209d03ed6b52bc3f4ef596d73c3e59e1e9d646a89c0fdda16c1b1ee",
+      "title": "Purportedly AI-Generated Explicit Images of Students Allegedly Circulated at Lake Zurich High School in Illinois",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.129403"
+    },
+    {
+      "signal_id": "ecbee8e8c7949edd126f8f5ad59cb3fed63048b188c6e2adf690202da1e95ce0",
+      "title": "National Company Law Tribunal Reportedly Relied on AI-Hallucinated Precedents in Pooja Ramesh Singh v. Jammu and Kashmir Bank Ltd",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.109432"
+    },
+    {
+      "signal_id": "8516a9252bbac8be1bbae320a9876c60a65dd9aeae3a2601ef19e4007b39a125",
+      "title": "Westlaw CoCounsel Reportedly Generated False Legal Quotations in United States v. Farris",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-24T07:15:38.100297"
+    },
+    {
       "signal_id": "95eca9879390e035b0d783823c1066b560fae30edd50cb2f9b5ad5b928a0679c",
       "title": "Canada's AI strategy aims to make health data more accessible. How will it protect privacy?",
       "status": "detected",
@@ -547,160 +701,6 @@
       "last_updated": "2026-06-12T07:05:21.551657"
     },
     {
-      "signal_id": "80b8648bd2522c4fa95a166c33b5120b1d14e442026b87c1e3da577d494b729e",
-      "title": "AI Chatbots Fail Medical Questions One in Five Times, Study Reveals",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.544226"
-    },
-    {
-      "signal_id": "2ec7518952d112527b99ec452e471500f2a046c4a75fb92dd157389e2a1ec0d4",
-      "title": "Fort Myers man sues Jacksonville Beach police, alleges false arrest tied to facial recognition technology",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.521686"
-    },
-    {
-      "signal_id": "b2f4e51be803d00ac7acd65a1e0b23b5b1c43e9df7bee5122626f21fa781e64c",
-      "title": "Florida law enforcement relied too heavily on AI, falsely arrested a suspect, ACLU argues",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.499744"
-    },
-    {
-      "signal_id": "33616ee6b057033ab9f834a02daedbc63cbc2b13ed782d514a5702e20e7812bb",
-      "title": "Powerful AI is making facial recognition better at identifying you",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.468205"
-    },
-    {
-      "signal_id": "424a003c5c3a5a4b31cb6f9ec01451b833a5677783dc070dd54ad1730739a4ce",
-      "title": "Rulings Against Workday Offer Plaintiffs a New Path Amid Spread of AI Employment Screening",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.447161"
-    },
-    {
-      "signal_id": "84da595484eb900cec9954cd637a53baef6989ab7e59c37d711a59e93c8e5630",
-      "title": "Why Tesla's AI trainers don't trust its self-driving tech - or its safety stats",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.409888"
-    },
-    {
-      "signal_id": "0845d7ddd2297b1c417321ba08eef0b7728fedaf5855205b99eb9f2727657443",
-      "title": "Grok Reportedly Generated Images After X Users Asked It to Unredact Epstein-File Photos of Children and Women",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.312242"
-    },
-    {
-      "signal_id": "8f1c7a0566a47f48c3dccb5e9a9aa520fb1ee5420b430f4fae0f8752f0e36896",
-      "title": "COEMPT Quality Assurance Engineers Allegedly Violated Indian CBSE Student Data Privacy Rights by Processing It with Google Gemini",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.242347"
-    },
-    {
-      "signal_id": "80a8e7a7e53adb97d1af2f77be74768202a0321bcd953cf35a09a030c1b61445",
-      "title": "ChatGPT Was Alleged to Have Reinforced Pittsburgh Man's Stalking and Threats Against Women",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.224234"
-    },
-    {
-      "signal_id": "15a1494639a65e73279d47b7c7169acaa8f270edf3b51d90737101a3ea41a7d0",
-      "title": "iRobot Roomba J7 R&D Images Reportedly Appeared in Private Online Groups After Data Labeling",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.193282"
-    },
-    {
-      "signal_id": "40917f0378c64cfe8dc755d1ad89aae2b78567c9e52df0439f850e77d4063573",
-      "title": "Henan Authorities Reportedly Commissioned Facial Recognition System to Track Journalists and International Students",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.186307"
-    },
-    {
-      "signal_id": "08d9fa97e4661000e87fffdf5fff4653276ba19479aaa9e8606c05902bebc326",
-      "title": "GPT-2 Reportedly Reproduced Personal Data from Its Training Data",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.169405"
-    },
-    {
-      "signal_id": "becd3141c46878cb533a7844a517b178b5fbec354019cbd742f9220be5dfc6a2",
-      "title": "Private Medical Photos Were Reportedly Found in LAION-5B AI Training Dataset",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.165949"
-    },
-    {
-      "signal_id": "8f5afb4e3327102005494353fffd1086d8e02194d27d5c657d640f55dec4b61e",
-      "title": "South Korean Agencies Reportedly Shared Airport Travelers' Face Images with Companies to Train Immigration Facial Recognition System",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.155129"
-    },
-    {
-      "signal_id": "9defb1be820f79119d6fcfb5e0cebfef8c62fdfa1c6eac11f832fd0061832738",
-      "title": "Finnish Police Were Reportedly Reprimanded After National Bureau of Investigation Unit Allegedly Used Clearview AI to Identify Potential Abuse Victims",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.145045"
-    },
-    {
-      "signal_id": "be6d02b214e0b254a7917dcb27cf0ece7db1c8895044d95a71e9ea935366985a",
-      "title": "Nevada facial recognition project draws scrutiny over privacy, police oversight",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.975885"
-    },
-    {
-      "signal_id": "f1060ed2dfee2e6b54ecf16e48f572012532ca94f1480a71da0bf6ea1394cfd2",
-      "title": "Amazon's Ring sued over facial recognition feature, latest privacy concern for doorbell maker",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.959604"
-    },
-    {
-      "signal_id": "0fec19222e1861b917265b6424aab5e2f06bbea9632b500008cfb0fe4ee4cc9d",
-      "title": "Amazon Ring sued over facial recognition privacy violation",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.936632"
-    },
-    {
-      "signal_id": "27d3da1ad3067446aa606ae8ff3eaec0c652551561bf8ee850ca1f0deab42e73",
-      "title": "Man wrongfully jailed; prosecutors cite facial recognition match before dropping...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.924573"
-    },
-    {
-      "signal_id": "da5eb55b691643effbaee89d4e6dc39a6de9fd4f376a5116b2d1b49fdd63c8cf",
-      "title": "Amazon sued over claims Ring cameras collected facial data without consent",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.911970"
-    },
-    {
-      "signal_id": "60e2afdee53b37b1d64424c5b2298bdec1cde00f10c7734598813d834350fa88",
-      "title": "Amazon faces class action lawsuit over Ring facial recognition feature",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.899479"
-    },
-    {
-      "signal_id": "ed078d85d23b2c9a24b3b16d44d23951e80c4ce5dc33dd0d2b40424bba8130bb",
-      "title": "Amazon Ring sued over facial recognition",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-05T07:02:34.880095"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -825,7 +825,7 @@
       },
       {
         "name": "openai",
-        "mentions": 150,
+        "mentions": 153,
         "description": ""
       },
       {
@@ -840,7 +840,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 108,
+        "mentions": 110,
         "description": ""
       },
       {
@@ -855,7 +855,7 @@
       },
       {
         "name": "Nextgov/FCW",
-        "mentions": 89,
+        "mentions": 90,
         "description": ""
       },
       {
@@ -902,7 +902,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 273,
+        "mentions": 276,
         "description": ""
       },
       {
@@ -951,23 +951,23 @@
         "description": ""
       },
       {
+        "name": "China",
+        "mentions": 31,
+        "description": ""
+      },
+      {
         "name": "General Services Administration",
         "mentions": 30,
         "description": ""
       },
       {
         "name": "U.S. Air Force",
-        "mentions": 29,
+        "mentions": 30,
         "description": ""
       },
       {
         "name": "Trump administration",
-        "mentions": 29,
-        "description": ""
-      },
-      {
-        "name": "China",
-        "mentions": 29,
+        "mentions": 30,
         "description": ""
       },
       {
@@ -992,7 +992,7 @@
       },
       {
         "name": "U.S. Space Force",
-        "mentions": 15,
+        "mentions": 16,
         "description": ""
       },
       {
