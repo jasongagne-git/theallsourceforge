@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-05",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat.",
+    "snippet": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat...",
+    "url": "briefings/2026-07-05.html"
+  },
+  {
     "date": "2026-06-28",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Air Force just awarded its first Collaborative Combat Aircraft contracts to Anduril and General Atomics, with six companies competing for autonomy softwa.",
     "snippet": "The Air Force just awarded its first Collaborative Combat Aircraft contracts to Anduril and General Atomics, with six companies competing for autonomy softwa...",
     "url": "briefings/2026-06-21.html"
-  },
-  {
-    "date": "2026-06-14",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused.",
-    "snippet": "The Senate Armed Services Committee&#x27;s proposal to create a dedicated combatant command for autonomous systems (Senators want a new robot warfare-focused...",
-    "url": "briefings/2026-06-14.html"
   }
 ]
