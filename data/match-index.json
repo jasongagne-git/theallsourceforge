@@ -1,6 +1,69 @@
 {
   "signals": [
     {
+      "signal_id": "42646024b94499bd23fa3890b495e3d0f46f8a30b075e924a6667ab89fafee34",
+      "title": "Jantar Mantar to farmer protests: Unchecked state surveillance in India",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.830140"
+    },
+    {
+      "signal_id": "b625c2eb93cd6e2f3ad4b9895dd3ee2a6dec61da859b3a7b775b3efc8bf5e84f",
+      "title": "Forget the Singularity: Universal AI Surveillance Is Here",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.796287"
+    },
+    {
+      "signal_id": "f736911939d6a54e9d546129e79319131fc0f7e8fd0718f4b023901102fd78ad",
+      "title": "Flock surveillance spreads across the South as red-state lawmakers seek to axe '1984'-style tracking tools",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.789093"
+    },
+    {
+      "signal_id": "9ef1ed89a9e442384bb58969522c955498fd95e6c5b5182a78e0d376ecb99d99",
+      "title": "Fact Check: Home Depot class action lawsuit over parking lot surveillance: What...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.771254"
+    },
+    {
+      "signal_id": "5183f5854fcae38c25585e99d36fc33bde239b13731d885bdc4ce117a900c819",
+      "title": "Flock surveillance spreads across the South as red-state lawmakers seek to ax...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.764160"
+    },
+    {
+      "signal_id": "cc97d2f21db5b6c57d6c5ce322c73ffaffa4fc90103e9927c011509354c5383a",
+      "title": "The Soccer Surveillance State",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.753097"
+    },
+    {
+      "signal_id": "c44a869c8bd5d141c727ce9e5baf05d6ef3b5c029dc8ae3cd798fde9b22d0b34",
+      "title": "FIFA World Cup 2026 leaves behind more than football. AI surveillance may be its biggest legacy",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.741166"
+    },
+    {
+      "signal_id": "c83e89cfaf60cffddb76f260ef8141db845fc35a7d4453eb735b43bdbc8aa2f5",
+      "title": "Meta sued over AI layoffs targeting disabled workers",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.697215"
+    },
+    {
+      "signal_id": "3ce0b4969bfcd831909a8294b8fecd8f01685caea79a27cc212709dc42bfc2a2",
+      "title": "Former employees sue over Meta's alleged use of biased AI systems during layoffs",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-07-31T07:03:44.684887"
+    },
+    {
       "signal_id": "700b8e9361a49f1628edb52619b598bedbc408e607c7b8a54394e961b49283af",
       "title": "ChatGPT Now Threatens Medicaid Funding for Hospitals Nationwide: Error Rate Unpublished",
       "status": "detected",
@@ -638,69 +701,6 @@
       "last_updated": "2026-06-19T07:03:29.985784"
     },
     {
-      "signal_id": "b637a01635fb993261c9ca9b1ec7d4aecf4e476bab61f78a934a50c37f1fe521",
-      "title": "\u2018I Lost Everything\u2019: Black Man Arrested and Jailed for Car Theft That Happened While He Was at Work 400 Miles Away in North Carolina",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.973497"
-    },
-    {
-      "signal_id": "4977cc6ec9210ef4a593e786d7038fd3434e4473e042671b9ea536a65d843aba",
-      "title": "Florida man sues police, blames \u2018error-prone\u2019 AI facial recognition for wrongful arrest",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.954312"
-    },
-    {
-      "signal_id": "41bc8705532711a4144ce281be2262a609acfe4367dff6a1e30d7509654ad7a2",
-      "title": "Man describes wrongful arrest by Jacksonville Beach Police using facial recognition technology",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.893561"
-    },
-    {
-      "signal_id": "d45f6c96f3ca7031bdd2a1c90c3683b576d69689e0bed4207f5cab18222406eb",
-      "title": "Workday Hit With Major AI Bias Lawsuit Challenge",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.782619"
-    },
-    {
-      "signal_id": "ef0b498708de604ff78436b85a344b894501a9d582928e213bd5dfff7be2d668",
-      "title": "AI bias threatens LGBTQ users, GLAAD says",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.773800"
-    },
-    {
-      "signal_id": "5e68dd4111f6bb081f6176110dd41ce1f4c34fa18370812fe81b6b71f1efff92",
-      "title": "Dartigue urges 'creative lawyering' to combat AI bias",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.762731"
-    },
-    {
-      "signal_id": "aeb492c6e9ee3c82fa2f6e4d07da71b7d815629b9ec441a3cd0717827e6ae661",
-      "title": "Robot Kicks Child In Stomach During Demo In China",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.715948"
-    },
-    {
-      "signal_id": "db8fcd024e145dce91cf6d35d9e21d3de6698efead9e4ea7d3709626d5d8c4ad",
-      "title": "GAO Report on Suicide Prevention Across the Defense Department",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.649345"
-    },
-    {
-      "signal_id": "ef61ee7ddb698ddd581837cdd6364addc0d26f8e9d4d0c04e0bb72d21b6fffa3",
-      "title": "As Pennsylvania cracks down on AI, multiple chatbots continue to pose as doctors",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-12T07:05:21.551657"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -840,7 +840,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 110,
+        "mentions": 112,
         "description": ""
       },
       {
@@ -889,30 +889,30 @@
         "description": ""
       },
       {
-        "name": "Federal Deposit Insurance Corporation",
-        "mentions": 54,
+        "name": "OpenAI",
+        "mentions": 55,
         "description": ""
       },
       {
-        "name": "Department of the Treasury",
-        "mentions": 53,
+        "name": "Federal Deposit Insurance Corporation",
+        "mentions": 54,
         "description": ""
       }
     ],
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 276,
+        "mentions": 279,
         "description": ""
       },
       {
         "name": "Department of Health and Human Services",
-        "mentions": 270,
+        "mentions": 271,
         "description": ""
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 264,
+        "mentions": 265,
         "description": ""
       },
       {
@@ -946,27 +946,27 @@
         "description": ""
       },
       {
+        "name": "China",
+        "mentions": 32,
+        "description": ""
+      },
+      {
         "name": "U.S. Navy",
         "mentions": 31,
         "description": ""
       },
       {
-        "name": "China",
+        "name": "Trump administration",
+        "mentions": 31,
+        "description": ""
+      },
+      {
+        "name": "U.S. Air Force",
         "mentions": 31,
         "description": ""
       },
       {
         "name": "General Services Administration",
-        "mentions": 30,
-        "description": ""
-      },
-      {
-        "name": "U.S. Air Force",
-        "mentions": 30,
-        "description": ""
-      },
-      {
-        "name": "Trump administration",
         "mentions": 30,
         "description": ""
       },

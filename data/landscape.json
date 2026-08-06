@@ -2,15 +2,11 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 64
+      "mentions": 54
     },
     {
       "name": "Anthropic",
       "mentions": 24
-    },
-    {
-      "name": "OpenAI",
-      "mentions": 22
     },
     {
       "name": "facial recognition",
@@ -18,14 +14,14 @@
     },
     {
       "name": "Meta",
-      "mentions": 15
+      "mentions": 17
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 17
     },
     {
       "name": "Trump administration",
-      "mentions": 14
-    },
-    {
-      "name": "Google",
       "mentions": 13
     },
     {
@@ -33,27 +29,23 @@
       "mentions": 9
     },
     {
-      "name": "Microsoft",
+      "name": "JD Supra",
       "mentions": 9
+    },
+    {
+      "name": "Workday",
+      "mentions": 8
     },
     {
       "name": "deepfake-creators",
-      "mentions": 9
+      "mentions": 8
     },
     {
       "name": "Amazon",
-      "mentions": 8
+      "mentions": 7
     },
     {
-      "name": "JD Supra",
-      "mentions": 8
-    },
-    {
-      "name": "Nvidia",
-      "mentions": 8
-    },
-    {
-      "name": "MSN",
+      "name": "Federal Government",
       "mentions": 7
     },
     {
@@ -61,11 +53,7 @@
       "mentions": 7
     },
     {
-      "name": "Workday",
-      "mentions": 7
-    },
-    {
-      "name": "Federal Government",
+      "name": "Department of Homeland Security",
       "mentions": 6
     },
     {
@@ -73,12 +61,24 @@
       "mentions": 6
     },
     {
-      "name": "Government Accountability Office",
+      "name": "MSN",
       "mentions": 6
     },
     {
       "name": "Ring",
       "mentions": 6
+    },
+    {
+      "name": "United Nations",
+      "mentions": 6
+    },
+    {
+      "name": "ChatGPT",
+      "mentions": 5
+    },
+    {
+      "name": "Google",
+      "mentions": 5
     }
   ],
   "active_threads": [
@@ -116,7 +116,7 @@
     }
   ],
   "signal_funnel": {
-    "detected": 1294,
+    "detected": 1303,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
