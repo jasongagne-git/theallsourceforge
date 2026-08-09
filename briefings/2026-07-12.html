@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Source Forge Weekly — July 12, 2026 | The All Source Forge</title>
+<link rel="canonical" href="https://theallsourceforge.com/briefings/2026-07-12.html">
+<meta name="description" content="The Pentagon&#x27;s Massed Modular Aircraft project ([Defense News](https://www.defensenews.com/industry/techwatch/2026/07/08/pentagon-to-explore-cheaper-replacement">
+<meta property="og:title" content="All Source Forge Weekly — July 12, 2026">
+<meta property="og:description" content="The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://theallsourceforge.com/briefings/2026-07-12.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="All Source Forge Weekly — July 12, 2026">
+<meta name="twitter:description" content="The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door ">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/favicon-192.png">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="../site.css">
+<style>
+.briefing-container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+.briefing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--color-accent-secondary);
+}
+.briefing-header .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-header .tagline {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+.briefing-header .date {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+/* Signal legend */
+.signal-legend {
+    background: var(--bg-secondary);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.signal-legend .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dimmer);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+/* Briefing content */
+.briefing-h1 {
+    color: var(--text-bright);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+.briefing-h2 {
+    color: var(--text-bright);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.briefing-p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 0 0.75rem;
+}
+.briefing-ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+    list-style: none;
+}
+.briefing-li {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-secondary);
+    border-left: 3px solid var(--color-accent-secondary);
+    border-radius: 4px;
+}
+.briefing-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-size: 0.8rem;
+    background: var(--bg-tertiary);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+.briefing-link:hover { color: var(--text-bright); border-color: var(--text-dimmer); }
+.briefing-strong { color: var(--text-bright); font-weight: 600; }
+.signal-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+    margin-right: 4px;
+}
+
+.briefing-meta {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.briefing-meta .tag {
+    background: var(--bg-secondary);
+    color: var(--text-dim);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+}
+
+.briefing-cta {
+    margin-top: 2rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+.briefing-cta p {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+.briefing-cta a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--color-accent-secondary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+.briefing-cta a.btn:hover { background: #3b7cf5; }
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="../index.html" class="nav-brand">the allsource<i>[forge]</i></a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="../research.html">Governance</a>
+            <a href="../research/sentinel.html">SENTINEL</a>
+            <a href="../signals.html">Signals</a>
+        </div>
+    </div>
+</nav>
+
+<div class="briefing-container">
+    <div class="briefing-header">
+        <div class="brand">All Source Forge Weekly</div>
+        <div class="tagline">Evidence-based intelligence for people who build, govern, or deploy AI in defense</div>
+        <div class="date">July 12, 2026</div>
+    </div>
+
+    <div class="signal-legend">
+        <span class="label">Signal Types</span>
+        <span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span>
+        <span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span>
+        <span class="signal-badge" style="color:#6ee7b7;background:#064e3b;">Innovation Org</span>
+        <span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span>
+        <span class="signal-badge" style="color:#93c5fd;background:#1e3a5f;">Public Impact</span>
+        <span class="signal-badge" style="color:#86efac;background:#14532d;">Behavioral Drift</span>
+        <span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span>
+        <span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span>
+    </div>
+
+    <div class="briefing-content">
+        <h2 class="briefing-h2">Opportunity of the Week</h2>
+<p class="briefing-p">The Pentagon's Massed Modular Aircraft project (<a href="https://www.defensenews.com/industry/techwatch/2026/07/08/pentagon-to-explore-cheaper-replacements-for-the-mq-9-reaper/" class="briefing-link" target="_blank" rel="noopener">Defense News</a>) opens the door for attritable drone suppliers to compete for a fundamentally different acquisition model — one that accepts losses as part of the operational concept. For builders: mass-production architectures and open standards matter more than survivability. For acquisition teams: this validates reform around rapid prototyping authorities. The window exists because Ukraine's real-world drone warfare has proven the operational concept while budget pressure forces cheaper alternatives to the $30M MQ-9.</p>
+<h2 class="briefing-h2">Key Signals</h2>
+<ul class="briefing-ul">
+<li class="briefing-li">
+<p class="briefing-p"><span class="signal-badge" style="color:#c4b5fd;background:#4c1d95;">Reform Momentum</span> DIU and the Navy launched a containerized payload competition (<a href="https://breakingdefense.com/2026/07/diu-navy-launch-containerized-payload-competition/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a>), signaling a shift toward modular, plug-and-play military capabilities that lower integration barriers for commercial tech providers and reduce vendor lock-in timelines.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><span class="signal-badge" style="color:#fbbf24;background:#92400e;">Governance Gap</span> The Air Force is forcing contractors to purge Anthropic by September 1 (<a href="https://breakingdefense.com/2026/07/air-force-pushing-contractors-to-purge-anthropic-by-sept-1-memo/" class="briefing-link" target="_blank" rel="noopener">Breaking Defense</a>) while Anthropic simultaneously sues the government — revealing how supply chain bans bypass normal procurement oversight and create legal uncertainty for AI providers working across defense and commercial markets.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><span class="signal-badge" style="color:#7dd3fc;background:#0c4a6e;">AI Deployment</span> Anthropic achieved "the clearest glimpse yet" into Claude's internal reasoning processes (<a href="https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/" class="briefing-link" target="_blank" rel="noopener">MIT Tech Review</a>), demonstrating mechanistic interpretability breakthroughs that could inform defense AI monitoring requirements — just as DoD struggles with behavioral drift in production systems.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><span class="signal-badge" style="color:#fcd34d;background:#78350f;">Budget-Strategy Mismatch</span> The Army is mothballing 10,000 IVAS goggles after $2 billion in investment (<a href="https://www.c4isrnet.com/news/your-military/2026/07/08/us-army-will-mothball-10000-sets-of-clunky-ivas-goggles-report-reveals/" class="briefing-link" target="_blank" rel="noopener">C4ISRNET</a>), highlighting acquisition's failure to kill programs early despite clear technical shortfalls and suggesting continued resistance to iterative development models.</p>
+</li>
+<li class="briefing-li">
+<p class="briefing-p"><span class="signal-badge" style="color:#fca5a5;background:#7f1d1d;">Policy Friction</span> Pentagon CIO Kirsten Davies announced a shift from "backend policy shop to forward-leaning strategic unit" (<a href="https://www.defenseone.com/policy/2026/07/pentagon-cio-interview-kirsten-davies/414659/" class="briefing-link" target="_blank" rel="noopener">Defense One</a>), signaling recognition that existing IT governance structures can't keep pace with operational technology demands.</p>
+</li>
+</ul>
+<h2 class="briefing-h2">Pattern Watch</h2>
+<p class="briefing-p">Governance frameworks are proliferating while enforcement and behavioral impact remain absent. The Anthropic ban lacks transparent oversight, the IVAS program burned billions without accountability mechanisms, and mechanistic interpretability advances aren't yet informing DoD monitoring standards. Simultaneously, reform momentum concentrates in innovation orgs (DIU, AFWERX) creating procurement pathways that bypass — rather than fix — core acquisition dysfunction. The gap between policy announcements and measurable behavior change is widening.</p>
+<h2 class="briefing-h2">Actionable Intel</h2>
+<p class="briefing-p"><strong class="briefing-strong">Defense professionals:</strong> Engage DIU's containerized payload competition before the August solicitation. The shift toward modular payloads creates openings for rapid integration partnerships that don't require years-long platform certifications. Contact: <a href="https://www.diu.mil/work-with-us" class="briefing-link" target="_blank" rel="noopener">DIU Commercial Solutions Opening</a>.</p>
+<p class="briefing-p"><strong class="briefing-strong">AI builders:</strong> Study Anthropic's interpretability methodology (<a href="https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/" class="briefing-link" target="_blank" rel="noopener">MIT Tech Review</a>) and develop monitoring capabilities for multi-agent systems before DoD mandates immature standards. The current governance gap means providers who can demonstrate behavioral transparency will gain first-mover advantage in defense markets.</p>
+<p class="briefing-p"><strong class="briefing-strong">Policy professionals:</strong> The Space Force's 100-hires-per-month acquisition rebuild (<a href="https://federalnewsnetwork.com/space-operations/2026/07/space-force-acquisition-branch-plans-hiring-push/" class="briefing-link" target="_blank" rel="noopener">Federal News Network</a>) creates a window to embed modern procurement practices before institutional patterns calcify. Target: Space Systems Command contracting and cyber positions where authorities like OTA and SBIR concentrate.</p>
+    </div>
+
+    <div class="briefing-meta">
+        <span class="tag">60 sources cited</span>
+        <span class="tag">claude-sonnet-4-5-20250929</span>
+    </div>
+
+    <div class="briefing-cta">
+        <p>Get the All Source Forge Weekly delivered to your inbox every Sunday.</p>
+        <a href="https://theallsourceforge.com/join.html" class="btn">Subscribe — free weekly briefing</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a href="../archive.html" class="back-link">&larr; Back to Archive</a>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 0.5rem;">
+        <a href="mailto:jason@preneurial.works" style="color: var(--text-dim); text-decoration: none;">Contact</a> | <a href="https://www.linkedin.com/in/jagagne/" target="_blank" rel="noopener" style="color: var(--text-dim); text-decoration: none;"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+    <p style="color: var(--text-dimmer); font-size: 0.75rem;">&copy; 2026 Jason Gagne. Evidence-based intelligence for people who build, govern, or deploy AI in defense.</p>
+    <p style="color: var(--text-dimmer); font-size: 0.7rem; font-style: italic; margin-top: 0.5rem;"><em>This content was generated and analyzed with the assistance of AI. Readers should independently verify any claims or recommendations before acting on them.</em></p>
+</div>
+<script data-goatcounter="https://theallsourceforge.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

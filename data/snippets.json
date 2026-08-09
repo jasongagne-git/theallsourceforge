@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-12",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq.",
+    "snippet": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq...",
+    "url": "briefings/2026-07-12.html"
+  },
+  {
     "date": "2026-07-05",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really.",
     "snippet": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really ...",
     "url": "briefings/2026-06-28.html"
-  },
-  {
-    "date": "2026-06-21",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Air Force just awarded its first Collaborative Combat Aircraft contracts to Anduril and General Atomics, with six companies competing for autonomy softwa.",
-    "snippet": "The Air Force just awarded its first Collaborative Combat Aircraft contracts to Anduril and General Atomics, with six companies competing for autonomy softwa...",
-    "url": "briefings/2026-06-21.html"
   }
 ]
