@@ -2,54 +2,54 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 54
+      "mentions": 51
     },
     {
       "name": "Anthropic",
-      "mentions": 24
+      "mentions": 21
     },
     {
       "name": "facial recognition",
-      "mentions": 21
+      "mentions": 20
+    },
+    {
+      "name": "OpenAI",
+      "mentions": 19
     },
     {
       "name": "Meta",
       "mentions": 17
     },
     {
-      "name": "OpenAI",
+      "name": "Trump administration",
       "mentions": 17
     },
     {
-      "name": "Trump administration",
-      "mentions": 13
-    },
-    {
       "name": "China",
-      "mentions": 9
+      "mentions": 11
     },
     {
       "name": "JD Supra",
-      "mentions": 9
+      "mentions": 10
+    },
+    {
+      "name": "Amazon",
+      "mentions": 8
     },
     {
       "name": "Workday",
       "mentions": 8
     },
     {
-      "name": "deepfake-creators",
-      "mentions": 8
-    },
-    {
-      "name": "Amazon",
+      "name": "Forbes",
       "mentions": 7
     },
     {
-      "name": "Federal Government",
+      "name": "Government Accountability Office",
       "mentions": 7
     },
     {
-      "name": "White House",
+      "name": "Ring",
       "mentions": 7
     },
     {
@@ -57,15 +57,7 @@
       "mentions": 6
     },
     {
-      "name": "Forbes",
-      "mentions": 6
-    },
-    {
-      "name": "MSN",
-      "mentions": 6
-    },
-    {
-      "name": "Ring",
+      "name": "Federal Government",
       "mentions": 6
     },
     {
@@ -73,50 +65,74 @@
       "mentions": 6
     },
     {
-      "name": "ChatGPT",
+      "name": "White House",
+      "mentions": 6
+    },
+    {
+      "name": "Federal News Network",
       "mentions": 5
     },
     {
-      "name": "Google",
+      "name": "Flock Safety",
+      "mentions": 5
+    },
+    {
+      "name": "MSN",
       "mentions": 5
     }
   ],
   "active_threads": [
     {
-      "id": "88e24cc13c06cd6e",
-      "title": "UN Women / Large language models",
+      "id": "8c595e61b382ce84",
+      "title": "facial recognition / Amazon",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "gender",
-        "bias",
-        "ai's",
-        "missing"
+        "facial",
+        "ring",
+        "recognition",
+        "sued"
       ],
-      "importance": 0.27,
-      "description": "Both involved in BSP incident: AI's missing inclusivity: The tech revolution is amplifying gender bias; Both involved in BSP incident: UN Women warns AI amplifies gender bias, digital violence"
+      "importance": 0.62,
+      "description": "Both involved in BSP incident: Amazon sued over claims Ring cameras collected facial data without consent; Both involved in BSP incident: Amazon Ring sued over facial recognition privacy violation; Bo"
     },
     {
-      "id": "fdbe8dbf77e0d561",
-      "title": "Yahoo / GLAAD",
+      "id": "a8a86cbc056ee31f",
+      "title": "Israel / US Congress",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "glaad",
-        "lgbtq",
-        "users",
-        "failing"
+        "defense",
+        "congress",
+        "us-israel",
+        "integration"
       ],
-      "importance": 0.25,
-      "description": "Both involved in BSP incident: GLAAD Says AI Is Failing LGBTQ Users\u2014And Warns the Risk Is Growing; Both involved in BSP incident: GLAAD report finds AI chatbots giving biased, harmful advice to LGBTQ "
+      "importance": 0.29,
+      "description": "Both involved in BSP incident: US-Israel defense integration plan sparks sovereignty concerns in Congress; Both involved in BSP incident: Why Congress Wants a Closer U.S.-Israel Defense Partnership"
+    },
+    {
+      "id": "6abceb6b8779144f",
+      "title": "Trump administration / White House",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "white",
+        "house",
+        "policy",
+        "adviser"
+      ],
+      "importance": 0.23,
+      "description": "Both involved in BSP incident: White House AI policy adviser to leave role at end of month; Both involved in BSP incident: White House Invites AI Labs That Breached Companies to Write Their Own Safety"
     }
   ],
   "signal_funnel": {
-    "detected": 1303,
+    "detected": 1321,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

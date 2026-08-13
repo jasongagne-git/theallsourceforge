@@ -453,7 +453,7 @@
   "active_agencies": [
     {
       "name": "Department of Defense",
-      "mentions": 279
+      "mentions": 281
     },
     {
       "name": "Department of Health and Human Services",
@@ -465,7 +465,7 @@
     },
     {
       "name": "Department of Veterans Affairs",
-      "mentions": 239
+      "mentions": 241
     },
     {
       "name": "Department of Energy",
@@ -481,7 +481,7 @@
     },
     {
       "name": "Government Accountability Office",
-      "mentions": 40
+      "mentions": 42
     },
     {
       "name": "U.S. Army",
@@ -489,7 +489,7 @@
     },
     {
       "name": "China",
-      "mentions": 32
+      "mentions": 35
     }
   ],
   "emerging_technologies": [

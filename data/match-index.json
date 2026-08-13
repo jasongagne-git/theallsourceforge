@@ -1,6 +1,132 @@
 {
   "signals": [
     {
+      "signal_id": "8c72f42a4515b797245417a410118f24f2b14fcb30d48da12106e2f276baf506",
+      "title": "China's new challenge as natural disasters strike - fake AI videos",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:18.165098"
+    },
+    {
+      "signal_id": "a395da122d8609de41d33fe2f6297ebc8434b5276a1f2d544f82a41e241abe15",
+      "title": "Georgia woman says she was wrongly diagnosed with cancer and had hysterectomy due to labeling error",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.963147"
+    },
+    {
+      "signal_id": "4913b98a8f6e246175662d9e181950ca87f68ccfdbc31a77f959bcf56b819d1e",
+      "title": "Delhi police scanned student protesters with AI. Courts are now asking who authorized that",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.914281"
+    },
+    {
+      "signal_id": "7260a77da04de8a68f0d7491f8cc2be2e768af63b13116ededd04e45f4a54940",
+      "title": "AI facial recognition vans at Jantar Mantar raise Aadhaar, privacy questions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.896317"
+    },
+    {
+      "signal_id": "9e3a11cd940a9b2106badc957a38674b34bcd7cc9b80445cbcc443e77f46297f",
+      "title": "Modi faces challenge from activists over surveillance at India youth protest",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.877825"
+    },
+    {
+      "signal_id": "183efeac9f54f9745b5499e322e9e6babbc294c0212bcc210396aa2c7280ac45",
+      "title": "Italy's own privacy watchdog says its new police facial recognition decree violates EU AI Act",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.855722"
+    },
+    {
+      "signal_id": "77050210c1f0f020402da3218faa30325b5a50c60762da69c8d8c1f2b0dda517",
+      "title": "Who\u2019s That Knocking At My Door? Ring Facial Recognition Class Action Lawsuit Filed",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.835628"
+    },
+    {
+      "signal_id": "71a262ed9be4062369f0ed0e64c6f92fb4a2f9192d987dc108158119a72847da",
+      "title": "Apartment Owner and Manager UDR Allegedly Used RealPage Algorithms to Set San Diego Rents in Keller v. UDR, Inc.",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.707186"
+    },
+    {
+      "signal_id": "8746e441b8e102f45ea099cff15d38411b76b9f3f1f5e611b8c789f178d99738",
+      "title": "Motive AI Dashcams Allegedly Collected Truckers' Biometric Data and Built License-Plate Location Records Without Consent",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.689059"
+    },
+    {
+      "signal_id": "c6f6a36404a105ba8978b16a27c37db4fab37c59927acc584c8d05b00ce16395",
+      "title": "Two Men Allegedly Created and Distributed Purportedly AI-Generated Sexual Images of 22 Women in Silleda, Galicia",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.656338"
+    },
+    {
+      "signal_id": "25d82c034c332e10c2b1db528b05ea34323b30f6be89ecded17c17809acef594",
+      "title": "A.B. Paterson College Teacher in Queensland Allegedly Used AI to Create Explicit Images of Students and Staff",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.637956"
+    },
+    {
+      "signal_id": "ae5c853bbc885576a14b6732c4a8721346af418b7420289325e61d7ff7342993",
+      "title": "Marrero, Louisiana, Woman Allegedly Created Purportedly AI-Generated Nude Media During Extortion Scheme",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.623579"
+    },
+    {
+      "signal_id": "d3bf6ac8e1bbf4e5af969eb6863706fdab4c484c519c451b44af0a229b2259ad",
+      "title": "Queensland Man Allegedly Distributed Purportedly AI-Generated Sexual Posters Falsely Advertising Women for Sex",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.610828"
+    },
+    {
+      "signal_id": "7b538525e451c39ba5a1b14803182236d2626f2658aa5678f0e560fedf887771",
+      "title": "ChatGPT-4o Allegedly Discouraged Florida Pastor From Seeking Care Before Pulmonary Embolism",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.603371"
+    },
+    {
+      "signal_id": "eb461db6e3e131c5c28f15b536f124268a412f3cf6b873ec7b153615b72b02f3",
+      "title": "Purportedly AI-Generated Memorial Posters Reportedly Presented Fabricated Child Portraits as Victims of South African School Transport Crash",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.590333"
+    },
+    {
+      "signal_id": "14d88c67475d5f0fc3279f0ba1c8fc3f1ac932e7a26cb2951798d83a377af1c1",
+      "title": "SASSA Facial-Verification Failures Reportedly Contributed to Social Grant Access Disruptions in South Africa",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.553273"
+    },
+    {
+      "signal_id": "e0431dba60ff4bb2264927fe35cc7fbd0876bf791fcf6948b09e30600bbb67da",
+      "title": "Waymo Robotaxi Reportedly Remained Immobilized While Vandals Smashed Vehicle with Passenger Inside",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.451664"
+    },
+    {
+      "signal_id": "6e22525d3d75abffed69f045ec3ecc9039ca26d221d0780eee6627e511584a8c",
+      "title": "Meta AI Smart Glasses Reportedly Routed Intimate Imagery to Reviewers at Kenyan Contractor Sama Before Meta Ended Contract",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-07T07:06:17.375644"
+    },
+    {
       "signal_id": "42646024b94499bd23fa3890b495e3d0f46f8a30b075e924a6667ab89fafee34",
       "title": "Jantar Mantar to farmer protests: Unchecked state surveillance in India",
       "status": "detected",
@@ -575,132 +701,6 @@
       "last_updated": "2026-06-26T07:06:36.682113"
     },
     {
-      "signal_id": "444aa299a8b156d834d73b89c16d771058f0acb1b9a6a093550e0c7ab8651cc0",
-      "title": "AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During May 2023 Sinuplasty",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.588775"
-    },
-    {
-      "signal_id": "2c0d00c6d3629ed43be87092bab443e575ab14f53e7eb603a5cc06b7f7bdfffb",
-      "title": "Reddit Scam Ads Reportedly Used Deepfake News Segments and Cloned Media Sites to Promote Allegedly Fake AI Investment Platforms",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.537539"
-    },
-    {
-      "signal_id": "5280ab21f5ff67e55f74eeb25c5545e66b5be2b6d2937fc60738ce67b86a3b0b",
-      "title": "Purported Deepfake Video Reportedly Impersonated Former Mongolian Deputy Prime Minister Amarsaikhan Sainbuyan in Investment Scam",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.512717"
-    },
-    {
-      "signal_id": "a0e4949bc7eea4ee9f27ffd086b1c0d0003a316d4a2e1a0e28fbd0e52155cb14",
-      "title": "Purportedly AI-Manipulated Videos Reportedly Targeted Former Kosovo MP Paris Guri and LDK Youth Members Before Snap Elections",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.500459"
-    },
-    {
-      "signal_id": "d648669793f4d40bbc8737c4cb9f250f763b15abd84f20ddd4fe0e3171df2906",
-      "title": "Reported AI-Generated Videos Placed Kosovo Parliamentary Candidates in Purportedly Fabricated Campaign Scenes",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.488881"
-    },
-    {
-      "signal_id": "138882515e26ff0928af70c90ca70b26f4b58f0fa6d7d135c6d6705bcb956e55",
-      "title": "Reported AI-Generated Videos Allegedly Posed as Kosovo Election Vox Pops Before June 7, 2026 Vote",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.471994"
-    },
-    {
-      "signal_id": "1f836892dbca5db2377f899b5614ed9836749951a0555a442162fcc4020af1a7",
-      "title": "Reported AI-Generated Videos Purported to Show Kosovo Diaspora Mobilization for Vet\u00ebvendosje Before Snap Elections",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.450120"
-    },
-    {
-      "signal_id": "7dd3ccb9fc9c5a3f9e8b978d87499e56decb60b1e95d3615c28b50fd1d1a3360",
-      "title": "Reported AI-Generated Videos Depicted Former Kosovo President Vjosa Osmani and Other Public Figures in Allegedly False Compromising Scenes",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.437752"
-    },
-    {
-      "signal_id": "12db9dc06ea1a6fe87633ff6e5be4b04eb04cf4c0091ea0f4a5050626aa9da12",
-      "title": "Purportedly AI-Generated Videos Reportedly Fabricated Conflict Between Kosovo Leaders Albin Kurti and Vjosa Osmani",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.425445"
-    },
-    {
-      "signal_id": "af17a1591ddfd6c5b89c9a21767fe1d2e0e1f8004c98f0453a0b8073b567ef3d",
-      "title": "Kosovo Public Broadcaster RTK and Journalist G\u00ebzim Bimbashi Were Reportedly AI-Impersonated in Alleged Fake Joint-Cure Scam Video",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.412386"
-    },
-    {
-      "signal_id": "25b84fda4dbcf9197cd7849ced8e4670f9a742b3ab5b2b72cf867f124efc048d",
-      "title": "NoFilterNews Reportedly Posted AI-Generated TikTok Videos Styled as Kosovo Election TV News",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.400293"
-    },
-    {
-      "signal_id": "d76a6e18c7833b445ea93c568133824462457e4743ebc3291d3363afc65c48e1",
-      "title": "AI-Enabled TruDi Navigation System Was Alleged to Have Contributed to Patient's Stroke During June 2022 Sinus Procedure",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.373818"
-    },
-    {
-      "signal_id": "904125a75bb9fbbd674ebe400e04f7f33499c491288bba2b47b74a97919f52ef",
-      "title": "Students at Australian Schools Reportedly Used AI Nudification Tools to Create Nonconsensual Sexual Images of Classmates and Teachers",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.336068"
-    },
-    {
-      "signal_id": "7a23c360d5e23bd7cf80ff60a5005400e434d467beebdb7288d91fc4355519e4",
-      "title": "Music Producer Michael Smith Reportedly Arrested for Allegedly Using AI-Generated Songs in $10 Million Streaming Scam",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.324857"
-    },
-    {
-      "signal_id": "f898af29a2f050e5200daa97c27204f4786ccbf194032fc91eab5f40b9d38adc",
-      "title": "Trump signs memo putting \u2018most advanced AI\u2019 into military hands and banning vendors from pulling the plug",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:30.091397"
-    },
-    {
-      "signal_id": "6552dfdda4f5406243cfd4dbbbfeedfa0863ad692eeae9f7cf5008a63c4310f9",
-      "title": "Ukraine\u2019s one-time test used fully autonomous drones to kill Russian soldiers",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:30.056689"
-    },
-    {
-      "signal_id": "20c70ebb7a64e01ff2429eea6798d5b9f3b519ebd397f924fa82bd79b9f45e0f",
-      "title": "Health access | AI is becoming health care's newest gatekeeper",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:30.005991"
-    },
-    {
-      "signal_id": "77bf05d07e6f78e8752df0353271cdb177d17d70b449c0f2b5c3e87e451c7852",
-      "title": "Doctors and NHS could be sued for AI-driven diagnosis errors in UK. Here's what report warns",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-19T07:03:29.985784"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,34 +766,49 @@
   ],
   "topic_threads": [
     {
-      "id": "88e24cc13c06cd6e",
-      "title": "UN Women / Large language models",
+      "id": "8c595e61b382ce84",
+      "title": "facial recognition / Amazon",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "gender",
-        "bias",
-        "ai's",
-        "missing"
+        "facial",
+        "ring",
+        "recognition",
+        "sued"
       ],
-      "importance": 0.27
+      "importance": 0.62
     },
     {
-      "id": "fdbe8dbf77e0d561",
-      "title": "Yahoo / GLAAD",
+      "id": "a8a86cbc056ee31f",
+      "title": "Israel / US Congress",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "glaad",
-        "lgbtq",
-        "users",
-        "failing"
+        "defense",
+        "congress",
+        "us-israel",
+        "integration"
       ],
-      "importance": 0.25
+      "importance": 0.29
+    },
+    {
+      "id": "6abceb6b8779144f",
+      "title": "Trump administration / White House",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "white",
+        "house",
+        "policy",
+        "adviser"
+      ],
+      "importance": 0.23
     }
   ],
   "entities_by_type": {
@@ -834,12 +849,12 @@
         "description": ""
       },
       {
-        "name": "Hill",
-        "mentions": 112,
+        "name": "Anthropic",
+        "mentions": 115,
         "description": ""
       },
       {
-        "name": "Anthropic",
+        "name": "Hill",
         "mentions": 112,
         "description": ""
       },
@@ -869,6 +884,11 @@
         "description": ""
       },
       {
+        "name": "OpenAI",
+        "mentions": 62,
+        "description": ""
+      },
+      {
         "name": "CNAS",
         "mentions": 60,
         "description": ""
@@ -889,11 +909,6 @@
         "description": ""
       },
       {
-        "name": "OpenAI",
-        "mentions": 55,
-        "description": ""
-      },
-      {
         "name": "Federal Deposit Insurance Corporation",
         "mentions": 54,
         "description": ""
@@ -902,7 +917,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 279,
+        "mentions": 281,
         "description": ""
       },
       {
@@ -917,7 +932,7 @@
       },
       {
         "name": "Department of Veterans Affairs",
-        "mentions": 239,
+        "mentions": 241,
         "description": ""
       },
       {
@@ -937,7 +952,7 @@
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 40,
+        "mentions": 42,
         "description": ""
       },
       {
@@ -947,16 +962,16 @@
       },
       {
         "name": "China",
-        "mentions": 32,
-        "description": ""
-      },
-      {
-        "name": "U.S. Navy",
-        "mentions": 31,
+        "mentions": 35,
         "description": ""
       },
       {
         "name": "Trump administration",
+        "mentions": 35,
+        "description": ""
+      },
+      {
+        "name": "U.S. Navy",
         "mentions": 31,
         "description": ""
       },
@@ -1199,6 +1214,11 @@
       },
       {
         "name": "Grok",
+        "mentions": 2,
+        "description": ""
+      },
+      {
+        "name": "laser weapons",
         "mentions": 2,
         "description": ""
       }
