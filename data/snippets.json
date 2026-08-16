@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-19",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r.",
+    "snippet": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r...",
+    "url": "briefings/2026-07-19.html"
+  },
+  {
     "date": "2026-07-12",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat.",
     "snippet": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat...",
     "url": "briefings/2026-07-05.html"
-  },
-  {
-    "date": "2026-06-28",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really.",
-    "snippet": "The Army&#x27;s 101st Air Assault Brigade just published hard negative results on AI tactical planning tools — large language models &quot;don&#x27;t really ...",
-    "url": "briefings/2026-06-28.html"
   }
 ]
