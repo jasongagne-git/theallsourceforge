@@ -453,7 +453,7 @@
   "active_agencies": [
     {
       "name": "Department of Defense",
-      "mentions": 281
+      "mentions": 286
     },
     {
       "name": "Department of Health and Human Services",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 265
+      "mentions": 267
     },
     {
       "name": "Department of Veterans Affairs",
@@ -481,15 +481,15 @@
     },
     {
       "name": "Government Accountability Office",
-      "mentions": 42
-    },
-    {
-      "name": "U.S. Army",
-      "mentions": 35
+      "mentions": 44
     },
     {
       "name": "China",
-      "mentions": 35
+      "mentions": 38
+    },
+    {
+      "name": "U.S. Army",
+      "mentions": 36
     }
   ],
   "emerging_technologies": [
@@ -501,6 +501,11 @@
     {
       "name": "AI",
       "mentions": 5,
+      "description": ""
+    },
+    {
+      "name": "Grok",
+      "mentions": 3,
       "description": ""
     }
   ]

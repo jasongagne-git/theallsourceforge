@@ -2,18 +2,18 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 51
+      "mentions": 50
     },
     {
       "name": "Anthropic",
-      "mentions": 21
-    },
-    {
-      "name": "facial recognition",
-      "mentions": 20
+      "mentions": 25
     },
     {
       "name": "OpenAI",
+      "mentions": 24
+    },
+    {
+      "name": "facial recognition",
       "mentions": 19
     },
     {
@@ -26,11 +26,15 @@
     },
     {
       "name": "China",
-      "mentions": 11
+      "mentions": 12
     },
     {
       "name": "JD Supra",
-      "mentions": 10
+      "mentions": 12
+    },
+    {
+      "name": "Government Accountability Office",
+      "mentions": 9
     },
     {
       "name": "Amazon",
@@ -41,11 +45,11 @@
       "mentions": 8
     },
     {
-      "name": "Forbes",
+      "name": "Department of Homeland Security",
       "mentions": 7
     },
     {
-      "name": "Government Accountability Office",
+      "name": "Forbes",
       "mentions": 7
     },
     {
@@ -53,50 +57,46 @@
       "mentions": 7
     },
     {
-      "name": "Department of Homeland Security",
-      "mentions": 6
-    },
-    {
-      "name": "Federal Government",
-      "mentions": 6
-    },
-    {
-      "name": "United Nations",
-      "mentions": 6
-    },
-    {
-      "name": "White House",
-      "mentions": 6
-    },
-    {
-      "name": "Federal News Network",
-      "mentions": 5
-    },
-    {
-      "name": "Flock Safety",
+      "name": "ChatGPT",
       "mentions": 5
     },
     {
       "name": "MSN",
       "mentions": 5
+    },
+    {
+      "name": "Microsoft",
+      "mentions": 5
+    },
+    {
+      "name": "United Nations",
+      "mentions": 5
+    },
+    {
+      "name": "White House",
+      "mentions": 5
+    },
+    {
+      "name": "Yahoo Finance",
+      "mentions": 5
     }
   ],
   "active_threads": [
     {
-      "id": "8c595e61b382ce84",
-      "title": "facial recognition / Amazon",
+      "id": "4e52b75e1b0e6cb1",
+      "title": "Department of Veterans Affairs / Government Accountability Office",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "facial",
-        "ring",
-        "recognition",
-        "sued"
+        "inventory",
+        "report",
+        "reveals",
+        "systems"
       ],
-      "importance": 0.62,
-      "description": "Both involved in BSP incident: Amazon sued over claims Ring cameras collected facial data without consent; Both involved in BSP incident: Amazon Ring sued over facial recognition privacy violation; Bo"
+      "importance": 0.53,
+      "description": "Both involved in BSP incident: VA inventory report reveals 367 AI systems operating in healthcare, benefits and; Both involved in BSP incident: Japan Fast-Tracks Combat Drones and AI as China Expands "
     },
     {
       "id": "a8a86cbc056ee31f",
@@ -132,7 +132,7 @@
     }
   ],
   "signal_funnel": {
-    "detected": 1321,
+    "detected": 1331,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0

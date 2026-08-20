@@ -1,6 +1,76 @@
 {
   "signals": [
     {
+      "signal_id": "43d0261419c05dd092e414ff4355161bebcf12e793fc5cf86c0eb03b46fed263",
+      "title": "ChatGPT Medical Advice Lawsuit\u2014What The Research Says About AI Diagnosis",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.699223"
+    },
+    {
+      "signal_id": "1e0f6379a860ccf81018cbcca5b5778d4549fc2b68ee3b98ddec119cc3b0bab5",
+      "title": "When the state never forgets: Facial recognition and the end of anonymous dissent",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.683101"
+    },
+    {
+      "signal_id": "3d149fe589eb3eee70da3f5c00e057598fd1efe76c6d6e200f11e9457199ad10",
+      "title": "19 arrested, two false alerts: WA begins controversial facial recognition trial",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.679538"
+    },
+    {
+      "signal_id": "8ad7b07f787140f3cbf4e2f8a70aec646343fd69438f85edd60f8ce64a3ba3bb",
+      "title": "AI surveillance collects sensitive data without consent",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.672424"
+    },
+    {
+      "signal_id": "cb461d1eb09d7be3763ee0b1c0221d053e7b818b55ab129be9d0ff23a2ddf966",
+      "title": "Secret Service reveals new surveillance system amid slowdown in privacy impact assessments",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.668694"
+    },
+    {
+      "signal_id": "9b5befaba48336df1a214571dcf6c9621e58b71b2d1ae4d20b7a714df7c8b5c0",
+      "title": "The end of anonymous protest \u2014 how facial recognition puts democracy at risk",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.661214"
+    },
+    {
+      "signal_id": "80ac3646998aea67cc5a4b462b29e3d2a50e75cb64f79cd1d0bd606d9304793f",
+      "title": "DHS surveillance spending tops $2.9B as domestic enforcement architecture expands",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.657634"
+    },
+    {
+      "signal_id": "811c396a0d85e92ce37040ac4558171fbcfabaa6acac105d91355fb67deece78",
+      "title": "Chinese military used OpenAI, Anthropic AI outputs to train their defence systems: Report",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.645014"
+    },
+    {
+      "signal_id": "8d183f5ff65ad9d1f1119e0701ba6a50a02ef06e404af4686e2927421c7ba3c2",
+      "title": "Exclusive-Chinese military researchers tap US AI models to train defence systems",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.619536"
+    },
+    {
+      "signal_id": "1c9ee5bcd3f419c77ba48f147419304d8a4d19216cee894c60164ada9e580ce1",
+      "title": "Lawsuit Challenges Meta\u2019s Use of Artificial Intelligence to Make Layoff Decisions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-14T07:03:11.576629"
+    },
+    {
       "signal_id": "8c72f42a4515b797245417a410118f24f2b14fcb30d48da12106e2f276baf506",
       "title": "China's new challenge as natural disasters strike - fake AI videos",
       "status": "detected",
@@ -631,76 +701,6 @@
       "last_updated": "2026-06-26T07:06:37.301206"
     },
     {
-      "signal_id": "ab83ea0b4e9fb48e194ada458bf619c6f11bc94e06a6af917336fd71b7fbf92f",
-      "title": "GLAAD Says AI Is Failing LGBTQ Users\u2014And Warns the Risk Is Growing",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.184095"
-    },
-    {
-      "signal_id": "a93be1575b5610f2a456170d5ea0fb4099ec9c4ac987d39dd65b93ee857d06a1",
-      "title": "AI hiring tools show racial bias, systemic rejection, and creates 330 day black hole. Here\u2019s how to outsmart it.",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.163475"
-    },
-    {
-      "signal_id": "ea6813b0035c8c2e7d72431ba6ea81498df479400be613e5d0633e1959fd54b8",
-      "title": "Judge allows most claims in Workday AI discrimination suit",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.155619"
-    },
-    {
-      "signal_id": "f721e71c045c33492508042be282f44634736d8b713b15fa84d443d1b2d94c36",
-      "title": "Tech Layoffs Hit 1,115 a Day in 2026: Companies Cite AI but Cuts Fail to Boost Returns",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.096023"
-    },
-    {
-      "signal_id": "afcb2edaa0aa91bdbb13c87be4880488954a1d410804ab26bfcdaf5954c3dd82",
-      "title": "Waymo Robotaxis Reportedly Entered Closed Freeway Construction Zones in Arizona and California",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.985243"
-    },
-    {
-      "signal_id": "5c8a601155df790ddbf1bb1146374dfde8f2508720329ba2e45ccbd9b3b36fc4",
-      "title": "Google Android Earthquake Alerts System Reportedly Underestimated Kahramanmara\u015f Earthquake and Failed to Send Urgent Warnings to Millions",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.967134"
-    },
-    {
-      "signal_id": "232f38c764df3547a75000c45292d888ec0e978e60f34fda0814b184e706711c",
-      "title": "Florida Police Reportedly Wrongfully Arrested Commercial Crabber Robert Dillon After Allegedly False Facial Recognition Match",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.948756"
-    },
-    {
-      "signal_id": "c7039cc489926b801b8589e9abd8fb2a0081a1ccd7ad37b1f79c1328396047b4",
-      "title": "OpenAI Allegedly Failed to Intervene in ChatGPT Conversations Preceding Montreal Web Developer Alice Carrier's Suicide",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.758786"
-    },
-    {
-      "signal_id": "38f337870d48e9a9b0f0596a2efcfc0b84742f67749c827f7f98edb5eb978f29",
-      "title": "Google Alleged Outsider Enterprise Used Gemini to Create Phishing Sites for Text-Message Scams",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.732515"
-    },
-    {
-      "signal_id": "fc45e082d57d3e7868bcdc15da5a036bc01372ca22d4f03874d5491eff4a9dec",
-      "title": "Reported Deepfake Video Impersonating Mark Carney Used in Nearly $1M Cryptocurrency Scam Targeting Ontario Senior",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:36.682113"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -766,19 +766,19 @@
   ],
   "topic_threads": [
     {
-      "id": "8c595e61b382ce84",
-      "title": "facial recognition / Amazon",
+      "id": "4e52b75e1b0e6cb1",
+      "title": "Department of Veterans Affairs / Government Accountability Office",
       "keywords": [
         "both",
         "involved",
         "bsp",
         "incident",
-        "facial",
-        "ring",
-        "recognition",
-        "sued"
+        "inventory",
+        "report",
+        "reveals",
+        "systems"
       ],
-      "importance": 0.62
+      "importance": 0.53
     },
     {
       "id": "a8a86cbc056ee31f",
@@ -850,7 +850,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 115,
+        "mentions": 121,
         "description": ""
       },
       {
@@ -885,7 +885,7 @@
       },
       {
         "name": "OpenAI",
-        "mentions": 62,
+        "mentions": 68,
         "description": ""
       },
       {
@@ -917,7 +917,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 281,
+        "mentions": 286,
         "description": ""
       },
       {
@@ -927,7 +927,7 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 265,
+        "mentions": 267,
         "description": ""
       },
       {
@@ -952,17 +952,17 @@
       },
       {
         "name": "Government Accountability Office",
-        "mentions": 42,
-        "description": ""
-      },
-      {
-        "name": "U.S. Army",
-        "mentions": 35,
+        "mentions": 44,
         "description": ""
       },
       {
         "name": "China",
-        "mentions": 35,
+        "mentions": 38,
+        "description": ""
+      },
+      {
+        "name": "U.S. Army",
+        "mentions": 36,
         "description": ""
       },
       {
@@ -971,12 +971,12 @@
         "description": ""
       },
       {
-        "name": "U.S. Navy",
-        "mentions": 31,
+        "name": "U.S. Air Force",
+        "mentions": 32,
         "description": ""
       },
       {
-        "name": "U.S. Air Force",
+        "name": "U.S. Navy",
         "mentions": 31,
         "description": ""
       },
@@ -1012,7 +1012,7 @@
       },
       {
         "name": "Pete Hegseth",
-        "mentions": 14,
+        "mentions": 15,
         "description": ""
       }
     ],
@@ -1198,6 +1198,11 @@
         "description": ""
       },
       {
+        "name": "Grok",
+        "mentions": 3,
+        "description": ""
+      },
+      {
         "name": "drone swarms",
         "mentions": 2,
         "description": ""
@@ -1209,11 +1214,6 @@
       },
       {
         "name": "Qwen",
-        "mentions": 2,
-        "description": ""
-      },
-      {
-        "name": "Grok",
         "mentions": 2,
         "description": ""
       },
