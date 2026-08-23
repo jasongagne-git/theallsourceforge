@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-07-26",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The State Department&#x27;s release of its generative AI playbook — citing StateChat enterprise chatbot deployment as a case study — opens a template for acc.",
+    "snippet": "The State Department&#x27;s release of its generative AI playbook — citing StateChat enterprise chatbot deployment as a case study — opens a template for acc...",
+    "url": "briefings/2026-07-26.html"
+  },
+  {
     "date": "2026-07-19",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq.",
     "snippet": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq...",
     "url": "briefings/2026-07-12.html"
-  },
-  {
-    "date": "2026-07-05",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat.",
-    "snippet": "The Pentagon&#x27;s creation of a Direct Reporting Program Manager for unmanned systems (DRPM-UxS) reporting directly to Deputy Secretary Feinberg consolidat...",
-    "url": "briefings/2026-07-05.html"
   }
 ]
