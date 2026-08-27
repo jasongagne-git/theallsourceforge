@@ -764,53 +764,7 @@
       "last_updated": "2026-02-25T18:01:44.586801"
     }
   ],
-  "topic_threads": [
-    {
-      "id": "4e52b75e1b0e6cb1",
-      "title": "Department of Veterans Affairs / Government Accountability Office",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "inventory",
-        "report",
-        "reveals",
-        "systems"
-      ],
-      "importance": 0.53
-    },
-    {
-      "id": "a8a86cbc056ee31f",
-      "title": "Israel / US Congress",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "defense",
-        "congress",
-        "us-israel",
-        "integration"
-      ],
-      "importance": 0.29
-    },
-    {
-      "id": "6abceb6b8779144f",
-      "title": "Trump administration / White House",
-      "keywords": [
-        "both",
-        "involved",
-        "bsp",
-        "incident",
-        "white",
-        "house",
-        "policy",
-        "adviser"
-      ],
-      "importance": 0.23
-    }
-  ],
+  "topic_threads": [],
   "entities_by_type": {
     "company": [
       {
@@ -870,7 +824,7 @@
       },
       {
         "name": "Nextgov/FCW",
-        "mentions": 90,
+        "mentions": 91,
         "description": ""
       },
       {
