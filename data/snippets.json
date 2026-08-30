@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-08-02",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "Chinese military researchers are exploiting U.",
+    "snippet": "Chinese military researchers are exploiting U.S. commercial AI models from OpenAI and Anthropic to train defense systems — at the exact moment the Pentagon i...",
+    "url": "briefings/2026-08-02.html"
+  },
+  {
     "date": "2026-07-26",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r.",
     "snippet": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r...",
     "url": "briefings/2026-07-19.html"
-  },
-  {
-    "date": "2026-07-12",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq.",
-    "snippet": "The Pentagon&#x27;s Massed Modular Aircraft project (Defense News) opens the door for attritable drone suppliers to compete for a fundamentally different acq...",
-    "url": "briefings/2026-07-12.html"
   }
 ]
