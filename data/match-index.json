@@ -1,6 +1,153 @@
 {
   "signals": [
     {
+      "signal_id": "4520785ab834c78b7e2b3f52a5f1510026a0b7ba4f7f155eef68d9abc73c3412",
+      "title": "Homeland Security Is Spending $1 Billion on 'Autonomous' Border Surveillance...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:59.032699"
+    },
+    {
+      "signal_id": "ea19848ca4c6d1812dd42f1bbcc51d51f7373761fde871c292e43c3b29973048",
+      "title": "Can AI bring specialist healthcare to rural India? 80% see potential, but doctors warn training must catch up",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.810206"
+    },
+    {
+      "signal_id": "d121f3dca8263c6942bf46a38258acdb57bc7771e09da3ef0666467d97883fd6",
+      "title": "Bloomington settles lawsuit with man wrongfully arrested due to facial recognition technology",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.795661"
+    },
+    {
+      "signal_id": "d90bd1c9eb1f967487496c1d5b4d23bd58a5bf2552fb2cd1d1facfb547196208",
+      "title": "Flock Safety\u2019s CEO Defended His Massive Surveillance Network\u2014But the Facts Tell ...",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.749530"
+    },
+    {
+      "signal_id": "c54805b44674f077a7e87f46bba95f2035db742af7d03306edebe2ba87cc75ff",
+      "title": "ICO police facial recognition audits reveal \u2018mixed\u2019 bag",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.718754"
+    },
+    {
+      "signal_id": "4487082dc49ccc9787297673b8dd527c5175c393edeee2455339214feb4b0a28",
+      "title": "Social Media Recommendation Algorithms Allegedly Repeatedly Exposed 13-Year-Old Blake Gallier to Suicide-Related Videos Before Her Death",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.557417"
+    },
+    {
+      "signal_id": "3f242dcb7b3ba2f4db17852b4fa54e4cb05271d2d026f1a1a3357de2b9e20c02",
+      "title": "Suspected China-Linked Hackers Reportedly Used AI Agents to Compromise Taiwanese Government Systems and Exfiltrate Personnel Records",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.474766"
+    },
+    {
+      "signal_id": "ee70e9531d36c1c54fb662c3081536e7a9eaf9d89cfd0a3a959eba3a3f242182",
+      "title": "3M-Retained Expert Reportedly Submitted Largely ChatGPT-Generated Analysis Seeking to Exonerate 3M as Expert Evidence in Explosion Lawsuit",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.449747"
+    },
+    {
+      "signal_id": "58cd82402a621c5e927a8776b173ff8f144768244fde6254dad982b9e455bced",
+      "title": "Wyoming Woman's Childhood Photograph Reportedly Used to Generate Thousands of Explicit Images with Grok",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.405883"
+    },
+    {
+      "signal_id": "c6b9d4289192d52ce97bbfb392d3b953a0c9ee2d0c562e8a0e245309f7337069",
+      "title": "Istanbul Fraud Network Reportedly Used AI-Assisted Call Center Software to Impersonate Officials and Defraud Europeans",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.342973"
+    },
+    {
+      "signal_id": "d24a08ef379935b89f9dd7fb58b4462739147211bbca9cd829d0085f46fca2c8",
+      "title": "Suspects Alleged to Have Used Purportedly AI-Generated Videos to Defraud 33 People of Approximately 15 Million Lira in Turkey",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.300039"
+    },
+    {
+      "signal_id": "1dc9b8f970a9522253b8c05a0a399639a9e074ae7966b7d5ed7c37b26684b6cf",
+      "title": "Hank Green Reportedly Used AI-Generated Scientific Image Containing Errors in Educational Video",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.274164"
+    },
+    {
+      "signal_id": "291bf24d3de1e38509aa7400e2fd297d98bbe9d4fb19a40fa17e0609cfc35cf6",
+      "title": "Zoetis Vetscan Imagyst Allegedly Misclassified Dog's Cancerous Tumor, Leading to Second Surgery and Death",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.174848"
+    },
+    {
+      "signal_id": "462d53c2f9efca4498dfb54e7e73d284c2e14d64e28bea3dd280373b8cb9f2b0",
+      "title": "Atlantic City Casino-Hotels Allegedly Used Cendyn's Rainmaker AI to Coordinate and Inflate Room Rates",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.155899"
+    },
+    {
+      "signal_id": "a324f311170370a3ad0659737b23f6390650d8cd30a330decaacd704f3f36ed1",
+      "title": "Claude Mythos 5 Reportedly Published Malicious PyPI Package That Compromised Real Security Company During Evaluation",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.104583"
+    },
+    {
+      "signal_id": "2c5d29501049458bc1948f25b55d4030aeb4095a16827ca5fd82ad97e899b43f",
+      "title": "Tunisian Man Allegedly Used ChatGPT to Research Bomb-Making During Paris Terror Plot Targeting Louvre and Jewish Community",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.036707"
+    },
+    {
+      "signal_id": "53ce5e3b5a07e9b5422dafa5a5400e45579270b4244b9753c4f16c0b2735a64c",
+      "title": "ISWAP Reportedly Used AI Guidance to Breach Nigerian Military Base Defenses by Motorcycle",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:58.011744"
+    },
+    {
+      "signal_id": "5c154924ad3d4f42725fb14a42be1fb8a96fc35c8a0377cb74e95de938c15b89",
+      "title": "Pennsylvania's Lancaster Country Day School Students Allegedly Used AI to Create Hundreds of Sexualized Deepfake Images of Girls",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:57.986532"
+    },
+    {
+      "signal_id": "fc59c1c15a252f57e9e747f28b2b464cb427cc595f4498784a2d2402990932d9",
+      "title": "Walmart's AI Voice System Allegedly Collected Illinois Callers' Biometric Voiceprints Without Consent",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:57.971830"
+    },
+    {
+      "signal_id": "1f9104343a6f7135ff34c00e47d2df64763d1a5f9be7bb70125fecf856aca0da",
+      "title": "Hillsboro, Oregon, Man Allegedly Possessed Dozens of Purportedly AI-Generated Images Depicting Child Sexual Abuse",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:57.952215"
+    },
+    {
+      "signal_id": "a2f4d15e2a693e21327de765b6ccbe4564ae784fbf6bfb41c1185cff53f8276c",
+      "title": "Bentonville, Arkansas, Photographer Allegedly Used Grok to Create AI-Generated Child Sexual Abuse Material from Clients' Photos",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-08-28T07:07:57.938476"
+    },
+    {
       "signal_id": "43d0261419c05dd092e414ff4355161bebcf12e793fc5cf86c0eb03b46fed263",
       "title": "ChatGPT Medical Advice Lawsuit\u2014What The Research Says About AI Diagnosis",
       "status": "detected",
@@ -554,153 +701,6 @@
       "last_updated": "2026-07-10T07:05:04.443641"
     },
     {
-      "signal_id": "a09224966f1e493ff170c4a1977aef658bf3d994e3f8f5e4f0be548090212129",
-      "title": "Former New York City Council Candidate Jonathan Rinaldi Allegedly Used AI to Create False Endorsements and Fabricated News Reports",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.386839"
-    },
-    {
-      "signal_id": "84747ab413f391b6d7240ced322d7c096932e32a9c1d4de3bfa3543098e97e12",
-      "title": "Tesla Driver Reportedly Said Driver-Assistance Mode Was Engaged During Fatal Texas Home Crash",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.293778"
-    },
-    {
-      "signal_id": "fe02d60692a918184bbfaa1f881d3db153f43c11eed3e59d104a9b56ff10139b",
-      "title": "St George's Hospital Medical School allegedly Automated Admissions with Discriminatory Results",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.253940"
-    },
-    {
-      "signal_id": "65bc4349264e77a40c4a1579b996bf6e90571368877132ce7566865b85ef4579",
-      "title": "Meta's Smart Glasses Are Testing Facial Recognition Software Used by Police and the Military",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.273551"
-    },
-    {
-      "signal_id": "5fb741c3d90493562a2e0ff5e08c7d0296f6a225b75626ed2fdd63bd0cd7c270",
-      "title": "Police facial recognition tech led to wrongful arrest, lawsuit states",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.253202"
-    },
-    {
-      "signal_id": "350b503b7a350c858efa5b6a59a98ff22bd28260891a96d8d88fbc4e9428ef4f",
-      "title": "A Brazilian Startup Is Betting on AI to Fight Crime. Critics See a Surveillance State",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.249167"
-    },
-    {
-      "signal_id": "4899c3db4690adc1645dca18bbb5aa7c36b8c2bae345b03a16317c713e3d47b0",
-      "title": "Florida Man Wrongfully Arrested After Facial Recognition AI Misidentifies Him in Child Luring Case",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.240797"
-    },
-    {
-      "signal_id": "74bfaeb895a525bc9d58acee163238ff991093af3bddfc65de50f374ad93dbc9",
-      "title": "WA police are scanning faces in public \u2013 and the law is not ready for the consequences",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.228166"
-    },
-    {
-      "signal_id": "04cda92c09dc5a7417eee8e496b9048a4ec99119a944bb37cdb69747240b68a1",
-      "title": "Workday faces lawsuit over AI bias in job application screenings",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.186097"
-    },
-    {
-      "signal_id": "7f9b1d7b22096e1783f94d4eb16226a04f9c4d93efd12aee9f5dbb9a91183ce0",
-      "title": "Workday loses bid to dismiss AI hiring bias lawsuit filed by older Black worker",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.168430"
-    },
-    {
-      "signal_id": "fabf6a461e82ec78c5b3228796bd9f044ee8efe56aee8fdc3be3c99193835cc6",
-      "title": "AI and algorithms can influence biased housing decisions",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.155039"
-    },
-    {
-      "signal_id": "737b59d95f3109729078804e0a26407e84cec74a471fbcea7c5c5a8fcd320f7b",
-      "title": "UN Women warns AI amplifies gender bias, digital violence",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.140247"
-    },
-    {
-      "signal_id": "f5754985e049096124d6b81c9dea4b1aa1ba594c2b78886ba37838885d48657b",
-      "title": "Workday AI bias case moves forward, putting HR hiring tools on notice",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.126020"
-    },
-    {
-      "signal_id": "b33ebd2f348727917df5ba5e594808daa4a3882981d347ce9277c3a6272a7b0f",
-      "title": "AI's missing inclusivity: The tech revolution is amplifying gender bias",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-03T07:03:35.108811"
-    },
-    {
-      "signal_id": "0cee11c37d7be2b66ddb0b0c1a070b506df90ac472784cdb327fc31d666d8897",
-      "title": "Pok\u00e9mon Go Data Used For Military AI Training: Your Scans Now Train Drones For War",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.479658"
-    },
-    {
-      "signal_id": "c78850a6461e2674bbd9f7866c4927f02a66fee7a7728808f9b4218d2390a3cd",
-      "title": "Florida man blames wrongful arrest on \"error-prone\" AI facial recognition",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.373354"
-    },
-    {
-      "signal_id": "615fd2b3571bf66f010fa2b1fe1c18afeff45239eae0d260070cade4cba5bd87",
-      "title": "ACLU Sues After Facial Recognition Falsely Identifies Florida Man as a Child...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.359801"
-    },
-    {
-      "signal_id": "7f0c11ba793e46580aa9059e632fe423c5b89440a19b2ba2b44821ed6ab69ed0",
-      "title": "Florida Man Wrongfully Arrested After Facial Recognition AI Misidentifies Him in...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.345836"
-    },
-    {
-      "signal_id": "ba9cae0221a656f1a2c6ba89128ddc50f2844c068df06126121a6ec0c464ca03",
-      "title": "Western Australia police are scanning faces in public\u2014and the law is not ready f...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.332836"
-    },
-    {
-      "signal_id": "e03f29f1cca7a07e679758da1e3723d5c9711e014f1788990b036e0e7d306377",
-      "title": "Some local police have access to an ICE facial recognition app",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.322045"
-    },
-    {
-      "signal_id": "47c398b9f74923be155ec550d1f8d343fb37fc4bee3d655198a85da3414f1bdb",
-      "title": "Push for facial recognition on public buses ignites fierce debate in Kansas City",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-06-26T07:06:37.301206"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -794,7 +794,7 @@
       },
       {
         "name": "openai",
-        "mentions": 153,
+        "mentions": 154,
         "description": ""
       },
       {
@@ -804,7 +804,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 121,
+        "mentions": 133,
         "description": ""
       },
       {
@@ -839,7 +839,7 @@
       },
       {
         "name": "OpenAI",
-        "mentions": 68,
+        "mentions": 77,
         "description": ""
       },
       {
@@ -871,7 +871,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 286,
+        "mentions": 292,
         "description": ""
       },
       {
@@ -881,7 +881,7 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 267,
+        "mentions": 268,
         "description": ""
       },
       {
@@ -910,6 +910,11 @@
         "description": ""
       },
       {
+        "name": "Trump administration",
+        "mentions": 39,
+        "description": ""
+      },
+      {
         "name": "China",
         "mentions": 38,
         "description": ""
@@ -917,11 +922,6 @@
       {
         "name": "U.S. Army",
         "mentions": 36,
-        "description": ""
-      },
-      {
-        "name": "Trump administration",
-        "mentions": 35,
         "description": ""
       },
       {
@@ -955,12 +955,12 @@
         "description": ""
       },
       {
-        "name": "Office of Management and Budget",
-        "mentions": 16,
+        "name": "U.S. Space Force",
+        "mentions": 17,
         "description": ""
       },
       {
-        "name": "U.S. Space Force",
+        "name": "Office of Management and Budget",
         "mentions": 16,
         "description": ""
       },
@@ -1090,12 +1090,12 @@
         "description": ""
       },
       {
-        "name": "Sanae Takaichi",
-        "mentions": 4,
+        "name": "Donald Trump",
+        "mentions": 5,
         "description": ""
       },
       {
-        "name": "Donald Trump",
+        "name": "Sanae Takaichi",
         "mentions": 4,
         "description": ""
       },
@@ -1143,7 +1143,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 15,
+        "mentions": 17,
         "description": ""
       },
       {
@@ -1153,7 +1153,7 @@
       },
       {
         "name": "Grok",
-        "mentions": 3,
+        "mentions": 4,
         "description": ""
       },
       {

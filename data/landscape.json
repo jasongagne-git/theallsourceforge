@@ -2,22 +2,22 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 46
+      "mentions": 47
     },
     {
       "name": "Anthropic",
-      "mentions": 23
+      "mentions": 33
     },
     {
       "name": "OpenAI",
-      "mentions": 22
-    },
-    {
-      "name": "facial recognition",
-      "mentions": 17
+      "mentions": 29
     },
     {
       "name": "Meta",
+      "mentions": 17
+    },
+    {
+      "name": "JD Supra",
       "mentions": 16
     },
     {
@@ -25,65 +25,65 @@
       "mentions": 16
     },
     {
-      "name": "JD Supra",
-      "mentions": 12
-    },
-    {
-      "name": "China",
+      "name": "facial recognition",
       "mentions": 10
     },
     {
-      "name": "Government Accountability Office",
+      "name": "China",
       "mentions": 9
     },
     {
-      "name": "Amazon",
+      "name": "Workday",
+      "mentions": 9
+    },
+    {
+      "name": "Government Accountability Office",
       "mentions": 8
     },
     {
-      "name": "Workday",
-      "mentions": 8
+      "name": "Flock Safety",
+      "mentions": 7
     },
     {
       "name": "Forbes",
       "mentions": 7
     },
     {
-      "name": "Ring",
-      "mentions": 7
-    },
-    {
       "name": "ChatGPT",
-      "mentions": 5
+      "mentions": 6
     },
     {
       "name": "Department of Homeland Security",
+      "mentions": 6
+    },
+    {
+      "name": "large-language-model-developers",
+      "mentions": 6
+    },
+    {
+      "name": "Connecticut",
       "mentions": 5
     },
     {
-      "name": "Microsoft",
+      "name": "Hugging Face",
       "mentions": 5
     },
     {
-      "name": "United Nations",
+      "name": "MSN",
+      "mentions": 5
+    },
+    {
+      "name": "US Congress",
       "mentions": 5
     },
     {
       "name": "White House",
       "mentions": 5
-    },
-    {
-      "name": "Yahoo Finance",
-      "mentions": 5
-    },
-    {
-      "name": "ACLU",
-      "mentions": 4
     }
   ],
   "active_threads": [],
   "signal_funnel": {
-    "detected": 1331,
+    "detected": 1352,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
