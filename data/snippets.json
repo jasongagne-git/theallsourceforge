@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-08-09",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Army is opening expedited testing ranges in the U.",
+    "snippet": "The Army is opening expedited testing ranges in the U.S. and Morocco with a 30-day request-to-test timeline for companies with internally funded munitions — ...",
+    "url": "briefings/2026-08-09.html"
+  },
+  {
     "date": "2026-08-02",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The State Department&#x27;s release of its generative AI playbook — citing StateChat enterprise chatbot deployment as a case study — opens a template for acc.",
     "snippet": "The State Department&#x27;s release of its generative AI playbook — citing StateChat enterprise chatbot deployment as a case study — opens a template for acc...",
     "url": "briefings/2026-07-26.html"
-  },
-  {
-    "date": "2026-07-19",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r.",
-    "snippet": "The Pentagon&#x27;s 60-day suspension of CMMC Phase 2 creates an immediate opening to redesign defense cybersecurity compliance around operational outcomes r...",
-    "url": "briefings/2026-07-19.html"
   }
 ]
