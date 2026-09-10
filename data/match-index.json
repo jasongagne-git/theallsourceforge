@@ -1,6 +1,48 @@
 {
   "signals": [
     {
+      "signal_id": "3854b8902af4be273198c2ab9bf3cc51d04d838a779a010b1e5004472fec9c78",
+      "title": "AI scribes are getting drug names and diagnoses wrong in NHS records",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.821077"
+    },
+    {
+      "signal_id": "9990b7dfe8eae2fbc346e1ec97b45badb38242e5527a3a782677a8ef3d18714c",
+      "title": "Are doctors' AI scribes a threat to patient safety?",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.806702"
+    },
+    {
+      "signal_id": "6549f6506a27812e022a5a638dd1313ae776011166e55aceccb18e24e9a1255e",
+      "title": "AI documentation at the doctor\u2019s: Patients discover errors before doctors",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.791546"
+    },
+    {
+      "signal_id": "b314f23156fc002ccc5c2c55376761707961eaebfb8c5560924e5bd2059064b0",
+      "title": "AI-powered cameras are tracking American drivers \u2014 and lawmakers on both sides want limits",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.758252"
+    },
+    {
+      "signal_id": "a9ade427359ebb15e0bae3d8b25a6798bd3d0b4a602a93b4943b6073c4effac3",
+      "title": "Daytona Beach approves police facial recognition searches of driver\u2019s license photos",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.746251"
+    },
+    {
+      "signal_id": "8f93980b707770272cc6a9de1f0d58feb35745992e73c91a524ec7cd0ba1afe0",
+      "title": "The Silent Threat: AI Hiring Tools Bias Could Cost You Millions",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-09-04T07:03:37.664331"
+    },
+    {
       "signal_id": "4520785ab834c78b7e2b3f52a5f1510026a0b7ba4f7f155eef68d9abc73c3412",
       "title": "Homeland Security Is Spending $1 Billion on 'Autonomous' Border Surveillance...",
       "status": "detected",
@@ -659,48 +701,6 @@
       "last_updated": "2026-07-10T07:05:04.616543"
     },
     {
-      "signal_id": "20f0ff3feac0dd8f3b9732cc6659258165a03f5bdf40c16f99c339a207ddf4e8",
-      "title": "GLAAD report finds AI chatbots giving biased, harmful advice to LGBTQ users",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.606248"
-    },
-    {
-      "signal_id": "090c6f9416ce657090bde1f04d32ae7a1dbfc5bc8d93e0d0968c2164e47cabd5",
-      "title": "GPT-4o Allegedly Reinforced California Man Michael Lines's Delusions Before Suicide Attempt",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.560335"
-    },
-    {
-      "signal_id": "dc6550fbb1e6b43fc275fba5d4ef2d29e4df1dd030dabf1c1d628b9a6385b172",
-      "title": "Purported Deepfakes of Public Figures and Celebrities Reportedly Used to Market Honey-Based Supplements as Alzheimer's Treatments",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.522778"
-    },
-    {
-      "signal_id": "7e4600a0a89e94fd26689cd1d06b5b86e01ab32f7ee27c32df070c8ff84074a2",
-      "title": "Pennsylvania Man Allegedly Used Grok to Create and Possess Purportedly AI-Generated Child Sexual Abuse Material",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.502679"
-    },
-    {
-      "signal_id": "ae24252cd0bd7e66fdf42cbb31a9ccb42390f458784c8e1cfe316d0cc115df74",
-      "title": "Man in Egypt Reportedly Convicted of Using AI-Fabricated Sexual Content to Blackmail Relative",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.460336"
-    },
-    {
-      "signal_id": "536db7f153613554cb5d0854e1178d48efc1ac4a764f6a43984ed4b20ac69d06",
-      "title": "Kalibrate Fuel Pricing Allegedly Enabled California Gas Station Operators to Coordinate Higher Pump Prices",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-10T07:05:04.443641"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -798,13 +798,13 @@
         "description": ""
       },
       {
-        "name": "United States Agency for International Development",
-        "mentions": 136,
+        "name": "Anthropic",
+        "mentions": 139,
         "description": ""
       },
       {
-        "name": "Anthropic",
-        "mentions": 133,
+        "name": "United States Agency for International Development",
+        "mentions": 136,
         "description": ""
       },
       {
@@ -839,7 +839,7 @@
       },
       {
         "name": "OpenAI",
-        "mentions": 77,
+        "mentions": 81,
         "description": ""
       },
       {
@@ -871,7 +871,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 292,
+        "mentions": 302,
         "description": ""
       },
       {
@@ -911,7 +911,7 @@
       },
       {
         "name": "Trump administration",
-        "mentions": 39,
+        "mentions": 41,
         "description": ""
       },
       {
@@ -1143,17 +1143,17 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 17,
+        "mentions": 18,
+        "description": ""
+      },
+      {
+        "name": "Grok",
+        "mentions": 7,
         "description": ""
       },
       {
         "name": "AI",
         "mentions": 5,
-        "description": ""
-      },
-      {
-        "name": "Grok",
-        "mentions": 4,
         "description": ""
       },
       {

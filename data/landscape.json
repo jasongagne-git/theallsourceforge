@@ -2,46 +2,42 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 47
+      "mentions": 46
     },
     {
       "name": "Anthropic",
-      "mentions": 33
+      "mentions": 38
     },
     {
       "name": "OpenAI",
-      "mentions": 29
+      "mentions": 32
     },
     {
       "name": "Meta",
-      "mentions": 17
+      "mentions": 18
     },
     {
       "name": "JD Supra",
-      "mentions": 16
+      "mentions": 14
     },
     {
       "name": "Trump administration",
-      "mentions": 16
-    },
-    {
-      "name": "facial recognition",
-      "mentions": 10
+      "mentions": 14
     },
     {
       "name": "China",
       "mentions": 9
     },
     {
-      "name": "Workday",
-      "mentions": 9
-    },
-    {
-      "name": "Government Accountability Office",
+      "name": "Flock Safety",
       "mentions": 8
     },
     {
-      "name": "Flock Safety",
+      "name": "Workday",
+      "mentions": 8
+    },
+    {
+      "name": "ChatGPT",
       "mentions": 7
     },
     {
@@ -49,8 +45,12 @@
       "mentions": 7
     },
     {
-      "name": "ChatGPT",
-      "mentions": 6
+      "name": "Government Accountability Office",
+      "mentions": 7
+    },
+    {
+      "name": "facial recognition",
+      "mentions": 7
     },
     {
       "name": "Department of Homeland Security",
@@ -61,7 +61,7 @@
       "mentions": 6
     },
     {
-      "name": "Connecticut",
+      "name": "Grok",
       "mentions": 5
     },
     {
@@ -69,21 +69,21 @@
       "mentions": 5
     },
     {
-      "name": "MSN",
-      "mentions": 5
-    },
-    {
       "name": "US Congress",
       "mentions": 5
     },
     {
-      "name": "White House",
+      "name": "Yahoo Finance",
       "mentions": 5
+    },
+    {
+      "name": "Biometric Update",
+      "mentions": 4
     }
   ],
   "active_threads": [],
   "signal_funnel": {
-    "detected": 1352,
+    "detected": 1358,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
