@@ -2,63 +2,59 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 46
+      "mentions": 39
     },
     {
       "name": "Anthropic",
-      "mentions": 38
+      "mentions": 34
     },
     {
       "name": "OpenAI",
-      "mentions": 32
+      "mentions": 30
     },
     {
       "name": "Meta",
-      "mentions": 18
+      "mentions": 15
     },
     {
       "name": "JD Supra",
-      "mentions": 14
+      "mentions": 13
     },
     {
       "name": "Trump administration",
-      "mentions": 14
+      "mentions": 13
     },
     {
       "name": "China",
-      "mentions": 9
+      "mentions": 8
     },
     {
       "name": "Flock Safety",
-      "mentions": 8
+      "mentions": 7
     },
     {
       "name": "Workday",
-      "mentions": 8
+      "mentions": 7
     },
     {
       "name": "ChatGPT",
-      "mentions": 7
-    },
-    {
-      "name": "Forbes",
-      "mentions": 7
-    },
-    {
-      "name": "Government Accountability Office",
-      "mentions": 7
-    },
-    {
-      "name": "facial recognition",
-      "mentions": 7
+      "mentions": 6
     },
     {
       "name": "Department of Homeland Security",
       "mentions": 6
     },
     {
+      "name": "Government Accountability Office",
+      "mentions": 6
+    },
+    {
       "name": "large-language-model-developers",
       "mentions": 6
+    },
+    {
+      "name": "Forbes",
+      "mentions": 5
     },
     {
       "name": "Grok",
@@ -69,15 +65,19 @@
       "mentions": 5
     },
     {
-      "name": "US Congress",
-      "mentions": 5
-    },
-    {
       "name": "Yahoo Finance",
       "mentions": 5
     },
     {
-      "name": "Biometric Update",
+      "name": "California",
+      "mentions": 4
+    },
+    {
+      "name": "Claude",
+      "mentions": 4
+    },
+    {
+      "name": "Dario Amodei",
       "mentions": 4
     }
   ],
