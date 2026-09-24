@@ -2,27 +2,27 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 39
+      "mentions": 38
     },
     {
       "name": "Anthropic",
-      "mentions": 34
+      "mentions": 33
     },
     {
       "name": "OpenAI",
-      "mentions": 30
+      "mentions": 29
     },
     {
       "name": "Meta",
       "mentions": 15
     },
     {
-      "name": "JD Supra",
+      "name": "Trump administration",
       "mentions": 13
     },
     {
-      "name": "Trump administration",
-      "mentions": 13
+      "name": "JD Supra",
+      "mentions": 12
     },
     {
       "name": "China",
@@ -33,15 +33,7 @@
       "mentions": 7
     },
     {
-      "name": "Workday",
-      "mentions": 7
-    },
-    {
       "name": "ChatGPT",
-      "mentions": 6
-    },
-    {
-      "name": "Department of Homeland Security",
       "mentions": 6
     },
     {
@@ -51,6 +43,10 @@
     {
       "name": "large-language-model-developers",
       "mentions": 6
+    },
+    {
+      "name": "Department of Homeland Security",
+      "mentions": 5
     },
     {
       "name": "Forbes",
@@ -65,19 +61,23 @@
       "mentions": 5
     },
     {
+      "name": "Workday",
+      "mentions": 5
+    },
+    {
       "name": "Yahoo Finance",
       "mentions": 5
     },
     {
-      "name": "California",
-      "mentions": 4
-    },
-    {
-      "name": "Claude",
-      "mentions": 4
-    },
-    {
       "name": "Dario Amodei",
+      "mentions": 4
+    },
+    {
+      "name": "Federal News Network",
+      "mentions": 4
+    },
+    {
+      "name": "US Congress",
       "mentions": 4
     }
   ],
