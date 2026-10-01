@@ -453,7 +453,7 @@
   "active_agencies": [
     {
       "name": "Department of Defense",
-      "mentions": 302
+      "mentions": 307
     },
     {
       "name": "Department of Health and Human Services",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 268
+      "mentions": 269
     },
     {
       "name": "Department of Veterans Affairs",
@@ -481,7 +481,7 @@
     },
     {
       "name": "Government Accountability Office",
-      "mentions": 44
+      "mentions": 46
     },
     {
       "name": "Trump administration",
@@ -489,13 +489,13 @@
     },
     {
       "name": "China",
-      "mentions": 38
+      "mentions": 40
     }
   ],
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 18,
+      "mentions": 21,
       "description": ""
     },
     {

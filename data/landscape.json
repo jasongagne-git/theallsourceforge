@@ -2,54 +2,70 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 38
+      "mentions": 35
     },
     {
       "name": "Anthropic",
-      "mentions": 33
+      "mentions": 34
     },
     {
       "name": "OpenAI",
-      "mentions": 29
+      "mentions": 30
     },
     {
       "name": "Meta",
       "mentions": 15
     },
     {
-      "name": "Trump administration",
-      "mentions": 13
-    },
-    {
       "name": "JD Supra",
       "mentions": 12
     },
     {
+      "name": "Trump administration",
+      "mentions": 11
+    },
+    {
       "name": "China",
-      "mentions": 8
+      "mentions": 10
+    },
+    {
+      "name": "large-language-model-developers",
+      "mentions": 10
+    },
+    {
+      "name": "ai-agent-system-deployers",
+      "mentions": 9
+    },
+    {
+      "name": "ChatGPT",
+      "mentions": 7
     },
     {
       "name": "Flock Safety",
       "mentions": 7
     },
     {
-      "name": "ChatGPT",
+      "name": "Hugging Face",
+      "mentions": 7
+    },
+    {
+      "name": "anthropic",
+      "mentions": 7
+    },
+    {
+      "name": "ai-agent-system-developers",
       "mentions": 6
     },
     {
-      "name": "Government Accountability Office",
-      "mentions": 6
-    },
-    {
-      "name": "large-language-model-developers",
-      "mentions": 6
+      "name": "Claude",
+      "mentions": 5
     },
     {
       "name": "Department of Homeland Security",
       "mentions": 5
     },
     {
-      "name": "Forbes",
+      "name": "Government Accountability Office",
       "mentions": 5
     },
     {
@@ -57,33 +73,17 @@
       "mentions": 5
     },
     {
-      "name": "Hugging Face",
-      "mentions": 5
-    },
-    {
-      "name": "Workday",
-      "mentions": 5
-    },
-    {
-      "name": "Yahoo Finance",
-      "mentions": 5
-    },
-    {
-      "name": "Dario Amodei",
+      "name": "Amazon",
       "mentions": 4
     },
     {
       "name": "Federal News Network",
       "mentions": 4
-    },
-    {
-      "name": "US Congress",
-      "mentions": 4
     }
   ],
   "active_threads": [],
   "signal_funnel": {
-    "detected": 1358,
+    "detected": 1392,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
