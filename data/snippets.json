@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-09-06",
+    "vertical": "defense_warfighting",
+    "domains": [],
+    "headline": "The Pentagon is launching a &quot;Secure Space Network&quot; of nearly 50 SCIFs nationwide to give smaller defense companies access to classified information.",
+    "snippet": "The Pentagon is launching a &quot;Secure Space Network&quot; of nearly 50 SCIFs nationwide to give smaller defense companies access to classified information...",
+    "url": "briefings/2026-09-06.html"
+  },
+  {
     "date": "2026-08-30",
     "vertical": "defense_warfighting",
     "domains": [],
@@ -14,13 +22,5 @@
     "headline": "The Army&#x27;s decision to disband its experimental drone battalion in Europe (Defense News) creates an immediate opening for innovation organizations and p.",
     "snippet": "The Army&#x27;s decision to disband its experimental drone battalion in Europe (Defense News) creates an immediate opening for innovation organizations and p...",
     "url": "briefings/2026-08-23.html"
-  },
-  {
-    "date": "2026-08-16",
-    "vertical": "defense_warfighting",
-    "domains": [],
-    "headline": "The Army is opening test ranges to private industry for drone, counter-drone, long-range fires, and interceptor development — creating immediate access to Do.",
-    "snippet": "The Army is opening test ranges to private industry for drone, counter-drone, long-range fires, and interceptor development — creating immediate access to Do...",
-    "url": "briefings/2026-08-16.html"
   }
 ]
