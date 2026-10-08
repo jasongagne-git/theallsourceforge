@@ -1,6 +1,76 @@
 {
   "signals": [
     {
+      "signal_id": "8b5aa5875bb5fc26a01798ece58ec3e6886f4f6bc94e0bd7a02c55324de2200c",
+      "title": "AI Agent Security Mandate: $2B+ Federal Market Opens After OpenAI Unauthorized Access Incident: First confirmed AI agent breach of federal systems triggers emergency procurement across agencies",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.920348"
+    },
+    {
+      "signal_id": "dc651736b8762942c2d047b8a65dd089cf226127bbe2deb974f9d27db596eb74",
+      "title": "SBA\u2019s AI fraud detection pilot didn\u2019t include needed safeguards, OIG says",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.871316"
+    },
+    {
+      "signal_id": "2a028e9505ceef032e051f41e5cbd0402ee7e03b59ccfff3b661fba2169dc8f2",
+      "title": "Chatbots are still falling short in mental health conversations with kids",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.634804"
+    },
+    {
+      "signal_id": "75f1d14c0fe05c3791626b596d520fcba851e17aa067466d9477bcea168882cc",
+      "title": "Medical AI\u2019s accuracy gains are outrunning evidence of better patient outcomes",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.627910"
+    },
+    {
+      "signal_id": "9eb8a5b6481f136717241bdf18d1f6b8baf251a53a894ea1b870f4e424d292ec",
+      "title": "Federal Agencies Are Turning to Google AI to Help Redact Thousands of FOIA Records",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.613712"
+    },
+    {
+      "signal_id": "5a02b9f6e6b5301d0d009008c00b8bcbf145721ee13f436db8215bc83cda3935",
+      "title": "Flock's AI cameras helped jail an innocent woman for 13 days",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.578335"
+    },
+    {
+      "signal_id": "4234cf4197429307ee1564344e125621aad9644b732392471706cbcdf4d1e513",
+      "title": "Grandmother babysits neighbor\u2019s four young children. Then she finds herself arrested at gunpoint and extradited because of AI",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.566297"
+    },
+    {
+      "signal_id": "5209e9fa31a144a2b05c1e445d00cee6ee3781067579ccd1588e146e80bc716f",
+      "title": "Grandmother falsely accused of theft after alleged AI facial recognition match sues",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.546747"
+    },
+    {
+      "signal_id": "8e48f9cfca6c15a5290ff06dba853b7f1f81d4c964feba5996d247a0347c041d",
+      "title": "Democrats call for investigation into faulty AI-generated intel report",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.503810"
+    },
+    {
+      "signal_id": "fedaee7fc2e6233051e0b3849412e4ca572bdf95fcd89b78c9252848bea79980",
+      "title": "Workday Discrimination Lawsuit: Who's Liable if AI Hiring Software is Biased?",
+      "status": "detected",
+      "brief_id": "",
+      "last_updated": "2026-10-02T07:04:56.434682"
+    },
+    {
       "signal_id": "e81bc7aa570d0b15ecf58092eb7a91f777b219ea90a50c3cbc8344cd86c8eb47",
       "title": "The End of CFATS Left More Than One Gap in Critical Infrastructure Security",
       "status": "detected",
@@ -631,76 +701,6 @@
       "last_updated": "2026-07-31T07:03:44.830140"
     },
     {
-      "signal_id": "b625c2eb93cd6e2f3ad4b9895dd3ee2a6dec61da859b3a7b775b3efc8bf5e84f",
-      "title": "Forget the Singularity: Universal AI Surveillance Is Here",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.796287"
-    },
-    {
-      "signal_id": "f736911939d6a54e9d546129e79319131fc0f7e8fd0718f4b023901102fd78ad",
-      "title": "Flock surveillance spreads across the South as red-state lawmakers seek to axe '1984'-style tracking tools",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.789093"
-    },
-    {
-      "signal_id": "9ef1ed89a9e442384bb58969522c955498fd95e6c5b5182a78e0d376ecb99d99",
-      "title": "Fact Check: Home Depot class action lawsuit over parking lot surveillance: What...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.771254"
-    },
-    {
-      "signal_id": "5183f5854fcae38c25585e99d36fc33bde239b13731d885bdc4ce117a900c819",
-      "title": "Flock surveillance spreads across the South as red-state lawmakers seek to ax...",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.764160"
-    },
-    {
-      "signal_id": "cc97d2f21db5b6c57d6c5ce322c73ffaffa4fc90103e9927c011509354c5383a",
-      "title": "The Soccer Surveillance State",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.753097"
-    },
-    {
-      "signal_id": "c44a869c8bd5d141c727ce9e5baf05d6ef3b5c029dc8ae3cd798fde9b22d0b34",
-      "title": "FIFA World Cup 2026 leaves behind more than football. AI surveillance may be its biggest legacy",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.741166"
-    },
-    {
-      "signal_id": "c83e89cfaf60cffddb76f260ef8141db845fc35a7d4453eb735b43bdbc8aa2f5",
-      "title": "Meta sued over AI layoffs targeting disabled workers",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.697215"
-    },
-    {
-      "signal_id": "3ce0b4969bfcd831909a8294b8fecd8f01685caea79a27cc212709dc42bfc2a2",
-      "title": "Former employees sue over Meta's alleged use of biased AI systems during layoffs",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-31T07:03:44.684887"
-    },
-    {
-      "signal_id": "700b8e9361a49f1628edb52619b598bedbc408e607c7b8a54394e961b49283af",
-      "title": "ChatGPT Now Threatens Medicaid Funding for Hospitals Nationwide: Error Rate Unpublished",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-24T07:15:38.736656"
-    },
-    {
-      "signal_id": "8d0518bd8ddf8975a0e117eb4210427b23cc24c00d320fd0dc20c3182d7c87db",
-      "title": "AI Is Making Doctor's Visits More Expensive \u2014 4 Ways To Avoid Surcharges",
-      "status": "detected",
-      "brief_id": "",
-      "last_updated": "2026-07-24T07:15:38.645194"
-    },
-    {
       "signal_id": "72a985642560aad6",
       "title": "AI Moving from Pilot to Production Without Governance Adaptation",
       "status": "brief_generated",
@@ -764,7 +764,23 @@
       "last_updated": "2026-02-25T18:01:44.586801"
     }
   ],
-  "topic_threads": [],
+  "topic_threads": [
+    {
+      "id": "3c023474efcf3766",
+      "title": "United Nations / Antonio Guterres",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "autonomous",
+        "weapons",
+        "killer",
+        "robots"
+      ],
+      "importance": 0.26
+    }
+  ],
   "entities_by_type": {
     "company": [
       {
@@ -799,7 +815,7 @@
       },
       {
         "name": "Anthropic",
-        "mentions": 143,
+        "mentions": 146,
         "description": ""
       },
       {
@@ -809,7 +825,7 @@
       },
       {
         "name": "Hill",
-        "mentions": 113,
+        "mentions": 114,
         "description": ""
       },
       {
@@ -833,13 +849,13 @@
         "description": ""
       },
       {
-        "name": "google",
-        "mentions": 85,
+        "name": "OpenAI",
+        "mentions": 88,
         "description": ""
       },
       {
-        "name": "OpenAI",
-        "mentions": 84,
+        "name": "google",
+        "mentions": 85,
         "description": ""
       },
       {
@@ -871,7 +887,7 @@
     "agency": [
       {
         "name": "Department of Defense",
-        "mentions": 307,
+        "mentions": 322,
         "description": ""
       },
       {
@@ -881,7 +897,7 @@
       },
       {
         "name": "Department of Homeland Security",
-        "mentions": 269,
+        "mentions": 270,
         "description": ""
       },
       {
@@ -911,12 +927,12 @@
       },
       {
         "name": "Trump administration",
-        "mentions": 41,
+        "mentions": 43,
         "description": ""
       },
       {
         "name": "China",
-        "mentions": 40,
+        "mentions": 43,
         "description": ""
       },
       {
@@ -983,7 +999,7 @@
       },
       {
         "name": "F-35",
-        "mentions": 4,
+        "mentions": 5,
         "description": ""
       },
       {
@@ -1143,7 +1159,7 @@
     "technology": [
       {
         "name": "Claude",
-        "mentions": 21,
+        "mentions": 22,
         "description": ""
       },
       {

@@ -419,7 +419,7 @@
     },
     {
       "name": "F-35",
-      "mentions": 4
+      "mentions": 5
     },
     {
       "name": "Precision Strike Missile",
@@ -453,7 +453,7 @@
   "active_agencies": [
     {
       "name": "Department of Defense",
-      "mentions": 307
+      "mentions": 322
     },
     {
       "name": "Department of Health and Human Services",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Department of Homeland Security",
-      "mentions": 269
+      "mentions": 270
     },
     {
       "name": "Department of Veterans Affairs",
@@ -485,17 +485,17 @@
     },
     {
       "name": "Trump administration",
-      "mentions": 41
+      "mentions": 43
     },
     {
       "name": "China",
-      "mentions": 40
+      "mentions": 43
     }
   ],
   "emerging_technologies": [
     {
       "name": "Claude",
-      "mentions": 21,
+      "mentions": 22,
       "description": ""
     },
     {

@@ -2,39 +2,43 @@
   "top_entities": [
     {
       "name": "Department of Defense",
-      "mentions": 35
-    },
-    {
-      "name": "Anthropic",
-      "mentions": 34
+      "mentions": 38
     },
     {
       "name": "OpenAI",
-      "mentions": 30
+      "mentions": 34
+    },
+    {
+      "name": "Anthropic",
+      "mentions": 32
     },
     {
       "name": "Meta",
-      "mentions": 15
+      "mentions": 14
+    },
+    {
+      "name": "China",
+      "mentions": 13
+    },
+    {
+      "name": "Trump administration",
+      "mentions": 13
     },
     {
       "name": "JD Supra",
       "mentions": 12
     },
     {
-      "name": "Trump administration",
-      "mentions": 11
-    },
-    {
-      "name": "China",
-      "mentions": 10
-    },
-    {
       "name": "large-language-model-developers",
       "mentions": 10
     },
     {
+      "name": "Hugging Face",
+      "mentions": 8
+    },
+    {
       "name": "ai-agent-system-deployers",
-      "mentions": 9
+      "mentions": 8
     },
     {
       "name": "ChatGPT",
@@ -45,27 +49,19 @@
       "mentions": 7
     },
     {
-      "name": "Hugging Face",
+      "name": "anthropic",
       "mentions": 7
     },
     {
-      "name": "anthropic",
-      "mentions": 7
+      "name": "Claude",
+      "mentions": 6
     },
     {
       "name": "ai-agent-system-developers",
       "mentions": 6
     },
     {
-      "name": "Claude",
-      "mentions": 5
-    },
-    {
       "name": "Department of Homeland Security",
-      "mentions": 5
-    },
-    {
-      "name": "Government Accountability Office",
       "mentions": 5
     },
     {
@@ -73,17 +69,38 @@
       "mentions": 5
     },
     {
-      "name": "Amazon",
-      "mentions": 4
+      "name": "Secretary Pete Hegseth",
+      "mentions": 5
     },
     {
-      "name": "Federal News Network",
+      "name": "Workday",
+      "mentions": 5
+    },
+    {
+      "name": "Amazon",
       "mentions": 4
     }
   ],
-  "active_threads": [],
+  "active_threads": [
+    {
+      "id": "3c023474efcf3766",
+      "title": "United Nations / Antonio Guterres",
+      "keywords": [
+        "both",
+        "involved",
+        "bsp",
+        "incident",
+        "autonomous",
+        "weapons",
+        "killer",
+        "robots"
+      ],
+      "importance": 0.26,
+      "description": "Both involved in BSP incident: Autonomous Weapons and Killer Robots: New Warnings, Old Habits; Both involved in BSP incident: UN chief calls for action against racial discrimination"
+    }
+  ],
   "signal_funnel": {
-    "detected": 1392,
+    "detected": 1402,
     "elevated": 0,
     "brief_generated": 9,
     "materialized": 0
